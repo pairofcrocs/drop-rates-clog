@@ -46,6 +46,9 @@ public class DropRatesClogPlugin extends Plugin
     @Inject
     private DropRatesClogConfig config;
 
+    @Inject
+    private Gson gson;
+
     private Map<String, List<DropEntry>> dropRates = Collections.emptyMap();
 
     private String hoveredItem = null;
@@ -81,7 +84,6 @@ public class DropRatesClogPlugin extends Plugin
                 log.warn("drop_rates.json not found");
                 return;
             }
-            Gson gson = new Gson();
             Type type = new TypeToken<Map<String, List<DropEntry>>>() {}.getType();
             dropRates = gson.fromJson(new InputStreamReader(is, StandardCharsets.UTF_8), type);
             log.info("Loaded drop rates for {} items", dropRates.size());
