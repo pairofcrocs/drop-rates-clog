@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Local dev dependencies and Maven wrapper (not needed for plugin hub)
+.deps/
+.maven/
+
+# Maven
+pom.xml
+target/
+
+# OS
+.DS_Store
+Thumbs.db

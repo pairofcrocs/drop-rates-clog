@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'https://repo.runelite.net'
+    }
+    mavenCentral()
+}
+
+def runeLiteVersion = 'latest.release'
+
+configurations {
+    runeLiteClient
+}
+
+dependencies {
+    compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+    testImplementation 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    runeLiteClient group: 'net.runelite', name: 'client', version: runeLiteVersion
+}
+
+task run(type: JavaExec) {
+    group = 'application'
+    description = 'Runs the RuneLite client with this plugin loaded'
+    classpath = configurations.runeLiteClient + sourceSets.main.output
+    mainClass = 'net.runelite.client.RuneLite'
+    args '--developer-mode'
+    jvmArgs '-ea'
+}
+
+group = 'com.dropratesclog'
+version = '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.release = 11
+}
