@@ -2,6 +2,8 @@
 
 A RuneLite plugin that shows drop rates in a tooltip when hovering over items in the Collection Log.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - Hover any item in the Collection Log to see its drop rate
