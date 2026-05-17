@@ -1,0 +1,107 @@
+name: Update drop rates
+
+on:
+  schedule:
+    # Wednesdays 14:00 UTC — a few hours after the weekly OSRS game update
+    - cron: '0 14 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  JSON_PATH: src/main/resources/com/dropratesclog/drop_rates.json
+  HUB_FORK: pairofcrocs/plugin-hub
+  HUB_BRANCH: update-drop-rates-clog
+  PLUGIN_FILE: plugins/drop-rates-clog
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout plugin repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        run: python scripts/scrape.py --out "${JSON_PATH}.new"
+
+      - name: Sanity check
+        id: sanity
+        continue-on-error: true
+        run: python scripts/sanity_check.py "$JSON_PATH" "${JSON_PATH}.new"
+
+      - name: Open issue on sanity failure
+        if: steps.sanity.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.HUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Drop rates scraper sanity check failed ($(date -u +%F))" \
+            --body "The weekly scraper run produced output that failed sanity checks (item count delta >20%, empty result, or invalid JSON). The wiki may have changed schema or be temporarily unavailable. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+          exit 1
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if cmp -s "$JSON_PATH" "${JSON_PATH}.new"; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes."
+          else
+            mv "${JSON_PATH}.new" "$JSON_PATH"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push to plugin repo
+        if: steps.diff.outputs.changed == 'true'
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$JSON_PATH"
+          git commit -m "Update drop rates from wiki ($(date -u +%F))"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Update plugin-hub fork and open/refresh PR
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.HUB_TOKEN }}
+          NEW_SHA:  ${{ steps.commit.outputs.sha }}
+        run: |
+          set -e
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${HUB_FORK}.git" hub
+          cd hub
+          git remote add upstream https://github.com/runelite/plugin-hub.git
+          git fetch upstream master
+          git checkout -B "$HUB_BRANCH" upstream/master
+
+          sed -i "s|^commit=.*|commit=${NEW_SHA}|" "$PLUGIN_FILE"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PLUGIN_FILE"
+          git commit -m "update drop-rates-clog"
+          git push -f origin "$HUB_BRANCH"
+
+          fork_owner="${HUB_FORK%%/*}"
+          if [ -z "$(gh pr list --repo runelite/plugin-hub --head "${fork_owner}:${HUB_BRANCH}" --state open --json number --jq '.[0].number')" ]; then
+            gh pr create \
+              --repo runelite/plugin-hub \
+              --head "${fork_owner}:${HUB_BRANCH}" \
+              --base master \
+              --title "update drop-rates-clog" \
+              --body "Automated update of drop_rates.json from the OSRS wiki."
+          else
+            echo "PR already open — force-push refreshed it."
+          fi
