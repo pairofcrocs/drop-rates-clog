@@ -1346,15 +1346,6 @@
       ]
     }
   ],
-  "Amulet of glory (t4)": [
-    {
-      "approx": false,
-      "rate": "1/1,625",
-      "sources": [
-        "Reward casket (hard)"
-      ]
-    }
-  ],
   "Amulet of magic (t)": [
     {
       "approx": false,
@@ -1370,78 +1361,6 @@
       "rate": "1/1,404",
       "sources": [
         "Reward casket (easy) (Standard)"
-      ]
-    }
-  ],
-  "Amulet of the damned (full)": [
-    {
-      "approx": false,
-      "rate": "10/152.39",
-      "sources": [
-        "Silver Chest (red)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "10/152.46",
-      "sources": [
-        "Silver Chest (brown)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "10/152.53",
-      "sources": [
-        "Silver Chest (crimson)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "10/152.6",
-      "sources": [
-        "Silver Chest (black)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "10/152.67",
-      "sources": [
-        "Silver Chest (purple)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "6/143.91",
-      "sources": [
-        "Gold Chest (red)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "6/143.99",
-      "sources": [
-        "Gold Chest (brown)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "6/144.08",
-      "sources": [
-        "Gold Chest (crimson)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "6/144.18",
-      "sources": [
-        "Gold Chest (black)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "6/144.28",
-      "sources": [
-        "Gold Chest (purple)"
       ]
     }
   ],
@@ -6245,6 +6164,1801 @@
       ]
     }
   ],
+  "Clue scroll (beginner)": [
+    {
+      "approx": false,
+      "rate": "Always",
+      "sources": [
+        "Chest (Obor's lair)",
+        "Chest (Bryophyta's lair) (Members)",
+        "Chest (Bryophyta's lair) (Free-to-play)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/15",
+      "sources": [
+        "Brutus"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/25",
+      "sources": [
+        "Young impling",
+        "Young impling jar"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/30",
+      "sources": [
+        "Gunthor the brave"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/35",
+      "sources": [
+        "Dark wizard (High level)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/40",
+      "sources": [
+        "Ice giant (Regular)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/45",
+      "sources": [
+        "Moss giant (Regular)",
+        "Bryophyta (Members)",
+        "Bryophyta (Free-to-play)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Dark wizard (Low level)",
+        "Black Knight Titan",
+        "Hill Giant",
+        "Baby impling",
+        "Baby impling jar",
+        "Cyclops (Ardougne Zoo)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/50",
+      "sources": [
+        "Obor (Members)",
+        "Obor (Free-to-play)",
+        "Mind Golem"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/55",
+      "sources": [
+        "Barbarian (High level)",
+        "Barbarian (Barbarian Camp) (High level)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/60",
+      "sources": [
+        "Minotaur"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/64",
+      "sources": [
+        "Goblin (Drop table 1)",
+        "Cave goblin (monster)",
+        "Giant frog (Level 13)",
+        "Goblin guard"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/70",
+      "sources": [
+        "Hobgoblin (Unarmed)",
+        "Big frog (Level 10)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/75",
+      "sources": [
+        "Barbarian (Low level)",
+        "Barbarian (Barbarian Camp) (Low level)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/80",
+      "sources": [
+        "Goblin (Drop table 2)",
+        "Mugger",
+        "Goblin (Goblin Village)",
+        "Goblin (Vault of War)",
+        "Goblin (God Wars Dungeon)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/90",
+      "sources": [
+        "Farmer (Free-to-play)",
+        "Farmer (Members)",
+        "Man",
+        "Black bear",
+        "Grizzly bear",
+        "Treus Dayth",
+        "Al Kharid warrior",
+        "Narf",
+        "Woman",
+        "Ghost",
+        "Thief",
+        "Frog",
+        "Afflicted",
+        "Penda",
+        "Drunken man",
+        "Rogue (Level 15)",
+        "Ocga",
+        "Cuffs",
+        "Jeff",
+        "Ceolburg",
+        "Hygd",
+        "Grizzly bear cub",
+        "Bear Cub",
+        "Breoca",
+        "Anja",
+        "Hengel",
+        "Rusty",
+        "Thief (Varlamore)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/100",
+      "sources": [
+        "Scorpion",
+        "Skeleton (Unarmed)",
+        "Skeleton (Armed)",
+        "Dwarf",
+        "King Scorpion",
+        "Black Guard (Level 25)",
+        "Skeletal miner",
+        "Poison Scorpion",
+        "Scorpia's offspring (monster)",
+        "Pit Scorpion",
+        "Grave scorpion",
+        "Skeleton (Catacombs of Kourend)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/100",
+      "sources": [
+        "Chaos Golem"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/128",
+      "sources": [
+        "Cow",
+        "Dungeon rat (Full tail)",
+        "Giant spider",
+        "Giant rat (Low level)",
+        "Deadly red spider",
+        "Ice spider",
+        "Spider",
+        "Cow calf",
+        "Shadow spider",
+        "Boar",
+        "Enraged Boar"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/300",
+      "sources": [
+        "Chicken",
+        "Rooster",
+        "Small salvage"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Rare",
+      "sources": [
+        "Wolf",
+        "Death wing",
+        "Poison spider",
+        "Giant lobster (Ghosts Ahoy)",
+        "Spider (Ungael)",
+        "Spider (Ape Atoll)",
+        "Jungle spider (Ape Atoll)",
+        "Flawed Golem"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Unknown",
+      "sources": [
+        "Scorpia's guardian",
+        "Ghost (Grave of Scorpius)",
+        "Buffalo",
+        "Porcupine"
+      ]
+    }
+  ],
+  "Clue scroll (easy)": [
+    {
+      "approx": false,
+      "rate": "Always",
+      "sources": [
+        "Clue turtle (Levels 5-29)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "9/20",
+      "sources": [
+        "Clue turtle (Levels 50-69)",
+        "Clue turtle (Levels 70+)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "8/20",
+      "sources": [
+        "Clue turtle (Levels 30-49)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/128",
+      "sources": [
+        "Screaming banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/150",
+      "sources": [
+        "Mystery box (Members)",
+        "Mystery box (Entrana)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "5/100",
+      "sources": [
+        "Casket (Reward pool)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/23",
+      "sources": [
+        "Chest (Dorgesh-Kaan Average) (Zanik's house)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/25",
+      "sources": [
+        "Gourmet impling",
+        "Gourmet impling jar"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/40",
+      "sources": [
+        "Brutus"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/98.56",
+      "sources": [
+        "Bronze Chest (red)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/98.59",
+      "sources": [
+        "Bronze Chest (brown)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/98.62",
+      "sources": [
+        "Bronze Chest (crimson)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/98.64",
+      "sources": [
+        "Bronze Chest (black)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/98.67",
+      "sources": [
+        "Bronze Chest (purple)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "H.A.M. Member",
+        "Young impling",
+        "Young impling jar",
+        "Coffin (Hallowed Sepulchre)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/55",
+      "sources": [
+        "H.A.M. Guard"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/55",
+      "sources": [
+        "Dolphin"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/75",
+      "sources": [
+        "Eagle ray"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "6/500",
+      "sources": [
+        "Guard (H.A.M. Storerooms)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/85",
+      "sources": [
+        "Wealthy citizen"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/96",
+      "sources": [
+        "Swamp Crab"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/100",
+      "sources": [
+        "Baby impling",
+        "Baby impling jar",
+        "Ogre Coffin"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/101",
+      "sources": [
+        "Minotaur"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/125",
+      "sources": [
+        "Tern"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/128",
+      "sources": [
+        "Thug",
+        "Banshee",
+        "Goblin (Drop table 1)",
+        "Goblin (Drop table 2)",
+        "Lev",
+        "Rock Crab",
+        "Farmer (Members)",
+        "Cave bug (Level 96)",
+        "Mugger",
+        "Icefiend",
+        "Man",
+        "Lanzig",
+        "Barbarian (Low level)",
+        "Barbarian (High level)",
+        "Cave slime",
+        "Werewolf",
+        "Al Kharid warrior",
+        "Narf",
+        "Woman",
+        "Cave goblin (monster)",
+        "Molanisk",
+        "Gunthor the brave",
+        "Thief",
+        "Afflicted",
+        "Dagannoth spawn",
+        "Ork",
+        "Freidir",
+        "Borrokar",
+        "Lensa",
+        "Penda",
+        "Yuri",
+        "Drunken man",
+        "Goblin guard",
+        "Rogue (Level 15)",
+        "Ocga",
+        "Cuffs",
+        "Sand Crab",
+        "Jeff",
+        "Joseph",
+        "Jennella",
+        "Ceolburg",
+        "Hygd",
+        "Alexis",
+        "Boris",
+        "Eduard",
+        "Galina",
+        "Imre",
+        "Georgy",
+        "Irina",
+        "Ksenia",
+        "Liliya",
+        "Milla",
+        "Nikita",
+        "Nikolai",
+        "Sofiya",
+        "Svetlana",
+        "Vera",
+        "Yadviga",
+        "Zoja",
+        "Breoca",
+        "Lobstrosity",
+        "Ammonite Crab",
+        "Anja",
+        "Hengel",
+        "Skeleton (Tarn's Lair) (Low level)",
+        "Sourhog",
+        "Goblin (Goblin Village)",
+        "Goblin (Vault of War)",
+        "Goblin (God Wars Dungeon)",
+        "Lynx",
+        "Barbarian (Barbarian Camp) (Low level)",
+        "Barbarian (Barbarian Camp) (High level)",
+        "Rusty",
+        "Thief (Varlamore)",
+        "Frost Crab"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/160",
+      "sources": [
+        "Vardorvis",
+        "Duke Sucellus",
+        "The Whisperer",
+        "The Leviathan"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/300",
+      "sources": [
+        "Fishy salvage"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Rare",
+      "sources": [
+        "Jaguar cub"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Unknown",
+      "sources": [
+        "Buffalo",
+        "Hermit crab"
+      ]
+    }
+  ],
+  "Clue scroll (elite)": [
+    {
+      "approx": false,
+      "rate": "1/5",
+      "sources": [
+        "Skotizo"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "2/20",
+      "sources": [
+        "Clue turtle (Levels 70+)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/12",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/15",
+      "sources": [
+        "Barbarian Assault/Gambles (High)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/20",
+      "sources": [
+        "Reward Chest (The Gauntlet) (Corrupted)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/25",
+      "sources": [
+        "Reward Chest (The Gauntlet) (Regular)",
+        "Monumental chest"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/30",
+      "sources": [
+        "Yama",
+        "Grand Hallowed Coffin"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/35",
+      "sources": [
+        "Phosani's Nightmare"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/45",
+      "sources": [
+        "Phantom Muspah"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/48",
+      "sources": [
+        "Nex"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Dragon impling jar",
+        "Dragon impling",
+        "Crystal impling jar",
+        "Crystal impling",
+        "Araxxor"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/512",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/60",
+      "sources": [
+        "Sarachnis",
+        "Coffin (Hallowed Sepulchre)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/65",
+      "sources": [
+        "Vorkath (Post-quest)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/75",
+      "sources": [
+        "Zulrah",
+        "Doom of Mokhaiotl"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/750",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/100",
+      "sources": [
+        "Kalphite Queen",
+        "Callisto",
+        "Vet'ion",
+        "Venenatis",
+        "Cerberus",
+        "Artio",
+        "Calvar'ion",
+        "Spindel",
+        "Eldric the Ice King",
+        "Branda the Fire Queen"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/120",
+      "sources": [
+        "Greater abyssal demon",
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/128",
+      "sources": [
+        "Tormented Demon"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/130",
+      "sources": [
+        "Orca"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/139",
+      "sources": [
+        "Gold key red",
+        "Gold key brown",
+        "Gold key crimson",
+        "Gold key black",
+        "Gold key purple",
+        "Gold Chest (red)",
+        "Gold Chest (crimson)",
+        "Gold Chest (brown)",
+        "Gold Chest (black)",
+        "Gold Chest (purple)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/140",
+      "sources": [
+        "Veiled kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/150",
+      "sources": [
+        "Vampyre kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/160",
+      "sources": [
+        "Vardorvis",
+        "Duke Sucellus",
+        "The Whisperer",
+        "The Leviathan"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/160",
+      "sources": [
+        "Armoured kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/180",
+      "sources": [
+        "Abyssal Sire"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/190",
+      "sources": [
+        "The Nightmare"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/200",
+      "sources": [
+        "Chaos Elemental",
+        "Corporeal Beast",
+        "Deranged archaeologist",
+        "Chest (Barrows)",
+        "Amoxliatl",
+        "Great white shark",
+        "Shellbane gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/230",
+      "sources": [
+        "Grotesque Guardians"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/250",
+      "sources": [
+        "K'ril Tsutsaroth",
+        "Commander Zilyana",
+        "Kree'arra",
+        "General Graardor",
+        "Lava dragon",
+        "Brutal black dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/256",
+      "sources": [
+        "Alchemical Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/300",
+      "sources": [
+        "Rune dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/320",
+      "sources": [
+        "Adamant dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/350",
+      "sources": [
+        "Mithril dragon",
+        "Skeletal Wyvern",
+        "Ancient Wyvern"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/450",
+      "sources": [
+        "King Black Dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/500",
+      "sources": [
+        "Giant Mole",
+        "Steel dragon (Standard)",
+        "Black dragon (Regular)",
+        "Black dragon (Wilderness Slayer Cave)",
+        "Salarin the twisted",
+        "Kraken",
+        "Thermonuclear smoke devil",
+        "Demonic gorilla",
+        "Brutal red dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/512",
+      "sources": [
+        "Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/750",
+      "sources": [
+        "Dagannoth Rex",
+        "Dagannoth Supreme",
+        "Dagannoth Prime",
+        "Smoke devil",
+        "Brutal blue dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/1,200",
+      "sources": [
+        "Abyssal demon (Standard)",
+        "Abyssal demon (Wilderness Slayer Cave)",
+        "Dark beast",
+        "Cave kraken",
+        "Lizardman shaman"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/1,400",
+      "sources": [
+        "Hero"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/1,500",
+      "sources": [
+        "Tortured gorilla"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Varies",
+      "sources": [
+        "Chest (Tombs of Amascut)"
+      ]
+    }
+  ],
+  "Clue scroll (hard)": [
+    {
+      "approx": false,
+      "rate": "Always",
+      "sources": [
+        "Skotizo"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "5/20",
+      "sources": [
+        "Clue turtle (Levels 50-69)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/64",
+      "sources": [
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "3/20",
+      "sources": [
+        "Clue turtle (Levels 70+)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/10",
+      "sources": [
+        "Intricate pouch"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/128",
+      "sources": [
+        "Greater abyssal demon",
+        "Abhorrent spectre",
+        "Night beast",
+        "King kurask",
+        "Marble gargoyle",
+        "Nechryarch (Normal)",
+        "Vitreous Jelly",
+        "Cave abomination",
+        "Repugnant spectre",
+        "Insatiable mutated Bloodveld",
+        "Nuclear smoke devil",
+        "Screaming twisted banshee",
+        "Spiked Turoth",
+        "Guardian Drake",
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/192",
+      "sources": [
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/25",
+      "sources": [
+        "Ninja impling",
+        "Ninja impling jar",
+        "Eldric the Ice King",
+        "Branda the Fire Queen"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/256",
+      "sources": [
+        "Insatiable Bloodveld",
+        "Shadow Wyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/30",
+      "sources": [
+        "Phantom Muspah"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/150",
+      "sources": [
+        "Mystery box (Members)",
+        "Mystery box (Entrana)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/40",
+      "sources": [
+        "Sarachnis"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/42",
+      "sources": [
+        "Dagannoth Rex",
+        "Dagannoth Supreme",
+        "Dagannoth Prime"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Magpie impling",
+        "Magpie impling jar",
+        "Coffin (Hallowed Sepulchre)",
+        "The Hueycoatl"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/100",
+      "sources": [
+        "Casket (Reward pool)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/64",
+      "sources": [
+        "Jelly (Wilderness Slayer Cave)",
+        "Hellhound (Regular)",
+        "Hellhound (God Wars Dungeon)",
+        "Hellhound (Wilderness Slayer Cave)",
+        "Steel dragon (Standard)",
+        "Warped Jelly",
+        "Chilled jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/65",
+      "sources": [
+        "Gangster",
+        "Gang boss"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/152.39",
+      "sources": [
+        "Silver Chest (red)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/152.46",
+      "sources": [
+        "Silver Chest (brown)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/152.53",
+      "sources": [
+        "Silver Chest (crimson)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/152.6",
+      "sources": [
+        "Silver Chest (black)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/152.67",
+      "sources": [
+        "Silver Chest (purple)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/86",
+      "sources": [
+        "Araxyte (Level 146)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/96",
+      "sources": [
+        "Spiritual mage (Zaros)",
+        "Thermonuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/99",
+      "sources": [
+        "Chest (Rogues' Castle) (Medium Wilderness Diary)",
+        "Chest (Rogues' Castle) (Hard Wilderness Diary)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/100",
+      "sources": [
+        "Nature impling",
+        "Cave kraken",
+        "Nature impling jar",
+        "Scorpia",
+        "Demonic gorilla",
+        "Alchemical Hydra",
+        "Skeleton (Shayzien Crypts)",
+        "Zombie (Shayzien Crypts)",
+        "Undead Druid",
+        "Vyrewatch Sentinel",
+        "Skeleton (Lucien's camp)",
+        "Armoured zombie (Zemouregal's Fort)",
+        "Gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/112",
+      "sources": [
+        "Blood Reaver"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/115",
+      "sources": [
+        "Reinforced chest"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/118",
+      "sources": [
+        "Spitting Wyvern",
+        "Taloned Wyvern",
+        "Long-tailed Wyvern"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/120",
+      "sources": [
+        "Albatross",
+        "Manta ray (monster)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/125",
+      "sources": [
+        "Aquanite"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/128",
+      "sources": [
+        "Green dragon (Regular)",
+        "Green dragon (Wilderness Slayer Cave)",
+        "Jelly (Regular)",
+        "Abyssal demon (Standard)",
+        "Abyssal demon (Wilderness Slayer Cave)",
+        "Aberrant spectre",
+        "Greater demon (Regular)",
+        "Greater demon (Wilderness Slayer Cave)",
+        "Nechryael",
+        "Black demon (Regular)",
+        "Black demon (Wilderness Slayer Cave)",
+        "Blue dragon",
+        "Dark beast",
+        "Kurask",
+        "Turoth",
+        "Bronze dragon (Standard)",
+        "Gargoyle",
+        "Cave horror",
+        "Elf Warrior",
+        "Black dragon (Regular)",
+        "Black dragon (Wilderness Slayer Cave)",
+        "Dark warrior (Level 145)",
+        "Red dragon",
+        "Waterfiend",
+        "Iron dragon (Standard)",
+        "Terror dog (Level 100)",
+        "Terror dog (Level 110)",
+        "Vyrewatch",
+        "Bandit (Level 130)",
+        "Brutal green dragon",
+        "Gorak (Gems)",
+        "Gorak (Full)",
+        "Aviansie",
+        "Balfrug Kreeyath",
+        "Starlight",
+        "Bree",
+        "Growler",
+        "Spiritual mage",
+        "Spiritual ranger",
+        "Spiritual ranger (Zaros)",
+        "Spiritual warrior",
+        "Spiritual warrior (Zaros)",
+        "Sergeant Strongstack",
+        "Knight of Saradomin",
+        "Mourner (Level 108)",
+        "Sergeant Steelwill",
+        "Sergeant Grimspike",
+        "Flight Kilisa",
+        "Wingman Skree",
+        "Flockleader Geerin",
+        "Zakl'n Gritch",
+        "Tstanon Karlak",
+        "Elder Chaos druid",
+        "Crazy archaeologist",
+        "Chaos Fanatic",
+        "Smoke devil",
+        "Saradomin priest",
+        "Ork",
+        "Experiment No.2",
+        "Brutal blue dragon",
+        "Brutal black dragon",
+        "Brutal red dragon",
+        "Deviant spectre",
+        "Twisted Banshee",
+        "Greater Nechryael (Regular)",
+        "Greater Nechryael (Wilderness Slayer Cave)",
+        "Mutated Bloodveld",
+        "Nechryarch (Greater)",
+        "Armoured zombie (Zemouregal's Base)",
+        "Drake",
+        "Hydra",
+        "Guard (Prifddinas)",
+        "Iorwerth Warrior (Iorwerth Camp)",
+        "Iorwerth Warrior (Iorwerth Dungeon)",
+        "Iorwerth Archer",
+        "Elf Archer",
+        "Araxyte (Level 96)",
+        "Lava Strykewyrm"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/128",
+      "sources": [
+        "Earthen Nagua"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/129",
+      "sources": [
+        "Suqah"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/150",
+      "sources": [
+        "Narwhal"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/160",
+      "sources": [
+        "Vardorvis",
+        "Duke Sucellus",
+        "The Whisperer",
+        "The Leviathan"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/170",
+      "sources": [
+        "Frigatebird"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/185",
+      "sources": [
+        "Stingray"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/192",
+      "sources": [
+        "Basilisk Knight",
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/200",
+      "sources": [
+        "Lizardman shaman",
+        "Temple Spider",
+        "Moss Giant (Iorwerth Dungeon)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/256",
+      "sources": [
+        "Cyclops (Warriors' Guild Basement)",
+        "Ankou (Wilderness Slayer Cave)",
+        "Bloodveld",
+        "Wyrm"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/256",
+      "sources": [
+        "Sulphur Nagua"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/300",
+      "sources": [
+        "Tortured gorilla"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/500",
+      "sources": [
+        "Paladin"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/500",
+      "sources": [
+        "Martial salvage"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/512",
+      "sources": [
+        "Cyclops (Warriors' Guild Rooftop)",
+        "Ankou (Regular)",
+        "Cyclops (God Wars Dungeon)",
+        "Cyclops (Catacombs of Kourend)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Rare",
+      "sources": [
+        "Frost dragon",
+        "Mutated Terrorbird",
+        "Mutated Tortoise",
+        "Warped Tortoise",
+        "Warped Terrorbird",
+        "Elite Black Knight",
+        "Elite Dark Mage",
+        "Elite Dark Ranger",
+        "Elite Dark Warrior",
+        "Frost Nagua",
+        "Tiger shark",
+        "Spined kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Unknown",
+      "sources": [
+        "Elder aquanite",
+        "Magma strykewyrm",
+        "Dire gryphon"
+      ]
+    }
+  ],
+  "Clue scroll (master)": [
+    {
+      "approx": false,
+      "rate": "1/5",
+      "sources": [
+        "Reward casket (elite)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/15",
+      "sources": [
+        "Reward casket (hard)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/30",
+      "sources": [
+        "Reward casket (medium)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Reward casket (easy)"
+      ]
+    }
+  ],
+  "Clue scroll (medium)": [
+    {
+      "approx": true,
+      "rate": "12/20",
+      "sources": [
+        "Clue turtle (Levels 30-49)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "6/20",
+      "sources": [
+        "Clue turtle (Levels 50-69)",
+        "Clue turtle (Levels 70+)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/104",
+      "sources": [
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10/128",
+      "sources": [
+        "Flaming pyrelord",
+        "Cockathrice"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "6/150",
+      "sources": [
+        "Mystery box (Members)",
+        "Mystery box (Entrana)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/25",
+      "sources": [
+        "Eclectic impling jar",
+        "Eclectic impling",
+        "Scurrius (MVP)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/100",
+      "sources": [
+        "Casket (Reward pool)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/140.98",
+      "sources": [
+        "Black Chest (red)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/141.02",
+      "sources": [
+        "Black Chest (brown)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/141.07",
+      "sources": [
+        "Black Chest (crimson)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/141.11",
+      "sources": [
+        "Black Chest (black)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "4/141.15",
+      "sources": [
+        "Black Chest (purple)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/134.35",
+      "sources": [
+        "Steel Chest (red)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/134.39",
+      "sources": [
+        "Steel Chest (brown)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/134.43",
+      "sources": [
+        "Steel Chest (crimson)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/134.46",
+      "sources": [
+        "Steel Chest (black)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/134.5",
+      "sources": [
+        "Steel Chest (purple)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Essence impling",
+        "Essence impling jar",
+        "Coffin (Hallowed Sepulchre)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/85",
+      "sources": [
+        "Butterfly ray"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/90",
+      "sources": [
+        "Chest (Aldarin Villas)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/96",
+      "sources": [
+        "Dark warrior (Great Kourend)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/100",
+      "sources": [
+        "Earth impling",
+        "Earth impling jar"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/300",
+      "sources": [
+        "Stone chest"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/200",
+      "sources": [
+        "Chest (Isle of Souls Dungeon)"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/100",
+      "sources": [
+        "Hammerhead shark",
+        "Bull shark"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/101",
+      "sources": [
+        "Catablepon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/104",
+      "sources": [
+        "Pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/128",
+      "sources": [
+        "Brine rat",
+        "Cockatrice",
+        "Feral Vampyre",
+        "Ice warrior",
+        "Guard",
+        "Pyrefiend",
+        "Harpie Bug Swarm",
+        "Dagannoth",
+        "Jungle horror",
+        "Guard (Burthorpe)",
+        "Donny the lad",
+        "Speedy Keith",
+        "Black Heather",
+        "Skeleton brute",
+        "Black Guard (Level 48)",
+        "Sea Snake Hatchling",
+        "Sea Snake Young",
+        "Giant Rock Crab",
+        "Wallasalki",
+        "Warrior (Rellekka)",
+        "Paladin",
+        "Black Guard Berserker",
+        "Market Guard",
+        "Rock lobster",
+        "Skeletal miner",
+        "Giant Sea Snake",
+        "Mammoth",
+        "Dagannoth (Waterbirth Island) (Level 88)",
+        "Dagannoth (Waterbirth Island) (Level 90)",
+        "Sir Carl",
+        "Sir Harry",
+        "Sir Jerro",
+        "Angry barbarian spirit",
+        "Berserk barbarian spirit",
+        "Enraged barbarian spirit",
+        "Skeleton heavy",
+        "Skeleton hero",
+        "Skeleton thug",
+        "Skeleton warlord",
+        "Giant skeleton (Tarn's Lair)",
+        "Giant skeleton (Shadow Dungeon)",
+        "Guard (Shayzien)",
+        "Head Guard",
+        "King Sand Crab",
+        "Soldier (Shayzien)",
+        "Ancient Zygomite",
+        "Skeleton (mage)",
+        "Skeleton (Tarn's Lair) (Medium level)",
+        "Skeleton (Tarn's Lair) (Level 81)",
+        "Sulphur Lizard",
+        "Sergeant (Shayzien)",
+        "Guard (Hosidius)",
+        "Necromancer (Great Kourend)",
+        "Lynx Tamer",
+        "Bandit (Shayzien)",
+        "Guard (Port Sarim jail)",
+        "Guard (Doric's hut)",
+        "Bandit (Varlamore)",
+        "Knight of Varlamore",
+        "Guard (Varlamore)",
+        "Emissary Chosen",
+        "Emissary Acolyte",
+        "Guard (Aldarin)",
+        "Guard (Auburnvale)",
+        "Guard (Tlati Rainforest)",
+        "Guard (Port Roberts)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2/256",
+      "sources": [
+        "Vampyre Juvinate",
+        "Liam",
+        "Miala",
+        "Verak",
+        "Benjamin",
+        "Former Vampyre"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/129",
+      "sources": [
+        "Jogre"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/138",
+      "sources": [
+        "Tribesman",
+        "Tribeswoman"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/150",
+      "sources": [
+        "Gnome",
+        "Gnome child",
+        "Gnome woman"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/150",
+      "sources": [
+        "Tarnished chest"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/160",
+      "sources": [
+        "Vardorvis",
+        "Duke Sucellus",
+        "The Whisperer",
+        "The Leviathan"
+      ]
+    },
+    {
+      "approx": true,
+      "rate": "1/200",
+      "sources": [
+        "Rusty chest",
+        "Osprey"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/256",
+      "sources": [
+        "Possessed pickaxe (Catacombs of Kourend)",
+        "Magic axe",
+        "Abyssal leech",
+        "Abyssal guardian",
+        "Abyssal walker"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/300",
+      "sources": [
+        "Barracuda salvage"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/512",
+      "sources": [
+        "Werewolf"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/513",
+      "sources": [
+        "Mummy (Ancient Pyramid)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Once",
+      "sources": [
+        "Monkey (Monkey Madness I)",
+        "Bottle of spinning comp-kvass"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Rare",
+      "sources": [
+        "Grimy Lizard",
+        "Moonlight Cockatrice",
+        "Jaguar",
+        "Black jaguar",
+        "White jaguar",
+        "Pygmy kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "Very rare",
+      "sources": [
+        "Pirate (Thieving)"
+      ]
+    }
+  ],
   "Coagulated venom": [
     {
       "approx": false,
@@ -7925,6 +9639,15 @@
       "rate": "1/10,001",
       "sources": [
         "Hydra"
+      ]
+    }
+  ],
+  "Dragon legs/skirt ornament kit": [
+    {
+      "approx": false,
+      "rate": "1/1,275",
+      "sources": [
+        "Reward casket (elite)"
       ]
     }
   ],
@@ -10280,6 +12003,15 @@
       ]
     }
   ],
+  "Eye of ayak (uncharged)": [
+    {
+      "approx": false,
+      "rate": "1/2,000",
+      "sources": [
+        "Doom of Mokhaiotl"
+      ]
+    }
+  ],
   "Eye of the corruptor": [
     {
       "approx": false,
@@ -10928,16 +12660,6 @@
         "Black Knight Titan",
         "Hill Giant",
         "Cyclops (Ardougne Zoo)"
-      ]
-    }
-  ],
-  "Giantsoul amulet": [
-    {
-      "approx": false,
-      "rate": "1/16",
-      "sources": [
-        "Eldric the Ice King",
-        "Branda the Fire Queen"
       ]
     }
   ],
@@ -13246,6 +14968,15 @@
       ]
     }
   ],
+  "Immaculate mole skin": [
+    {
+      "approx": false,
+      "rate": "1/50",
+      "sources": [
+        "Giant Mole"
+      ]
+    }
+  ],
   "Imp champion scroll": [
     {
       "approx": false,
@@ -14647,51 +16378,6 @@
       ]
     }
   ],
-  "Master scroll book (empty)": [
-    {
-      "approx": false,
-      "rate": "1/333.5",
-      "sources": [
-        "Reward casket (master)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/355.2",
-      "sources": [
-        "Reward casket (elite)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/374",
-      "sources": [
-        "Reward casket (medium) (Entrana)",
-        "Reward casket (easy) (Entrana)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/595.8",
-      "sources": [
-        "Reward casket (hard)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "10/7,502",
-      "sources": [
-        "Reward casket (medium) (Standard)"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "11/8,712",
-      "sources": [
-        "Reward casket (easy) (Standard)"
-      ]
-    }
-  ],
   "Menaphite ornament kit": [
     {
       "approx": false,
@@ -15281,15 +16967,6 @@
       ]
     }
   ],
-  "Monkey (Monkey Madness II)": [
-    {
-      "approx": false,
-      "rate": "Always",
-      "sources": [
-        "Crate (Crash Site)"
-      ]
-    }
-  ],
   "Monkey tail": [
     {
       "approx": false,
@@ -15310,6 +16987,83 @@
       "rate": "1/15,000",
       "sources": [
         "Tortured gorilla"
+      ]
+    }
+  ],
+  "Monkfish": [
+    {
+      "approx": false,
+      "rate": "3 × 11/128",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "2 × 1/10",
+      "sources": [
+        "Hallowed sack"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/9",
+      "sources": [
+        "Kalphite Queen"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/10",
+      "sources": [
+        "Coffin (Hallowed Sepulchre) (Mid)",
+        "Coffin (Hallowed Sepulchre) (High)",
+        "Grand Hallowed Coffin",
+        "Hallowed sack"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "11/128",
+      "sources": [
+        "Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "8/107",
+      "sources": [
+        "Mature custodian stalker"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "8/127",
+      "sources": [
+        "Starlight",
+        "Bree",
+        "Growler"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "8/128",
+      "sources": [
+        "Chaos Fanatic"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "7/128",
+      "sources": [
+        "Green dragon (Wilderness Slayer Cave)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "3/128",
+      "sources": [
+        "Black dragon (Wilderness Slayer Cave)"
       ]
     }
   ],
@@ -16295,6 +18049,22 @@
       ]
     }
   ],
+  "Opulent Salvage": [
+    {
+      "approx": false,
+      "rate": "Always",
+      "sources": [
+        "Merchant shipwreck"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "5/272",
+      "sources": [
+        "Veiled kraken"
+      ]
+    }
+  ],
   "Orange boater": [
     {
       "approx": false,
@@ -16625,6 +18395,66 @@
       "rate": "1/30",
       "sources": [
         "Enchantment Ritual"
+      ]
+    }
+  ],
+  "Pharaoh's sceptre": [
+    {
+      "approx": false,
+      "rate": "1/650",
+      "sources": [
+        "Grand Gold Chest (Room 7)",
+        "Grand Gold Chest (Room 8)",
+        "Sarcophagus (Pyramid Plunder) (Room 7)",
+        "Sarcophagus (Pyramid Plunder) (Room 8)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/750",
+      "sources": [
+        "Grand Gold Chest (Room 6)",
+        "Sarcophagus (Pyramid Plunder) (Room 6)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/800",
+      "sources": [
+        "Grand Gold Chest (Room 5)",
+        "Sarcophagus (Pyramid Plunder) (Room 5)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/950",
+      "sources": [
+        "Grand Gold Chest (Room 4)",
+        "Sarcophagus (Pyramid Plunder) (Room 4)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/1,600",
+      "sources": [
+        "Grand Gold Chest (Room 3)",
+        "Sarcophagus (Pyramid Plunder) (Room 3)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/2,800",
+      "sources": [
+        "Grand Gold Chest (Room 2)",
+        "Sarcophagus (Pyramid Plunder) (Room 2)"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/4,200",
+      "sources": [
+        "Grand Gold Chest (Room 1)",
+        "Sarcophagus (Pyramid Plunder) (Room 1)"
       ]
     }
   ],
@@ -17614,25 +19444,6 @@
       ]
     }
   ],
-  "Reward casket (elite)": [
-    {
-      "approx": false,
-      "rate": "Always",
-      "sources": [
-        "Green dragon (Regular)",
-        "Green dragon (Wilderness Slayer Cave)",
-        "Rock Crab",
-        "Aberrant spectre",
-        "Ankou (Regular)",
-        "Ankou (Wilderness Slayer Cave)",
-        "Basilisk",
-        "Ferocious barbarian spirit",
-        "Deviant spectre",
-        "Mutated Bloodveld",
-        "Basilisk Knight"
-      ]
-    }
-  ],
   "Right skull half": [
     {
       "approx": false,
@@ -17664,15 +19475,6 @@
       "rate": "1/13,616",
       "sources": [
         "Reward casket (master)"
-      ]
-    }
-  ],
-  "Ring of endurance (uncharged)": [
-    {
-      "approx": false,
-      "rate": "1/200",
-      "sources": [
-        "Grand Hallowed Coffin"
       ]
     }
   ],
@@ -18322,64 +20124,6 @@
       "rate": "1/1,275",
       "sources": [
         "Reward casket (elite)"
-      ]
-    }
-  ],
-  "Sailors' amulet (inert)": [
-    {
-      "approx": false,
-      "rate": "1/300",
-      "sources": [
-        "Opulent salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/350",
-      "sources": [
-        "Fremennik salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/400",
-      "sources": [
-        "Martial salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/450",
-      "sources": [
-        "Plundered salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/500",
-      "sources": [
-        "Large salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/1,000",
-      "sources": [
-        "Barracuda salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/1,500",
-      "sources": [
-        "Fishy salvage"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/2,000",
-      "sources": [
-        "Small salvage"
       ]
     }
   ],
@@ -21026,15 +22770,6 @@
       ]
     }
   ],
-  "Strange old lockpick (full)": [
-    {
-      "approx": false,
-      "rate": "1/200",
-      "sources": [
-        "Coffin (Hallowed Sepulchre)"
-      ]
-    }
-  ],
   "Strangled tablet": [
     {
       "approx": false,
@@ -22148,15 +23883,6 @@
       "rate": "1/1,217.32",
       "sources": [
         "Steel Chest (red)"
-      ]
-    }
-  ],
-  "Trident of the seas (full)": [
-    {
-      "approx": false,
-      "rate": "1/512",
-      "sources": [
-        "Kraken"
       ]
     }
   ],
