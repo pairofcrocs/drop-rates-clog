@@ -64,29 +64,34 @@ jobs:
 
       - name: Commit and push to plugin repo
         if: steps.diff.outputs.changed == 'true'
-        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$JSON_PATH"
           git commit -m "Update drop rates from wiki ($(date -u +%F))"
           git push
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Update plugin-hub fork and open/refresh PR
-        if: steps.diff.outputs.changed == 'true'
+      - name: Sync plugin-hub fork and open/refresh PR
         env:
           GH_TOKEN: ${{ secrets.HUB_TOKEN }}
-          NEW_SHA:  ${{ steps.commit.outputs.sha }}
         run: |
           set -e
+          plugin_sha=$(git rev-parse HEAD)
+
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${HUB_FORK}.git" hub
           cd hub
           git remote add upstream https://github.com/runelite/plugin-hub.git
           git fetch upstream master
-          git checkout -B "$HUB_BRANCH" upstream/master
 
-          sed -i "s|^commit=.*|commit=${NEW_SHA}|" "$PLUGIN_FILE"
+          upstream_sha=$(git show upstream/master:"$PLUGIN_FILE" | sed -n 's|^commit=||p')
+          if [ "$upstream_sha" = "$plugin_sha" ]; then
+            echo "Upstream already pinned to $plugin_sha — nothing to do."
+            exit 0
+          fi
+          echo "Upstream at $upstream_sha, plugin master at $plugin_sha — updating."
+
+          git checkout -B "$HUB_BRANCH" upstream/master
+          sed -i "s|^commit=.*|commit=${plugin_sha}|" "$PLUGIN_FILE"
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
