@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.events.MenuEntryAdded;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
@@ -31,7 +32,6 @@ import java.util.Map;
 )
 public class DropRatesClogPlugin extends Plugin
 {
-    private static final int CLOG_INTERFACE = 621;
     private static final long HOVER_TIMEOUT = 150;
 
     @Inject
@@ -98,7 +98,7 @@ public class DropRatesClogPlugin extends Plugin
     public void onMenuEntryAdded(MenuEntryAdded event)
     {
         MenuEntry entry = event.getMenuEntry();
-        if ((entry.getParam1() >>> 16) != CLOG_INTERFACE) return;
+        if ((entry.getParam1() >>> 16) != InterfaceID.COLLECTION) return;
 
         String name = Text.removeTags(event.getTarget());
         if (name.isEmpty()) return;
