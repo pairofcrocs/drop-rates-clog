@@ -6414,14 +6414,14 @@
       "approx": false,
       "rate": "1/50",
       "sources": [
-        "Reward Chest (The Gauntlet) ((Corrupted))"
+        "Reward Chest (The Gauntlet) (Corrupted)"
       ]
     },
     {
       "approx": false,
       "rate": "1/120",
       "sources": [
-        "Reward Chest (The Gauntlet)"
+        "Reward Chest (The Gauntlet) (Regular)"
       ]
     }
   ],
@@ -6448,14 +6448,14 @@
       "approx": false,
       "rate": "1/50",
       "sources": [
-        "Reward Chest (The Gauntlet) ((Corrupted))"
+        "Reward Chest (The Gauntlet) (Corrupted)"
       ]
     },
     {
       "approx": false,
       "rate": "1/120",
       "sources": [
-        "Reward Chest (The Gauntlet)"
+        "Reward Chest (The Gauntlet) (Regular)"
       ]
     }
   ],
@@ -9980,14 +9980,14 @@
       "approx": false,
       "rate": "1/400",
       "sources": [
-        "Reward Chest (The Gauntlet) ((Corrupted))"
+        "Reward Chest (The Gauntlet) (Corrupted)"
       ]
     },
     {
       "approx": false,
       "rate": "1/2,000",
       "sources": [
-        "Reward Chest (The Gauntlet)"
+        "Reward Chest (The Gauntlet) (Regular)"
       ]
     }
   ],
@@ -10829,7 +10829,7 @@
       "approx": false,
       "rate": "Always",
       "sources": [
-        "Reward Chest (The Gauntlet) ((Corrupted))"
+        "Reward Chest (The Gauntlet) (Corrupted)"
       ]
     }
   ],
@@ -17775,6 +17775,20 @@
     },
     {
       "approx": false,
+      "rate": "1/210,886",
+      "sources": [
+        "Gem rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/243,937",
+      "sources": [
+        "Lovakite rocks"
+      ]
+    },
+    {
+      "approx": false,
       "rate": "1/289,890",
       "sources": [
         "Coal rocks"
@@ -17782,7 +17796,14 @@
     },
     {
       "approx": false,
-      "rate": "1/519,075",
+      "rate": "1/295,640",
+      "sources": [
+        "Gold rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/521,300",
       "sources": [
         "Crashed Star"
       ]
@@ -17796,6 +17817,42 @@
     },
     {
       "approx": false,
+      "rate": "1/739,975",
+      "sources": [
+        "Soft clay rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/740,475",
+      "sources": [
+        "Granite rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/740,575",
+      "sources": [
+        "Calcified rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/740,725",
+      "sources": [
+        "Sandstone rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/741,100",
+      "sources": [
+        "Silver rocks",
+        "Ash pile"
+      ]
+    },
+    {
+      "approx": false,
       "rate": "1/741,225",
       "sources": [
         "Iron rocks"
@@ -17803,35 +17860,26 @@
     },
     {
       "approx": false,
+      "rate": "1/741,250",
+      "sources": [
+        "Barronite rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/741,350",
+      "sources": [
+        "Blurite rocks",
+        "Limestone rock"
+      ]
+    },
+    {
+      "approx": false,
       "rate": "1/741,575",
       "sources": [
-        "Clay rocks"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "1/741,600",
-      "sources": [
-        "Calcified rocks"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "Very rare",
-      "sources": [
-        "Gem rocks",
         "Copper rocks",
         "Tin rocks",
-        "Silver rocks",
-        "Gold rocks",
-        "Blurite rocks",
-        "Limestone rock",
-        "Granite rocks",
-        "Sandstone rocks",
-        "Lovakite rocks",
-        "Ash pile",
-        "Soft clay rocks",
-        "Barronite rocks"
+        "Clay rocks"
       ]
     }
   ],
@@ -20678,7 +20726,15 @@
       "approx": false,
       "rate": "1/800,000",
       "sources": [
-        "Small shipwreck"
+        "Plundered salvage",
+        "Small salvage",
+        "Small shipwreck",
+        "Fishy salvage",
+        "Barracuda salvage",
+        "Large salvage",
+        "Martial salvage",
+        "Opulent salvage",
+        "Fremennik salvage"
       ]
     }
   ],
@@ -23032,14 +23088,14 @@
       "approx": false,
       "rate": "1/800",
       "sources": [
-        "Reward Chest (The Gauntlet) ((Corrupted))"
+        "Reward Chest (The Gauntlet) (Corrupted)"
       ]
     },
     {
       "approx": false,
       "rate": "1/2,000",
       "sources": [
-        "Reward Chest (The Gauntlet)"
+        "Reward Chest (The Gauntlet) (Regular)"
       ]
     }
   ],
