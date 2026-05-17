@@ -88,7 +88,17 @@ jobs:
             echo "Upstream already pinned to $plugin_sha — nothing to do."
             exit 0
           fi
-          echo "Upstream at $upstream_sha, plugin master at $plugin_sha — updating."
+
+          # Only sync if the JSON actually differs between upstream's pinned
+          # commit and current plugin master. Avoids opening a hub PR for
+          # changes that don't affect users (e.g. workflow edits, README).
+          cd ..
+          if git diff --quiet "$upstream_sha" "$plugin_sha" -- "$JSON_PATH"; then
+            echo "JSON unchanged between $upstream_sha and $plugin_sha — nothing to ship."
+            exit 0
+          fi
+          cd hub
+          echo "Upstream at $upstream_sha, plugin master at $plugin_sha, JSON differs — updating."
 
           git checkout -B "$HUB_BRANCH" upstream/master
           sed -i "s|^commit=.*|commit=${plugin_sha}|" "$PLUGIN_FILE"
