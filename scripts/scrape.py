@@ -29,7 +29,7 @@ def get_clog_items() -> list[str]:
     params = {
         "action":      "query",
         "prop":        "links",
-        "titles":      "Collection_log/Table",
+        "titles":      "Collection_log",
         "pllimit":     500,
         "plnamespace": 0,
         "format":      "json",
