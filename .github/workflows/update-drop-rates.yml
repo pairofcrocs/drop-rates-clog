@@ -11,10 +11,10 @@ permissions:
   issues: write
 
 env:
-  JSON_PATH: src/main/resources/com/dropratesclog/drop_rates.json
-  HUB_FORK: pairofcrocs/plugin-hub
-  HUB_BRANCH: update-drop-rates-clog
-  PLUGIN_FILE: plugins/drop-rates-clog
+  # Branch the plugin fetches its JSON from on start-up. Files live at the branch root.
+  DATA_BRANCH: data
+  DATA_FILE: drop_rates.json
+  SCRAPE_OUT: drop_rates.json.new
 
 jobs:
   update:
@@ -34,12 +34,19 @@ jobs:
         run: pip install requests
 
       - name: Run scraper
-        run: python scripts/scrape.py --out "${JSON_PATH}.new"
+        run: python scripts/scrape.py --out "$SCRAPE_OUT"
+
+      - name: Fetch current live data
+        run: |
+          git fetch origin "$DATA_BRANCH"
+          # The currently-published file on the data branch, or empty if the branch
+          # doesn't have it yet (first run / fresh branch).
+          git show "origin/${DATA_BRANCH}:${DATA_FILE}" > drop_rates.json.cur 2>/dev/null || : > drop_rates.json.cur
 
       - name: Sanity check
         id: sanity
         continue-on-error: true
-        run: python scripts/sanity_check.py "$JSON_PATH" "${JSON_PATH}.new"
+        run: python scripts/sanity_check.py drop_rates.json.cur "$SCRAPE_OUT"
 
       - name: Open issue on sanity failure
         if: steps.sanity.outcome == 'failure'
@@ -54,69 +61,25 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
-          if cmp -s "$JSON_PATH" "${JSON_PATH}.new"; then
+          if cmp -s drop_rates.json.cur "$SCRAPE_OUT"; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes."
           else
-            mv "${JSON_PATH}.new" "$JSON_PATH"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push to plugin repo
+      - name: Publish to data branch
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$JSON_PATH"
-          git commit -m "Update drop rates from wiki ($(date -u +%F))"
-          git push
-
-      - name: Sync plugin-hub fork and open/refresh PR
-        env:
-          GH_TOKEN: ${{ secrets.HUB_TOKEN }}
-        run: |
           set -e
-          plugin_sha=$(git rev-parse HEAD)
+          # Work on the data branch in an isolated worktree so the scrape output and the
+          # plugin's working tree don't collide with the data branch's contents.
+          git worktree add -B "$DATA_BRANCH" data-wt "origin/${DATA_BRANCH}"
+          cp "$SCRAPE_OUT" "data-wt/${DATA_FILE}"
 
-          git clone "https://x-access-token:${GH_TOKEN}@github.com/${HUB_FORK}.git" hub
-          cd hub
-          git remote add upstream https://github.com/runelite/plugin-hub.git
-          git fetch upstream master
-
-          upstream_sha=$(git show upstream/master:"$PLUGIN_FILE" | sed -n 's|^commit=||p')
-          if [ "$upstream_sha" = "$plugin_sha" ]; then
-            echo "Upstream already pinned to $plugin_sha — nothing to do."
-            exit 0
-          fi
-
-          # Only sync if the JSON actually differs between upstream's pinned
-          # commit and current plugin master. Avoids opening a hub PR for
-          # changes that don't affect users (e.g. workflow edits, README).
-          cd ..
-          if git diff --quiet "$upstream_sha" "$plugin_sha" -- "$JSON_PATH"; then
-            echo "JSON unchanged between $upstream_sha and $plugin_sha — nothing to ship."
-            exit 0
-          fi
-          cd hub
-          echo "Upstream at $upstream_sha, plugin master at $plugin_sha, JSON differs — updating."
-
-          git checkout -B "$HUB_BRANCH" upstream/master
-          sed -i "s|^commit=.*|commit=${plugin_sha}|" "$PLUGIN_FILE"
-
+          cd data-wt
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$PLUGIN_FILE"
-          git commit -m "update drop-rates-clog"
-          git push -f origin "$HUB_BRANCH"
-
-          fork_owner="${HUB_FORK%%/*}"
-          if [ -z "$(gh pr list --repo runelite/plugin-hub --head "${fork_owner}:${HUB_BRANCH}" --state open --json number --jq '.[0].number')" ]; then
-            gh pr create \
-              --repo runelite/plugin-hub \
-              --head "${fork_owner}:${HUB_BRANCH}" \
-              --base master \
-              --title "update drop-rates-clog" \
-              --body "Automated update of drop_rates.json from the OSRS wiki."
-          else
-            echo "PR already open — force-push refreshed it."
-          fi
+          git add "$DATA_FILE"
+          git commit -m "Update drop rates from wiki ($(date -u +%F))"
+          git push origin "$DATA_BRANCH"

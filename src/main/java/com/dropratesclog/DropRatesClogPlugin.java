@@ -16,9 +16,16 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.Text;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
 
 import javax.inject.Inject;
 import java.awt.Color;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
@@ -31,6 +38,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,6 +52,12 @@ public class DropRatesClogPlugin extends Plugin
 {
     private static final long   HOVER_TIMEOUT = 150;
     private static final String MORE_COLOR    = "999999"; // grey for the "+N more" / "…and N more" overflow
+
+    // Live data is published to the orphan "data" branch and fetched on start-up so updates reach
+    // users without a plugin rebuild/redistribution. The copies bundled in the jar are the offline
+    // fallback. Trailing slash intended: file names are appended directly.
+    private static final String DATA_BASE_URL =
+        "https://raw.githubusercontent.com/pairofcrocs/drop-rates-clog/data/";
 
     @Inject
     private Client client;
@@ -60,11 +74,19 @@ public class DropRatesClogPlugin extends Plugin
     @Inject
     private Gson gson;
 
-    private Map<String, List<DropEntry>> dropRates       = Collections.emptyMap();
-    private Map<String, AcquirableItem>  acquirables     = Collections.emptyMap();
-    private Map<String, SkillingPet>     skillingPets    = Collections.emptyMap();
-    private Map<Integer, String>         itemAliases     = Collections.emptyMap();
-    private Map<String, Set<String>>     popularMethods  = Collections.emptyMap();
+    @Inject
+    private OkHttpClient okHttpClient;
+
+    // Reassigned wholesale (never mutated in place) from OkHttp callback threads and read on the
+    // client thread, so volatile reference publication is all the synchronisation needed.
+    private volatile Map<String, List<DropEntry>> dropRates       = Collections.emptyMap();
+    private volatile Map<String, AcquirableItem>  acquirables     = Collections.emptyMap();
+    private volatile Map<String, SkillingPet>     skillingPets    = Collections.emptyMap();
+    private volatile Map<Integer, String>         itemAliases     = Collections.emptyMap();
+    private volatile Map<String, Set<String>>     popularMethods  = Collections.emptyMap();
+
+    // Guards against a late network callback repopulating data after the plugin has shut down.
+    private volatile boolean running;
 
     private String  hoveredItem         = null;
     private int     hoveredItemId       = -1;
@@ -73,6 +95,30 @@ public class DropRatesClogPlugin extends Plugin
 
     @Override
     protected void startUp()
+    {
+        running = true;
+
+        // Load the copies bundled in the jar first so tooltips work instantly (and offline)...
+        loadBundled();
+        // ...then try to refresh each dataset from the data branch in the background.
+        refreshFromNetwork();
+
+        overlayManager.add(tooltip);
+    }
+
+    @Override
+    protected void shutDown()
+    {
+        running = false;
+        overlayManager.remove(tooltip);
+        hoveredItem         = null;
+        hoveredItemId       = -1;
+        hoveredItemObtained = false;
+        lastSeenTime        = 0;
+    }
+
+    /** Populate every dataset from the JSON bundled in the jar. Synchronous, but cheap (local). */
+    private void loadBundled()
     {
         Map<String, List<DropEntry>> drops = loadResource(
             "/com/dropratesclog/drop_rates.json",
@@ -115,26 +161,83 @@ public class DropRatesClogPlugin extends Plugin
             new TypeToken<Map<String, List<String>>>() {}.getType());
         if (popularList != null)
         {
-            Map<String, Set<String>> popular = new HashMap<>();
-            for (Map.Entry<String, List<String>> e : popularList.entrySet())
-            {
-                popular.put(e.getKey(), new HashSet<>(e.getValue()));
-            }
-            popularMethods = popular;
-            log.info("Loaded popular methods for {} skills", popular.size());
+            popularMethods = toSetMap(popularList);
+            log.info("Loaded popular methods for {} skills", popularMethods.size());
         }
-
-        overlayManager.add(tooltip);
     }
 
-    @Override
-    protected void shutDown()
+    /** Fire off an async fetch of each dataset from the data branch; successes replace the bundled
+     *  copy, failures are logged and leave the bundled copy in place. Never blocks the caller. */
+    private void refreshFromNetwork()
     {
-        overlayManager.remove(tooltip);
-        hoveredItem         = null;
-        hoveredItemId       = -1;
-        hoveredItemObtained = false;
-        lastSeenTime        = 0;
+        fetchData("drop_rates.json",
+            new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
+            (Map<String, List<DropEntry>> data) -> dropRates = data);
+
+        fetchData("buyable.json",
+            new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
+            (Map<String, AcquirableItem> data) -> acquirables = data);
+
+        fetchData("skilling_pets.json",
+            new TypeToken<Map<String, SkillingPet>>() {}.getType(),
+            (Map<String, SkillingPet> data) -> skillingPets = data);
+
+        fetchData("item_aliases.json",
+            new TypeToken<Map<Integer, String>>() {}.getType(),
+            (Map<Integer, String> data) -> itemAliases = data);
+
+        fetchData("popular_methods.json",
+            new TypeToken<Map<String, List<String>>>() {}.getType(),
+            (Map<String, List<String>> data) -> popularMethods = toSetMap(data));
+    }
+
+    /** GET {@code DATA_BASE_URL + fileName}, parse as {@code type}, and hand the result to
+     *  {@code apply} on success. Runs entirely on OkHttp's background threads. */
+    private <T> void fetchData(String fileName, Type type, Consumer<T> apply)
+    {
+        Request request = new Request.Builder().url(DATA_BASE_URL + fileName).build();
+        okHttpClient.newCall(request).enqueue(new Callback()
+        {
+            @Override
+            public void onFailure(Call call, IOException e)
+            {
+                log.debug("Could not fetch {} from data branch, keeping bundled copy", fileName, e);
+            }
+
+            @Override
+            public void onResponse(Call call, Response response)
+            {
+                try (ResponseBody body = response.body())
+                {
+                    if (!response.isSuccessful() || body == null)
+                    {
+                        log.debug("Unexpected response {} fetching {}", response.code(), fileName);
+                        return;
+                    }
+                    T data = gson.fromJson(body.charStream(), type);
+                    if (data != null && running)
+                    {
+                        apply.accept(data);
+                        log.debug("Refreshed {} from data branch", fileName);
+                    }
+                }
+                catch (Exception e)
+                {
+                    log.warn("Failed to parse {} fetched from data branch", fileName, e);
+                }
+            }
+        });
+    }
+
+    /** Convert the popular-methods JSON shape (skill → list) to the set-backed map used for lookups. */
+    private static Map<String, Set<String>> toSetMap(Map<String, List<String>> source)
+    {
+        Map<String, Set<String>> out = new HashMap<>();
+        for (Map.Entry<String, List<String>> e : source.entrySet())
+        {
+            out.put(e.getKey(), new HashSet<>(e.getValue()));
+        }
+        return out;
     }
 
     @Provides
