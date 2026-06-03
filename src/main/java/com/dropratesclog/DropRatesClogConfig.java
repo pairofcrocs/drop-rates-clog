@@ -75,7 +75,7 @@ public interface DropRatesClogConfig extends Config
     )
     default boolean reduceFractions()
     {
-        return false;
+        return true;
     }
 
     // --- Skilling Pet Chances section ---
@@ -143,7 +143,7 @@ public interface DropRatesClogConfig extends Config
     )
     default Color itemNameColor()
     {
-        return Color.WHITE;
+        return new Color(0xFFA21E);
     }
 
     @Alpha
@@ -182,7 +182,7 @@ public interface DropRatesClogConfig extends Config
     )
     default int maxSources()
     {
-        return 5;
+        return 7;
     }
 
     @ConfigItem(
@@ -193,7 +193,7 @@ public interface DropRatesClogConfig extends Config
     )
     default boolean hideCheckPopup()
     {
-        return false;
+        return true;
     }
 
     @ConfigItem(
