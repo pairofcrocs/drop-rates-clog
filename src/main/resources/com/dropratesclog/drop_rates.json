@@ -5418,14 +5418,14 @@
   "Bottled storm": [
     {
       "approx": false,
-      "rate": "1/512",
+      "rate": "1/350",
       "sources": [
         "Vampyre kraken"
       ]
     },
     {
       "approx": false,
-      "rate": "1/1,024",
+      "rate": "1/500",
       "sources": [
         "Armoured kraken"
       ]
@@ -5652,7 +5652,7 @@
   "Broken dragon hook": [
     {
       "approx": false,
-      "rate": "1/1,023",
+      "rate": "1/500",
       "sources": [
         "Great white shark"
       ]
@@ -9360,7 +9360,7 @@
   "Dragon cannon barrel": [
     {
       "approx": false,
-      "rate": "1/1,000",
+      "rate": "1/500",
       "sources": [
         "Veiled kraken"
       ]
@@ -9693,16 +9693,31 @@
     },
     {
       "approx": false,
-      "rate": "1/200",
+      "rate": "1/90",
       "sources": [
-        "Frost dragon"
+        "Veiled kraken"
       ]
     },
     {
       "approx": false,
-      "rate": "1/400",
+      "rate": "1/100",
+      "sources": [
+        "Frost dragon",
+        "Orca"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/115",
       "sources": [
         "Lava Strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/120",
+      "sources": [
+        "Great white shark"
       ]
     },
     {
@@ -9717,20 +9732,6 @@
       "rate": "2/1,024",
       "sources": [
         "Vampyre kraken"
-      ]
-    },
-    {
-      "approx": true,
-      "rate": "1/1,150",
-      "sources": [
-        "Veiled kraken"
-      ]
-    },
-    {
-      "approx": false,
-      "rate": "4/6,138",
-      "sources": [
-        "Great white shark"
       ]
     }
   ],
@@ -9749,6 +9750,13 @@
       "rate": "2/130",
       "sources": [
         "Frost dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "1/75",
+      "sources": [
+        "Orca"
       ]
     },
     {
@@ -10109,6 +10117,13 @@
       "sources": [
         "Locust rider",
         "Scarab Mage"
+      ]
+    },
+    {
+      "approx": false,
+      "rate": "10 × 1/233,016.89",
+      "sources": [
+        "Corporeal Beast"
       ]
     },
     {
@@ -10633,7 +10648,6 @@
         "Bandit (Level 22)",
         "Hill Giant",
         "Aviansie",
-        "Corporeal Beast",
         "Black Knight",
         "Greater Nechryael (Regular)",
         "Pyrelord",
@@ -21305,6 +21319,13 @@
     },
     {
       "approx": false,
+      "rate": "10 × 1/174,762.67",
+      "sources": [
+        "Corporeal Beast"
+      ]
+    },
+    {
+      "approx": false,
       "rate": "1/17,836.6",
       "sources": [
         "Ancient Wyvern"
@@ -21834,7 +21855,6 @@
         "Bandit (Level 22)",
         "Hill Giant",
         "Aviansie",
-        "Corporeal Beast",
         "Black Knight",
         "Greater Nechryael (Regular)",
         "Pyrelord",
