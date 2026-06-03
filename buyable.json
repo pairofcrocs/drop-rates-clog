@@ -1,0 +1,5276 @@
+{
+  "Agility arena ticket": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Tag a ticket dispenser",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Brimhaven Agility Arena"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Alchemist gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,250 Mox, 2,800 Aga, 3,700 Lye",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards"
+        ]
+      }
+    ],
+    "revid": 15207075
+  },
+  "Alchemist labcoat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,250 Mox resin, 2,800 Aga resin, 3,700 Lye resin",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards shop (Mastering Mixology)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Alchemist pants": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,250 Mox resin, 2,800 Aga resin, 3,700 Lye resin",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards shop (Mastering Mixology)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Alchemist's amulet": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6,900 Mox resin, 5,650 Aga resin, 7,400 Lye resin",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards shop (Mastering Mixology)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Amulet of eternal glory": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recharge an amulet of glory with fewer than 6 charges",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Fountain of Rune (Wilderness)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Amy's saw": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189849
+  },
+  "Ancient halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189523
+  },
+  "Animation overrides": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward from participating in a Leagues season",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Twisted League",
+          "Trailblazer League",
+          "Shattered Relics League",
+          "Trailblazer Reloaded League",
+          "Raging Echoes League",
+          "Demonic Pacts League"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward from Quest Speedrunning",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Quest Speedrunning"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward from Deadman modes",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Deadman: Armageddon",
+          "Deadman Reward Store"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "75 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15209951
+  },
+  "Apprentice wand": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 Telekinetic, 60 Alchemist, 600 Enchantment, 60 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Armadyl halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189521
+  },
+  "Armadylean paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Fully chart the Northern Ocean",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Larrissa"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ash covered tome": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40,000 Volcanic Mine Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete"
+        ]
+      }
+    ],
+    "revid": 15188494
+  },
+  "Baby chinchompa (grey)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random reward while catching chinchompas - Colour matches the chinchompa caught (grey = grey chinchompas)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Hunter"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ballistic attractor schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim from Ava after completing Animal Magnetism & Pandemonium",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ava (Draynor Manor)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Bandos halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine"
+        ]
+      }
+    ],
+    "revid": 15189522
+  },
+  "Barracuda paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Barracuda Trial reward",
+        "kind": "currency",
+        "rate": "1/240",
+        "sources": [
+          "The Tempor Tantrum"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Barracuda Trial reward",
+        "kind": "currency",
+        "rate": "1/220",
+        "sources": [
+          "The Jubbly Jive"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Barracuda Trial reward",
+        "kind": "currency",
+        "rate": "1/400",
+        "sources": [
+          "The Gwenith Glide"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Barrel stand": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the shark rank - Completion time of 2:51",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Tempor Tantrum (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Barronite mace": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Assemble the three barronite mace pieces via Ramarno",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ruins of Camdozaal (Ramarno)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Beginner wand": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "30 Telekinetic, 30 Alchemist, 300 Enchantment, 30 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Big bass": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random catch while fishing",
+        "kind": "currency",
+        "rate": "Very rare",
+        "sources": [
+          "Fishing"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Big pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 5,400–9,984",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Big swordfish": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random catch from harpoon fishing",
+        "kind": "currency",
+        "rate": "Very rare",
+        "sources": [
+          "Fishing"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Black naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187311
+  },
+  "Black navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187318
+  },
+  "Black tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187304
+  },
+  "Blue dark bow paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's"
+        ]
+      }
+    ],
+    "revid": 15186406
+  },
+  "Blue naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187307
+  },
+  "Blue navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187314
+  },
+  "Blue tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187299
+  },
+  "Bones to Peaches": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Telekinetic, 300 Alchemist, 2,000 Enchantment, 200 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Boots of the eye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian"
+        ]
+      }
+    ],
+    "revid": 15190842
+  },
+  "Bosun's workbench schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Complete The Red Reef Quest",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": 15215433
+  },
+  "Brassica halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189525
+  },
+  "Bright pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 2,100–4,800",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Brilliant pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 240,000–480,000",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Brimhaven voucher": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Earned while participating in the Agility Arena",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Brimhaven Agility Arena"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Bronze fist flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3,000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184768
+  },
+  "Brown naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187309
+  },
+  "Brown navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187317
+  },
+  "Brown tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187303
+  },
+  "Calcified acorn": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Colossal Wyrm Agility Course reward",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue"
+        ]
+      }
+    ],
+    "revid": 15192724
+  },
+  "Cape pouch": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,500 anima-infused bark",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191620
+  },
+  "Captured wind mote": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the shark rank - Completion time of 3:00",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Jubbly Jive (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Carpenter's boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189855
+  },
+  "Carpenter's helmet": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189852
+  },
+  "Carpenter's shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "800 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189853
+  },
+  "Carpenter's trousers": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "600 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189854
+  },
+  "Castlewars cloak (Saradomin)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185150
+  },
+  "Castlewars cloak (Zamorak)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185151
+  },
+  "Castlewars hood (Saradomin)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185149
+  },
+  "Castlewars hood (Zamorak)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185148
+  },
+  "Celestial ring (uncharged)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 stardust",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Dusuri's Star Shop"
+        ]
+      }
+    ],
+    "revid": 15185148
+  },
+  "Champion's cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward for defeating all 11 champions of the Champions' Challenge",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Champions' Challenge (Champions' Guild)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (bowman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "40 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (bowmaster)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "700 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (dragon archer)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "2,250 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (expert dragon archer)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "4,000 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (expert ogre dragon archer)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "3,000 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (expert)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "1,300 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (forester)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "400 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (marksman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "125 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre bowman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "30 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre bowmaster)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "550 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre dragon archer)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "1,700 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre expert)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "1,000 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre forester)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "300 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre marksman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "95 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre woodsman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "170 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (ogre yeoman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "50 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (woodsman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "225 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chompy bird hat (yeoman)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "70 Chompy bird kills",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rantz (Feldip Hills)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Chugging barrel (disassembled)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "17,250 Mox, 14,000 Aga, 18,600 Lye",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards"
+        ]
+      }
+    ],
+    "revid": 15207075
+  },
+  "Clothes pouch blueprint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10,000 Anima-infused bark, 300 Willow, Maple logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191377
+  },
+  "Coal bag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy"
+        ]
+      }
+    ],
+    "revid": 15215029
+  },
+  "Colossal blade": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5,000 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15213692
+  },
+  "Colossal wyrm teleport scroll": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 termites",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue"
+        ]
+      }
+    ],
+    "revid": 15192735
+  },
+  "Cutthroat flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184278
+  },
+  "Dark acorn": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3,000 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger"
+        ]
+      }
+    ],
+    "revid": 15189744
+  },
+  "Dark dye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "300 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger"
+        ]
+      }
+    ],
+    "revid": 15189755
+  },
+  "Deadman's cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "160 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Deadman's chest": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "160 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Deadman's legs": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "160 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Decorative armour (gold platebody)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "800 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185125
+  },
+  "Decorative armour (gold platelegs)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "600 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185130
+  },
+  "Decorative armour (gold plateskirt)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "600 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185133
+  },
+  "Decorative armour (magic hat)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "20 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185142
+  },
+  "Decorative armour (magic legs)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "30 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185144
+  },
+  "Decorative armour (magic top)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Castle Wars",
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185143
+  },
+  "Decorative armour (quiver)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185147
+  },
+  "Decorative armour (ranged legs)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "30 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185146
+  },
+  "Decorative armour (ranged top)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185145
+  },
+  "Decorative armour (red platebody)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "8 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185127
+  },
+  "Decorative armour (red platelegs)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185132
+  },
+  "Decorative armour (red plateskirt)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185135
+  },
+  "Decorative armour (white platebody)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "80 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185126
+  },
+  "Decorative armour (white platelegs)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185131
+  },
+  "Decorative armour (white plateskirt)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185134
+  },
+  "Decorative boots (gold)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15189938
+  },
+  "Decorative boots (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "4 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15189939
+  },
+  "Decorative boots (white)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15189940
+  },
+  "Decorative full helm (gold)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15211403
+  },
+  "Decorative full helm (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15189942
+  },
+  "Decorative full helm (white)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15189941
+  },
+  "Decorative helm (gold)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185128
+  },
+  "Decorative helm (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "4 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185124
+  },
+  "Decorative helm (white)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185129
+  },
+  "Decorative shield (gold)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "600 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185136
+  },
+  "Decorative shield (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185138
+  },
+  "Decorative shield (white)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185137
+  },
+  "Decorative sword (gold)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185139
+  },
+  "Decorative sword (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185141
+  },
+  "Decorative sword (white)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15185140
+  },
+  "Dizana's quiver (uncharged)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward for completing the Colosseum (defeat Sol Heredit)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Fortis Colosseum"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Double ammo mould": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190919
+  },
+  "Dragon cannon schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 76",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Deepfin Point)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Dragon helm schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 72",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Sunbleak Island)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Dragon keel schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 87",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Grimstone)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Dragon legs+skirt ornament kit": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward from elite clue caskets",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Elite Treasure Trails"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Dragon pickaxe upgrade kit": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "14 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186420
+  },
+  "Dragon salvaging hook schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 73",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Lledrith Island)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ectoplasmator": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Zeal Tokens",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Nomad"
+        ]
+      }
+    ],
+    "revid": 15210533
+  },
+  "Elite void robe": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 commendation points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Elite Void Knight (Void Knights' Outpost)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Elite void top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 commendation points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Elite Void Knight (Void Knights' Outpost)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Enormous pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 20,400–49,800",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Eternal brazier schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 76",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Buccaneers' Haven)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Expert mining gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 unidentified minerals",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Belona (Mining Guild)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Eye of ayak": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Drop (obtained uncharged)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Doom of Mokhaiotl"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Farmer's boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50 Tithe Farm Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tithe Farm"
+        ]
+      }
+    ],
+    "revid": 15187415
+  },
+  "Farmer's boro trousers": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "125 Tithe Farm Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Farmer Gricoller's Rewards, Hosidius"
+        ]
+      }
+    ],
+    "revid": 15187414
+  },
+  "Farmer's jacket": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150 Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tithe Farm"
+        ]
+      }
+    ],
+    "revid": 15187412
+  },
+  "Farmer's strawhat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Tithe Farm Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Gricoller's Rewards, Hosidius"
+        ]
+      }
+    ],
+    "revid": 15187411
+  },
+  "Felling axe handle": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10,000 Anima-infused bark, 500 Oak logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15205670
+  },
+  "Fetid key": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the swordfish rank - Completion time of 2:03",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Jubbly Jive (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Fighter hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "275 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Fighter torso": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "375 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Fire cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward for completing the Fight Cave (defeat TzTok-Jad)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar Fight Cave"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Fish sack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 Molch pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alry the Angler"
+        ]
+      }
+    ],
+    "revid": 15189096
+  },
+  "Forestry boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,250 Anima-infused bark, 1 Lumberjack boots, 60 each: Oak/Willow/Teak/Maple/Mahogany/Arctic pine/Yew/Magic/Redwood logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191364
+  },
+  "Forestry hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,250 anima-infused bark, 1 Lumberjack hat, 60 each Oak/Willow/Teak/Maple/Mahogany/Arctic pine/Yew/Magic/Redwood logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191361
+  },
+  "Forestry legs": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,250 anima-infused bark, Lumberjack legs, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191363
+  },
+  "Forestry top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,250 Anima-infused bark, 1 Lumberjack top, 60 each of 9 log types",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191362
+  },
+  "Frozen whip mix": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186402
+  },
+  "Funky shaped log": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15,000 anima-infused bark, 500 each of oak, willow, teak, maple, mahogany, arctic pine, yew, magic, redwood logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191385
+  },
+  "Gale catcher schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 51",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Anglers' Retreat)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Gem bag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy, Motherlode Mine"
+        ]
+      }
+    ],
+    "revid": 15215028
+  },
+  "Giant squirrel": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random reward while training Agility (course laps & Brimhaven Agility Arena)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Agility"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Gilded smile flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184767
+  },
+  "Glistening pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 112,500–183,000",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Golden armadyl special attack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Golden bandos special attack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Golden saradomin special attack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Golden zamorak special attack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Last Man Standing points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Marks of Grace",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Grace, Rogues' Den"
+        ]
+      }
+    ],
+    "revid": 15184831
+  },
+  "Graceful boots (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful boots (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 Marks of Grace",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Grace, Rogues' Den"
+        ]
+      }
+    ],
+    "revid": 15184833
+  },
+  "Graceful cape (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful cape (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": 15184834
+  },
+  "Graceful gloves (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful gloves (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful hood": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": 15184835
+  },
+  "Graceful hood (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Brimhaven vouchers",
+        "description": "Recolours the entire outfit in one transaction",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful hood (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "650 termites + full uncoloured Graceful outfit",
+        "description": "Recolours the entire outfit in one transaction",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful legs": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": 15184830
+  },
+  "Graceful legs (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful legs (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "55 Marks of Grace",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Grace"
+        ]
+      }
+    ],
+    "revid": 15184832
+  },
+  "Graceful top (Agility Arena)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Graceful top (Varlamore)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Recoloured together with the hood",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Worm Tongue (Colossal Wyrm Agility Course)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Granite body": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "95,000 coins",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Granite clamp": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186459
+  },
+  "Green dark bow paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186403
+  },
+  "Green naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187308
+  },
+  "Green navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187315
+  },
+  "Green tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187300
+  },
+  "Grey naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187313
+  },
+  "Grey navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187320
+  },
+  "Grey tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187306
+  },
+  "Gricoller's can": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Tithe Farm Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Farmer Gricoller"
+        ]
+      }
+    ],
+    "revid": 15187202
+  },
+  "Guardian's eye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3000 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian"
+        ]
+      }
+    ],
+    "revid": 15190838
+  },
+  "Gull (pet)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": null,
+        "kind": "currency",
+        "rate": "1/3000",
+        "sources": [
+          "Shellbane gryphon"
+        ]
+      }
+    ],
+    "revid": 15214051
+  },
+  "Gurtob's fabric roll": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the marlin rank - Completion time of 5:21",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Jubbly Jive (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Guthix halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15186206
+  },
+  "Guthixian icon": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189528
+  },
+  "Guthixian paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Fully chart the Shrouded Ocean",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Sailing"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Gwyna's fabric roll": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the marlin rank - Completion time of 6:09",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Gwenith Glide (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Hallowed focus": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189752
+  },
+  "Hallowed grapple": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189751
+  },
+  "Hallowed hammer": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189753
+  },
+  "Hallowed ring": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189754
+  },
+  "Hallowed symbol": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189750
+  },
+  "Hallowed token": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Hallowed Marks",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Hallowed Goods"
+        ]
+      }
+    ],
+    "revid": 15189742
+  },
+  "Hat of the eye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian"
+        ]
+      }
+    ],
+    "revid": 15190839
+  },
+  "Healer hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "275 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Heart of ithell": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the shark rank - Completion time of 3:42",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Gwenith Glide (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Herb sack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "750 Slayer Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Slayer Master"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "250 Tithe Farm Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Farmer Gricoller, Tithe Farm"
+        ]
+      }
+    ],
+    "revid": 15207328
+  },
+  "Hosidius blueprints": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189851
+  },
+  "Huge pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 10,200–19,200",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Icthlarin's shroud (tier 1)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 100 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Icthlarin's shroud (tier 2)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Icthlarin's shroud (tier 3)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 1,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Icthlarin's shroud (tier 4)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 1,500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Icthlarin's shroud (tier 5)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 2,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ikkle hydra": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Pet drop",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alchemical Hydra"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Imcando hammer": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Rare find from smashing barronite deposits (obtained broken)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ruins of Camdozaal (barronite crusher)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infernal cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Reward for completing the Inferno (defeat TzKal-Zuk)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Inferno"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infinity boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "120 Telekinetic, 120 Alchemist, 1,200 Enchantment, 120 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infinity bottoms": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 Telekinetic, 500 Alchemist, 5,000 Enchantment, 450 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infinity gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "175 Telekinetic, 225 Alchemist, 1,500 Enchantment, 175 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infinity hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 Telekinetic, 400 Alchemist, 3,000 Enchantment, 350 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Infinity top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 Telekinetic, 450 Alchemist, 4,000 Enchantment, 400 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Karamjan monkey (item)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 100 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Kovac's grog": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "300 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190920
+  },
+  "Kruk jr": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 1,500 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Large water container": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10,000 Volcanic Mine points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Lava staff upgrade kit": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "13 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15188194
+  },
+  "Log basket": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5000 anima-infused bark, 300 noted Oak and Willow logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191357
+  },
+  "Log brace": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3000 anima-infused bark, 300 noted Maple and Yew logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15191360
+  },
+  "Lucky shot flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "4000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184769
+  },
+  "Mage's book": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Telekinetic, 550 Alchemist, 6,000 Enchantment, 500 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Maniacal monkey (item)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 500 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Mark of grace": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Collected from random spawns while running rooftop agility courses",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rooftop Agility Courses"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Master wand": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "240 Telekinetic, 240 Alchemist, 2,400 Enchantment, 240 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Merchant's paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Trade one of each tradeable paint (shark, inky, barracuda, salvor's, angler's)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Trader Stan"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Merfolk trident": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 mermaid's tears",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mairin's Market"
+        ]
+      }
+    ],
+    "revid": 15188410
+  },
+  "Mining gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 unidentified minerals",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Belona"
+        ]
+      }
+    ],
+    "revid": 15188374
+  },
+  "Muphin": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Pet drop",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Phantom Muspah"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ore pack (Giants' Foundry)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190928
+  },
+  "Ornate maul handle": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189537
+  },
+  "Pearl barbarian rod": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150 Molch pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alry the Angler"
+        ]
+      }
+    ],
+    "revid": 15189098
+  },
+  "Pearl fishing rod": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Molch pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alry the Angler"
+        ]
+      }
+    ],
+    "revid": 15189100
+  },
+  "Pearl fly fishing rod": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "120 Molch pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alry the Angler"
+        ]
+      }
+    ],
+    "revid": 15189099
+  },
+  "Penance gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150 honour points in each role",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Penance skirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "375 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pendant of ates (inert)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Drop (obtained inert and uncharged)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amoxliatl or Frost nagua (Slayer)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pharaoh's sceptre (uncharged)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Loot from the Grand Gold Chest and sarcophagi",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pyramid Plunder (Sophanem)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Phasmatys flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6,000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184771
+  },
+  "Pheasant boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 pheasant tail feathers + 1 thread",
+        "description": "Use a needle and thread on pheasant tail feathers",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pheasant Control (Forestry)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pheasant cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 pheasant tail feathers + 1 thread",
+        "description": "Use a needle and thread on pheasant tail feathers",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pheasant Control (Forestry)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pheasant hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 pheasant tail feathers + 1 thread",
+        "description": "Use a needle and thread on pheasant tail feathers",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pheasant Control (Forestry)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pheasant legs": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 pheasant tail feathers + 1 thread",
+        "description": "Use a needle and thread on pheasant tail feathers",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Pheasant Control (Forestry)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Pirate's hook": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "800 Brimhaven vouchers",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Brimhaven Agility Arena"
+        ]
+      }
+    ],
+    "revid": 15195066
+  },
+  "Plank sack": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15215027
+  },
+  "Prescription goggles": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "8,600 Mox resin, 7,000 Aga resin, 9,350 Lye resin",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards shop (Mastering Mixology)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Princely monkey": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 2,000 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Prospector boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "30 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "21,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Prospector helmet": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "26,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Prospector jacket": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "39,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Prospector legs": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "34,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Purple naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187312
+  },
+  "Purple navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187319
+  },
+  "Purple tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187305
+  },
+  "Radiant pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 540,000+",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ralph's fabric roll": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the marlin rank - Completion time of 4:30",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Tempor Tantrum (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ranger hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "275 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Reagent pouch": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "13,800 Mox, 11,200 Aga, 15,100 Lye",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mixology Rewards"
+        ]
+      }
+    ],
+    "revid": 15192712
+  },
+  "Red naval shirt": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187310
+  },
+  "Red navy slacks": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1000 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187316
+  },
+  "Red tricorn hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 Pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15187301
+  },
+  "Rift guardian (fire)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random reward while training Runecraft - Colour matches the rune crafted (fire = crafting fire runes)",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Runecraft"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Ring of the elements": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "400 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Temple Supplies"
+        ]
+      }
+    ],
+    "revid": 15190794
+  },
+  "Robe bottoms of the eye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian"
+        ]
+      }
+    ],
+    "revid": 15190841
+  },
+  "Robe top of the eye": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian"
+        ]
+      }
+    ],
+    "revid": 15190840
+  },
+  "Rocky": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Random reward while training Thieving",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Thieving"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rogue boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "One-time reward for completing the safecracker minigame",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rogues' Den (Safecracker)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rogue gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "One-time reward for completing the safecracker minigame",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rogues' Den (Safecracker)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rogue mask": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "One-time reward for completing the safecracker minigame",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rogues' Den (Safecracker)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rogue top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "One-time reward for completing the safecracker minigame",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rogues' Den (Safecracker)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rogue trousers": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "One-time reward for completing the safecracker minigame",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rogues' Den (Safecracker)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rosewood & cotton sails schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 81",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Brittle Isle)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rosewood cargo hold schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 64",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (The Crown Jewel)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rosewood hull schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 56",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Shimmering Atoll)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Rum (blue)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "20 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15189260
+  },
+  "Rum (red)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "20 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15189259
+  },
+  "Runner boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 honour points in each role",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Runner hat": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "275 honour points in each role",
+        "description": "Penance Queen kill",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Commander Connad (Barbarian Assault)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Salvaging station schematic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 42",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lockbox (Chinchompa Island)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Saradomin banner": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15209323
+  },
+  "Saradomin halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15186205
+  },
+  "Saradominist paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Fully chart the Ardent Ocean",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Sailing"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Seed box": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Farmer Gricoller"
+        ]
+      }
+    ],
+    "revid": 15207329
+  },
+  "Seren halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "450 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189524
+  },
+  "Serrated key": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the swordfish rank - Completion time of 2:00",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Gwenith Glide (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Shark paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Complete a port task",
+        "kind": "currency",
+        "rate": "1/36",
+        "sources": [
+          "Port tasks (Sailing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Shimmering pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 57,600–96,000",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Shiny pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 1,014–1,920",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Sinhaza shroud tier 1": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 100 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger (Theatre of Blood)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Sinhaza shroud tier 2": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger (Theatre of Blood)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Sinhaza shroud tier 3": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 1,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger (Theatre of Blood)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Sinhaza shroud tier 4": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 1,500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger (Theatre of Blood)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Sinhaza shroud tier 5": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Accolade reward - 2,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Mysterious Stranger (Theatre of Blood)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Skeleton monkey (item)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 1,000 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Small pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 202–996",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Smithing catalyst": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "15 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190922
+  },
+  "Smiths boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3500 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190926
+  },
+  "Smiths gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3500 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190925
+  },
+  "Smiths trousers": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "4000 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190923
+  },
+  "Smiths tunic": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "4000 Foundry Reputation",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giants' Foundry"
+        ]
+      }
+    ],
+    "revid": 15190924
+  },
+  "Soul cape": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2500 Zeal Tokens",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Reward Shop"
+        ]
+      }
+    ],
+    "revid": 15189973
+  },
+  "Spirit angler boots": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1 Angler boots + 1,200 Spirit flakes",
+        "description": "Upgrade",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Gita Prymes (Tempoross Cove)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Spirit angler headband": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1 Angler hat + 1,200 Spirit flakes",
+        "description": "Upgrade",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Gita Prymes (Tempoross Cove)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Spirit angler top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1 Angler top + 1,200 Spirit flakes",
+        "description": "Upgrade",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Gita Prymes (Tempoross Cove)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Spirit angler waders": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1 Angler waders + 1,200 Spirit flakes",
+        "description": "Upgrade",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Gita Prymes (Tempoross Cove)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Star fragment": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "3000 stardust",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Dusuri's Star Shop"
+        ]
+      }
+    ],
+    "revid": 15190128
+  },
+  "Steam staff upgrade kit": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "13 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186418
+  },
+  "Stormy key": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Clear the swordfish rank - Completion time of 1:48",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Tempor Tantrum (Barracuda Trial)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Superior mining gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 unidentified minerals",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Belona"
+        ]
+      }
+    ],
+    "revid": 15214874
+  },
+  "Supply crate (Mahogany Homes)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 Carpenter Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Amy"
+        ]
+      }
+    ],
+    "revid": 15189848
+  },
+  "Swift blade": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15189526
+  },
+  "Teacher wand": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150 Telekinetic, 200 Alchemist, 1,500 Enchantment, 150 Graveyard pizazz points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Rewards Guardian (Mage Training Arena)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "The stuff": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184691
+  },
+  "Tiny pearl": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Offer item to the clam - Alch value 1–198",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Giant clam (ocean encounter)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Treasure flag": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5,000 pieces of eight",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Honest Jimmy"
+        ]
+      }
+    ],
+    "revid": 15184770
+  },
+  "Tumeken's guardian": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Pet drop",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Tombs of Amascut"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Twitcher's gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "5,000 anima-infused bark and 500 noted willow logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15210425
+  },
+  "Victor's cape (1)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 1 competitive win",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Victor's cape (10)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 10 competitive wins",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Victor's cape (100)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 100 competitive wins",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Victor's cape (1000)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 1,000 competitive wins",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Victor's cape (50)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 50 competitive wins",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Victor's cape (500)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claimed for free at the win milestone - 500 competitive wins",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Void knight gloves": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15184291
+  },
+  "Void knight mace": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15183258
+  },
+  "Void knight robe": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15183257
+  },
+  "Void knight top": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15183259
+  },
+  "Void mage helm": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15204981
+  },
+  "Void melee helm": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15184503
+  },
+  "Void ranger helm": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15183922
+  },
+  "Void seal(8)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "10 Commendation Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Void Knight"
+        ]
+      }
+    ],
+    "revid": 15184504
+  },
+  "Volcanic mine teleport": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200 Volcanic Mine Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete"
+        ]
+      }
+    ],
+    "revid": 15188411
+  },
+  "Volcanic whip mix": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186401
+  },
+  "Ward upgrade kit": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "20 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186422
+  },
+  "White dark bow paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186405
+  },
+  "Xeric's champion": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim at the Challenge Mode completion milestone - 2,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Xeric's general": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim at the Challenge Mode completion milestone - 1,500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Xeric's guard": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim at the Challenge Mode completion milestone - 100 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Xeric's sentinel": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim at the Challenge Mode completion milestone - 1,000 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Xeric's warrior": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Claim at the Challenge Mode completion milestone - 500 completions",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Yellow dark bow paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
+        ]
+      }
+    ],
+    "revid": 15186404
+  },
+  "Zamorak banner": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15209356
+  },
+  "Zamorak halo": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75 Castle Wars Tickets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Lanthus"
+        ]
+      }
+    ],
+    "revid": 15186207
+  },
+  "Zamorakian paint": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Fully chart the Unquiet Ocean",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Sailing"
+        ]
+      }
+    ],
+    "revid": 15221886
+  },
+  "Zombie monkey (item)": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Right-click the Monkey and select Transform - 250 Ape Atoll Agility Course laps",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Monkey (Monkey Madness II reward)"
+        ]
+      }
+    ],
+    "revid": 15221886
+  }
+}
