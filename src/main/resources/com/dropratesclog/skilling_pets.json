@@ -1,0 +1,1208 @@
+{
+  "Tangleroot": {
+    "skill": "Farming",
+    "sources": [
+      {
+        "method": "Allotment - Potato",
+        "level": 1,
+        "baseChance": 281040
+      },
+      {
+        "method": "Flower - Marigolds",
+        "level": 2,
+        "baseChance": 281040
+      },
+      {
+        "method": "Hops - Barley",
+        "level": 3,
+        "baseChance": 112416
+      },
+      {
+        "method": "Hops - Hammerstone",
+        "level": 4,
+        "baseChance": 112416
+      },
+      {
+        "method": "Allotment - Onion",
+        "level": 5,
+        "baseChance": 281040
+      },
+      {
+        "method": "Allotment - Cabbage",
+        "level": 7,
+        "baseChance": 281040
+      },
+      {
+        "method": "Hops - Asgarnian",
+        "level": 8,
+        "baseChance": 89933
+      },
+      {
+        "method": "Herb - Guam",
+        "level": 9,
+        "baseChance": 98364
+      },
+      {
+        "method": "Bush - Redberries",
+        "level": 10,
+        "baseChance": 44966
+      },
+      {
+        "method": "Flower - Rosemary",
+        "level": 11,
+        "baseChance": 281040
+      },
+      {
+        "method": "Allotment - Tomato",
+        "level": 12,
+        "baseChance": 281040
+      },
+      {
+        "method": "Hops - Jute",
+        "level": 13,
+        "baseChance": 89933
+      },
+      {
+        "method": "Herb - Marrentill",
+        "level": 14,
+        "baseChance": 98364
+      },
+      {
+        "method": "Oak",
+        "level": 15,
+        "baseChance": 22483
+      },
+      {
+        "method": "Hops - Yanillian",
+        "level": 16,
+        "baseChance": 74944
+      },
+      {
+        "method": "Hops - Flax",
+        "level": 18,
+        "baseChance": 89933
+      },
+      {
+        "method": "Herb - Tarromin",
+        "level": 19,
+        "baseChance": 98364
+      },
+      {
+        "method": "Allotment - Sweetcorn",
+        "level": 20,
+        "baseChance": 224832
+      },
+      {
+        "method": "Hops - Krandorian",
+        "level": 21,
+        "baseChance": 64238
+      },
+      {
+        "method": "Bush - Cadava berries",
+        "level": 22,
+        "baseChance": 37472
+      },
+      {
+        "method": "Seaweed - Giant seaweed",
+        "level": 23,
+        "baseChance": 7500
+      },
+      {
+        "method": "Flower - Nasturtiums",
+        "level": 24,
+        "baseChance": 281040
+      },
+      {
+        "method": "Flower - Woad leaf",
+        "level": 25,
+        "baseChance": 281040
+      },
+      {
+        "method": "Flower - Limpwurt root",
+        "level": 26,
+        "baseChance": 281040
+      },
+      {
+        "method": "Herb - Harralander",
+        "level": 26,
+        "baseChance": 98364
+      },
+      {
+        "method": "Apple",
+        "level": 27,
+        "baseChance": 9000
+      },
+      {
+        "method": "Coral - Elkhorn coral",
+        "level": 28,
+        "baseChance": 98364
+      },
+      {
+        "method": "Hops - Wildblood",
+        "level": 28,
+        "baseChance": 56208
+      },
+      {
+        "method": "Herb - Goutweed",
+        "level": 29,
+        "baseChance": 98364
+      },
+      {
+        "method": "Willow",
+        "level": 30,
+        "baseChance": 16059
+      },
+      {
+        "method": "Allotment - Strawberry",
+        "level": 31,
+        "baseChance": 187360
+      },
+      {
+        "method": "Herb - Ranarr",
+        "level": 32,
+        "baseChance": 98364
+      },
+      {
+        "method": "Banana",
+        "level": 33,
+        "baseChance": 9000
+      },
+      {
+        "method": "Tithe Farm",
+        "level": 34,
+        "baseChance": 7494389
+      },
+      {
+        "method": "Teak",
+        "level": 35,
+        "baseChance": 5000
+      },
+      {
+        "method": "Bush - Dwellberries",
+        "level": 36,
+        "baseChance": 32119
+      },
+      {
+        "method": "Vine - Grapes",
+        "level": 36,
+        "baseChance": 385426
+      },
+      {
+        "method": "Hops - Hemp",
+        "level": 37,
+        "baseChance": 56208
+      },
+      {
+        "method": "Herb - Toadflax",
+        "level": 38,
+        "baseChance": 98364
+      },
+      {
+        "method": "Orange",
+        "level": 39,
+        "baseChance": 9000
+      },
+      {
+        "method": "Curry",
+        "level": 42,
+        "baseChance": 9000
+      },
+      {
+        "method": "Herb - Irit",
+        "level": 44,
+        "baseChance": 98364
+      },
+      {
+        "method": "Maple",
+        "level": 45,
+        "baseChance": 14052
+      },
+      {
+        "method": "Allotment - Watermelon",
+        "level": 47,
+        "baseChance": 160594
+      },
+      {
+        "method": "Bush - Jangerberries",
+        "level": 48,
+        "baseChance": 28104
+      },
+      {
+        "method": "Herb - Avantoe",
+        "level": 50,
+        "baseChance": 98364
+      },
+      {
+        "method": "Pineapple",
+        "level": 51,
+        "baseChance": 9000
+      },
+      {
+        "method": "Coral - Pillar coral",
+        "level": 52,
+        "baseChance": 98364
+      },
+      {
+        "method": "Mushroom",
+        "level": 53,
+        "baseChance": 7500
+      },
+      {
+        "method": "Cactus",
+        "level": 55,
+        "baseChance": 7000
+      },
+      {
+        "method": "Mahogany",
+        "level": 55,
+        "baseChance": 5000
+      },
+      {
+        "method": "Herb - Kwuarm",
+        "level": 56,
+        "baseChance": 98364
+      },
+      {
+        "method": "Papaya",
+        "level": 57,
+        "baseChance": 9000
+      },
+      {
+        "method": "Flower - White lily",
+        "level": 58,
+        "baseChance": 281040
+      },
+      {
+        "method": "Bush - White berries",
+        "level": 59,
+        "baseChance": 28104
+      },
+      {
+        "method": "Yew",
+        "level": 60,
+        "baseChance": 11242
+      },
+      {
+        "method": "Allotment - Snape grass",
+        "level": 61,
+        "baseChance": 173977
+      },
+      {
+        "method": "Herb - Snapdragon",
+        "level": 62,
+        "baseChance": 98364
+      },
+      {
+        "method": "Belladonna - Nightshade",
+        "level": 63,
+        "baseChance": 8000
+      },
+      {
+        "method": "Cactus - Potato cactus",
+        "level": 64,
+        "baseChance": 160594
+      },
+      {
+        "method": "Hespori",
+        "level": 65,
+        "baseChance": 7000
+      },
+      {
+        "method": "Herb - Huasca",
+        "level": 65,
+        "baseChance": 98364
+      },
+      {
+        "method": "Camphor",
+        "level": 66,
+        "baseChance": 5000
+      },
+      {
+        "method": "Herb - Cadantine",
+        "level": 67,
+        "baseChance": 98364
+      },
+      {
+        "method": "Palm",
+        "level": 68,
+        "baseChance": 9000
+      },
+      {
+        "method": "Bush - Poison ivy",
+        "level": 70,
+        "baseChance": 28104
+      },
+      {
+        "method": "Hops - Cotton",
+        "level": 71,
+        "baseChance": 56208
+      },
+      {
+        "method": "Calquat tree",
+        "level": 72,
+        "baseChance": 6000
+      },
+      {
+        "method": "Herb - Lantadyme",
+        "level": 73,
+        "baseChance": 98364
+      },
+      {
+        "method": "Crystal tree",
+        "level": 74,
+        "baseChance": 9000
+      },
+      {
+        "method": "Magic",
+        "level": 75,
+        "baseChance": 9368
+      },
+      {
+        "method": "Coral - Umbral coral",
+        "level": 77,
+        "baseChance": 98364
+      },
+      {
+        "method": "Herb - Dwarf weed",
+        "level": 79,
+        "baseChance": 98364
+      },
+      {
+        "method": "Ironwood",
+        "level": 80,
+        "baseChance": 5000
+      },
+      {
+        "method": "Dragonfruit",
+        "level": 81,
+        "baseChance": 9000
+      },
+      {
+        "method": "Spirit tree",
+        "level": 83,
+        "baseChance": 5000
+      },
+      {
+        "method": "Celastrus tree",
+        "level": 85,
+        "baseChance": 9000
+      },
+      {
+        "method": "Herb - Torstol",
+        "level": 85,
+        "baseChance": 98364
+      },
+      {
+        "method": "Redwood tree",
+        "level": 90,
+        "baseChance": 5000
+      },
+      {
+        "method": "Rosewood",
+        "level": 92,
+        "baseChance": 5000
+      }
+    ]
+  },
+  "Soup": {
+    "skill": "Sailing",
+    "sources": [
+      {
+        "method": "Trimming sails",
+        "level": 1,
+        "rarity": "1/120000"
+      },
+      {
+        "method": "Port tasks (notice board",
+        "level": 1,
+        "rarity": "1/6000 to 1/3150 (scales by task level)"
+      },
+      {
+        "method": "Sea charting",
+        "level": 1,
+        "rarity": "1/30000"
+      },
+      {
+        "method": "The Tempor Tantrum - Swordfish",
+        "level": 30,
+        "rarity": "1/16000"
+      },
+      {
+        "method": "The Tempor Tantrum - Shark",
+        "level": 30,
+        "rarity": "1/8000"
+      },
+      {
+        "method": "The Tempor Tantrum - Marlin",
+        "level": 30,
+        "rarity": "1/5334"
+      },
+      {
+        "method": "The Jubbly Jive - Swordfish",
+        "level": 55,
+        "rarity": "1/11500"
+      },
+      {
+        "method": "The Jubbly Jive - Shark",
+        "level": 55,
+        "rarity": "1/5750"
+      },
+      {
+        "method": "The Jubbly Jive - Marlin",
+        "level": 55,
+        "rarity": "1/3834"
+      },
+      {
+        "method": "The Gwenith Glide - Swordfish",
+        "level": 72,
+        "rarity": "1/9000"
+      },
+      {
+        "method": "The Gwenith Glide - Shark",
+        "level": 72,
+        "rarity": "1/4500"
+      },
+      {
+        "method": "The Gwenith Glide - Marlin",
+        "level": 72,
+        "rarity": "1/3000"
+      },
+      {
+        "method": "Small shipwreck",
+        "level": 15,
+        "rarity": "1/800000"
+      },
+      {
+        "method": "Fisherman's shipwreck",
+        "level": 26,
+        "rarity": "1/500000"
+      },
+      {
+        "method": "Barracuda shipwreck",
+        "level": 35,
+        "rarity": "1/300000"
+      },
+      {
+        "method": "Large shipwreck",
+        "level": 53,
+        "rarity": "1/280000"
+      },
+      {
+        "method": "Pirate shipwreck",
+        "level": 64,
+        "rarity": "1/275000"
+      },
+      {
+        "method": "Mercenary shipwreck",
+        "level": 73,
+        "rarity": "1/260000"
+      },
+      {
+        "method": "Fremennik shipwreck",
+        "level": 80,
+        "rarity": "1/230000"
+      },
+      {
+        "method": "Merchant shipwreck",
+        "level": 87,
+        "rarity": "1/160000"
+      },
+      {
+        "method": "Deep sea trawling",
+        "level": 56,
+        "rarity": "1/360000 per fishing attempt"
+      }
+    ]
+  },
+  "Rocky": {
+    "skill": "Thieving",
+    "sources": [
+      {
+        "method": "Pickpocketing - Man/Woman",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Farmer",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - H.A.M. Member",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Warrior",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Al Kharid warrior",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Villager",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Rogue",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Cave goblin",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Master Farmer",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Guard",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Fremennik citizen",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Bandit (Pollnivneach, bearded",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Wealthy citizen",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Bandit (Bandit Camp",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Knight of Ardougne",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Bandit (Pollnivneach, no beard",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Pirate",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Menaphite Thug",
+        "baseChance": 257211
+      },
+      {
+        "method": "Pickpocketing - Watchman",
+        "baseChance": 134625
+      },
+      {
+        "method": "Pickpocketing - Paladin",
+        "baseChance": 127056
+      },
+      {
+        "method": "Pickpocketing - Gnome",
+        "baseChance": 108718
+      },
+      {
+        "method": "Pickpocketing - Hero",
+        "baseChance": 99175
+      },
+      {
+        "method": "Pickpocketing - Elf",
+        "baseChance": 99175
+      },
+      {
+        "method": "Pickpocketing - Vyre",
+        "baseChance": 99175
+      },
+      {
+        "method": "Pickpocketing - TzHaar-Hur",
+        "baseChance": 176743
+      },
+      {
+        "method": "Stealing valuables",
+        "baseChance": 206777
+      },
+      {
+        "method": "Stall - Cannonball",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Veg",
+        "baseChance": 206777
+      },
+      {
+        "method": "Stall - Bakery",
+        "baseChance": 124066
+      },
+      {
+        "method": "Stall - Crafting",
+        "baseChance": 47718
+      },
+      {
+        "method": "Stall - Food",
+        "baseChance": 47718
+      },
+      {
+        "method": "Stall - Silk",
+        "baseChance": 68926
+      },
+      {
+        "method": "Stall - Tea",
+        "baseChance": 68926
+      },
+      {
+        "method": "Stall - Market (wine",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Fruit",
+        "baseChance": 124066
+      },
+      {
+        "method": "Stall - Seed",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Fur",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Fish",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Crossbow",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Silver",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Magic",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Scimitar",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Spice",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Gem",
+        "baseChance": 36490
+      },
+      {
+        "method": "Stall - Ore",
+        "baseChance": 36490
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 1",
+        "baseChance": 41355
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 2",
+        "baseChance": 29540
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 3",
+        "baseChance": 25847
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 4",
+        "baseChance": 20678
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 5",
+        "baseChance": 20678
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 6",
+        "baseChance": 20678
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 7",
+        "baseChance": 10339
+      },
+      {
+        "method": "PP - Grand Gold Chest (Room 8",
+        "baseChance": 6893
+      },
+      {
+        "method": "Sorceress's Garden - Sq'irk tree",
+        "baseChance": 10339
+      }
+    ]
+  },
+  "Rock golem": {
+    "skill": "Mining",
+    "sources": [
+      {
+        "method": "Clay rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Copper rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Tin rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Blurite rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Limestone rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Iron rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Silver rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Barronite",
+        "baseChance": 741600
+      },
+      {
+        "method": "Calcified rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Lead rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Coal rocks",
+        "baseChance": 290640
+      },
+      {
+        "method": "Sandstone rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Gold rocks",
+        "baseChance": 296640
+      },
+      {
+        "method": "Gem rocks",
+        "baseChance": 211886
+      },
+      {
+        "method": "Granite rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Ash pile",
+        "baseChance": 741600
+      },
+      {
+        "method": "Volcanic sulphur",
+        "baseChance": 710000
+      },
+      {
+        "method": "Volcanic Mine",
+        "baseChance": 60000
+      },
+      {
+        "method": "Mithril rocks",
+        "baseChance": 148320
+      },
+      {
+        "method": "Lovakite rocks",
+        "baseChance": 245562
+      },
+      {
+        "method": "Adamantite rocks",
+        "baseChance": 59328
+      },
+      {
+        "method": "Nickel rocks",
+        "baseChance": 247200
+      },
+      {
+        "method": "Runite rocks",
+        "baseChance": 42377
+      },
+      {
+        "method": "Amethyst crystals",
+        "baseChance": 46350
+      },
+      {
+        "method": "Blast mine",
+        "baseChance": 123600
+      },
+      {
+        "method": "Motherlode Mine",
+        "baseChance": 247200
+      },
+      {
+        "method": "Crashed Star",
+        "baseChance": 521550
+      }
+    ]
+  },
+  "Rift guardian": {
+    "skill": "Runecraft",
+    "sources": [
+      {
+        "method": "Blood runes (Arceuus",
+        "baseChance": 804984
+      },
+      {
+        "method": "Soul runes",
+        "baseChance": 782999
+      },
+      {
+        "method": "Ourania Altar (ZMI",
+        "baseChance": 1487213
+      },
+      {
+        "method": "All other altars",
+        "baseChance": 1795758
+      }
+    ]
+  },
+  "Heron": {
+    "skill": "Fishing",
+    "sources": [
+      {
+        "method": "Shrimps/Anchovies",
+        "baseChance": 870330
+      },
+      {
+        "method": "Karambwanji",
+        "baseChance": 443697
+      },
+      {
+        "method": "Sardines/Herring",
+        "baseChance": 1056000
+      },
+      {
+        "method": "Big net fishing",
+        "baseChance": 1147827
+      },
+      {
+        "method": "Trout/Salmon",
+        "baseChance": 923616
+      },
+      {
+        "method": "Pike",
+        "baseChance": 305792
+      },
+      {
+        "method": "Rainbow fish",
+        "baseChance": 137739
+      },
+      {
+        "method": "Tuna/Swordfish",
+        "baseChance": 257770
+      },
+      {
+        "method": "Lobster",
+        "baseChance": 116129
+      },
+      {
+        "method": "Aerial fishing",
+        "baseChance": 636833
+      },
+      {
+        "method": "Cave eels",
+        "baseChance": 257770
+      },
+      {
+        "method": "Monkfish",
+        "baseChance": 138583
+      },
+      {
+        "method": "Karambwan",
+        "baseChance": 170874
+      },
+      {
+        "method": "Leaping trout/salmon/sturgeon",
+        "baseChance": 1280862
+      },
+      {
+        "method": "Sharks",
+        "baseChance": 82243
+      },
+      {
+        "method": "Infernal eels",
+        "baseChance": 165000
+      },
+      {
+        "method": "Anglerfish",
+        "baseChance": 78649
+      },
+      {
+        "method": "Minnow",
+        "baseChance": 977778
+      },
+      {
+        "method": "Dark crabs",
+        "baseChance": 149434
+      },
+      {
+        "method": "Sacred eels",
+        "baseChance": 99000
+      },
+      {
+        "method": "Fishing Trawler minigame",
+        "rarity": "1/5000 (scales up to 1/2500 with full contribution)"
+      },
+      {
+        "method": "Guppies",
+        "baseChance": 820330
+      },
+      {
+        "method": "Cavefish",
+        "baseChance": 300792
+      },
+      {
+        "method": "Tetra",
+        "baseChance": 257770
+      },
+      {
+        "method": "Catfish",
+        "baseChance": 152120
+      },
+      {
+        "method": "Swordtip squid",
+        "baseChance": 257770
+      },
+      {
+        "method": "Jumbo squid",
+        "baseChance": 257770
+      },
+      {
+        "method": "Giant krill",
+        "baseChance": 257770
+      },
+      {
+        "method": "Haddock",
+        "baseChance": 247770
+      },
+      {
+        "method": "Yellowfin",
+        "baseChance": 237770
+      },
+      {
+        "method": "Halibut",
+        "baseChance": 227770
+      },
+      {
+        "method": "Bluefin",
+        "baseChance": 217770
+      },
+      {
+        "method": "Marlin",
+        "baseChance": 207770
+      }
+    ]
+  },
+  "Beaver": {
+    "skill": "Woodcutting",
+    "sources": [
+      {
+        "method": "Achey",
+        "baseChance": 317647
+      },
+      {
+        "method": "Normal trees",
+        "baseChance": 317647
+      },
+      {
+        "method": "Oak",
+        "baseChance": 361146
+      },
+      {
+        "method": "Willow",
+        "baseChance": 289286
+      },
+      {
+        "method": "Teak",
+        "baseChance": 264336
+      },
+      {
+        "method": "Jatoba",
+        "baseChance": 264336
+      },
+      {
+        "method": "Juniper",
+        "baseChance": 360000
+      },
+      {
+        "method": "Maple",
+        "baseChance": 221918
+      },
+      {
+        "method": "Hollow",
+        "baseChance": 214367
+      },
+      {
+        "method": "Mahogany",
+        "baseChance": 220623
+      },
+      {
+        "method": "Arctic pine",
+        "baseChance": 145758
+      },
+      {
+        "method": "Yew",
+        "baseChance": 145013
+      },
+      {
+        "method": "Blisterwood",
+        "baseChance": 289286
+      },
+      {
+        "method": "Sulliusceps",
+        "baseChance": 343000
+      },
+      {
+        "method": "Camphor",
+        "baseChance": 145013
+      },
+      {
+        "method": "Magic",
+        "baseChance": 72321
+      },
+      {
+        "method": "Ironwood",
+        "baseChance": 72321
+      },
+      {
+        "method": "Redwood",
+        "baseChance": 72321
+      },
+      {
+        "method": "Rosewood",
+        "baseChance": 72321
+      }
+    ]
+  },
+  "Baby chinchompa": {
+    "skill": "Hunter",
+    "sources": [
+      {
+        "method": "Grey chinchompa",
+        "baseChance": 131395
+      },
+      {
+        "method": "Red chinchompa",
+        "baseChance": 98373
+      },
+      {
+        "method": "Black chinchompa",
+        "baseChance": 82758
+      }
+    ]
+  },
+  "Giant squirrel": {
+    "skill": "Agility",
+    "sources": [
+      {
+        "method": "Penguin",
+        "baseChance": 9779
+      },
+      {
+        "method": "Agility Pyramid",
+        "baseChance": 9901
+      },
+      {
+        "method": "Dorgesh-Kaan (Agility route",
+        "baseChance": 10561
+      },
+      {
+        "method": "Dorgesh-Kaan (Grapple route",
+        "baseChance": 10561
+      },
+      {
+        "method": "Varrock Rooftop",
+        "baseChance": 24410
+      },
+      {
+        "method": "Prifddinas",
+        "baseChance": 25146
+      },
+      {
+        "method": "Colossal Wyrm Remains (advanced",
+        "baseChance": 25406
+      },
+      {
+        "method": "Brimhaven Agility Arena",
+        "baseChance": 26404
+      },
+      {
+        "method": "Al Kharid Rooftop",
+        "baseChance": 26648
+      },
+      {
+        "method": "Falador Rooftop",
+        "baseChance": 26806
+      },
+      {
+        "method": "Colossal Wyrm Remains (basic",
+        "baseChance": 28503
+      },
+      {
+        "method": "Shayzien (advanced",
+        "baseChance": 29738
+      },
+      {
+        "method": "Rellekka Rooftop",
+        "baseChance": 31063
+      },
+      {
+        "method": "Shayzien (basic",
+        "baseChance": 31804
+      },
+      {
+        "method": "Werewolf",
+        "baseChance": 32597
+      },
+      {
+        "method": "Draynor Village Rooftop",
+        "baseChance": 33005
+      },
+      {
+        "method": "Pollnivneach Rooftop",
+        "baseChance": 33422
+      },
+      {
+        "method": "Ardougne Rooftop",
+        "baseChance": 34440
+      },
+      {
+        "method": "Wilderness",
+        "baseChance": 34666
+      },
+      {
+        "method": "Seers' Village Rooftop",
+        "baseChance": 35205
+      },
+      {
+        "method": "Gnome Stronghold",
+        "baseChance": 35609
+      },
+      {
+        "method": "Canifis Rooftop",
+        "baseChance": 36842
+      },
+      {
+        "method": "Ape Atoll",
+        "baseChance": 37720
+      },
+      {
+        "method": "Barbarian Outpost",
+        "baseChance": 44376
+      }
+    ]
+  }
+}
