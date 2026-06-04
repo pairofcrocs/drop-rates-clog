@@ -38,7 +38,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mixology Rewards shop (Mastering Mixology)"
+          "Mixology Rewards"
         ]
       }
     ],
@@ -53,7 +53,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mixology Rewards shop (Mastering Mixology)"
+          "Mixology Rewards"
         ]
       }
     ],
@@ -68,7 +68,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mixology Rewards shop (Mastering Mixology)"
+          "Mixology Rewards"
         ]
       }
     ],
@@ -79,9 +79,9 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Recharge an amulet of glory with fewer than 6 charges",
+        "description": null,
         "kind": "currency",
-        "rate": null,
+        "rate": "1/25,000",
         "sources": [
           "Fountain of Rune (Wilderness)"
         ]
@@ -230,27 +230,12 @@
     ],
     "revid": 15188494
   },
-  "Baby chinchompa (grey)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while catching chinchompas - Colour matches the chinchompa caught (grey = grey chinchompas)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Hunter"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Ballistic attractor schematic": {
     "entries": [
       {
         "approx": false,
         "cost": null,
-        "description": "Claim from Ava after completing Animal Magnetism & Pandemonium",
+        "description": "complete Animal Magnetism & Pandemonium",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -315,7 +300,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - Completion time of 2:51",
+        "description": "Clear the shark rank - Time of 2:51",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -330,7 +315,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Assemble the three barronite mace pieces via Ramarno",
+        "description": "Barronite handle + Barronite guard + Barronite head + Barronite shards 1,500",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -355,46 +340,16 @@
     ],
     "revid": 15221886
   },
-  "Big bass": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random catch while fishing",
-        "kind": "currency",
-        "rate": "Very rare",
-        "sources": [
-          "Fishing"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Big pearl": {
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 5,400–9,984",
+        "cost": "5,400–9,984",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
           "Giant clam (ocean encounter)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Big swordfish": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random catch from harpoon fishing",
-        "kind": "currency",
-        "rate": "Very rare",
-        "sources": [
-          "Fishing"
         ]
       }
     ],
@@ -454,7 +409,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's"
+          "Justine's stuff"
         ]
       }
     ],
@@ -567,8 +522,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 2,100–4,800",
+        "cost": "2,100–4,800",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -582,8 +537,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 240,000–480,000",
+        "cost": "240,000–480,000",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -672,8 +627,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Colossal Wyrm Agility Course reward",
+        "cost": "900 termites",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -703,7 +658,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - Completion time of 3:00",
+        "description": "Clear the shark rank - Time of 3:00",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -853,7 +808,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Reward for defeating all 11 champions of the Champions' Challenge",
+        "description": "Defeat all 11 champions of the Champions' Challenge",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1382,7 +1337,6 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Castle Wars",
           "Lanthus"
         ]
       }
@@ -1528,7 +1482,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
+        "cost": "400 Castle Wars Tickets",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1754,7 +1708,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Reward for completing the Colosseum (defeat Sol Heredit)",
+        "description": "Defeat Sol Heredit",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1784,7 +1738,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 76",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1799,7 +1753,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 72",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1814,26 +1768,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 87",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
           "Lockbox (Grimstone)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Dragon legs+skirt ornament kit": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Reward from elite clue caskets",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Elite Treasure Trails"
         ]
       }
     ],
@@ -1859,7 +1798,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 73",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1918,8 +1857,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 20,400–49,800",
+        "cost": "20,400–49,800",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1934,7 +1873,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 76",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1959,31 +1898,16 @@
     ],
     "revid": 15221886
   },
-  "Eye of ayak": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Drop (obtained uncharged)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Doom of Mokhaiotl"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Farmer's boots": {
     "entries": [
       {
         "approx": false,
-        "cost": "50 Tithe Farm Points",
+        "cost": "50 Points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -1993,12 +1917,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "125 Tithe Farm Points",
+        "cost": "125 Points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Farmer Gricoller's Rewards, Hosidius"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -2013,7 +1937,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -2023,12 +1947,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75 Tithe Farm Points",
+        "cost": "75 Points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gricoller's Rewards, Hosidius"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -2054,7 +1978,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - Completion time of 2:03",
+        "description": "Clear the swordfish rank - Time of 2:03",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2068,7 +1992,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points in each role",
+        "cost": "275 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
@@ -2083,7 +2007,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "375 honour points in each role",
+        "cost": "375 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
@@ -2099,7 +2023,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Reward for completing the Fight Cave (defeat TzTok-Jad)",
+        "description": "defeat TzTok-Jad",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2128,7 +2052,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack boots, 60 each: Oak/Willow/Teak/Maple/Mahogany/Arctic pine/Yew/Magic/Redwood logs",
+        "cost": "1,250 Anima-infused bark,1 Lumberjack boots, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2143,7 +2067,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 anima-infused bark, 1 Lumberjack hat, 60 each Oak/Willow/Teak/Maple/Mahogany/Arctic pine/Yew/Magic/Redwood logs",
+        "cost": "1,250 Anima-infused bark,1 Lumberjack hat, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2158,7 +2082,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 anima-infused bark, Lumberjack legs, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
+        "cost": "1,250 Anima-infused bark,1 Lumberjack legs, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2173,7 +2097,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack top, 60 each of 9 log types",
+        "cost": "1,250 Anima-infused bark,1 Lumberjack top, 60 Oak,Willow,Teak,Maple,Mahogany,Arctic pine,Yew,Magic,Redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2203,7 +2127,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15,000 anima-infused bark, 500 each of oak, willow, teak, maple, mahogany, arctic pine, yew, magic, redwood logs",
+        "cost": "15,000 anima-infused bark,500 Oak,willow,teak,maple,mahogany,arctic pine,yew,magic,redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2219,7 +2143,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 51",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2244,21 +2168,6 @@
     ],
     "revid": 15215028
   },
-  "Giant squirrel": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while training Agility (course laps & Brimhaven Agility Arena)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Agility"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Gilded smile flag": {
     "entries": [
       {
@@ -2278,8 +2187,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 112,500–183,000",
+        "cost": "112,500–183,000",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2293,12 +2202,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75 Last Man Standing points",
+        "cost": "75 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -2308,12 +2217,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75 Last Man Standing points",
+        "cost": "75 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -2323,12 +2232,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75 Last Man Standing points",
+        "cost": "75 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -2338,12 +2247,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75 Last Man Standing points",
+        "cost": "75 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -2617,8 +2526,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "95,000 coins",
-        "description": "Penance Queen kill",
+        "cost": "95,000 coins + Penance Queen kill",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2752,7 +2661,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "200 Tithe Farm Points",
+        "cost": "200 Points",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2779,18 +2688,7 @@
     "revid": 15190838
   },
   "Gull (pet)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": null,
-        "kind": "currency",
-        "rate": "1/3000",
-        "sources": [
-          "Shellbane gryphon"
-        ]
-      }
-    ],
+    "entries": [],
     "revid": 15214051
   },
   "Gurtob's fabric roll": {
@@ -2798,7 +2696,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - Completion time of 5:21",
+        "description": "Clear the marlin rank - (time of 5:21)",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2858,7 +2756,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - Completion time of 6:09",
+        "description": "Clear the marlin rank - (Time of 6:09)",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2977,7 +2875,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points in each role",
+        "cost": "275 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
@@ -2993,7 +2891,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - Completion time of 3:42",
+        "description": "Clear the shark rank - Time of 3:42",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3047,8 +2945,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 10,200–19,200",
+        "cost": "10,200–19,200",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3062,8 +2960,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 100 completions",
+        "cost": "100 ToA completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3077,8 +2975,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 500 completions",
+        "cost": "500 ToA completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3092,8 +2990,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 1,000 completions",
+        "cost": "1,000 ToA completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3107,8 +3005,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 1,500 completions",
+        "cost": "1,500 ToA completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3122,8 +3020,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 2,000 completions",
+        "cost": "2,000 ToA completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3134,33 +3032,7 @@
     "revid": 15221886
   },
   "Ikkle hydra": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Pet drop",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Alchemical Hydra"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Imcando hammer": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Rare find from smashing barronite deposits (obtained broken)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Ruins of Camdozaal (barronite crusher)"
-        ]
-      }
-    ],
+    "entries": [],
     "revid": 15221886
   },
   "Infernal cape": {
@@ -3168,7 +3040,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Reward for completing the Inferno (defeat TzKal-Zuk)",
+        "description": "Defeat TzKal-Zuk",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3257,8 +3129,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 100 Ape Atoll Agility Course laps",
+        "cost": "100 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3287,8 +3159,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 1,500 Ape Atoll Agility Course laps",
+        "cost": "1,500 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3332,7 +3204,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "5000 anima-infused bark, 300 noted Oak and Willow logs",
+        "cost": "5000 anima-infused bark, 300 noted Oak, Willow logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3347,7 +3219,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3000 anima-infused bark, 300 noted Maple and Yew logs",
+        "cost": "3000 anima-infused bark, 300 noted Maple, Yew logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3392,8 +3264,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 500 Ape Atoll Agility Course laps",
+        "cost": "500 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3408,7 +3280,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Collected from random spawns while running rooftop agility courses",
+        "description": "Collected while training",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3438,7 +3310,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Trade one of each tradeable paint (shark, inky, barracuda, salvor's, angler's)",
+        "description": "Give one of each paint (shark, inky, barracuda, salvor's, angler's)",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3477,21 +3349,6 @@
       }
     ],
     "revid": 15188374
-  },
-  "Muphin": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Pet drop",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Phantom Muspah"
-        ]
-      }
-    ],
-    "revid": 15221886
   },
   "Ore pack (Giants' Foundry)": {
     "entries": [
@@ -3572,7 +3429,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150 honour points in each role",
+        "cost": "150 honour points (each role)",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3587,42 +3444,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "375 honour points in each role",
+        "cost": "375 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
         "sources": [
           "Commander Connad (Barbarian Assault)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Pendant of ates (inert)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Drop (obtained inert and uncharged)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Amoxliatl or Frost nagua (Slayer)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Pharaoh's sceptre (uncharged)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Loot from the Grand Gold Chest and sarcophagi",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Pyramid Plunder (Sophanem)"
         ]
       }
     ],
@@ -3648,7 +3475,7 @@
       {
         "approx": false,
         "cost": "15 pheasant tail feathers + 1 thread",
-        "description": "Use a needle and thread on pheasant tail feathers",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3663,7 +3490,7 @@
       {
         "approx": false,
         "cost": "15 pheasant tail feathers + 1 thread",
-        "description": "Use a needle and thread on pheasant tail feathers",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3678,7 +3505,7 @@
       {
         "approx": false,
         "cost": "15 pheasant tail feathers + 1 thread",
-        "description": "Use a needle and thread on pheasant tail feathers",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3693,7 +3520,7 @@
       {
         "approx": false,
         "cost": "15 pheasant tail feathers + 1 thread",
-        "description": "Use a needle and thread on pheasant tail feathers",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3737,12 +3564,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "8,600 Mox resin, 7,000 Aga resin, 9,350 Lye resin",
+        "cost": "8,600 Mox, 7,000 Aga, 9,350 Lye resin",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mixology Rewards shop (Mastering Mixology)"
+          "Mixology Rewards"
         ]
       }
     ],
@@ -3752,8 +3579,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 2,000 Ape Atoll Agility Course laps",
+        "cost": "2,000 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3912,8 +3739,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 540,000+",
+        "cost": "540,000+",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3928,7 +3755,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - Completion time of 4:30",
+        "description": "Clear the marlin rank - Time of 4:30",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3942,7 +3769,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points in each role",
+        "cost": "275 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
@@ -4013,21 +3840,6 @@
     ],
     "revid": 15187301
   },
-  "Rift guardian (fire)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while training Runecraft - Colour matches the rune crafted (fire = crafting fire runes)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Runecraft"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Ring of the elements": {
     "entries": [
       {
@@ -4073,102 +3885,12 @@
     ],
     "revid": 15190840
   },
-  "Rocky": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while training Thieving",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Thieving"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Rogue boots": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Rogues' Den (Safecracker)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Rogue gloves": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Rogues' Den (Safecracker)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Rogue mask": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Rogues' Den (Safecracker)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Rogue top": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Rogues' Den (Safecracker)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Rogue trousers": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Rogues' Den (Safecracker)"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Rosewood & cotton sails schematic": {
     "entries": [
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 81",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4183,7 +3905,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 64",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4198,7 +3920,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 56",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4242,7 +3964,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 honour points in each role",
+        "cost": "100 honour points (each role)",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4257,7 +3979,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points in each role",
+        "cost": "275 honour points (each role)",
         "description": "Penance Queen kill",
         "kind": "currency",
         "rate": null,
@@ -4273,7 +3995,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Open the lockbox for directions, then dig up the Small key with a spade - Sailing 42",
+        "description": "Small key",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4363,7 +4085,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - Completion time of 2:00",
+        "description": "Clear the swordfish rank - Time of 2:00",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4392,8 +4114,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 57,600–96,000",
+        "cost": "57,600–96,000",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4407,8 +4129,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 1,014–1,920",
+        "cost": "1,014–1,920",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4422,12 +4144,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 100 completions",
+        "cost": "100 ToB Completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mysterious Stranger (Theatre of Blood)"
+          "Mysterious Stranger"
         ]
       }
     ],
@@ -4437,12 +4159,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 500 completions",
+        "cost": "500 ToB Completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mysterious Stranger (Theatre of Blood)"
+          "Mysterious Stranger"
         ]
       }
     ],
@@ -4452,12 +4174,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 1,000 completions",
+        "cost": "1,000 ToB Completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mysterious Stranger (Theatre of Blood)"
+          "Mysterious Stranger"
         ]
       }
     ],
@@ -4467,12 +4189,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 1,500 completions",
+        "cost": "1,500 ToB Completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mysterious Stranger (Theatre of Blood)"
+          "Mysterious Stranger"
         ]
       }
     ],
@@ -4482,12 +4204,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Accolade reward - 2,000 completions",
+        "cost": "2,000 ToB Completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Mysterious Stranger (Theatre of Blood)"
+          "Mysterious Stranger"
         ]
       }
     ],
@@ -4497,8 +4219,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 1,000 Ape Atoll Agility Course laps",
+        "cost": "1,000 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4512,8 +4234,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 202–996",
+        "cost": "202–996",
+        "description": "HA Value",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4542,7 +4264,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3500 Foundry Reputation",
+        "cost": "3,500 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4557,7 +4279,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3500 Foundry Reputation",
+        "cost": "3,500 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4572,7 +4294,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "4000 Foundry Reputation",
+        "cost": "4,000 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4587,7 +4309,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "4000 Foundry Reputation",
+        "cost": "4,000 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4618,7 +4340,7 @@
       {
         "approx": false,
         "cost": "1 Angler boots + 1,200 Spirit flakes",
-        "description": "Upgrade",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4633,7 +4355,7 @@
       {
         "approx": false,
         "cost": "1 Angler hat + 1,200 Spirit flakes",
-        "description": "Upgrade",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4648,7 +4370,7 @@
       {
         "approx": false,
         "cost": "1 Angler top + 1,200 Spirit flakes",
-        "description": "Upgrade",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4663,7 +4385,7 @@
       {
         "approx": false,
         "cost": "1 Angler waders + 1,200 Spirit flakes",
-        "description": "Upgrade",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4677,7 +4399,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3000 stardust",
+        "cost": "3,000 stardust",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4708,7 +4430,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - Completion time of 1:48",
+        "description": "Clear the swordfish rank - Time of 1:48",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4797,12 +4519,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Offer item to the clam - Alch value 1–198",
+        "cost": "1–198",
+        "description": "HA value",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
