@@ -4823,26 +4823,11 @@
     ],
     "revid": 15184770
   },
-  "Tumeken's guardian": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Pet drop",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Tombs of Amascut"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "Twitcher's gloves": {
     "entries": [
       {
         "approx": false,
-        "cost": "5,000 anima-infused bark and 500 noted willow logs",
+        "cost": "5,000 anima-infused bark + 500 willow logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4857,12 +4842,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 1 competitive win",
+        "cost": "1 competitive win",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4872,12 +4857,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 10 competitive wins",
+        "cost": "10 competitive wins",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4887,12 +4872,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 100 competitive wins",
+        "cost": "100 competitive wins",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4902,12 +4887,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 1,000 competitive wins",
+        "cost": "1,000 competitive wins",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4917,12 +4902,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 50 competitive wins",
+        "cost": "50 competitive wins",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4932,12 +4917,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claimed for free at the win milestone - 500 competitive wins",
+        "cost": "500 competitive wins",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -5127,12 +5112,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 2,000 completions",
+        "cost": "2,000 CoX completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Captain Rimor"
         ]
       }
     ],
@@ -5142,12 +5127,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 1,500 completions",
+        "cost": "1,500 CoX completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Captain Rimor"
         ]
       }
     ],
@@ -5157,12 +5142,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 100 completions",
+        "cost": "100 CoX completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Captain Rimor"
         ]
       }
     ],
@@ -5172,12 +5157,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 1,000 completions",
+        "cost": "1,000 CoX completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Captain Rimor"
         ]
       }
     ],
@@ -5187,12 +5172,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 500 completions",
+        "cost": "500 CoX completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Captain Rimor"
         ]
       }
     ],
@@ -5262,8 +5247,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Right-click the Monkey and select Transform - 250 Ape Atoll Agility Course laps",
+        "cost": "250 Ape Atoll Agility Course laps",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
