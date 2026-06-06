@@ -315,7 +315,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Barronite handle + Barronite guard + Barronite head + Barronite shards 1,500",
+        "description": "Barronite Handle + Guard + Head + 1,500 Barronite Shards",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -812,7 +812,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Champions' Challenge (Champions' Guild)"
+          "Champions' Guild"
         ]
       }
     ],
@@ -2424,7 +2424,7 @@
       {
         "approx": false,
         "cost": "650 termites + full uncoloured Graceful outfit",
-        "description": "Recolours the entire outfit in one transaction",
+        "description": "Recolours the entire outfit",
         "kind": "currency",
         "rate": null,
         "sources": [
