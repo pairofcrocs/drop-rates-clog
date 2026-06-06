@@ -1212,12 +1212,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "160 Last Man Standing points",
+        "cost": "160 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -1227,12 +1227,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "160 Last Man Standing points",
+        "cost": "160 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -1242,12 +1242,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "160 Last Man Standing points",
+        "cost": "160 LMS points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing (Last Man Standing)"
+          "Justine's stuff"
         ]
       }
     ],
@@ -2696,7 +2696,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - (time of 5:21)",
+        "description": "Clear the marlin rank - Time of 5:21",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -2915,12 +2915,12 @@
       },
       {
         "approx": false,
-        "cost": "250 Tithe Farm Points",
+        "cost": "250 Points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Farmer Gricoller, Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
