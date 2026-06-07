@@ -344,7 +344,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "5,400–9,984",
+        "cost": "5,400 - 9,984",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -522,7 +522,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,100–4,800",
+        "cost": "2,100 - 4,800",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -537,7 +537,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "240,000–480,000",
+        "cost": "240,000 - 480,000",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -1857,7 +1857,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "20,400–49,800",
+        "cost": "20,400 - 49,800",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -2187,7 +2187,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "112,500–183,000",
+        "cost": "112,500 - 183,000",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -2945,7 +2945,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "10,200–19,200",
+        "cost": "10,200 - 19,200",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -4114,7 +4114,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "57,600–96,000",
+        "cost": "57,600 - 96,000",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -4129,7 +4129,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,014–1,920",
+        "cost": "1,014 - 1,920",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -4234,7 +4234,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "202–996",
+        "cost": "202 - 996",
         "description": "HA Value",
         "kind": "currency",
         "rate": null,
@@ -4519,7 +4519,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1–198",
+        "cost": "1 - 198",
         "description": "HA value",
         "kind": "currency",
         "rate": null,
