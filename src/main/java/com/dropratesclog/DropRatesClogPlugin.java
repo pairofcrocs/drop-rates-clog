@@ -188,13 +188,9 @@ public class DropRatesClogPlugin extends Plugin
      *  copy, failures are logged and leave the bundled copy in place. Never blocks the caller. */
     private void refreshFromNetwork()
     {
-        // TEMP (testing): drop_rates.json and clog_items.json are NOT yet published to
-        // the data branch in their new wiki_page-keyed form, so skip refreshing those —
-        // we'd overwrite the freshly bundled copies with stale name-keyed data.
-        // Re-enable once the workflow has committed the new files to the data branch.
-        // fetchData("drop_rates.json",
-        //     new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-        //     (Map<String, List<DropEntry>> data) -> dropRates = data);
+        fetchData("drop_rates.json",
+            new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
+            (Map<String, List<DropEntry>> data) -> dropRates = data);
 
         fetchData("buyable.json",
             new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
@@ -208,14 +204,13 @@ public class DropRatesClogPlugin extends Plugin
             new TypeToken<Map<Integer, String>>() {}.getType(),
             (Map<Integer, String> data) -> itemAliases = data);
 
-        // TEMP (testing): clog_items.json not yet on the data branch — see note above.
-        // fetchData("clog_items.json",
-        //     new TypeToken<List<ClogItem>>() {}.getType(),
-        //     (List<ClogItem> data) -> {
-        //         Map<Integer, ClogItem> indexed = new HashMap<>(data.size() * 2);
-        //         for (ClogItem ci : data) if (ci != null) indexed.put(ci.getId(), ci);
-        //         clogItems = indexed;
-        //     });
+        fetchData("clog_items.json",
+            new TypeToken<List<ClogItem>>() {}.getType(),
+            (List<ClogItem> data) -> {
+                Map<Integer, ClogItem> indexed = new HashMap<>(data.size() * 2);
+                for (ClogItem ci : data) if (ci != null) indexed.put(ci.getId(), ci);
+                clogItems = indexed;
+            });
 
         fetchData("popular_methods.json",
             new TypeToken<Map<String, List<String>>>() {}.getType(),
