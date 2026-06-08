@@ -85,7 +85,6 @@ public class DropRatesClogPlugin extends Plugin
     private volatile Map<String, SkillingPet>     skillingPets    = Collections.emptyMap();
     // ID-indexed clog item table — wikiPage is the primary lookup key into the data files.
     private volatile Map<Integer, ClogItem>       clogItems       = Collections.emptyMap();
-    private volatile Map<Integer, String>         itemAliases     = Collections.emptyMap();
     private volatile Map<String, Set<String>>     popularMethods  = Collections.emptyMap();
 
     // Guards against a late network callback repopulating data after the plugin has shut down.
@@ -150,15 +149,6 @@ public class DropRatesClogPlugin extends Plugin
             log.info("Loaded skilling pet data for {} pets", pets.size());
         }
 
-        Map<Integer, String> aliases = loadResource(
-            "/com/dropratesclog/item_aliases.json",
-            new TypeToken<Map<Integer, String>>() {}.getType());
-        if (aliases != null)
-        {
-            itemAliases = aliases;
-            log.info("Loaded {} item-name aliases", aliases.size());
-        }
-
         // clog_items.json arrives as a JSON list of ClogItem; index by id for O(1) lookup.
         List<ClogItem> clogList = loadResource(
             "/com/dropratesclog/clog_items.json",
@@ -199,10 +189,6 @@ public class DropRatesClogPlugin extends Plugin
         fetchData("skilling_pets.json",
             new TypeToken<Map<String, SkillingPet>>() {}.getType(),
             (Map<String, SkillingPet> data) -> skillingPets = data);
-
-        fetchData("item_aliases.json",
-            new TypeToken<Map<Integer, String>>() {}.getType(),
-            (Map<Integer, String> data) -> itemAliases = data);
 
         fetchData("clog_items.json",
             new TypeToken<List<ClogItem>>() {}.getType(),
@@ -345,8 +331,8 @@ public class DropRatesClogPlugin extends Plugin
     {
         ClogItem ci = clogItems.get(hoveredItemId);
         String wikiKey = ci != null ? ci.getWikiPage() : null;
-        String nameKey = itemAliases.getOrDefault(hoveredItemId, hoveredItem);
-        return new Lookup(wikiKey, nameKey, nameKey);
+        // Fallback for data files keyed by the in-game name (the historical layout).
+        return new Lookup(wikiKey, hoveredItem, hoveredItem);
     }
 
     private static <T> T pick(Map<String, T> map, Lookup k)
