@@ -1,5 +1,5 @@
 {
-  "3rd age amulet": [
+  "10344": [
     {
       "approx": false,
       "kind": "drop",
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "3rd age axe": [
+  "20011": [
     {
       "approx": false,
       "kind": "drop",
@@ -67,41 +67,7 @@
       ]
     }
   ],
-  "3rd age bow": [
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/5,244",
-      "sources": [
-        "The Mimic (Master)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/5,750",
-      "sources": [
-        "The Mimic (Elite)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/249,262.5",
-      "sources": [
-        "Reward casket (elite)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/313,168",
-      "sources": [
-        "Reward casket (master)"
-      ]
-    }
-  ],
-  "3rd age cloak": [
+  "12424": [
     {
       "approx": false,
       "kind": "drop",
@@ -135,7 +101,41 @@
       ]
     }
   ],
-  "3rd age druidic cloak": [
+  "12437": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5,244",
+      "sources": [
+        "The Mimic (Master)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5,750",
+      "sources": [
+        "The Mimic (Elite)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/249,262.5",
+      "sources": [
+        "Reward casket (elite)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/313,168",
+      "sources": [
+        "Reward casket (master)"
+      ]
+    }
+  ],
+  "23345": [
     {
       "approx": false,
       "kind": "drop",
@@ -161,7 +161,7 @@
       ]
     }
   ],
-  "3rd age druidic robe bottoms": [
+  "23339": [
     {
       "approx": false,
       "kind": "drop",
@@ -187,7 +187,7 @@
       ]
     }
   ],
-  "3rd age druidic robe top": [
+  "23336": [
     {
       "approx": false,
       "kind": "drop",
@@ -213,7 +213,7 @@
       ]
     }
   ],
-  "3rd age druidic staff": [
+  "23342": [
     {
       "approx": false,
       "kind": "drop",
@@ -239,7 +239,7 @@
       ]
     }
   ],
-  "3rd age full helmet": [
+  "10350": [
     {
       "approx": false,
       "kind": "drop",
@@ -281,7 +281,7 @@
       ]
     }
   ],
-  "3rd age kiteshield": [
+  "10352": [
     {
       "approx": false,
       "kind": "drop",
@@ -323,7 +323,7 @@
       ]
     }
   ],
-  "3rd age longsword": [
+  "12426": [
     {
       "approx": false,
       "kind": "drop",
@@ -357,7 +357,7 @@
       ]
     }
   ],
-  "3rd age mage hat": [
+  "10342": [
     {
       "approx": false,
       "kind": "drop",
@@ -399,7 +399,7 @@
       ]
     }
   ],
-  "3rd age pickaxe": [
+  "20014": [
     {
       "approx": false,
       "kind": "drop",
@@ -425,49 +425,7 @@
       ]
     }
   ],
-  "3rd age platebody": [
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/5,244",
-      "sources": [
-        "The Mimic (Master)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/5,750",
-      "sources": [
-        "The Mimic (Elite)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/211,250",
-      "sources": [
-        "Reward casket (hard)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/249,262.5",
-      "sources": [
-        "Reward casket (elite)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/313,168",
-      "sources": [
-        "Reward casket (master)"
-      ]
-    }
-  ],
-  "3rd age platelegs": [
+  "10348": [
     {
       "approx": false,
       "kind": "drop",
@@ -509,7 +467,7 @@
       ]
     }
   ],
-  "3rd age plateskirt": [
+  "10346": [
     {
       "approx": false,
       "kind": "drop",
@@ -551,7 +509,7 @@
       ]
     }
   ],
-  "3rd age range coif": [
+  "23242": [
     {
       "approx": false,
       "kind": "drop",
@@ -593,7 +551,7 @@
       ]
     }
   ],
-  "3rd age range legs": [
+  "10334": [
     {
       "approx": false,
       "kind": "drop",
@@ -635,7 +593,7 @@
       ]
     }
   ],
-  "3rd age range top": [
+  "10332": [
     {
       "approx": false,
       "kind": "drop",
@@ -677,7 +635,7 @@
       ]
     }
   ],
-  "3rd age robe": [
+  "10330": [
     {
       "approx": false,
       "kind": "drop",
@@ -719,7 +677,7 @@
       ]
     }
   ],
-  "3rd age robe top": [
+  "10340": [
     {
       "approx": false,
       "kind": "drop",
@@ -761,7 +719,7 @@
       ]
     }
   ],
-  "3rd age vambraces": [
+  "10338": [
     {
       "approx": false,
       "kind": "drop",
@@ -803,7 +761,49 @@
       ]
     }
   ],
-  "3rd age wand": [
+  "10336": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5,244",
+      "sources": [
+        "The Mimic (Master)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5,750",
+      "sources": [
+        "The Mimic (Elite)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/211,250",
+      "sources": [
+        "Reward casket (hard)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/249,262.5",
+      "sources": [
+        "Reward casket (elite)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/313,168",
+      "sources": [
+        "Reward casket (master)"
+      ]
+    }
+  ],
+  "12422": [
     {
       "approx": false,
       "kind": "drop",
@@ -837,7 +837,7 @@
       ]
     }
   ],
-  "A powdered wig": [
+  "10392": [
     {
       "approx": false,
       "kind": "drop",
@@ -847,7 +847,7 @@
       ]
     }
   ],
-  "Abyssal blue dye": [
+  "26809": [
     {
       "approx": false,
       "kind": "drop",
@@ -857,7 +857,7 @@
       ]
     }
   ],
-  "Abyssal dagger#(unp)": [
+  "13265": [
     {
       "approx": false,
       "kind": "drop",
@@ -884,7 +884,7 @@
       ]
     }
   ],
-  "Abyssal green dye": [
+  "26807": [
     {
       "approx": false,
       "kind": "drop",
@@ -894,7 +894,7 @@
       ]
     }
   ],
-  "Abyssal head": [
+  "7979": [
     {
       "approx": false,
       "kind": "drop",
@@ -914,7 +914,7 @@
       ]
     }
   ],
-  "Abyssal lantern#Unlit": [
+  "26822": [
     {
       "approx": false,
       "kind": "drop",
@@ -924,7 +924,7 @@
       ]
     }
   ],
-  "Abyssal needle": [
+  "26813": [
     {
       "approx": false,
       "kind": "drop",
@@ -934,7 +934,7 @@
       ]
     }
   ],
-  "Abyssal orphan": [
+  "13262": [
     {
       "approx": false,
       "kind": "drop",
@@ -944,7 +944,7 @@
       ]
     }
   ],
-  "Abyssal pearls": [
+  "26792": [
     {
       "approx": false,
       "kind": "drop",
@@ -954,7 +954,7 @@
       ]
     }
   ],
-  "Abyssal protector": [
+  "26901": [
     {
       "approx": false,
       "kind": "drop",
@@ -964,7 +964,7 @@
       ]
     }
   ],
-  "Abyssal red dye": [
+  "26811": [
     {
       "approx": false,
       "kind": "drop",
@@ -974,7 +974,7 @@
       ]
     }
   ],
-  "Abyssal whip": [
+  "4151": [
     {
       "approx": false,
       "kind": "drop",
@@ -1001,7 +1001,7 @@
       ]
     }
   ],
-  "Adamant boots": [
+  "4129": [
     {
       "approx": false,
       "kind": "drop",
@@ -1027,7 +1027,7 @@
       ]
     }
   ],
-  "Adamant cane": [
+  "12377": [
     {
       "approx": false,
       "kind": "drop",
@@ -1037,7 +1037,7 @@
       ]
     }
   ],
-  "Adamant defender#Normal": [
+  "8849": [
     {
       "approx": false,
       "kind": "drop",
@@ -1047,7 +1047,7 @@
       ]
     }
   ],
-  "Adamant dragon mask": [
+  "23270": [
     {
       "approx": false,
       "kind": "drop",
@@ -1057,7 +1057,7 @@
       ]
     }
   ],
-  "Adamant full helm (g)": [
+  "2613": [
     {
       "approx": false,
       "kind": "drop",
@@ -1067,7 +1067,7 @@
       ]
     }
   ],
-  "Adamant full helm (t)": [
+  "2605": [
     {
       "approx": false,
       "kind": "drop",
@@ -1077,7 +1077,7 @@
       ]
     }
   ],
-  "Adamant helm (h1)": [
+  "10296": [
     {
       "approx": false,
       "kind": "drop",
@@ -1087,7 +1087,7 @@
       ]
     }
   ],
-  "Adamant helm (h2)": [
+  "10298": [
     {
       "approx": false,
       "kind": "drop",
@@ -1097,7 +1097,7 @@
       ]
     }
   ],
-  "Adamant helm (h3)": [
+  "10300": [
     {
       "approx": false,
       "kind": "drop",
@@ -1107,7 +1107,7 @@
       ]
     }
   ],
-  "Adamant helm (h4)": [
+  "10302": [
     {
       "approx": false,
       "kind": "drop",
@@ -1117,7 +1117,7 @@
       ]
     }
   ],
-  "Adamant helm (h5)": [
+  "10304": [
     {
       "approx": false,
       "kind": "drop",
@@ -1127,7 +1127,7 @@
       ]
     }
   ],
-  "Adamant kiteshield (g)": [
+  "2611": [
     {
       "approx": false,
       "kind": "drop",
@@ -1137,7 +1137,7 @@
       ]
     }
   ],
-  "Adamant kiteshield (t)": [
+  "2603": [
     {
       "approx": false,
       "kind": "drop",
@@ -1147,7 +1147,7 @@
       ]
     }
   ],
-  "Adamant platebody (g)": [
+  "2607": [
     {
       "approx": false,
       "kind": "drop",
@@ -1157,7 +1157,7 @@
       ]
     }
   ],
-  "Adamant platebody (h1)": [
+  "23392": [
     {
       "approx": false,
       "kind": "drop",
@@ -1167,7 +1167,7 @@
       ]
     }
   ],
-  "Adamant platebody (h2)": [
+  "23395": [
     {
       "approx": false,
       "kind": "drop",
@@ -1177,7 +1177,7 @@
       ]
     }
   ],
-  "Adamant platebody (h3)": [
+  "23398": [
     {
       "approx": false,
       "kind": "drop",
@@ -1187,7 +1187,7 @@
       ]
     }
   ],
-  "Adamant platebody (h4)": [
+  "23401": [
     {
       "approx": false,
       "kind": "drop",
@@ -1197,7 +1197,7 @@
       ]
     }
   ],
-  "Adamant platebody (h5)": [
+  "23404": [
     {
       "approx": false,
       "kind": "drop",
@@ -1207,7 +1207,7 @@
       ]
     }
   ],
-  "Adamant platebody (t)": [
+  "2599": [
     {
       "approx": false,
       "kind": "drop",
@@ -1217,7 +1217,7 @@
       ]
     }
   ],
-  "Adamant platelegs (g)": [
+  "2609": [
     {
       "approx": false,
       "kind": "drop",
@@ -1227,7 +1227,7 @@
       ]
     }
   ],
-  "Adamant platelegs (t)": [
+  "2601": [
     {
       "approx": false,
       "kind": "drop",
@@ -1237,7 +1237,7 @@
       ]
     }
   ],
-  "Adamant plateskirt (g)": [
+  "3475": [
     {
       "approx": false,
       "kind": "drop",
@@ -1247,7 +1247,7 @@
       ]
     }
   ],
-  "Adamant plateskirt (t)": [
+  "3474": [
     {
       "approx": false,
       "kind": "drop",
@@ -1257,7 +1257,7 @@
       ]
     }
   ],
-  "Adamant shield (h1)": [
+  "7334": [
     {
       "approx": false,
       "kind": "drop",
@@ -1267,7 +1267,7 @@
       ]
     }
   ],
-  "Adamant shield (h2)": [
+  "7340": [
     {
       "approx": false,
       "kind": "drop",
@@ -1277,7 +1277,7 @@
       ]
     }
   ],
-  "Adamant shield (h3)": [
+  "7346": [
     {
       "approx": false,
       "kind": "drop",
@@ -1287,7 +1287,7 @@
       ]
     }
   ],
-  "Adamant shield (h4)": [
+  "7352": [
     {
       "approx": false,
       "kind": "drop",
@@ -1297,7 +1297,7 @@
       ]
     }
   ],
-  "Adamant shield (h5)": [
+  "7358": [
     {
       "approx": false,
       "kind": "drop",
@@ -1307,7 +1307,7 @@
       ]
     }
   ],
-  "Afro": [
+  "12430": [
     {
       "approx": false,
       "kind": "drop",
@@ -1317,7 +1317,7 @@
       ]
     }
   ],
-  "Ahrim's hood#Undamaged": [
+  "4708": [
     {
       "approx": false,
       "kind": "drop",
@@ -1327,7 +1327,7 @@
       ]
     }
   ],
-  "Ahrim's robeskirt#Undamaged": [
+  "4714": [
     {
       "approx": false,
       "kind": "drop",
@@ -1337,7 +1337,7 @@
       ]
     }
   ],
-  "Ahrim's robetop#Undamaged": [
+  "4712": [
     {
       "approx": false,
       "kind": "drop",
@@ -1347,7 +1347,7 @@
       ]
     }
   ],
-  "Ahrim's staff#Undamaged": [
+  "4710": [
     {
       "approx": false,
       "kind": "drop",
@@ -1357,7 +1357,7 @@
       ]
     }
   ],
-  "Alchemical hydra heads": [
+  "23077": [
     {
       "approx": false,
       "kind": "drop",
@@ -1367,7 +1367,7 @@
       ]
     }
   ],
-  "Alchemist's signet": [
+  "31084": [
     {
       "approx": false,
       "kind": "drop",
@@ -1385,7 +1385,7 @@
       ]
     }
   ],
-  "Ale of the gods": [
+  "20056": [
     {
       "approx": false,
       "kind": "drop",
@@ -1395,7 +1395,7 @@
       ]
     }
   ],
-  "Amulet of avarice": [
+  "22557": [
     {
       "approx": false,
       "kind": "drop",
@@ -1505,7 +1505,7 @@
       ]
     }
   ],
-  "Amulet of defence (t)": [
+  "23309": [
     {
       "approx": false,
       "kind": "drop",
@@ -1515,7 +1515,7 @@
       ]
     }
   ],
-  "Amulet of glory (t)#(t4)": [
+  "10354": [
     {
       "approx": false,
       "kind": "drop",
@@ -1525,7 +1525,7 @@
       ]
     }
   ],
-  "Amulet of magic (t)": [
+  "10366": [
     {
       "approx": false,
       "kind": "drop",
@@ -1535,7 +1535,7 @@
       ]
     }
   ],
-  "Amulet of power (t)": [
+  "23354": [
     {
       "approx": false,
       "kind": "drop",
@@ -1545,7 +1545,7 @@
       ]
     }
   ],
-  "Amulet of the damned#Full": [
+  "12851": [
     {
       "approx": false,
       "kind": "drop",
@@ -1627,7 +1627,7 @@
       ]
     }
   ],
-  "Ancestral hat": [
+  "21018": [
     {
       "approx": false,
       "kind": "drop",
@@ -1637,7 +1637,7 @@
       ]
     }
   ],
-  "Ancestral robe bottom": [
+  "21024": [
     {
       "approx": false,
       "kind": "drop",
@@ -1647,7 +1647,7 @@
       ]
     }
   ],
-  "Ancestral robe top": [
+  "21021": [
     {
       "approx": false,
       "kind": "drop",
@@ -1657,7 +1657,7 @@
       ]
     }
   ],
-  "Ancient astroscope": [
+  "25690": [
     {
       "approx": true,
       "kind": "drop",
@@ -1667,7 +1667,7 @@
       ]
     }
   ],
-  "Ancient blessing": [
+  "20235": [
     {
       "approx": false,
       "kind": "drop",
@@ -1725,7 +1725,7 @@
       ]
     }
   ],
-  "Ancient bracers": [
+  "12490": [
     {
       "approx": false,
       "kind": "drop",
@@ -1735,7 +1735,7 @@
       ]
     }
   ],
-  "Ancient carcanet": [
+  "25694": [
     {
       "approx": true,
       "kind": "drop",
@@ -1745,7 +1745,7 @@
       ]
     }
   ],
-  "Ancient ceremonial boots": [
+  "26229": [
     {
       "approx": false,
       "kind": "drop",
@@ -1769,7 +1769,7 @@
       ]
     }
   ],
-  "Ancient ceremonial gloves": [
+  "26227": [
     {
       "approx": false,
       "kind": "drop",
@@ -1793,7 +1793,7 @@
       ]
     }
   ],
-  "Ancient ceremonial legs": [
+  "26223": [
     {
       "approx": false,
       "kind": "drop",
@@ -1817,7 +1817,7 @@
       ]
     }
   ],
-  "Ancient ceremonial mask": [
+  "26225": [
     {
       "approx": false,
       "kind": "drop",
@@ -1841,7 +1841,7 @@
       ]
     }
   ],
-  "Ancient ceremonial top": [
+  "26221": [
     {
       "approx": false,
       "kind": "drop",
@@ -1865,7 +1865,7 @@
       ]
     }
   ],
-  "Ancient chaps": [
+  "12494": [
     {
       "approx": false,
       "kind": "drop",
@@ -1875,7 +1875,7 @@
       ]
     }
   ],
-  "Ancient cloak": [
+  "12197": [
     {
       "approx": false,
       "kind": "drop",
@@ -1885,7 +1885,7 @@
       ]
     }
   ],
-  "Ancient coif": [
+  "12496": [
     {
       "approx": false,
       "kind": "drop",
@@ -1895,7 +1895,7 @@
       ]
     }
   ],
-  "Ancient crozier": [
+  "12199": [
     {
       "approx": false,
       "kind": "drop",
@@ -1905,7 +1905,7 @@
       ]
     }
   ],
-  "Ancient crystal": [
+  "21804": [
     {
       "approx": false,
       "kind": "drop",
@@ -1961,7 +1961,7 @@
       ]
     }
   ],
-  "Ancient d'hide body": [
+  "12492": [
     {
       "approx": false,
       "kind": "drop",
@@ -1971,7 +1971,7 @@
       ]
     }
   ],
-  "Ancient d'hide boots": [
+  "19921": [
     {
       "approx": false,
       "kind": "drop",
@@ -1981,7 +1981,7 @@
       ]
     }
   ],
-  "Ancient d'hide shield": [
+  "23197": [
     {
       "approx": false,
       "kind": "drop",
@@ -1991,7 +1991,7 @@
       ]
     }
   ],
-  "Ancient effigy": [
+  "22302": [
     {
       "approx": false,
       "kind": "drop",
@@ -2063,7 +2063,7 @@
       ]
     }
   ],
-  "Ancient emblem": [
+  "21807": [
     {
       "approx": false,
       "kind": "drop",
@@ -2135,7 +2135,7 @@
       ]
     }
   ],
-  "Ancient essence": [
+  "27616": [
     {
       "approx": false,
       "kind": "drop",
@@ -2193,7 +2193,7 @@
       ]
     }
   ],
-  "Ancient full helm": [
+  "12466": [
     {
       "approx": false,
       "kind": "drop",
@@ -2203,7 +2203,7 @@
       ]
     }
   ],
-  "Ancient globe": [
+  "25686": [
     {
       "approx": true,
       "kind": "drop",
@@ -2213,7 +2213,7 @@
       ]
     }
   ],
-  "Ancient hilt": [
+  "26370": [
     {
       "approx": false,
       "kind": "drop",
@@ -2223,7 +2223,7 @@
       ]
     }
   ],
-  "Ancient icon": [
+  "27627": [
     {
       "approx": false,
       "kind": "drop",
@@ -2241,7 +2241,7 @@
       ]
     }
   ],
-  "Ancient kiteshield": [
+  "12468": [
     {
       "approx": false,
       "kind": "drop",
@@ -2251,7 +2251,7 @@
       ]
     }
   ],
-  "Ancient ledger": [
+  "25688": [
     {
       "approx": true,
       "kind": "drop",
@@ -2261,7 +2261,7 @@
       ]
     }
   ],
-  "Ancient medallion": [
+  "22299": [
     {
       "approx": false,
       "kind": "drop",
@@ -2333,7 +2333,7 @@
       ]
     }
   ],
-  "Ancient mitre": [
+  "12203": [
     {
       "approx": false,
       "kind": "drop",
@@ -2343,7 +2343,7 @@
       ]
     }
   ],
-  "Ancient note": [
+  "21668": [
     {
       "approx": false,
       "kind": "drop",
@@ -2353,7 +2353,7 @@
       ]
     }
   ],
-  "Ancient page 1": [
+  "12621": [
     {
       "approx": false,
       "kind": "drop",
@@ -2404,7 +2404,7 @@
       ]
     }
   ],
-  "Ancient page 2": [
+  "12622": [
     {
       "approx": false,
       "kind": "drop",
@@ -2455,7 +2455,7 @@
       ]
     }
   ],
-  "Ancient page 3": [
+  "12623": [
     {
       "approx": false,
       "kind": "drop",
@@ -2506,7 +2506,7 @@
       ]
     }
   ],
-  "Ancient page 4": [
+  "12624": [
     {
       "approx": false,
       "kind": "drop",
@@ -2557,7 +2557,7 @@
       ]
     }
   ],
-  "Ancient page#1": [
+  "11341": [
     {
       "approx": false,
       "kind": "drop",
@@ -2590,7 +2590,7 @@
       ]
     }
   ],
-  "Ancient page#10": [
+  "11350": [
     {
       "approx": false,
       "kind": "drop",
@@ -2623,7 +2623,7 @@
       ]
     }
   ],
-  "Ancient page#11": [
+  "11351": [
     {
       "approx": false,
       "kind": "drop",
@@ -2656,7 +2656,7 @@
       ]
     }
   ],
-  "Ancient page#12": [
+  "11352": [
     {
       "approx": false,
       "kind": "drop",
@@ -2689,7 +2689,7 @@
       ]
     }
   ],
-  "Ancient page#13": [
+  "11353": [
     {
       "approx": false,
       "kind": "drop",
@@ -2722,7 +2722,7 @@
       ]
     }
   ],
-  "Ancient page#14": [
+  "11354": [
     {
       "approx": false,
       "kind": "drop",
@@ -2755,7 +2755,7 @@
       ]
     }
   ],
-  "Ancient page#15": [
+  "11355": [
     {
       "approx": false,
       "kind": "drop",
@@ -2788,7 +2788,7 @@
       ]
     }
   ],
-  "Ancient page#16": [
+  "11356": [
     {
       "approx": false,
       "kind": "drop",
@@ -2821,7 +2821,7 @@
       ]
     }
   ],
-  "Ancient page#17": [
+  "11357": [
     {
       "approx": false,
       "kind": "drop",
@@ -2854,7 +2854,7 @@
       ]
     }
   ],
-  "Ancient page#18": [
+  "11358": [
     {
       "approx": false,
       "kind": "drop",
@@ -2887,7 +2887,7 @@
       ]
     }
   ],
-  "Ancient page#19": [
+  "11359": [
     {
       "approx": false,
       "kind": "drop",
@@ -2920,7 +2920,7 @@
       ]
     }
   ],
-  "Ancient page#2": [
+  "11342": [
     {
       "approx": false,
       "kind": "drop",
@@ -2953,7 +2953,7 @@
       ]
     }
   ],
-  "Ancient page#20": [
+  "11360": [
     {
       "approx": false,
       "kind": "drop",
@@ -2986,7 +2986,7 @@
       ]
     }
   ],
-  "Ancient page#21": [
+  "11361": [
     {
       "approx": false,
       "kind": "drop",
@@ -3019,7 +3019,7 @@
       ]
     }
   ],
-  "Ancient page#22": [
+  "11362": [
     {
       "approx": false,
       "kind": "drop",
@@ -3052,7 +3052,7 @@
       ]
     }
   ],
-  "Ancient page#23": [
+  "11363": [
     {
       "approx": false,
       "kind": "drop",
@@ -3085,7 +3085,7 @@
       ]
     }
   ],
-  "Ancient page#24": [
+  "11364": [
     {
       "approx": false,
       "kind": "drop",
@@ -3118,7 +3118,7 @@
       ]
     }
   ],
-  "Ancient page#25": [
+  "11365": [
     {
       "approx": false,
       "kind": "drop",
@@ -3151,7 +3151,7 @@
       ]
     }
   ],
-  "Ancient page#26": [
+  "11366": [
     {
       "approx": false,
       "kind": "drop",
@@ -3184,7 +3184,7 @@
       ]
     }
   ],
-  "Ancient page#3": [
+  "11343": [
     {
       "approx": false,
       "kind": "drop",
@@ -3217,7 +3217,7 @@
       ]
     }
   ],
-  "Ancient page#4": [
+  "11344": [
     {
       "approx": false,
       "kind": "drop",
@@ -3250,7 +3250,7 @@
       ]
     }
   ],
-  "Ancient page#5": [
+  "11345": [
     {
       "approx": false,
       "kind": "drop",
@@ -3283,7 +3283,7 @@
       ]
     }
   ],
-  "Ancient page#6": [
+  "11346": [
     {
       "approx": false,
       "kind": "drop",
@@ -3316,7 +3316,7 @@
       ]
     }
   ],
-  "Ancient page#7": [
+  "11347": [
     {
       "approx": false,
       "kind": "drop",
@@ -3349,7 +3349,7 @@
       ]
     }
   ],
-  "Ancient page#8": [
+  "11348": [
     {
       "approx": false,
       "kind": "drop",
@@ -3382,7 +3382,7 @@
       ]
     }
   ],
-  "Ancient page#9": [
+  "11349": [
     {
       "approx": false,
       "kind": "drop",
@@ -3415,7 +3415,7 @@
       ]
     }
   ],
-  "Ancient platebody": [
+  "12460": [
     {
       "approx": false,
       "kind": "drop",
@@ -3425,7 +3425,7 @@
       ]
     }
   ],
-  "Ancient platelegs": [
+  "12462": [
     {
       "approx": false,
       "kind": "drop",
@@ -3435,7 +3435,7 @@
       ]
     }
   ],
-  "Ancient plateskirt": [
+  "12464": [
     {
       "approx": false,
       "kind": "drop",
@@ -3445,7 +3445,7 @@
       ]
     }
   ],
-  "Ancient relic": [
+  "22305": [
     {
       "approx": false,
       "kind": "drop",
@@ -3517,7 +3517,7 @@
       ]
     }
   ],
-  "Ancient remnant": [
+  "27381": [
     {
       "approx": false,
       "kind": "drop",
@@ -3527,7 +3527,7 @@
       ]
     }
   ],
-  "Ancient robe legs": [
+  "12195": [
     {
       "approx": false,
       "kind": "drop",
@@ -3537,7 +3537,7 @@
       ]
     }
   ],
-  "Ancient robe top": [
+  "12193": [
     {
       "approx": false,
       "kind": "drop",
@@ -3547,7 +3547,7 @@
       ]
     }
   ],
-  "Ancient shard": [
+  "19677": [
     {
       "approx": false,
       "kind": "drop",
@@ -3827,7 +3827,7 @@
       ]
     }
   ],
-  "Ancient statuette": [
+  "21813": [
     {
       "approx": false,
       "kind": "drop",
@@ -3899,7 +3899,7 @@
       ]
     }
   ],
-  "Ancient stole": [
+  "12201": [
     {
       "approx": false,
       "kind": "drop",
@@ -3909,7 +3909,7 @@
       ]
     }
   ],
-  "Ancient totem": [
+  "21810": [
     {
       "approx": false,
       "kind": "drop",
@@ -3981,7 +3981,7 @@
       ]
     }
   ],
-  "Ancient treatise": [
+  "25692": [
     {
       "approx": true,
       "kind": "drop",
@@ -3991,7 +3991,7 @@
       ]
     }
   ],
-  "Ancient writings": [
+  "21670": [
     {
       "approx": false,
       "kind": "drop",
@@ -4001,7 +4001,7 @@
       ]
     }
   ],
-  "Angler boots": [
+  "13261": [
     {
       "approx": false,
       "kind": "drop",
@@ -4011,7 +4011,7 @@
       ]
     }
   ],
-  "Angler hat": [
+  "13258": [
     {
       "approx": false,
       "kind": "drop",
@@ -4021,7 +4021,7 @@
       ]
     }
   ],
-  "Angler top": [
+  "13259": [
     {
       "approx": false,
       "kind": "drop",
@@ -4031,7 +4031,7 @@
       ]
     }
   ],
-  "Angler waders": [
+  "13260": [
     {
       "approx": false,
       "kind": "drop",
@@ -4041,7 +4041,7 @@
       ]
     }
   ],
-  "Angler's paint": [
+  "32096": [
     {
       "approx": false,
       "kind": "drop",
@@ -4066,7 +4066,7 @@
       ]
     }
   ],
-  "Anguish ornament kit": [
+  "22246": [
     {
       "approx": false,
       "kind": "drop",
@@ -4076,7 +4076,7 @@
       ]
     }
   ],
-  "Ankou gloves": [
+  "20101": [
     {
       "approx": false,
       "kind": "drop",
@@ -4086,7 +4086,7 @@
       ]
     }
   ],
-  "Ankou mask": [
+  "20095": [
     {
       "approx": false,
       "kind": "drop",
@@ -4096,7 +4096,7 @@
       ]
     }
   ],
-  "Ankou socks": [
+  "20107": [
     {
       "approx": false,
       "kind": "drop",
@@ -4106,7 +4106,7 @@
       ]
     }
   ],
-  "Ankou top": [
+  "20098": [
     {
       "approx": false,
       "kind": "drop",
@@ -4116,7 +4116,7 @@
       ]
     }
   ],
-  "Ankou's leggings": [
+  "20104": [
     {
       "approx": false,
       "kind": "drop",
@@ -4126,7 +4126,7 @@
       ]
     }
   ],
-  "Antler guard": [
+  "31081": [
     {
       "approx": false,
       "kind": "drop",
@@ -4145,7 +4145,7 @@
       ]
     }
   ],
-  "Aquanite tendon": [
+  "32876": [
     {
       "approx": false,
       "kind": "drop",
@@ -4163,7 +4163,7 @@
       ]
     }
   ],
-  "Aranea boots": [
+  "29806": [
     {
       "approx": false,
       "kind": "drop",
@@ -4189,7 +4189,7 @@
       ]
     }
   ],
-  "Araxyte fang": [
+  "29799": [
     {
       "approx": false,
       "kind": "drop",
@@ -4199,7 +4199,7 @@
       ]
     }
   ],
-  "Araxyte head": [
+  "29788": [
     {
       "approx": false,
       "kind": "drop",
@@ -4226,7 +4226,7 @@
       ]
     }
   ],
-  "Araxyte venom sack": [
+  "29784": [
     {
       "approx": false,
       "kind": "drop",
@@ -4279,7 +4279,7 @@
       ]
     }
   ],
-  "Arcane prayer scroll": [
+  "21079": [
     {
       "approx": false,
       "kind": "drop",
@@ -4289,7 +4289,7 @@
       ]
     }
   ],
-  "Arcane sigil": [
+  "12827": [
     {
       "approx": false,
       "kind": "drop",
@@ -4299,7 +4299,7 @@
       ]
     }
   ],
-  "Arceuus banner": [
+  "20251": [
     {
       "approx": false,
       "kind": "drop",
@@ -4309,7 +4309,7 @@
       ]
     }
   ],
-  "Arceuus hood": [
+  "20113": [
     {
       "approx": false,
       "kind": "drop",
@@ -4319,7 +4319,7 @@
       ]
     }
   ],
-  "Arceuus scarf": [
+  "19943": [
     {
       "approx": false,
       "kind": "drop",
@@ -4329,7 +4329,7 @@
       ]
     }
   ],
-  "Archers ring": [
+  "6733": [
     {
       "approx": false,
       "kind": "drop",
@@ -4339,7 +4339,7 @@
       ]
     }
   ],
-  "Armadyl bracers": [
+  "12506": [
     {
       "approx": false,
       "kind": "drop",
@@ -4349,7 +4349,7 @@
       ]
     }
   ],
-  "Armadyl chainskirt": [
+  "11830": [
     {
       "approx": false,
       "kind": "drop",
@@ -4369,7 +4369,7 @@
       ]
     }
   ],
-  "Armadyl chaps": [
+  "12510": [
     {
       "approx": false,
       "kind": "drop",
@@ -4379,7 +4379,7 @@
       ]
     }
   ],
-  "Armadyl chestplate": [
+  "11828": [
     {
       "approx": false,
       "kind": "drop",
@@ -4399,7 +4399,7 @@
       ]
     }
   ],
-  "Armadyl cloak": [
+  "12261": [
     {
       "approx": false,
       "kind": "drop",
@@ -4409,7 +4409,7 @@
       ]
     }
   ],
-  "Armadyl coif": [
+  "12512": [
     {
       "approx": false,
       "kind": "drop",
@@ -4419,7 +4419,7 @@
       ]
     }
   ],
-  "Armadyl crossbow": [
+  "11785": [
     {
       "approx": false,
       "kind": "drop",
@@ -4429,7 +4429,7 @@
       ]
     }
   ],
-  "Armadyl crozier": [
+  "12263": [
     {
       "approx": false,
       "kind": "drop",
@@ -4439,7 +4439,7 @@
       ]
     }
   ],
-  "Armadyl d'hide body": [
+  "12508": [
     {
       "approx": false,
       "kind": "drop",
@@ -4449,7 +4449,7 @@
       ]
     }
   ],
-  "Armadyl d'hide boots": [
+  "19930": [
     {
       "approx": false,
       "kind": "drop",
@@ -4459,7 +4459,7 @@
       ]
     }
   ],
-  "Armadyl d'hide shield": [
+  "23200": [
     {
       "approx": false,
       "kind": "drop",
@@ -4469,7 +4469,7 @@
       ]
     }
   ],
-  "Armadyl full helm": [
+  "12476": [
     {
       "approx": false,
       "kind": "drop",
@@ -4479,7 +4479,7 @@
       ]
     }
   ],
-  "Armadyl godsword ornament kit": [
+  "20068": [
     {
       "approx": false,
       "kind": "drop",
@@ -4489,7 +4489,7 @@
       ]
     }
   ],
-  "Armadyl helmet": [
+  "11826": [
     {
       "approx": false,
       "kind": "drop",
@@ -4518,7 +4518,7 @@
       ]
     }
   ],
-  "Armadyl hilt": [
+  "11810": [
     {
       "approx": false,
       "kind": "drop",
@@ -4528,7 +4528,7 @@
       ]
     }
   ],
-  "Armadyl kiteshield": [
+  "12478": [
     {
       "approx": false,
       "kind": "drop",
@@ -4538,7 +4538,7 @@
       ]
     }
   ],
-  "Armadyl mitre": [
+  "12259": [
     {
       "approx": false,
       "kind": "drop",
@@ -4548,7 +4548,7 @@
       ]
     }
   ],
-  "Armadyl page 1": [
+  "12617": [
     {
       "approx": false,
       "kind": "drop",
@@ -4599,7 +4599,7 @@
       ]
     }
   ],
-  "Armadyl page 2": [
+  "12618": [
     {
       "approx": false,
       "kind": "drop",
@@ -4650,7 +4650,7 @@
       ]
     }
   ],
-  "Armadyl page 3": [
+  "12619": [
     {
       "approx": false,
       "kind": "drop",
@@ -4701,7 +4701,7 @@
       ]
     }
   ],
-  "Armadyl page 4": [
+  "12620": [
     {
       "approx": false,
       "kind": "drop",
@@ -4752,7 +4752,7 @@
       ]
     }
   ],
-  "Armadyl platebody": [
+  "12470": [
     {
       "approx": false,
       "kind": "drop",
@@ -4762,7 +4762,7 @@
       ]
     }
   ],
-  "Armadyl platelegs": [
+  "12472": [
     {
       "approx": false,
       "kind": "drop",
@@ -4772,7 +4772,7 @@
       ]
     }
   ],
-  "Armadyl plateskirt": [
+  "12474": [
     {
       "approx": false,
       "kind": "drop",
@@ -4782,7 +4782,7 @@
       ]
     }
   ],
-  "Armadyl robe legs": [
+  "12255": [
     {
       "approx": false,
       "kind": "drop",
@@ -4792,7 +4792,7 @@
       ]
     }
   ],
-  "Armadyl robe top": [
+  "12253": [
     {
       "approx": false,
       "kind": "drop",
@@ -4802,7 +4802,7 @@
       ]
     }
   ],
-  "Armadyl stole": [
+  "12257": [
     {
       "approx": false,
       "kind": "drop",
@@ -4812,7 +4812,7 @@
       ]
     }
   ],
-  "Atlatl dart": [
+  "28991": [
     {
       "approx": false,
       "kind": "drop",
@@ -4822,7 +4822,7 @@
       ]
     }
   ],
-  "Attas seed": [
+  "22881": [
     {
       "approx": false,
       "kind": "drop",
@@ -4832,7 +4832,7 @@
       ]
     }
   ],
-  "Avernic defender hilt": [
+  "22477": [
     {
       "approx": false,
       "kind": "drop",
@@ -4850,7 +4850,7 @@
       ]
     }
   ],
-  "Avernic treads": [
+  "31088": [
     {
       "approx": false,
       "kind": "drop",
@@ -4860,7 +4860,7 @@
       ]
     }
   ],
-  "Awakener's orb": [
+  "28334": [
     {
       "approx": false,
       "kind": "drop",
@@ -4894,7 +4894,7 @@
       ]
     }
   ],
-  "Baby mole#Mole": [
+  "12646": [
     {
       "approx": false,
       "kind": "drop",
@@ -4904,7 +4904,7 @@
       ]
     }
   ],
-  "Ballista limbs": [
+  "19592": [
     {
       "approx": false,
       "kind": "drop",
@@ -4922,7 +4922,7 @@
       ]
     }
   ],
-  "Ballista spring": [
+  "19601": [
     {
       "approx": false,
       "kind": "drop",
@@ -4940,7 +4940,7 @@
       ]
     }
   ],
-  "Bandos boots": [
+  "11836": [
     {
       "approx": false,
       "kind": "drop",
@@ -4969,7 +4969,7 @@
       ]
     }
   ],
-  "Bandos bracers": [
+  "12498": [
     {
       "approx": false,
       "kind": "drop",
@@ -4979,7 +4979,7 @@
       ]
     }
   ],
-  "Bandos chaps": [
+  "12502": [
     {
       "approx": false,
       "kind": "drop",
@@ -4989,7 +4989,7 @@
       ]
     }
   ],
-  "Bandos chestplate": [
+  "11832": [
     {
       "approx": false,
       "kind": "drop",
@@ -5009,7 +5009,7 @@
       ]
     }
   ],
-  "Bandos cloak": [
+  "12273": [
     {
       "approx": false,
       "kind": "drop",
@@ -5019,7 +5019,7 @@
       ]
     }
   ],
-  "Bandos coif": [
+  "12504": [
     {
       "approx": false,
       "kind": "drop",
@@ -5029,7 +5029,7 @@
       ]
     }
   ],
-  "Bandos crozier": [
+  "12275": [
     {
       "approx": false,
       "kind": "drop",
@@ -5039,7 +5039,7 @@
       ]
     }
   ],
-  "Bandos d'hide body": [
+  "12500": [
     {
       "approx": false,
       "kind": "drop",
@@ -5049,7 +5049,7 @@
       ]
     }
   ],
-  "Bandos d'hide boots": [
+  "19924": [
     {
       "approx": false,
       "kind": "drop",
@@ -5059,7 +5059,7 @@
       ]
     }
   ],
-  "Bandos d'hide shield": [
+  "23203": [
     {
       "approx": false,
       "kind": "drop",
@@ -5069,7 +5069,7 @@
       ]
     }
   ],
-  "Bandos full helm": [
+  "12486": [
     {
       "approx": false,
       "kind": "drop",
@@ -5079,7 +5079,7 @@
       ]
     }
   ],
-  "Bandos godsword ornament kit": [
+  "20071": [
     {
       "approx": false,
       "kind": "drop",
@@ -5089,7 +5089,7 @@
       ]
     }
   ],
-  "Bandos hilt": [
+  "11812": [
     {
       "approx": false,
       "kind": "drop",
@@ -5099,7 +5099,7 @@
       ]
     }
   ],
-  "Bandos kiteshield": [
+  "12488": [
     {
       "approx": false,
       "kind": "drop",
@@ -5109,7 +5109,7 @@
       ]
     }
   ],
-  "Bandos mitre": [
+  "12271": [
     {
       "approx": false,
       "kind": "drop",
@@ -5119,7 +5119,7 @@
       ]
     }
   ],
-  "Bandos page 1": [
+  "12613": [
     {
       "approx": false,
       "kind": "drop",
@@ -5170,7 +5170,7 @@
       ]
     }
   ],
-  "Bandos page 2": [
+  "12614": [
     {
       "approx": false,
       "kind": "drop",
@@ -5221,7 +5221,7 @@
       ]
     }
   ],
-  "Bandos page 3": [
+  "12615": [
     {
       "approx": false,
       "kind": "drop",
@@ -5272,7 +5272,7 @@
       ]
     }
   ],
-  "Bandos page 4": [
+  "12616": [
     {
       "approx": false,
       "kind": "drop",
@@ -5323,7 +5323,7 @@
       ]
     }
   ],
-  "Bandos platebody": [
+  "12480": [
     {
       "approx": false,
       "kind": "drop",
@@ -5333,7 +5333,7 @@
       ]
     }
   ],
-  "Bandos platelegs": [
+  "12482": [
     {
       "approx": false,
       "kind": "drop",
@@ -5343,7 +5343,7 @@
       ]
     }
   ],
-  "Bandos plateskirt": [
+  "12484": [
     {
       "approx": false,
       "kind": "drop",
@@ -5353,7 +5353,7 @@
       ]
     }
   ],
-  "Bandos robe legs": [
+  "12267": [
     {
       "approx": false,
       "kind": "drop",
@@ -5363,7 +5363,7 @@
       ]
     }
   ],
-  "Bandos robe top": [
+  "12265": [
     {
       "approx": false,
       "kind": "drop",
@@ -5373,7 +5373,7 @@
       ]
     }
   ],
-  "Bandos stole": [
+  "12269": [
     {
       "approx": false,
       "kind": "drop",
@@ -5383,7 +5383,7 @@
       ]
     }
   ],
-  "Bandos tassets": [
+  "11834": [
     {
       "approx": false,
       "kind": "drop",
@@ -5403,7 +5403,7 @@
       ]
     }
   ],
-  "Baron": [
+  "28250": [
     {
       "approx": false,
       "kind": "drop",
@@ -5413,7 +5413,7 @@
       ]
     }
   ],
-  "Barrel of demonic tallow#Full": [
+  "30795": [
     {
       "approx": false,
       "kind": "drop",
@@ -5423,7 +5423,7 @@
       ]
     }
   ],
-  "Barronite guard": [
+  "25639": [
     {
       "approx": true,
       "kind": "drop",
@@ -5457,7 +5457,7 @@
       ]
     }
   ],
-  "Barronite handle": [
+  "25637": [
     {
       "approx": false,
       "kind": "drop",
@@ -5468,7 +5468,7 @@
       ]
     }
   ],
-  "Barronite head": [
+  "25635": [
     {
       "approx": true,
       "kind": "drop",
@@ -5478,7 +5478,7 @@
       ]
     }
   ],
-  "Basilisk head": [
+  "7977": [
     {
       "approx": false,
       "kind": "drop",
@@ -5498,7 +5498,7 @@
       ]
     }
   ],
-  "Basilisk jaw": [
+  "24268": [
     {
       "approx": false,
       "kind": "drop",
@@ -5516,7 +5516,7 @@
       ]
     }
   ],
-  "Beanie": [
+  "12245": [
     {
       "approx": false,
       "kind": "drop",
@@ -5526,7 +5526,7 @@
       ]
     }
   ],
-  "Bear feet": [
+  "23291": [
     {
       "approx": false,
       "kind": "drop",
@@ -5536,7 +5536,7 @@
       ]
     }
   ],
-  "Beaver#Normal": [
+  "13322": [
     {
       "approx": true,
       "kind": "drop",
@@ -5573,7 +5573,7 @@
       ]
     }
   ],
-  "Beef": [
+  "33124": [
     {
       "approx": true,
       "kind": "drop",
@@ -5591,7 +5591,7 @@
       ]
     }
   ],
-  "Beekeeper's boots": [
+  "25137": [
     {
       "approx": false,
       "kind": "drop",
@@ -5601,7 +5601,7 @@
       ]
     }
   ],
-  "Beekeeper's gloves": [
+  "25135": [
     {
       "approx": false,
       "kind": "drop",
@@ -5611,7 +5611,7 @@
       ]
     }
   ],
-  "Beekeeper's hat": [
+  "25129": [
     {
       "approx": false,
       "kind": "drop",
@@ -5621,7 +5621,7 @@
       ]
     }
   ],
-  "Beekeeper's legs": [
+  "25133": [
     {
       "approx": false,
       "kind": "drop",
@@ -5631,7 +5631,7 @@
       ]
     }
   ],
-  "Beekeeper's top": [
+  "25131": [
     {
       "approx": false,
       "kind": "drop",
@@ -5641,7 +5641,7 @@
       ]
     }
   ],
-  "Bellator vestige": [
+  "28279": [
     {
       "approx": false,
       "kind": "drop",
@@ -5651,7 +5651,7 @@
       ]
     }
   ],
-  "Belle's folly (tarnished)": [
+  "31245": [
     {
       "approx": false,
       "kind": "drop",
@@ -5661,7 +5661,7 @@
       ]
     }
   ],
-  "Berserker necklace ornament kit": [
+  "23237": [
     {
       "approx": false,
       "kind": "drop",
@@ -5671,7 +5671,7 @@
       ]
     }
   ],
-  "Berserker ring": [
+  "6737": [
     {
       "approx": false,
       "kind": "drop",
@@ -5681,7 +5681,7 @@
       ]
     }
   ],
-  "Big harpoonfish": [
+  "25559": [
     {
       "approx": false,
       "kind": "drop",
@@ -5691,7 +5691,7 @@
       ]
     }
   ],
-  "Big pirate hat": [
+  "12355": [
     {
       "approx": false,
       "kind": "drop",
@@ -5701,7 +5701,7 @@
       ]
     }
   ],
-  "Big shark": [
+  "7993": [
     {
       "approx": false,
       "kind": "drop",
@@ -5711,7 +5711,7 @@
       ]
     }
   ],
-  "Black beret": [
+  "2635": [
     {
       "approx": false,
       "kind": "drop",
@@ -5721,7 +5721,7 @@
       ]
     }
   ],
-  "Black boater": [
+  "7327": [
     {
       "approx": false,
       "kind": "drop",
@@ -5731,7 +5731,7 @@
       ]
     }
   ],
-  "Black boots": [
+  "4125": [
     {
       "approx": false,
       "kind": "drop",
@@ -5751,7 +5751,7 @@
       ]
     }
   ],
-  "Black cane": [
+  "12375": [
     {
       "approx": false,
       "kind": "drop",
@@ -5761,7 +5761,7 @@
       ]
     }
   ],
-  "Black cavalier": [
+  "2643": [
     {
       "approx": false,
       "kind": "drop",
@@ -5771,7 +5771,7 @@
       ]
     }
   ],
-  "Black d'hide body (g)": [
+  "12381": [
     {
       "approx": false,
       "kind": "drop",
@@ -5781,7 +5781,7 @@
       ]
     }
   ],
-  "Black d'hide body (t)": [
+  "12385": [
     {
       "approx": false,
       "kind": "drop",
@@ -5791,7 +5791,7 @@
       ]
     }
   ],
-  "Black d'hide chaps (g)": [
+  "12383": [
     {
       "approx": false,
       "kind": "drop",
@@ -5801,7 +5801,7 @@
       ]
     }
   ],
-  "Black d'hide chaps (t)": [
+  "12387": [
     {
       "approx": false,
       "kind": "drop",
@@ -5811,7 +5811,7 @@
       ]
     }
   ],
-  "Black defender#Normal": [
+  "8847": [
     {
       "approx": false,
       "kind": "drop",
@@ -5821,7 +5821,7 @@
       ]
     }
   ],
-  "Black demon mask": [
+  "20026": [
     {
       "approx": false,
       "kind": "drop",
@@ -5831,7 +5831,7 @@
       ]
     }
   ],
-  "Black dragon mask": [
+  "12524": [
     {
       "approx": false,
       "kind": "drop",
@@ -5841,7 +5841,7 @@
       ]
     }
   ],
-  "Black elegant legs": [
+  "10402": [
     {
       "approx": false,
       "kind": "drop",
@@ -5851,7 +5851,7 @@
       ]
     }
   ],
-  "Black elegant shirt": [
+  "10400": [
     {
       "approx": false,
       "kind": "drop",
@@ -5861,7 +5861,7 @@
       ]
     }
   ],
-  "Black full helm (g)": [
+  "2595": [
     {
       "approx": false,
       "kind": "drop",
@@ -5871,7 +5871,7 @@
       ]
     }
   ],
-  "Black full helm (t)": [
+  "2587": [
     {
       "approx": false,
       "kind": "drop",
@@ -5881,7 +5881,7 @@
       ]
     }
   ],
-  "Black headband": [
+  "2647": [
     {
       "approx": false,
       "kind": "drop",
@@ -5891,7 +5891,7 @@
       ]
     }
   ],
-  "Black helm (h1)": [
+  "10306": [
     {
       "approx": false,
       "kind": "drop",
@@ -5901,7 +5901,7 @@
       ]
     }
   ],
-  "Black helm (h2)": [
+  "10308": [
     {
       "approx": false,
       "kind": "drop",
@@ -5911,7 +5911,7 @@
       ]
     }
   ],
-  "Black helm (h3)": [
+  "10310": [
     {
       "approx": false,
       "kind": "drop",
@@ -5921,7 +5921,7 @@
       ]
     }
   ],
-  "Black helm (h4)": [
+  "10312": [
     {
       "approx": false,
       "kind": "drop",
@@ -5931,7 +5931,7 @@
       ]
     }
   ],
-  "Black helm (h5)": [
+  "10314": [
     {
       "approx": false,
       "kind": "drop",
@@ -5941,7 +5941,7 @@
       ]
     }
   ],
-  "Black kiteshield (g)": [
+  "2597": [
     {
       "approx": false,
       "kind": "drop",
@@ -5951,7 +5951,7 @@
       ]
     }
   ],
-  "Black kiteshield (t)": [
+  "2589": [
     {
       "approx": false,
       "kind": "drop",
@@ -5961,7 +5961,7 @@
       ]
     }
   ],
-  "Black leprechaun hat": [
+  "20246": [
     {
       "approx": false,
       "kind": "drop",
@@ -5971,7 +5971,7 @@
       ]
     }
   ],
-  "Black locks": [
+  "25448": [
     {
       "approx": false,
       "kind": "drop",
@@ -6013,7 +6013,7 @@
       ]
     }
   ],
-  "Black mask#(10)": [
+  "8901": [
     {
       "approx": false,
       "kind": "drop",
@@ -6031,7 +6031,7 @@
       ]
     }
   ],
-  "Black pickaxe": [
+  "12297": [
     {
       "approx": false,
       "kind": "drop",
@@ -6049,7 +6049,7 @@
       ]
     }
   ],
-  "Black platebody (g)": [
+  "2591": [
     {
       "approx": false,
       "kind": "drop",
@@ -6059,7 +6059,7 @@
       ]
     }
   ],
-  "Black platebody (h1)": [
+  "23366": [
     {
       "approx": false,
       "kind": "drop",
@@ -6069,7 +6069,7 @@
       ]
     }
   ],
-  "Black platebody (h2)": [
+  "23369": [
     {
       "approx": false,
       "kind": "drop",
@@ -6079,7 +6079,7 @@
       ]
     }
   ],
-  "Black platebody (h3)": [
+  "23372": [
     {
       "approx": false,
       "kind": "drop",
@@ -6089,7 +6089,7 @@
       ]
     }
   ],
-  "Black platebody (h4)": [
+  "23375": [
     {
       "approx": false,
       "kind": "drop",
@@ -6099,7 +6099,7 @@
       ]
     }
   ],
-  "Black platebody (h5)": [
+  "23378": [
     {
       "approx": false,
       "kind": "drop",
@@ -6109,7 +6109,7 @@
       ]
     }
   ],
-  "Black platebody (t)": [
+  "2583": [
     {
       "approx": false,
       "kind": "drop",
@@ -6119,7 +6119,7 @@
       ]
     }
   ],
-  "Black platelegs (g)": [
+  "2593": [
     {
       "approx": false,
       "kind": "drop",
@@ -6129,7 +6129,7 @@
       ]
     }
   ],
-  "Black platelegs (t)": [
+  "2585": [
     {
       "approx": false,
       "kind": "drop",
@@ -6139,7 +6139,7 @@
       ]
     }
   ],
-  "Black plateskirt (g)": [
+  "3473": [
     {
       "approx": false,
       "kind": "drop",
@@ -6149,7 +6149,7 @@
       ]
     }
   ],
-  "Black plateskirt (t)": [
+  "3472": [
     {
       "approx": false,
       "kind": "drop",
@@ -6159,7 +6159,7 @@
       ]
     }
   ],
-  "Black satchel": [
+  "25621": [
     {
       "approx": false,
       "kind": "drop",
@@ -6169,7 +6169,7 @@
       ]
     }
   ],
-  "Black shield (h1)": [
+  "7332": [
     {
       "approx": false,
       "kind": "drop",
@@ -6179,7 +6179,7 @@
       ]
     }
   ],
-  "Black shield (h2)": [
+  "7338": [
     {
       "approx": false,
       "kind": "drop",
@@ -6189,7 +6189,7 @@
       ]
     }
   ],
-  "Black shield (h3)": [
+  "7344": [
     {
       "approx": false,
       "kind": "drop",
@@ -6199,7 +6199,7 @@
       ]
     }
   ],
-  "Black shield (h4)": [
+  "7350": [
     {
       "approx": false,
       "kind": "drop",
@@ -6209,7 +6209,7 @@
       ]
     }
   ],
-  "Black shield (h5)": [
+  "7356": [
     {
       "approx": false,
       "kind": "drop",
@@ -6219,7 +6219,7 @@
       ]
     }
   ],
-  "Black skirt (g)": [
+  "12445": [
     {
       "approx": false,
       "kind": "drop",
@@ -6229,7 +6229,7 @@
       ]
     }
   ],
-  "Black skirt (t)": [
+  "12447": [
     {
       "approx": false,
       "kind": "drop",
@@ -6239,7 +6239,7 @@
       ]
     }
   ],
-  "Black tourmaline core": [
+  "21730": [
     {
       "approx": false,
       "kind": "drop",
@@ -6249,7 +6249,7 @@
       ]
     }
   ],
-  "Black unicorn mask": [
+  "20266": [
     {
       "approx": false,
       "kind": "drop",
@@ -6259,7 +6259,7 @@
       ]
     }
   ],
-  "Black wizard hat (g)": [
+  "12453": [
     {
       "approx": false,
       "kind": "drop",
@@ -6269,7 +6269,7 @@
       ]
     }
   ],
-  "Black wizard hat (t)": [
+  "12455": [
     {
       "approx": false,
       "kind": "drop",
@@ -6279,7 +6279,7 @@
       ]
     }
   ],
-  "Black wizard robe (g)": [
+  "12449": [
     {
       "approx": false,
       "kind": "drop",
@@ -6289,7 +6289,7 @@
       ]
     }
   ],
-  "Black wizard robe (t)": [
+  "12451": [
     {
       "approx": false,
       "kind": "drop",
@@ -6299,7 +6299,7 @@
       ]
     }
   ],
-  "Blacksmith's helm": [
+  "19988": [
     {
       "approx": false,
       "kind": "drop",
@@ -6309,7 +6309,7 @@
       ]
     }
   ],
-  "Blood moon chestplate#New": [
+  "29022": [
     {
       "approx": false,
       "kind": "drop",
@@ -6319,7 +6319,7 @@
       ]
     }
   ],
-  "Blood moon helm#New": [
+  "29028": [
     {
       "approx": false,
       "kind": "drop",
@@ -6329,7 +6329,7 @@
       ]
     }
   ],
-  "Blood moon tassets#New": [
+  "29025": [
     {
       "approx": false,
       "kind": "drop",
@@ -6339,7 +6339,7 @@
       ]
     }
   ],
-  "Blood quartz": [
+  "28268": [
     {
       "approx": false,
       "kind": "drop",
@@ -6349,7 +6349,7 @@
       ]
     }
   ],
-  "Blood shard": [
+  "24777": [
     {
       "approx": false,
       "kind": "drop",
@@ -6367,7 +6367,7 @@
       ]
     }
   ],
-  "Bloodhound": [
+  "19730": [
     {
       "approx": false,
       "kind": "drop",
@@ -6377,7 +6377,7 @@
       ]
     }
   ],
-  "Bloody notes": [
+  "25476": [
     {
       "approx": false,
       "kind": "drop",
@@ -6539,7 +6539,7 @@
       ]
     }
   ],
-  "Bludgeon axon": [
+  "13276": [
     {
       "approx": false,
       "kind": "drop",
@@ -6549,7 +6549,7 @@
       ]
     }
   ],
-  "Bludgeon claw": [
+  "13275": [
     {
       "approx": false,
       "kind": "drop",
@@ -6559,7 +6559,7 @@
       ]
     }
   ],
-  "Bludgeon spine": [
+  "13274": [
     {
       "approx": false,
       "kind": "drop",
@@ -6569,7 +6569,7 @@
       ]
     }
   ],
-  "Blue beret": [
+  "2633": [
     {
       "approx": false,
       "kind": "drop",
@@ -6579,7 +6579,7 @@
       ]
     }
   ],
-  "Blue boater": [
+  "7325": [
     {
       "approx": false,
       "kind": "drop",
@@ -6589,7 +6589,7 @@
       ]
     }
   ],
-  "Blue d'hide body (g)": [
+  "7374": [
     {
       "approx": false,
       "kind": "drop",
@@ -6599,7 +6599,7 @@
       ]
     }
   ],
-  "Blue d'hide body (t)": [
+  "7376": [
     {
       "approx": false,
       "kind": "drop",
@@ -6609,7 +6609,7 @@
       ]
     }
   ],
-  "Blue d'hide chaps (g)": [
+  "7382": [
     {
       "approx": false,
       "kind": "drop",
@@ -6619,7 +6619,7 @@
       ]
     }
   ],
-  "Blue d'hide chaps (t)": [
+  "7384": [
     {
       "approx": false,
       "kind": "drop",
@@ -6629,7 +6629,7 @@
       ]
     }
   ],
-  "Blue dragon mask": [
+  "12520": [
     {
       "approx": false,
       "kind": "drop",
@@ -6639,7 +6639,7 @@
       ]
     }
   ],
-  "Blue egg sac": [
+  "25846": [
     {
       "approx": false,
       "kind": "drop",
@@ -6649,7 +6649,7 @@
       ]
     }
   ],
-  "Blue elegant blouse": [
+  "10428": [
     {
       "approx": false,
       "kind": "drop",
@@ -6659,7 +6659,7 @@
       ]
     }
   ],
-  "Blue elegant legs": [
+  "10410": [
     {
       "approx": false,
       "kind": "drop",
@@ -6669,7 +6669,7 @@
       ]
     }
   ],
-  "Blue elegant shirt": [
+  "10408": [
     {
       "approx": false,
       "kind": "drop",
@@ -6679,7 +6679,7 @@
       ]
     }
   ],
-  "Blue elegant skirt": [
+  "10430": [
     {
       "approx": false,
       "kind": "drop",
@@ -6689,7 +6689,7 @@
       ]
     }
   ],
-  "Blue firelighter": [
+  "7331": [
     {
       "approx": false,
       "kind": "drop",
@@ -6747,7 +6747,7 @@
       ]
     }
   ],
-  "Blue headband": [
+  "12301": [
     {
       "approx": false,
       "kind": "drop",
@@ -6757,7 +6757,7 @@
       ]
     }
   ],
-  "Blue moon chestplate#New": [
+  "29013": [
     {
       "approx": false,
       "kind": "drop",
@@ -6767,7 +6767,7 @@
       ]
     }
   ],
-  "Blue moon helm#New": [
+  "29019": [
     {
       "approx": false,
       "kind": "drop",
@@ -6777,7 +6777,7 @@
       ]
     }
   ],
-  "Blue moon spear": [
+  "28988": [
     {
       "approx": false,
       "kind": "drop",
@@ -6787,7 +6787,7 @@
       ]
     }
   ],
-  "Blue moon tassets#New": [
+  "29016": [
     {
       "approx": false,
       "kind": "drop",
@@ -6797,7 +6797,7 @@
       ]
     }
   ],
-  "Blue skirt (g)": [
+  "7386": [
     {
       "approx": false,
       "kind": "drop",
@@ -6807,7 +6807,7 @@
       ]
     }
   ],
-  "Blue skirt (t)": [
+  "7388": [
     {
       "approx": false,
       "kind": "drop",
@@ -6817,7 +6817,7 @@
       ]
     }
   ],
-  "Blue wizard hat (g)": [
+  "7394": [
     {
       "approx": false,
       "kind": "drop",
@@ -6827,7 +6827,7 @@
       ]
     }
   ],
-  "Blue wizard hat (t)": [
+  "7396": [
     {
       "approx": false,
       "kind": "drop",
@@ -6837,7 +6837,7 @@
       ]
     }
   ],
-  "Blue wizard robe (g)": [
+  "7390": [
     {
       "approx": false,
       "kind": "drop",
@@ -6847,7 +6847,7 @@
       ]
     }
   ],
-  "Blue wizard robe (t)": [
+  "7392": [
     {
       "approx": false,
       "kind": "drop",
@@ -6857,7 +6857,7 @@
       ]
     }
   ],
-  "Boat bottle#Empty": [
+  "31989": [
     {
       "approx": false,
       "kind": "drop",
@@ -6876,7 +6876,7 @@
       ]
     }
   ],
-  "Bob's black shirt": [
+  "10322": [
     {
       "approx": false,
       "kind": "drop",
@@ -6886,7 +6886,7 @@
       ]
     }
   ],
-  "Bob's blue shirt": [
+  "10318": [
     {
       "approx": false,
       "kind": "drop",
@@ -6896,7 +6896,7 @@
       ]
     }
   ],
-  "Bob's green shirt": [
+  "10320": [
     {
       "approx": false,
       "kind": "drop",
@@ -6906,7 +6906,7 @@
       ]
     }
   ],
-  "Bob's purple shirt": [
+  "10324": [
     {
       "approx": false,
       "kind": "drop",
@@ -6916,7 +6916,7 @@
       ]
     }
   ],
-  "Bob's red shirt": [
+  "10316": [
     {
       "approx": false,
       "kind": "drop",
@@ -6926,7 +6926,7 @@
       ]
     }
   ],
-  "Bolt rack": [
+  "4740": [
     {
       "approx": false,
       "kind": "drop",
@@ -6936,7 +6936,7 @@
       ]
     }
   ],
-  "Boots of darkness": [
+  "20140": [
     {
       "approx": false,
       "kind": "drop",
@@ -6946,7 +6946,7 @@
       ]
     }
   ],
-  "Bottled storm": [
+  "31949": [
     {
       "approx": true,
       "kind": "drop",
@@ -6964,7 +6964,7 @@
       ]
     }
   ],
-  "Bottom of sceptre": [
+  "9011": [
     {
       "approx": false,
       "kind": "drop",
@@ -6975,7 +6975,7 @@
       ]
     }
   ],
-  "Bottomless compost bucket#Empty": [
+  "22994": [
     {
       "approx": false,
       "kind": "drop",
@@ -6985,7 +6985,7 @@
       ]
     }
   ],
-  "Bottomless milk bucket#Empty": [
+  "33091": [
     {
       "approx": false,
       "kind": "drop",
@@ -6995,7 +6995,7 @@
       ]
     }
   ],
-  "Bow string spool": [
+  "31052": [
     {
       "approx": false,
       "kind": "drop",
@@ -7005,7 +7005,7 @@
       ]
     }
   ],
-  "Bowl wig": [
+  "20110": [
     {
       "approx": false,
       "kind": "drop",
@@ -7015,7 +7015,7 @@
       ]
     }
   ],
-  "Bracelet of ethereum#Uncharged": [
+  "21817": [
     {
       "approx": false,
       "kind": "drop",
@@ -7106,7 +7106,7 @@
       ]
     }
   ],
-  "Bran#Bran": [
+  "30622": [
     {
       "approx": false,
       "kind": "drop",
@@ -7117,7 +7117,7 @@
       ]
     }
   ],
-  "Breach of the scarab": [
+  "27283": [
     {
       "approx": false,
       "kind": "drop",
@@ -7127,7 +7127,7 @@
       ]
     }
   ],
-  "Briefcase": [
+  "12335": [
     {
       "approx": false,
       "kind": "drop",
@@ -7137,7 +7137,7 @@
       ]
     }
   ],
-  "Brine sabre": [
+  "11037": [
     {
       "approx": false,
       "kind": "drop",
@@ -7147,7 +7147,7 @@
       ]
     }
   ],
-  "Broken antler": [
+  "31086": [
     {
       "approx": false,
       "kind": "drop",
@@ -7189,7 +7189,7 @@
       ]
     }
   ],
-  "Broken compass": [
+  "32866": [
     {
       "approx": false,
       "kind": "drop",
@@ -7199,7 +7199,7 @@
       ]
     }
   ],
-  "Broken dragon hasta": [
+  "22963": [
     {
       "approx": false,
       "kind": "drop",
@@ -7209,7 +7209,7 @@
       ]
     }
   ],
-  "Broken dragon hook": [
+  "31961": [
     {
       "approx": false,
       "kind": "drop",
@@ -7219,7 +7219,7 @@
       ]
     }
   ],
-  "Broken sextant": [
+  "32868": [
     {
       "approx": false,
       "kind": "drop",
@@ -7229,7 +7229,7 @@
       ]
     }
   ],
-  "Broken zombie axe": [
+  "28813": [
     {
       "approx": true,
       "kind": "drop",
@@ -7247,7 +7247,7 @@
       ]
     }
   ],
-  "Broken zombie helmet": [
+  "30324": [
     {
       "approx": true,
       "kind": "drop",
@@ -7257,7 +7257,7 @@
       ]
     }
   ],
-  "Bronze boots": [
+  "4119": [
     {
       "approx": false,
       "kind": "drop",
@@ -7275,7 +7275,7 @@
       ]
     }
   ],
-  "Bronze defender#Normal": [
+  "8844": [
     {
       "approx": false,
       "kind": "drop",
@@ -7285,7 +7285,7 @@
       ]
     }
   ],
-  "Bronze dragon mask": [
+  "12363": [
     {
       "approx": false,
       "kind": "drop",
@@ -7295,7 +7295,7 @@
       ]
     }
   ],
-  "Bronze full helm (g)": [
+  "12211": [
     {
       "approx": false,
       "kind": "drop",
@@ -7305,7 +7305,7 @@
       ]
     }
   ],
-  "Bronze full helm (t)": [
+  "12221": [
     {
       "approx": false,
       "kind": "drop",
@@ -7315,7 +7315,7 @@
       ]
     }
   ],
-  "Bronze kiteshield (g)": [
+  "12213": [
     {
       "approx": false,
       "kind": "drop",
@@ -7325,7 +7325,7 @@
       ]
     }
   ],
-  "Bronze kiteshield (t)": [
+  "12223": [
     {
       "approx": false,
       "kind": "drop",
@@ -7335,7 +7335,7 @@
       ]
     }
   ],
-  "Bronze locks": [
+  "25442": [
     {
       "approx": false,
       "kind": "drop",
@@ -7377,7 +7377,7 @@
       ]
     }
   ],
-  "Bronze platebody (g)": [
+  "12205": [
     {
       "approx": false,
       "kind": "drop",
@@ -7387,7 +7387,7 @@
       ]
     }
   ],
-  "Bronze platebody (t)": [
+  "12215": [
     {
       "approx": false,
       "kind": "drop",
@@ -7397,7 +7397,7 @@
       ]
     }
   ],
-  "Bronze platelegs (g)": [
+  "12207": [
     {
       "approx": false,
       "kind": "drop",
@@ -7407,7 +7407,7 @@
       ]
     }
   ],
-  "Bronze platelegs (t)": [
+  "12217": [
     {
       "approx": false,
       "kind": "drop",
@@ -7417,7 +7417,7 @@
       ]
     }
   ],
-  "Bronze plateskirt (g)": [
+  "12209": [
     {
       "approx": false,
       "kind": "drop",
@@ -7427,7 +7427,7 @@
       ]
     }
   ],
-  "Bronze plateskirt (t)": [
+  "12219": [
     {
       "approx": false,
       "kind": "drop",
@@ -7437,7 +7437,7 @@
       ]
     }
   ],
-  "Brown headband": [
+  "2649": [
     {
       "approx": false,
       "kind": "drop",
@@ -7447,7 +7447,7 @@
       ]
     }
   ],
-  "Bruma torch": [
+  "20720": [
     {
       "approx": false,
       "kind": "drop",
@@ -7457,7 +7457,7 @@
       ]
     }
   ],
-  "Bryophyta's essence": [
+  "22372": [
     {
       "approx": false,
       "kind": "drop",
@@ -7468,7 +7468,7 @@
       ]
     }
   ],
-  "Bucket helm": [
+  "19991": [
     {
       "approx": false,
       "kind": "drop",
@@ -7478,7 +7478,7 @@
       ]
     }
   ],
-  "Bucket helm (g)": [
+  "20059": [
     {
       "approx": false,
       "kind": "drop",
@@ -7488,7 +7488,7 @@
       ]
     }
   ],
-  "Burning claw": [
+  "29574": [
     {
       "approx": false,
       "kind": "drop",
@@ -7498,7 +7498,7 @@
       ]
     }
   ],
-  "Burnt page": [
+  "20718": [
     {
       "approx": false,
       "kind": "drop",
@@ -7508,7 +7508,7 @@
       ]
     }
   ],
-  "Butch": [
+  "28248": [
     {
       "approx": false,
       "kind": "drop",
@@ -7518,7 +7518,7 @@
       ]
     }
   ],
-  "Cabbage round shield": [
+  "20272": [
     {
       "approx": false,
       "kind": "drop",
@@ -7528,7 +7528,7 @@
       ]
     }
   ],
-  "Cache of runes": [
+  "27293": [
     {
       "approx": false,
       "kind": "drop",
@@ -7538,7 +7538,7 @@
       ]
     }
   ],
-  "Callisto cub#Normal": [
+  "13178": [
     {
       "approx": false,
       "kind": "drop",
@@ -7556,7 +7556,7 @@
       ]
     }
   ],
-  "Camo bottoms": [
+  "6655": [
     {
       "approx": false,
       "kind": "drop",
@@ -7566,7 +7566,7 @@
       ]
     }
   ],
-  "Camo helmet": [
+  "6656": [
     {
       "approx": false,
       "kind": "drop",
@@ -7576,7 +7576,7 @@
       ]
     }
   ],
-  "Camo top": [
+  "6654": [
     {
       "approx": false,
       "kind": "drop",
@@ -7586,7 +7586,7 @@
       ]
     }
   ],
-  "Cape of skulls": [
+  "23351": [
     {
       "approx": false,
       "kind": "drop",
@@ -7596,7 +7596,7 @@
       ]
     }
   ],
-  "Cat mask": [
+  "12361": [
     {
       "approx": false,
       "kind": "drop",
@@ -7606,7 +7606,7 @@
       ]
     }
   ],
-  "Catalytic talisman": [
+  "26798": [
     {
       "approx": false,
       "kind": "drop",
@@ -7616,7 +7616,7 @@
       ]
     }
   ],
-  "Charge dragonstone jewellery scroll": [
+  "20238": [
     {
       "approx": false,
       "kind": "drop",
@@ -7667,7 +7667,7 @@
       ]
     }
   ],
-  "Charged ice": [
+  "27643": [
     {
       "approx": false,
       "kind": "drop",
@@ -7677,7 +7677,7 @@
       ]
     }
   ],
-  "Chasm teleport scroll": [
+  "30775": [
     {
       "approx": false,
       "kind": "drop",
@@ -7695,7 +7695,7 @@
       ]
     }
   ],
-  "Chewed bones": [
+  "11338": [
     {
       "approx": false,
       "kind": "drop",
@@ -7705,7 +7705,7 @@
       ]
     }
   ],
-  "Chompy chick": [
+  "13071": [
     {
       "approx": false,
       "kind": "drop",
@@ -7715,7 +7715,7 @@
       ]
     }
   ],
-  "Chromium ingot": [
+  "28276": [
     {
       "approx": false,
       "kind": "drop",
@@ -7757,7 +7757,7 @@
       ]
     }
   ],
-  "Claws of callisto": [
+  "27667": [
     {
       "approx": false,
       "kind": "drop",
@@ -7775,7 +7775,7 @@
       ]
     }
   ],
-  "Climbing boots (g)": [
+  "23413": [
     {
       "approx": false,
       "kind": "drop",
@@ -7785,7 +7785,7 @@
       ]
     }
   ],
-  "Coagulated venom": [
+  "29781": [
     {
       "approx": false,
       "kind": "drop",
@@ -7795,7 +7795,7 @@
       ]
     }
   ],
-  "Cockatrice head": [
+  "7976": [
     {
       "approx": false,
       "kind": "drop",
@@ -7807,7 +7807,7 @@
       ]
     }
   ],
-  "Cow slippers#1": [
+  "33093": [
     {
       "approx": false,
       "kind": "drop",
@@ -7817,7 +7817,7 @@
       ]
     }
   ],
-  "Craw's bow#Uncharged": [
+  "22547": [
     {
       "approx": false,
       "kind": "drop",
@@ -7927,7 +7927,7 @@
       ]
     }
   ],
-  "Crawling hand (item)": [
+  "7975": [
     {
       "approx": false,
       "kind": "drop",
@@ -7938,7 +7938,7 @@
       ]
     }
   ],
-  "Crier bell": [
+  "20243": [
     {
       "approx": false,
       "kind": "drop",
@@ -7948,7 +7948,7 @@
       ]
     }
   ],
-  "Crier coat": [
+  "20240": [
     {
       "approx": false,
       "kind": "drop",
@@ -7958,7 +7958,7 @@
       ]
     }
   ],
-  "Crier hat": [
+  "12319": [
     {
       "approx": false,
       "kind": "drop",
@@ -7968,7 +7968,7 @@
       ]
     }
   ],
-  "Crystal armour seed": [
+  "23956": [
     {
       "approx": false,
       "kind": "drop",
@@ -7986,7 +7986,7 @@
       ]
     }
   ],
-  "Crystal grail": [
+  "24000": [
     {
       "approx": false,
       "kind": "drop",
@@ -7996,7 +7996,7 @@
       ]
     }
   ],
-  "Crystal tool seed": [
+  "23953": [
     {
       "approx": false,
       "kind": "drop",
@@ -8006,7 +8006,7 @@
       ]
     }
   ],
-  "Crystal weapon seed": [
+  "4207": [
     {
       "approx": false,
       "kind": "drop",
@@ -8024,7 +8024,7 @@
       ]
     }
   ],
-  "Cursed phalanx": [
+  "27248": [
     {
       "approx": false,
       "kind": "drop",
@@ -8034,7 +8034,7 @@
       ]
     }
   ],
-  "Curved bone": [
+  "10977": [
     {
       "approx": false,
       "kind": "drop",
@@ -8155,7 +8155,7 @@
       ]
     }
   ],
-  "Cyclops head": [
+  "19915": [
     {
       "approx": false,
       "kind": "drop",
@@ -8165,7 +8165,7 @@
       ]
     }
   ],
-  "Dagon'hai hat": [
+  "24288": [
     {
       "approx": false,
       "kind": "drop",
@@ -8175,7 +8175,7 @@
       ]
     }
   ],
-  "Dagon'hai robe bottom": [
+  "24294": [
     {
       "approx": false,
       "kind": "drop",
@@ -8185,7 +8185,7 @@
       ]
     }
   ],
-  "Dagon'hai robe top": [
+  "24291": [
     {
       "approx": false,
       "kind": "drop",
@@ -8195,7 +8195,7 @@
       ]
     }
   ],
-  "Dark bow tie": [
+  "19970": [
     {
       "approx": false,
       "kind": "drop",
@@ -8205,7 +8205,7 @@
       ]
     }
   ],
-  "Dark bow#Regular": [
+  "11235": [
     {
       "approx": false,
       "kind": "drop",
@@ -8223,7 +8223,7 @@
       ]
     }
   ],
-  "Dark cavalier": [
+  "2641": [
     {
       "approx": false,
       "kind": "drop",
@@ -8233,7 +8233,7 @@
       ]
     }
   ],
-  "Dark claw": [
+  "21275": [
     {
       "approx": false,
       "kind": "drop",
@@ -8243,7 +8243,7 @@
       ]
     }
   ],
-  "Dark infinity colour kit": [
+  "12528": [
     {
       "approx": false,
       "kind": "drop",
@@ -8253,7 +8253,7 @@
       ]
     }
   ],
-  "Dark relic": [
+  "21027": [
     {
       "approx": false,
       "kind": "drop",
@@ -8263,7 +8263,7 @@
       ]
     }
   ],
-  "Dark totem": [
+  "19685": [
     {
       "approx": false,
       "kind": "drop",
@@ -8273,7 +8273,7 @@
       ]
     }
   ],
-  "Dark totem base": [
+  "19679": [
     {
       "approx": false,
       "kind": "drop",
@@ -8500,7 +8500,7 @@
       ]
     }
   ],
-  "Dark totem middle": [
+  "19681": [
     {
       "approx": false,
       "kind": "drop",
@@ -8727,7 +8727,7 @@
       ]
     }
   ],
-  "Dark totem top": [
+  "19683": [
     {
       "approx": false,
       "kind": "drop",
@@ -8954,7 +8954,7 @@
       ]
     }
   ],
-  "Dark trousers": [
+  "19964": [
     {
       "approx": false,
       "kind": "drop",
@@ -8964,7 +8964,7 @@
       ]
     }
   ],
-  "Dark tuxedo cuffs": [
+  "19961": [
     {
       "approx": false,
       "kind": "drop",
@@ -8974,7 +8974,7 @@
       ]
     }
   ],
-  "Dark tuxedo jacket": [
+  "19958": [
     {
       "approx": false,
       "kind": "drop",
@@ -8984,7 +8984,7 @@
       ]
     }
   ],
-  "Dark tuxedo shoes": [
+  "19967": [
     {
       "approx": false,
       "kind": "drop",
@@ -8994,7 +8994,7 @@
       ]
     }
   ],
-  "Deadeye prayer scroll": [
+  "30626": [
     {
       "approx": false,
       "kind": "drop",
@@ -9004,7 +9004,7 @@
       ]
     }
   ],
-  "Deerstalker": [
+  "12540": [
     {
       "approx": false,
       "kind": "drop",
@@ -9014,7 +9014,7 @@
       ]
     }
   ],
-  "Demon feet": [
+  "23294": [
     {
       "approx": false,
       "kind": "drop",
@@ -9024,7 +9024,7 @@
       ]
     }
   ],
-  "Demon tear": [
+  "31111": [
     {
       "approx": false,
       "kind": "drop",
@@ -9050,7 +9050,7 @@
       ]
     }
   ],
-  "Desiccated page": [
+  "30640": [
     {
       "approx": false,
       "kind": "drop",
@@ -9077,7 +9077,7 @@
       ]
     }
   ],
-  "Dexterous prayer scroll": [
+  "21034": [
     {
       "approx": false,
       "kind": "drop",
@@ -9087,7 +9087,7 @@
       ]
     }
   ],
-  "Dharok's greataxe#Undamaged": [
+  "4718": [
     {
       "approx": false,
       "kind": "drop",
@@ -9097,7 +9097,7 @@
       ]
     }
   ],
-  "Dharok's helm#Undamaged": [
+  "4716": [
     {
       "approx": false,
       "kind": "drop",
@@ -9107,7 +9107,7 @@
       ]
     }
   ],
-  "Dharok's platebody#Undamaged": [
+  "4720": [
     {
       "approx": false,
       "kind": "drop",
@@ -9117,7 +9117,7 @@
       ]
     }
   ],
-  "Dharok's platelegs#Undamaged": [
+  "4722": [
     {
       "approx": false,
       "kind": "drop",
@@ -9127,7 +9127,7 @@
       ]
     }
   ],
-  "Digsite teleport": [
+  "12403": [
     {
       "approx": false,
       "kind": "drop",
@@ -9178,7 +9178,7 @@
       ]
     }
   ],
-  "Dinh's bulwark": [
+  "21015": [
     {
       "approx": false,
       "kind": "drop",
@@ -9188,7 +9188,7 @@
       ]
     }
   ],
-  "Dizana's quiver#Uncharged": [
+  "28947": [
     {
       "approx": false,
       "kind": "drop",
@@ -9198,7 +9198,7 @@
       ]
     }
   ],
-  "Dom": [
+  "31130": [
     {
       "approx": false,
       "kind": "drop",
@@ -9208,7 +9208,7 @@
       ]
     }
   ],
-  "Dossier": [
+  "30805": [
     {
       "approx": false,
       "kind": "drop",
@@ -9218,7 +9218,7 @@
       ]
     }
   ],
-  "Draconic visage": [
+  "11286": [
     {
       "approx": false,
       "kind": "drop",
@@ -9263,7 +9263,7 @@
       ]
     }
   ],
-  "Dragon 2h sword": [
+  "7158": [
     {
       "approx": false,
       "kind": "drop",
@@ -9302,7 +9302,7 @@
       ]
     }
   ],
-  "Dragon axe": [
+  "6739": [
     {
       "approx": false,
       "kind": "drop",
@@ -9323,7 +9323,7 @@
       ]
     }
   ],
-  "Dragon boots": [
+  "11840": [
     {
       "approx": false,
       "kind": "drop",
@@ -9334,7 +9334,7 @@
       ]
     }
   ],
-  "Dragon boots ornament kit": [
+  "22231": [
     {
       "approx": false,
       "kind": "drop",
@@ -9344,7 +9344,7 @@
       ]
     }
   ],
-  "Dragon cane": [
+  "12373": [
     {
       "approx": false,
       "kind": "drop",
@@ -9354,7 +9354,7 @@
       ]
     }
   ],
-  "Dragon cannon barrel": [
+  "32115": [
     {
       "approx": false,
       "kind": "drop",
@@ -9372,7 +9372,7 @@
       ]
     }
   ],
-  "Dragon cannonball": [
+  "31916": [
     {
       "approx": false,
       "kind": "drop",
@@ -9455,7 +9455,7 @@
       ]
     }
   ],
-  "Dragon chainbody": [
+  "3140": [
     {
       "approx": false,
       "kind": "drop",
@@ -9507,7 +9507,7 @@
       ]
     }
   ],
-  "Dragon chainbody ornament kit": [
+  "12534": [
     {
       "approx": false,
       "kind": "drop",
@@ -9517,7 +9517,7 @@
       ]
     }
   ],
-  "Dragon claws": [
+  "13652": [
     {
       "approx": false,
       "kind": "drop",
@@ -9527,7 +9527,7 @@
       ]
     }
   ],
-  "Dragon defender ornament kit": [
+  "20143": [
     {
       "approx": false,
       "kind": "drop",
@@ -9537,7 +9537,7 @@
       ]
     }
   ],
-  "Dragon defender#Normal": [
+  "12954": [
     {
       "approx": false,
       "kind": "drop",
@@ -9547,7 +9547,7 @@
       ]
     }
   ],
-  "Dragon full helm": [
+  "11335": [
     {
       "approx": false,
       "kind": "drop",
@@ -9565,7 +9565,7 @@
       ]
     }
   ],
-  "Dragon full helm ornament kit": [
+  "12538": [
     {
       "approx": false,
       "kind": "drop",
@@ -9575,7 +9575,7 @@
       ]
     }
   ],
-  "Dragon harpoon": [
+  "21028": [
     {
       "approx": false,
       "kind": "drop",
@@ -9601,7 +9601,7 @@
       ]
     }
   ],
-  "Dragon hunter crossbow": [
+  "21012": [
     {
       "approx": false,
       "kind": "drop",
@@ -9611,7 +9611,7 @@
       ]
     }
   ],
-  "Dragon hunter wand": [
+  "30070": [
     {
       "approx": false,
       "kind": "drop",
@@ -9621,7 +9621,7 @@
       ]
     }
   ],
-  "Dragon kiteshield ornament kit": [
+  "22239": [
     {
       "approx": false,
       "kind": "drop",
@@ -9631,7 +9631,7 @@
       ]
     }
   ],
-  "Dragon knife#(unp)": [
+  "22804": [
     {
       "approx": false,
       "kind": "drop",
@@ -9675,7 +9675,7 @@
       ]
     }
   ],
-  "Dragon legs/skirt ornament kit": [
+  "12536": [
     {
       "approx": false,
       "kind": "drop",
@@ -9685,7 +9685,7 @@
       ]
     }
   ],
-  "Dragon limbs": [
+  "21918": [
     {
       "approx": false,
       "kind": "drop",
@@ -9703,7 +9703,7 @@
       ]
     }
   ],
-  "Dragon metal lump": [
+  "22103": [
     {
       "approx": false,
       "kind": "drop",
@@ -9713,7 +9713,7 @@
       ]
     }
   ],
-  "Dragon metal sheet": [
+  "31996": [
     {
       "approx": false,
       "kind": "drop",
@@ -9772,7 +9772,7 @@
       ]
     }
   ],
-  "Dragon metal slice": [
+  "22100": [
     {
       "approx": false,
       "kind": "drop",
@@ -9782,7 +9782,7 @@
       ]
     }
   ],
-  "Dragon nails": [
+  "31406": [
     {
       "approx": false,
       "kind": "drop",
@@ -9808,7 +9808,7 @@
       ]
     }
   ],
-  "Dragon pickaxe": [
+  "11920": [
     {
       "approx": false,
       "kind": "drop",
@@ -9847,7 +9847,7 @@
       ]
     }
   ],
-  "Dragon pickaxe (broken)": [
+  "27695": [
     {
       "approx": false,
       "kind": "drop",
@@ -9857,7 +9857,7 @@
       ]
     }
   ],
-  "Dragon platebody ornament kit": [
+  "22236": [
     {
       "approx": false,
       "kind": "drop",
@@ -9867,7 +9867,7 @@
       ]
     }
   ],
-  "Dragon scimitar ornament kit": [
+  "20002": [
     {
       "approx": false,
       "kind": "drop",
@@ -9877,7 +9877,7 @@
       ]
     }
   ],
-  "Dragon spear#(unp)": [
+  "1249": [
     {
       "approx": false,
       "kind": "drop",
@@ -11134,7 +11134,7 @@
       ]
     }
   ],
-  "Dragon sq shield ornament kit": [
+  "12532": [
     {
       "approx": false,
       "kind": "drop",
@@ -11144,7 +11144,7 @@
       ]
     }
   ],
-  "Dragon sword": [
+  "21009": [
     {
       "approx": false,
       "kind": "drop",
@@ -11170,7 +11170,7 @@
       ]
     }
   ],
-  "Dragon thrownaxe": [
+  "20849": [
     {
       "approx": false,
       "kind": "drop",
@@ -11200,7 +11200,7 @@
       ]
     }
   ],
-  "Dragon warhammer": [
+  "13576": [
     {
       "approx": false,
       "kind": "drop",
@@ -11210,7 +11210,7 @@
       ]
     }
   ],
-  "Dragonbone necklace": [
+  "22111": [
     {
       "approx": false,
       "kind": "drop",
@@ -11220,7 +11220,7 @@
       ]
     }
   ],
-  "Dragonstone boots": [
+  "24043": [
     {
       "approx": false,
       "kind": "drop",
@@ -11230,7 +11230,7 @@
       ]
     }
   ],
-  "Dragonstone full helm": [
+  "24034": [
     {
       "approx": false,
       "kind": "drop",
@@ -11240,7 +11240,7 @@
       ]
     }
   ],
-  "Dragonstone gauntlets": [
+  "24046": [
     {
       "approx": false,
       "kind": "drop",
@@ -11250,7 +11250,7 @@
       ]
     }
   ],
-  "Dragonstone platebody": [
+  "24037": [
     {
       "approx": false,
       "kind": "drop",
@@ -11260,7 +11260,7 @@
       ]
     }
   ],
-  "Dragonstone platelegs": [
+  "24040": [
     {
       "approx": false,
       "kind": "drop",
@@ -11270,7 +11270,7 @@
       ]
     }
   ],
-  "Drake's claw": [
+  "22957": [
     {
       "approx": false,
       "kind": "drop",
@@ -11288,7 +11288,7 @@
       ]
     }
   ],
-  "Drake's tooth": [
+  "22960": [
     {
       "approx": false,
       "kind": "drop",
@@ -11306,7 +11306,7 @@
       ]
     }
   ],
-  "Dual macuahuitl": [
+  "28997": [
     {
       "approx": false,
       "kind": "drop",
@@ -11316,7 +11316,7 @@
       ]
     }
   ],
-  "Dual sai": [
+  "23206": [
     {
       "approx": false,
       "kind": "drop",
@@ -11326,7 +11326,7 @@
       ]
     }
   ],
-  "Dull knife": [
+  "32865": [
     {
       "approx": false,
       "kind": "drop",
@@ -11336,7 +11336,7 @@
       ]
     }
   ],
-  "Dust battlestaff": [
+  "20736": [
     {
       "approx": false,
       "kind": "drop",
@@ -11589,7 +11589,7 @@
       ]
     }
   ],
-  "Earth warrior champion scroll": [
+  "6798": [
     {
       "approx": false,
       "kind": "drop",
@@ -11599,7 +11599,7 @@
       ]
     }
   ],
-  "Earthbound tecpatl": [
+  "30957": [
     {
       "approx": false,
       "kind": "drop",
@@ -11609,7 +11609,7 @@
       ]
     }
   ],
-  "Echo crystal": [
+  "28942": [
     {
       "approx": false,
       "kind": "drop",
@@ -11755,7 +11755,7 @@
       ]
     }
   ],
-  "Echo pearl": [
+  "31946": [
     {
       "approx": false,
       "kind": "drop",
@@ -11773,7 +11773,7 @@
       ]
     }
   ],
-  "Eclipse atlatl": [
+  "29000": [
     {
       "approx": false,
       "kind": "drop",
@@ -11783,7 +11783,7 @@
       ]
     }
   ],
-  "Eclipse moon chestplate#New": [
+  "29004": [
     {
       "approx": false,
       "kind": "drop",
@@ -11793,7 +11793,7 @@
       ]
     }
   ],
-  "Eclipse moon helm#New": [
+  "29010": [
     {
       "approx": false,
       "kind": "drop",
@@ -11803,7 +11803,7 @@
       ]
     }
   ],
-  "Eclipse moon tassets#New": [
+  "29007": [
     {
       "approx": false,
       "kind": "drop",
@@ -11813,7 +11813,7 @@
       ]
     }
   ],
-  "Ecumenical key": [
+  "11942": [
     {
       "approx": false,
       "kind": "drop",
@@ -11838,7 +11838,7 @@
       ]
     }
   ],
-  "Elder chaos hood": [
+  "20595": [
     {
       "approx": false,
       "kind": "drop",
@@ -11848,7 +11848,7 @@
       ]
     }
   ],
-  "Elder chaos robe": [
+  "20520": [
     {
       "approx": false,
       "kind": "drop",
@@ -11858,7 +11858,7 @@
       ]
     }
   ],
-  "Elder chaos top": [
+  "20517": [
     {
       "approx": false,
       "kind": "drop",
@@ -11868,7 +11868,7 @@
       ]
     }
   ],
-  "Elder maul": [
+  "21003": [
     {
       "approx": false,
       "kind": "drop",
@@ -11878,7 +11878,7 @@
       ]
     }
   ],
-  "Eldritch orb": [
+  "24517": [
     {
       "approx": false,
       "kind": "drop",
@@ -11896,7 +11896,7 @@
       ]
     }
   ],
-  "Elidinis' ward": [
+  "25985": [
     {
       "approx": false,
       "kind": "drop",
@@ -11906,7 +11906,7 @@
       ]
     }
   ],
-  "Elven signet": [
+  "23943": [
     {
       "approx": false,
       "kind": "drop",
@@ -11917,7 +11917,7 @@
       ]
     }
   ],
-  "Elysian sigil": [
+  "12819": [
     {
       "approx": false,
       "kind": "drop",
@@ -11927,7 +11927,7 @@
       ]
     }
   ],
-  "Enchanted hat": [
+  "7400": [
     {
       "approx": false,
       "kind": "drop",
@@ -11937,7 +11937,7 @@
       ]
     }
   ],
-  "Enchanted robe": [
+  "7398": [
     {
       "approx": false,
       "kind": "drop",
@@ -11947,7 +11947,7 @@
       ]
     }
   ],
-  "Enchanted top": [
+  "7399": [
     {
       "approx": false,
       "kind": "drop",
@@ -11957,7 +11957,7 @@
       ]
     }
   ],
-  "Enhanced crystal teleport seed": [
+  "23959": [
     {
       "approx": false,
       "kind": "drop",
@@ -11969,7 +11969,7 @@
       ]
     }
   ],
-  "Enhanced crystal weapon seed": [
+  "25859": [
     {
       "approx": false,
       "kind": "drop",
@@ -11987,7 +11987,7 @@
       ]
     }
   ],
-  "Ent branch": [
+  "31032": [
     {
       "approx": false,
       "kind": "drop",
@@ -11997,7 +11997,7 @@
       ]
     }
   ],
-  "Eternal crystal": [
+  "13227": [
     {
       "approx": false,
       "kind": "drop",
@@ -12007,7 +12007,7 @@
       ]
     }
   ],
-  "Eternal gem": [
+  "21270": [
     {
       "approx": false,
       "kind": "drop",
@@ -12243,7 +12243,7 @@
       ]
     }
   ],
-  "Evil chicken feet": [
+  "20433": [
     {
       "approx": false,
       "kind": "drop",
@@ -12253,7 +12253,7 @@
       ]
     }
   ],
-  "Evil chicken head": [
+  "20439": [
     {
       "approx": false,
       "kind": "drop",
@@ -12263,7 +12263,7 @@
       ]
     }
   ],
-  "Evil chicken legs": [
+  "20442": [
     {
       "approx": false,
       "kind": "drop",
@@ -12273,7 +12273,7 @@
       ]
     }
   ],
-  "Evil chicken wings": [
+  "20436": [
     {
       "approx": false,
       "kind": "drop",
@@ -12283,7 +12283,7 @@
       ]
     }
   ],
-  "Executioner's axe head": [
+  "28319": [
     {
       "approx": false,
       "kind": "drop",
@@ -12293,7 +12293,7 @@
       ]
     }
   ],
-  "Experimental note": [
+  "21672": [
     {
       "approx": false,
       "kind": "drop",
@@ -12303,7 +12303,7 @@
       ]
     }
   ],
-  "Explorer backpack": [
+  "12514": [
     {
       "approx": false,
       "kind": "drop",
@@ -12313,7 +12313,7 @@
       ]
     }
   ],
-  "Eye of ayak#Uncharged": [
+  "31115": [
     {
       "approx": false,
       "kind": "drop",
@@ -12323,7 +12323,7 @@
       ]
     }
   ],
-  "Eye of the corruptor": [
+  "27285": [
     {
       "approx": false,
       "kind": "drop",
@@ -12333,7 +12333,7 @@
       ]
     }
   ],
-  "Eye of the duke": [
+  "28321": [
     {
       "approx": false,
       "kind": "drop",
@@ -12343,7 +12343,7 @@
       ]
     }
   ],
-  "Facility bottle#Empty": [
+  "33074": [
     {
       "approx": false,
       "kind": "drop",
@@ -12385,7 +12385,7 @@
       ]
     }
   ],
-  "Fancy tiara": [
+  "20008": [
     {
       "approx": false,
       "kind": "drop",
@@ -12395,7 +12395,7 @@
       ]
     }
   ],
-  "Fangs of venenatis": [
+  "27670": [
     {
       "approx": false,
       "kind": "drop",
@@ -12413,7 +12413,7 @@
       ]
     }
   ],
-  "Fedora": [
+  "11990": [
     {
       "approx": false,
       "kind": "drop",
@@ -12423,7 +12423,7 @@
       ]
     }
   ],
-  "Feldip hills teleport": [
+  "12404": [
     {
       "approx": false,
       "kind": "drop",
@@ -12474,7 +12474,7 @@
       ]
     }
   ],
-  "Fine cloth": [
+  "3470": [
     {
       "approx": false,
       "kind": "drop",
@@ -12636,7 +12636,7 @@
       ]
     }
   ],
-  "Fire element staff crown": [
+  "30631": [
     {
       "approx": false,
       "kind": "drop",
@@ -12646,7 +12646,7 @@
       ]
     }
   ],
-  "Fish barrel#Closed": [
+  "25582": [
     {
       "approx": false,
       "kind": "drop",
@@ -12656,7 +12656,7 @@
       ]
     }
   ],
-  "Flamtaer bag": [
+  "25630": [
     {
       "approx": false,
       "kind": "drop",
@@ -12685,7 +12685,7 @@
       ]
     }
   ],
-  "Flared trousers": [
+  "10394": [
     {
       "approx": false,
       "kind": "drop",
@@ -12695,7 +12695,7 @@
       ]
     }
   ],
-  "Fletching knife": [
+  "31043": [
     {
       "approx": false,
       "kind": "drop",
@@ -12705,7 +12705,7 @@
       ]
     }
   ],
-  "Flippers": [
+  "6666": [
     {
       "approx": false,
       "kind": "drop",
@@ -12723,7 +12723,7 @@
       ]
     }
   ],
-  "Forgotten lockbox": [
+  "30763": [
     {
       "approx": false,
       "kind": "drop",
@@ -12733,7 +12733,7 @@
       ]
     }
   ],
-  "Fox whistle": [
+  "28626": [
     {
       "approx": false,
       "kind": "drop",
@@ -12743,7 +12743,7 @@
       ]
     }
   ],
-  "Fremennik kilt": [
+  "23246": [
     {
       "approx": false,
       "kind": "drop",
@@ -12753,7 +12753,7 @@
       ]
     }
   ],
-  "Fresh crab claw": [
+  "7536": [
     {
       "approx": false,
       "kind": "drop",
@@ -12771,7 +12771,7 @@
       ]
     }
   ],
-  "Fresh crab shell": [
+  "7538": [
     {
       "approx": false,
       "kind": "drop",
@@ -12789,7 +12789,7 @@
       ]
     }
   ],
-  "Frog slippers": [
+  "23288": [
     {
       "approx": false,
       "kind": "drop",
@@ -12799,7 +12799,7 @@
       ]
     }
   ],
-  "Frog token": [
+  "6183": [
     {
       "approx": false,
       "kind": "drop",
@@ -12809,7 +12809,7 @@
       ]
     }
   ],
-  "Frozen cache": [
+  "27622": [
     {
       "approx": false,
       "kind": "drop",
@@ -12827,7 +12827,7 @@
       ]
     }
   ],
-  "Frozen tablet": [
+  "28333": [
     {
       "approx": false,
       "kind": "drop",
@@ -12837,7 +12837,7 @@
       ]
     }
   ],
-  "Frozen tear": [
+  "29895": [
     {
       "approx": false,
       "kind": "drop",
@@ -12904,7 +12904,7 @@
       ]
     }
   ],
-  "Fury ornament kit": [
+  "12526": [
     {
       "approx": false,
       "kind": "drop",
@@ -12914,7 +12914,7 @@
       ]
     }
   ],
-  "Gauntlet cape": [
+  "23859": [
     {
       "approx": false,
       "kind": "drop",
@@ -12924,7 +12924,7 @@
       ]
     }
   ],
-  "Ghoul champion scroll": [
+  "6799": [
     {
       "approx": false,
       "kind": "drop",
@@ -12934,7 +12934,7 @@
       ]
     }
   ],
-  "Ghrazi rapier": [
+  "22324": [
     {
       "approx": false,
       "kind": "drop",
@@ -12952,7 +12952,7 @@
       ]
     }
   ],
-  "Giant blue krill": [
+  "31408": [
     {
       "approx": false,
       "kind": "drop",
@@ -12970,7 +12970,7 @@
       ]
     }
   ],
-  "Giant boot": [
+  "23252": [
     {
       "approx": false,
       "kind": "drop",
@@ -12980,7 +12980,7 @@
       ]
     }
   ],
-  "Giant champion scroll": [
+  "6800": [
     {
       "approx": false,
       "kind": "drop",
@@ -13000,7 +13000,7 @@
       ]
     }
   ],
-  "Giant egg sac#Full": [
+  "23517": [
     {
       "approx": false,
       "kind": "drop",
@@ -13010,7 +13010,7 @@
       ]
     }
   ],
-  "Giant key": [
+  "20754": [
     {
       "approx": false,
       "kind": "drop",
@@ -13032,7 +13032,7 @@
       ]
     }
   ],
-  "Giantsoul amulet#Uncharged": [
+  "30637": [
     {
       "approx": false,
       "kind": "drop",
@@ -13043,7 +13043,7 @@
       ]
     }
   ],
-  "Gilded 2h sword": [
+  "20155": [
     {
       "approx": false,
       "kind": "drop",
@@ -13069,7 +13069,7 @@
       ]
     }
   ],
-  "Gilded axe": [
+  "23279": [
     {
       "approx": false,
       "kind": "drop",
@@ -13087,7 +13087,7 @@
       ]
     }
   ],
-  "Gilded boots": [
+  "12391": [
     {
       "approx": false,
       "kind": "drop",
@@ -13105,7 +13105,7 @@
       ]
     }
   ],
-  "Gilded chainbody": [
+  "20149": [
     {
       "approx": false,
       "kind": "drop",
@@ -13131,7 +13131,7 @@
       ]
     }
   ],
-  "Gilded coif": [
+  "23258": [
     {
       "approx": false,
       "kind": "drop",
@@ -13149,7 +13149,7 @@
       ]
     }
   ],
-  "Gilded d'hide body": [
+  "23264": [
     {
       "approx": false,
       "kind": "drop",
@@ -13167,7 +13167,7 @@
       ]
     }
   ],
-  "Gilded d'hide chaps": [
+  "23267": [
     {
       "approx": false,
       "kind": "drop",
@@ -13185,7 +13185,7 @@
       ]
     }
   ],
-  "Gilded d'hide vambraces": [
+  "23261": [
     {
       "approx": false,
       "kind": "drop",
@@ -13203,7 +13203,7 @@
       ]
     }
   ],
-  "Gilded full helm": [
+  "3486": [
     {
       "approx": false,
       "kind": "drop",
@@ -13229,7 +13229,7 @@
       ]
     }
   ],
-  "Gilded hasta": [
+  "20161": [
     {
       "approx": false,
       "kind": "drop",
@@ -13255,7 +13255,7 @@
       ]
     }
   ],
-  "Gilded kiteshield": [
+  "3488": [
     {
       "approx": false,
       "kind": "drop",
@@ -13281,7 +13281,7 @@
       ]
     }
   ],
-  "Gilded med helm": [
+  "20146": [
     {
       "approx": false,
       "kind": "drop",
@@ -13307,7 +13307,7 @@
       ]
     }
   ],
-  "Gilded pickaxe": [
+  "23276": [
     {
       "approx": false,
       "kind": "drop",
@@ -13325,7 +13325,7 @@
       ]
     }
   ],
-  "Gilded platebody": [
+  "3481": [
     {
       "approx": false,
       "kind": "drop",
@@ -13351,7 +13351,7 @@
       ]
     }
   ],
-  "Gilded platelegs": [
+  "3483": [
     {
       "approx": false,
       "kind": "drop",
@@ -13377,7 +13377,7 @@
       ]
     }
   ],
-  "Gilded plateskirt": [
+  "3485": [
     {
       "approx": false,
       "kind": "drop",
@@ -13403,7 +13403,7 @@
       ]
     }
   ],
-  "Gilded scimitar": [
+  "12389": [
     {
       "approx": false,
       "kind": "drop",
@@ -13421,7 +13421,7 @@
       ]
     }
   ],
-  "Gilded spade": [
+  "23282": [
     {
       "approx": false,
       "kind": "drop",
@@ -13439,7 +13439,7 @@
       ]
     }
   ],
-  "Gilded spear": [
+  "20158": [
     {
       "approx": false,
       "kind": "drop",
@@ -13465,7 +13465,7 @@
       ]
     }
   ],
-  "Gilded sq shield": [
+  "20152": [
     {
       "approx": false,
       "kind": "drop",
@@ -13491,7 +13491,7 @@
       ]
     }
   ],
-  "Glacial temotli": [
+  "29889": [
     {
       "approx": false,
       "kind": "drop",
@@ -13509,7 +13509,7 @@
       ]
     }
   ],
-  "Gloves of darkness": [
+  "20134": [
     {
       "approx": false,
       "kind": "drop",
@@ -13519,7 +13519,7 @@
       ]
     }
   ],
-  "Gnome goggles": [
+  "9472": [
     {
       "approx": false,
       "kind": "drop",
@@ -13530,7 +13530,7 @@
       ]
     }
   ],
-  "Gnome scarf": [
+  "9470": [
     {
       "approx": false,
       "kind": "drop",
@@ -13541,7 +13541,7 @@
       ]
     }
   ],
-  "Gnomish firelighter#Uncharged": [
+  "20275": [
     {
       "approx": false,
       "kind": "drop",
@@ -13559,7 +13559,7 @@
       ]
     }
   ],
-  "Goblin champion scroll": [
+  "6801": [
     {
       "approx": false,
       "kind": "drop",
@@ -13582,7 +13582,7 @@
       ]
     }
   ],
-  "Goblin mask": [
+  "12251": [
     {
       "approx": false,
       "kind": "drop",
@@ -13592,7 +13592,7 @@
       ]
     }
   ],
-  "Godsword shard 1": [
+  "11818": [
     {
       "approx": false,
       "kind": "drop",
@@ -13624,7 +13624,7 @@
       ]
     }
   ],
-  "Godsword shard 2": [
+  "11820": [
     {
       "approx": false,
       "kind": "drop",
@@ -13656,7 +13656,7 @@
       ]
     }
   ],
-  "Godsword shard 3": [
+  "11822": [
     {
       "approx": false,
       "kind": "drop",
@@ -13688,7 +13688,7 @@
       ]
     }
   ],
-  "Gold elegant blouse": [
+  "12343": [
     {
       "approx": false,
       "kind": "drop",
@@ -13698,7 +13698,7 @@
       ]
     }
   ],
-  "Gold elegant legs": [
+  "12349": [
     {
       "approx": false,
       "kind": "drop",
@@ -13708,7 +13708,7 @@
       ]
     }
   ],
-  "Gold elegant shirt": [
+  "12347": [
     {
       "approx": false,
       "kind": "drop",
@@ -13718,7 +13718,7 @@
       ]
     }
   ],
-  "Gold elegant skirt": [
+  "12345": [
     {
       "approx": false,
       "kind": "drop",
@@ -13728,7 +13728,7 @@
       ]
     }
   ],
-  "Gold headband": [
+  "12303": [
     {
       "approx": false,
       "kind": "drop",
@@ -13738,7 +13738,7 @@
       ]
     }
   ],
-  "Gold locks": [
+  "25454": [
     {
       "approx": false,
       "kind": "drop",
@@ -13780,7 +13780,7 @@
       ]
     }
   ],
-  "Gold satchel": [
+  "25622": [
     {
       "approx": false,
       "kind": "drop",
@@ -13790,7 +13790,7 @@
       ]
     }
   ],
-  "Golden apron": [
+  "20208": [
     {
       "approx": false,
       "kind": "drop",
@@ -13800,7 +13800,7 @@
       ]
     }
   ],
-  "Golden chef's hat": [
+  "20205": [
     {
       "approx": false,
       "kind": "drop",
@@ -13810,7 +13810,7 @@
       ]
     }
   ],
-  "Golden haddock": [
+  "31412": [
     {
       "approx": false,
       "kind": "drop",
@@ -13828,7 +13828,7 @@
       ]
     }
   ],
-  "Golden pheasant egg": [
+  "28663": [
     {
       "approx": true,
       "kind": "drop",
@@ -13838,7 +13838,7 @@
       ]
     }
   ],
-  "Golden tench": [
+  "22840": [
     {
       "approx": false,
       "kind": "drop",
@@ -13848,7 +13848,7 @@
       ]
     }
   ],
-  "Grand seed pod": [
+  "9469": [
     {
       "approx": false,
       "kind": "drop",
@@ -13868,7 +13868,7 @@
       ]
     }
   ],
-  "Granite boots": [
+  "21643": [
     {
       "approx": false,
       "kind": "drop",
@@ -13888,7 +13888,7 @@
       ]
     }
   ],
-  "Granite dust": [
+  "21726": [
     {
       "approx": false,
       "kind": "drop",
@@ -13898,7 +13898,7 @@
       ]
     }
   ],
-  "Granite gloves": [
+  "21736": [
     {
       "approx": false,
       "kind": "drop",
@@ -13908,7 +13908,7 @@
       ]
     }
   ],
-  "Granite hammer": [
+  "21742": [
     {
       "approx": false,
       "kind": "drop",
@@ -13918,7 +13918,7 @@
       ]
     }
   ],
-  "Granite helm": [
+  "10589": [
     {
       "approx": false,
       "kind": "drop",
@@ -13937,7 +13937,7 @@
       ]
     }
   ],
-  "Granite legs": [
+  "6809": [
     {
       "approx": false,
       "kind": "drop",
@@ -13947,7 +13947,7 @@
       ]
     }
   ],
-  "Granite longsword": [
+  "21646": [
     {
       "approx": false,
       "kind": "drop",
@@ -13967,7 +13967,7 @@
       ]
     }
   ],
-  "Granite maul#Normal": [
+  "4153": [
     {
       "approx": false,
       "kind": "drop",
@@ -13993,7 +13993,7 @@
       ]
     }
   ],
-  "Granite ring": [
+  "21739": [
     {
       "approx": false,
       "kind": "drop",
@@ -14003,7 +14003,7 @@
       ]
     }
   ],
-  "Greater demon mask": [
+  "20023": [
     {
       "approx": false,
       "kind": "drop",
@@ -14013,7 +14013,7 @@
       ]
     }
   ],
-  "Green boater": [
+  "7323": [
     {
       "approx": false,
       "kind": "drop",
@@ -14023,7 +14023,7 @@
       ]
     }
   ],
-  "Green d'hide body (g)": [
+  "7370": [
     {
       "approx": false,
       "kind": "drop",
@@ -14033,7 +14033,7 @@
       ]
     }
   ],
-  "Green d'hide body (t)": [
+  "7372": [
     {
       "approx": false,
       "kind": "drop",
@@ -14043,7 +14043,7 @@
       ]
     }
   ],
-  "Green d'hide chaps (g)": [
+  "7378": [
     {
       "approx": false,
       "kind": "drop",
@@ -14053,7 +14053,7 @@
       ]
     }
   ],
-  "Green d'hide chaps (t)": [
+  "7380": [
     {
       "approx": false,
       "kind": "drop",
@@ -14063,7 +14063,7 @@
       ]
     }
   ],
-  "Green dragon mask": [
+  "12518": [
     {
       "approx": false,
       "kind": "drop",
@@ -14073,7 +14073,7 @@
       ]
     }
   ],
-  "Green elegant blouse": [
+  "10432": [
     {
       "approx": false,
       "kind": "drop",
@@ -14083,7 +14083,7 @@
       ]
     }
   ],
-  "Green elegant legs": [
+  "10414": [
     {
       "approx": false,
       "kind": "drop",
@@ -14093,7 +14093,7 @@
       ]
     }
   ],
-  "Green elegant shirt": [
+  "10412": [
     {
       "approx": false,
       "kind": "drop",
@@ -14103,7 +14103,7 @@
       ]
     }
   ],
-  "Green elegant skirt": [
+  "10434": [
     {
       "approx": false,
       "kind": "drop",
@@ -14113,7 +14113,7 @@
       ]
     }
   ],
-  "Green firelighter": [
+  "7330": [
     {
       "approx": false,
       "kind": "drop",
@@ -14171,7 +14171,7 @@
       ]
     }
   ],
-  "Green headband": [
+  "12307": [
     {
       "approx": false,
       "kind": "drop",
@@ -14181,7 +14181,7 @@
       ]
     }
   ],
-  "Green satchel": [
+  "25619": [
     {
       "approx": false,
       "kind": "drop",
@@ -14191,7 +14191,7 @@
       ]
     }
   ],
-  "Greenman mask#Default": [
+  "31034": [
     {
       "approx": false,
       "kind": "drop",
@@ -14201,7 +14201,7 @@
       ]
     }
   ],
-  "Gryphon feather": [
+  "31235": [
     {
       "approx": false,
       "kind": "drop",
@@ -14237,7 +14237,7 @@
       ]
     }
   ],
-  "Guild hunter boots": [
+  "29269": [
     {
       "approx": false,
       "kind": "drop",
@@ -14249,7 +14249,7 @@
       ]
     }
   ],
-  "Guild hunter headwear": [
+  "29263": [
     {
       "approx": false,
       "kind": "drop",
@@ -14261,7 +14261,7 @@
       ]
     }
   ],
-  "Guild hunter legs": [
+  "29267": [
     {
       "approx": false,
       "kind": "drop",
@@ -14273,7 +14273,7 @@
       ]
     }
   ],
-  "Guild hunter top": [
+  "29265": [
     {
       "approx": false,
       "kind": "drop",
@@ -14285,7 +14285,7 @@
       ]
     }
   ],
-  "Gull (pet)#Gull": [
+  "31285": [
     {
       "approx": false,
       "kind": "drop",
@@ -14295,7 +14295,7 @@
       ]
     }
   ],
-  "Guthan's chainskirt#Undamaged": [
+  "4730": [
     {
       "approx": false,
       "kind": "drop",
@@ -14305,7 +14305,7 @@
       ]
     }
   ],
-  "Guthan's helm#Undamaged": [
+  "4724": [
     {
       "approx": false,
       "kind": "drop",
@@ -14315,7 +14315,7 @@
       ]
     }
   ],
-  "Guthan's platebody#Undamaged": [
+  "4728": [
     {
       "approx": false,
       "kind": "drop",
@@ -14325,7 +14325,7 @@
       ]
     }
   ],
-  "Guthan's warspear#Undamaged": [
+  "4726": [
     {
       "approx": false,
       "kind": "drop",
@@ -14335,7 +14335,7 @@
       ]
     }
   ],
-  "Guthix bracers": [
+  "10376": [
     {
       "approx": false,
       "kind": "drop",
@@ -14345,7 +14345,7 @@
       ]
     }
   ],
-  "Guthix chaps": [
+  "10380": [
     {
       "approx": false,
       "kind": "drop",
@@ -14355,7 +14355,7 @@
       ]
     }
   ],
-  "Guthix cloak": [
+  "10448": [
     {
       "approx": false,
       "kind": "drop",
@@ -14365,7 +14365,7 @@
       ]
     }
   ],
-  "Guthix coif": [
+  "10382": [
     {
       "approx": false,
       "kind": "drop",
@@ -14375,7 +14375,7 @@
       ]
     }
   ],
-  "Guthix crozier": [
+  "10442": [
     {
       "approx": false,
       "kind": "drop",
@@ -14385,7 +14385,7 @@
       ]
     }
   ],
-  "Guthix d'hide body": [
+  "10378": [
     {
       "approx": false,
       "kind": "drop",
@@ -14395,7 +14395,7 @@
       ]
     }
   ],
-  "Guthix d'hide boots": [
+  "19927": [
     {
       "approx": false,
       "kind": "drop",
@@ -14405,7 +14405,7 @@
       ]
     }
   ],
-  "Guthix full helm": [
+  "2673": [
     {
       "approx": false,
       "kind": "drop",
@@ -14415,7 +14415,7 @@
       ]
     }
   ],
-  "Guthix kiteshield": [
+  "2675": [
     {
       "approx": false,
       "kind": "drop",
@@ -14425,7 +14425,7 @@
       ]
     }
   ],
-  "Guthix mitre": [
+  "10454": [
     {
       "approx": false,
       "kind": "drop",
@@ -14435,7 +14435,7 @@
       ]
     }
   ],
-  "Guthix page 1": [
+  "3835": [
     {
       "approx": false,
       "kind": "drop",
@@ -14486,7 +14486,7 @@
       ]
     }
   ],
-  "Guthix page 2": [
+  "3836": [
     {
       "approx": false,
       "kind": "drop",
@@ -14537,7 +14537,7 @@
       ]
     }
   ],
-  "Guthix page 3": [
+  "3837": [
     {
       "approx": false,
       "kind": "drop",
@@ -14588,7 +14588,7 @@
       ]
     }
   ],
-  "Guthix page 4": [
+  "3838": [
     {
       "approx": false,
       "kind": "drop",
@@ -14639,7 +14639,7 @@
       ]
     }
   ],
-  "Guthix platebody": [
+  "2669": [
     {
       "approx": false,
       "kind": "drop",
@@ -14649,7 +14649,7 @@
       ]
     }
   ],
-  "Guthix platelegs": [
+  "2671": [
     {
       "approx": false,
       "kind": "drop",
@@ -14659,7 +14659,7 @@
       ]
     }
   ],
-  "Guthix plateskirt": [
+  "3480": [
     {
       "approx": false,
       "kind": "drop",
@@ -14669,7 +14669,7 @@
       ]
     }
   ],
-  "Guthix robe legs": [
+  "10466": [
     {
       "approx": false,
       "kind": "drop",
@@ -14679,7 +14679,7 @@
       ]
     }
   ],
-  "Guthix robe top": [
+  "10462": [
     {
       "approx": false,
       "kind": "drop",
@@ -14689,7 +14689,7 @@
       ]
     }
   ],
-  "Guthix stole": [
+  "10472": [
     {
       "approx": false,
       "kind": "drop",
@@ -14699,7 +14699,7 @@
       ]
     }
   ],
-  "Guthixian temple teleport": [
+  "29684": [
     {
       "approx": false,
       "kind": "drop",
@@ -14709,7 +14709,7 @@
       ]
     }
   ],
-  "Half moon spectacles": [
+  "20053": [
     {
       "approx": false,
       "kind": "drop",
@@ -14719,7 +14719,7 @@
       ]
     }
   ],
-  "Hallowed mark": [
+  "24711": [
     {
       "approx": false,
       "kind": "drop",
@@ -14730,7 +14730,7 @@
       ]
     }
   ],
-  "Ham joint": [
+  "23360": [
     {
       "approx": false,
       "kind": "drop",
@@ -14740,7 +14740,7 @@
       ]
     }
   ],
-  "Harmonised orb": [
+  "24511": [
     {
       "approx": false,
       "kind": "drop",
@@ -14758,7 +14758,7 @@
       ]
     }
   ],
-  "Hastily scrawled note": [
+  "21678": [
     {
       "approx": false,
       "kind": "drop",
@@ -14768,7 +14768,7 @@
       ]
     }
   ],
-  "Heavy frame": [
+  "19589": [
     {
       "approx": false,
       "kind": "drop",
@@ -14786,7 +14786,7 @@
       ]
     }
   ],
-  "Hellpuppy": [
+  "13247": [
     {
       "approx": false,
       "kind": "drop",
@@ -14796,7 +14796,7 @@
       ]
     }
   ],
-  "Helmet of the moon": [
+  "30111": [
     {
       "approx": false,
       "kind": "drop",
@@ -14806,7 +14806,7 @@
       ]
     }
   ],
-  "Herbi": [
+  "21509": [
     {
       "approx": false,
       "kind": "drop",
@@ -14816,7 +14816,7 @@
       ]
     }
   ],
-  "Heron#Regular": [
+  "13320": [
     {
       "approx": false,
       "kind": "drop",
@@ -14826,7 +14826,7 @@
       ]
     }
   ],
-  "Hespori seed": [
+  "22875": [
     {
       "approx": false,
       "kind": "drop",
@@ -14836,7 +14836,7 @@
       ]
     }
   ],
-  "Highwayman mask": [
+  "2631": [
     {
       "approx": false,
       "kind": "drop",
@@ -14846,7 +14846,7 @@
       ]
     }
   ],
-  "Hill giant club": [
+  "20756": [
     {
       "approx": false,
       "kind": "drop",
@@ -14856,7 +14856,7 @@
       ]
     }
   ],
-  "Hobgoblin champion scroll": [
+  "6802": [
     {
       "approx": false,
       "kind": "drop",
@@ -14868,7 +14868,7 @@
       ]
     }
   ],
-  "Holy blessing": [
+  "20220": [
     {
       "approx": false,
       "kind": "drop",
@@ -14926,7 +14926,7 @@
       ]
     }
   ],
-  "Holy elixir": [
+  "12833": [
     {
       "approx": false,
       "kind": "drop",
@@ -14936,7 +14936,7 @@
       ]
     }
   ],
-  "Holy ornament kit": [
+  "25742": [
     {
       "approx": false,
       "kind": "drop",
@@ -14946,7 +14946,7 @@
       ]
     }
   ],
-  "Holy sandals": [
+  "12598": [
     {
       "approx": false,
       "kind": "drop",
@@ -14956,7 +14956,7 @@
       ]
     }
   ],
-  "Holy wraps": [
+  "19997": [
     {
       "approx": false,
       "kind": "drop",
@@ -14966,7 +14966,7 @@
       ]
     }
   ],
-  "Honourable blessing": [
+  "20229": [
     {
       "approx": false,
       "kind": "drop",
@@ -15024,7 +15024,7 @@
       ]
     }
   ],
-  "Hood of darkness": [
+  "20128": [
     {
       "approx": false,
       "kind": "drop",
@@ -15034,7 +15034,7 @@
       ]
     }
   ],
-  "Horn of plenty#Empty": [
+  "31243": [
     {
       "approx": false,
       "kind": "drop",
@@ -15052,7 +15052,7 @@
       ]
     }
   ],
-  "Hosidius banner": [
+  "20254": [
     {
       "approx": false,
       "kind": "drop",
@@ -15062,7 +15062,7 @@
       ]
     }
   ],
-  "Hosidius hood": [
+  "20116": [
     {
       "approx": false,
       "kind": "drop",
@@ -15072,7 +15072,7 @@
       ]
     }
   ],
-  "Hosidius scarf": [
+  "19946": [
     {
       "approx": false,
       "kind": "drop",
@@ -15082,7 +15082,7 @@
       ]
     }
   ],
-  "Huasca seed": [
+  "30088": [
     {
       "approx": false,
       "kind": "drop",
@@ -15132,7 +15132,7 @@
       ]
     }
   ],
-  "Huberte": [
+  "30152": [
     {
       "approx": false,
       "kind": "drop",
@@ -15142,7 +15142,7 @@
       ]
     }
   ],
-  "Hueycoatl hide": [
+  "30085": [
     {
       "approx": false,
       "kind": "drop",
@@ -15152,7 +15152,7 @@
       ]
     }
   ],
-  "Huge halibut": [
+  "31420": [
     {
       "approx": false,
       "kind": "drop",
@@ -15178,7 +15178,7 @@
       ]
     }
   ],
-  "Huntsman's kit": [
+  "29309": [
     {
       "approx": false,
       "kind": "drop",
@@ -15190,7 +15190,7 @@
       ]
     }
   ],
-  "Hydra leather": [
+  "22983": [
     {
       "approx": false,
       "kind": "drop",
@@ -15200,7 +15200,7 @@
       ]
     }
   ],
-  "Hydra tail": [
+  "22988": [
     {
       "approx": false,
       "kind": "drop",
@@ -15226,7 +15226,7 @@
       ]
     }
   ],
-  "Hydra's claw": [
+  "22966": [
     {
       "approx": false,
       "kind": "drop",
@@ -15236,7 +15236,7 @@
       ]
     }
   ],
-  "Hydra's eye": [
+  "22973": [
     {
       "approx": false,
       "kind": "drop",
@@ -15262,7 +15262,7 @@
       ]
     }
   ],
-  "Hydra's fang": [
+  "22971": [
     {
       "approx": false,
       "kind": "drop",
@@ -15288,7 +15288,7 @@
       ]
     }
   ],
-  "Hydra's heart": [
+  "22969": [
     {
       "approx": false,
       "kind": "drop",
@@ -15314,7 +15314,7 @@
       ]
     }
   ],
-  "Iasor seed": [
+  "22883": [
     {
       "approx": false,
       "kind": "drop",
@@ -15324,7 +15324,7 @@
       ]
     }
   ],
-  "Ice element staff crown": [
+  "30628": [
     {
       "approx": false,
       "kind": "drop",
@@ -15334,7 +15334,7 @@
       ]
     }
   ],
-  "Ice quartz": [
+  "28270": [
     {
       "approx": false,
       "kind": "drop",
@@ -15344,7 +15344,7 @@
       ]
     }
   ],
-  "Ikkle hydra#Serpentine": [
+  "22746": [
     {
       "approx": false,
       "kind": "drop",
@@ -15354,7 +15354,7 @@
       ]
     }
   ],
-  "Imbued heart": [
+  "20724": [
     {
       "approx": false,
       "kind": "drop",
@@ -15590,7 +15590,7 @@
       ]
     }
   ],
-  "Imcando hammer#Repaired": [
+  "25644": [
     {
       "approx": true,
       "kind": "drop",
@@ -15600,7 +15600,7 @@
       ]
     }
   ],
-  "Imp champion scroll": [
+  "6803": [
     {
       "approx": false,
       "kind": "drop",
@@ -15612,7 +15612,7 @@
       ]
     }
   ],
-  "Imp mask": [
+  "12249": [
     {
       "approx": false,
       "kind": "drop",
@@ -15622,7 +15622,7 @@
       ]
     }
   ],
-  "Inky paint": [
+  "32093": [
     {
       "approx": false,
       "kind": "drop",
@@ -15664,7 +15664,7 @@
       ]
     }
   ],
-  "Inquisitor's great helm": [
+  "24419": [
     {
       "approx": false,
       "kind": "drop",
@@ -15682,7 +15682,7 @@
       ]
     }
   ],
-  "Inquisitor's hauberk": [
+  "24420": [
     {
       "approx": false,
       "kind": "drop",
@@ -15700,7 +15700,7 @@
       ]
     }
   ],
-  "Inquisitor's mace": [
+  "24417": [
     {
       "approx": false,
       "kind": "drop",
@@ -15718,7 +15718,7 @@
       ]
     }
   ],
-  "Inquisitor's plateskirt": [
+  "24421": [
     {
       "approx": false,
       "kind": "drop",
@@ -15736,7 +15736,7 @@
       ]
     }
   ],
-  "Intricate pouch": [
+  "26908": [
     {
       "approx": false,
       "kind": "drop",
@@ -15746,7 +15746,7 @@
       ]
     }
   ],
-  "Iorwerth camp teleport": [
+  "12410": [
     {
       "approx": false,
       "kind": "drop",
@@ -15797,7 +15797,7 @@
       ]
     }
   ],
-  "Iron boots": [
+  "4121": [
     {
       "approx": false,
       "kind": "drop",
@@ -15817,7 +15817,7 @@
       ]
     }
   ],
-  "Iron defender#Normal": [
+  "8845": [
     {
       "approx": false,
       "kind": "drop",
@@ -15827,7 +15827,7 @@
       ]
     }
   ],
-  "Iron dragon mask": [
+  "12365": [
     {
       "approx": false,
       "kind": "drop",
@@ -15837,7 +15837,7 @@
       ]
     }
   ],
-  "Iron full helm (g)": [
+  "12241": [
     {
       "approx": false,
       "kind": "drop",
@@ -15847,7 +15847,7 @@
       ]
     }
   ],
-  "Iron full helm (t)": [
+  "12231": [
     {
       "approx": false,
       "kind": "drop",
@@ -15857,7 +15857,7 @@
       ]
     }
   ],
-  "Iron kiteshield (g)": [
+  "12243": [
     {
       "approx": false,
       "kind": "drop",
@@ -15867,7 +15867,7 @@
       ]
     }
   ],
-  "Iron kiteshield (t)": [
+  "12233": [
     {
       "approx": false,
       "kind": "drop",
@@ -15877,7 +15877,7 @@
       ]
     }
   ],
-  "Iron platebody (g)": [
+  "12235": [
     {
       "approx": false,
       "kind": "drop",
@@ -15887,7 +15887,7 @@
       ]
     }
   ],
-  "Iron platebody (t)": [
+  "12225": [
     {
       "approx": false,
       "kind": "drop",
@@ -15897,7 +15897,7 @@
       ]
     }
   ],
-  "Iron platelegs (g)": [
+  "12237": [
     {
       "approx": false,
       "kind": "drop",
@@ -15907,7 +15907,7 @@
       ]
     }
   ],
-  "Iron platelegs (t)": [
+  "12227": [
     {
       "approx": false,
       "kind": "drop",
@@ -15917,7 +15917,7 @@
       ]
     }
   ],
-  "Iron plateskirt (g)": [
+  "12239": [
     {
       "approx": false,
       "kind": "drop",
@@ -15927,7 +15927,7 @@
       ]
     }
   ],
-  "Iron plateskirt (t)": [
+  "12229": [
     {
       "approx": false,
       "kind": "drop",
@@ -15937,7 +15937,7 @@
       ]
     }
   ],
-  "Jal-nib-rek#Jal-Nib-Rek": [
+  "21291": [
     {
       "approx": false,
       "kind": "drop",
@@ -15947,7 +15947,7 @@
       ]
     }
   ],
-  "Jar of chemicals": [
+  "23064": [
     {
       "approx": false,
       "kind": "drop",
@@ -15957,7 +15957,7 @@
       ]
     }
   ],
-  "Jar of darkness": [
+  "19701": [
     {
       "approx": false,
       "kind": "drop",
@@ -15967,7 +15967,7 @@
       ]
     }
   ],
-  "Jar of decay": [
+  "22106": [
     {
       "approx": false,
       "kind": "drop",
@@ -15977,7 +15977,7 @@
       ]
     }
   ],
-  "Jar of dirt": [
+  "12007": [
     {
       "approx": false,
       "kind": "drop",
@@ -15987,7 +15987,7 @@
       ]
     }
   ],
-  "Jar of dreams": [
+  "24495": [
     {
       "approx": false,
       "kind": "drop",
@@ -16005,7 +16005,7 @@
       ]
     }
   ],
-  "Jar of eyes": [
+  "23525": [
     {
       "approx": false,
       "kind": "drop",
@@ -16015,7 +16015,7 @@
       ]
     }
   ],
-  "Jar of feathers": [
+  "32921": [
     {
       "approx": false,
       "kind": "drop",
@@ -16025,7 +16025,7 @@
       ]
     }
   ],
-  "Jar of miasma": [
+  "13277": [
     {
       "approx": false,
       "kind": "drop",
@@ -16035,7 +16035,7 @@
       ]
     }
   ],
-  "Jar of sand": [
+  "12885": [
     {
       "approx": false,
       "kind": "drop",
@@ -16045,7 +16045,7 @@
       ]
     }
   ],
-  "Jar of smoke": [
+  "25524": [
     {
       "approx": false,
       "kind": "drop",
@@ -16055,7 +16055,7 @@
       ]
     }
   ],
-  "Jar of souls": [
+  "13245": [
     {
       "approx": false,
       "kind": "drop",
@@ -16065,7 +16065,7 @@
       ]
     }
   ],
-  "Jar of spirits": [
+  "25521": [
     {
       "approx": false,
       "kind": "drop",
@@ -16075,7 +16075,7 @@
       ]
     }
   ],
-  "Jar of stone": [
+  "21745": [
     {
       "approx": false,
       "kind": "drop",
@@ -16085,7 +16085,7 @@
       ]
     }
   ],
-  "Jar of swamp": [
+  "12936": [
     {
       "approx": false,
       "kind": "drop",
@@ -16095,7 +16095,7 @@
       ]
     }
   ],
-  "Jar of venom": [
+  "29786": [
     {
       "approx": false,
       "kind": "drop",
@@ -16105,7 +16105,7 @@
       ]
     }
   ],
-  "Jester cape": [
+  "23297": [
     {
       "approx": false,
       "kind": "drop",
@@ -16115,7 +16115,7 @@
       ]
     }
   ],
-  "Jewel of amascut": [
+  "30893": [
     {
       "approx": false,
       "kind": "drop",
@@ -16125,7 +16125,7 @@
       ]
     }
   ],
-  "Jewel of the sun": [
+  "27289": [
     {
       "approx": false,
       "kind": "drop",
@@ -16135,7 +16135,7 @@
       ]
     }
   ],
-  "Jogre champion scroll": [
+  "6804": [
     {
       "approx": false,
       "kind": "drop",
@@ -16145,7 +16145,7 @@
       ]
     }
   ],
-  "Jungle demon mask": [
+  "20032": [
     {
       "approx": false,
       "kind": "drop",
@@ -16155,7 +16155,7 @@
       ]
     }
   ],
-  "Justiciar chestguard": [
+  "22327": [
     {
       "approx": false,
       "kind": "drop",
@@ -16173,7 +16173,7 @@
       ]
     }
   ],
-  "Justiciar faceguard": [
+  "22326": [
     {
       "approx": false,
       "kind": "drop",
@@ -16191,7 +16191,7 @@
       ]
     }
   ],
-  "Justiciar legguards": [
+  "22328": [
     {
       "approx": false,
       "kind": "drop",
@@ -16209,7 +16209,7 @@
       ]
     }
   ],
-  "Kalphite princess#Crawling": [
+  "12647": [
     {
       "approx": false,
       "kind": "drop",
@@ -16219,7 +16219,7 @@
       ]
     }
   ],
-  "Karil's coif#Undamaged": [
+  "4732": [
     {
       "approx": false,
       "kind": "drop",
@@ -16229,7 +16229,7 @@
       ]
     }
   ],
-  "Karil's crossbow#Undamaged": [
+  "4734": [
     {
       "approx": false,
       "kind": "drop",
@@ -16239,7 +16239,7 @@
       ]
     }
   ],
-  "Karil's leatherskirt#Undamaged": [
+  "4738": [
     {
       "approx": false,
       "kind": "drop",
@@ -16249,7 +16249,7 @@
       ]
     }
   ],
-  "Karil's leathertop#Undamaged": [
+  "4736": [
     {
       "approx": false,
       "kind": "drop",
@@ -16259,7 +16259,7 @@
       ]
     }
   ],
-  "Katana": [
+  "12357": [
     {
       "approx": false,
       "kind": "drop",
@@ -16269,7 +16269,7 @@
       ]
     }
   ],
-  "Kbd heads": [
+  "7980": [
     {
       "approx": false,
       "kind": "drop",
@@ -16279,7 +16279,7 @@
       ]
     }
   ],
-  "Key master teleport": [
+  "13249": [
     {
       "approx": false,
       "kind": "drop",
@@ -16289,7 +16289,7 @@
       ]
     }
   ],
-  "Kodai insignia": [
+  "21043": [
     {
       "approx": false,
       "kind": "drop",
@@ -16299,7 +16299,7 @@
       ]
     }
   ],
-  "Kq head": [
+  "7981": [
     {
       "approx": false,
       "kind": "drop",
@@ -16309,7 +16309,7 @@
       ]
     }
   ],
-  "Kraken tentacle": [
+  "12004": [
     {
       "approx": false,
       "kind": "drop",
@@ -16327,7 +16327,7 @@
       ]
     }
   ],
-  "Kronos seed": [
+  "22885": [
     {
       "approx": false,
       "kind": "drop",
@@ -16337,7 +16337,7 @@
       ]
     }
   ],
-  "Kurask head": [
+  "7978": [
     {
       "approx": false,
       "kind": "drop",
@@ -16348,7 +16348,7 @@
       ]
     }
   ],
-  "Lava dragon mask": [
+  "12371": [
     {
       "approx": false,
       "kind": "drop",
@@ -16358,7 +16358,7 @@
       ]
     }
   ],
-  "Leaf-bladed battleaxe": [
+  "20727": [
     {
       "approx": false,
       "kind": "drop",
@@ -16376,7 +16376,7 @@
       ]
     }
   ],
-  "Leaf-bladed sword": [
+  "11902": [
     {
       "approx": false,
       "kind": "drop",
@@ -16410,7 +16410,7 @@
       ]
     }
   ],
-  "Leather body (g)": [
+  "23381": [
     {
       "approx": false,
       "kind": "drop",
@@ -16420,7 +16420,7 @@
       ]
     }
   ],
-  "Leather chaps (g)": [
+  "23384": [
     {
       "approx": false,
       "kind": "drop",
@@ -16430,7 +16430,7 @@
       ]
     }
   ],
-  "Lederhosen hat": [
+  "6182": [
     {
       "approx": false,
       "kind": "drop",
@@ -16440,7 +16440,7 @@
       ]
     }
   ],
-  "Lederhosen shorts": [
+  "6181": [
     {
       "approx": false,
       "kind": "drop",
@@ -16450,7 +16450,7 @@
       ]
     }
   ],
-  "Lederhosen top": [
+  "6180": [
     {
       "approx": false,
       "kind": "drop",
@@ -16460,7 +16460,7 @@
       ]
     }
   ],
-  "Left eye patch": [
+  "19724": [
     {
       "approx": false,
       "kind": "drop",
@@ -16470,7 +16470,7 @@
       ]
     }
   ],
-  "Left skull half": [
+  "9008": [
     {
       "approx": false,
       "kind": "drop",
@@ -16481,7 +16481,7 @@
       ]
     }
   ],
-  "Leprechaun hat": [
+  "12359": [
     {
       "approx": false,
       "kind": "drop",
@@ -16491,7 +16491,7 @@
       ]
     }
   ],
-  "Lesser demon champion scroll": [
+  "6805": [
     {
       "approx": false,
       "kind": "drop",
@@ -16504,7 +16504,7 @@
       ]
     }
   ],
-  "Lesser demon mask": [
+  "20020": [
     {
       "approx": false,
       "kind": "drop",
@@ -16514,7 +16514,7 @@
       ]
     }
   ],
-  "Leviathan's lure": [
+  "28325": [
     {
       "approx": false,
       "kind": "drop",
@@ -16524,7 +16524,7 @@
       ]
     }
   ],
-  "Light bow tie": [
+  "19985": [
     {
       "approx": false,
       "kind": "drop",
@@ -16534,7 +16534,7 @@
       ]
     }
   ],
-  "Light frame": [
+  "19586": [
     {
       "approx": false,
       "kind": "drop",
@@ -16552,7 +16552,7 @@
       ]
     }
   ],
-  "Light infinity colour kit": [
+  "12530": [
     {
       "approx": false,
       "kind": "drop",
@@ -16562,7 +16562,7 @@
       ]
     }
   ],
-  "Light trousers": [
+  "19979": [
     {
       "approx": false,
       "kind": "drop",
@@ -16572,7 +16572,7 @@
       ]
     }
   ],
-  "Light tuxedo cuffs": [
+  "19976": [
     {
       "approx": false,
       "kind": "drop",
@@ -16582,7 +16582,7 @@
       ]
     }
   ],
-  "Light tuxedo jacket": [
+  "19973": [
     {
       "approx": false,
       "kind": "drop",
@@ -16592,7 +16592,7 @@
       ]
     }
   ],
-  "Light tuxedo shoes": [
+  "19982": [
     {
       "approx": false,
       "kind": "drop",
@@ -16602,7 +16602,7 @@
       ]
     }
   ],
-  "Lightbearer": [
+  "25975": [
     {
       "approx": false,
       "kind": "drop",
@@ -16612,7 +16612,7 @@
       ]
     }
   ],
-  "Lil' creator#Lil' Creator": [
+  "25348": [
     {
       "approx": false,
       "kind": "drop",
@@ -16622,7 +16622,7 @@
       ]
     }
   ],
-  "Lil' zik#Lil' Zik": [
+  "22473": [
     {
       "approx": false,
       "kind": "drop",
@@ -16632,7 +16632,7 @@
       ]
     }
   ],
-  "Lil'viathan": [
+  "28252": [
     {
       "approx": false,
       "kind": "drop",
@@ -16642,7 +16642,7 @@
       ]
     }
   ],
-  "Little nightmare#Nightmare": [
+  "24491": [
     {
       "approx": false,
       "kind": "drop",
@@ -16660,7 +16660,7 @@
       ]
     }
   ],
-  "Long bone": [
+  "10976": [
     {
       "approx": false,
       "kind": "drop",
@@ -16790,7 +16790,7 @@
       ]
     }
   ],
-  "Lost bag#Regular": [
+  "26912": [
     {
       "approx": false,
       "kind": "drop",
@@ -16800,7 +16800,7 @@
       ]
     }
   ],
-  "Lovakengj banner": [
+  "20257": [
     {
       "approx": false,
       "kind": "drop",
@@ -16810,7 +16810,7 @@
       ]
     }
   ],
-  "Lovakengj hood": [
+  "20119": [
     {
       "approx": false,
       "kind": "drop",
@@ -16820,7 +16820,7 @@
       ]
     }
   ],
-  "Lovakengj scarf": [
+  "19949": [
     {
       "approx": false,
       "kind": "drop",
@@ -16830,7 +16830,7 @@
       ]
     }
   ],
-  "Lumberjack boots": [
+  "10933": [
     {
       "approx": false,
       "kind": "drop",
@@ -16840,7 +16840,7 @@
       ]
     }
   ],
-  "Lumberjack hat": [
+  "10941": [
     {
       "approx": false,
       "kind": "drop",
@@ -16850,7 +16850,7 @@
       ]
     }
   ],
-  "Lumberjack legs": [
+  "10940": [
     {
       "approx": false,
       "kind": "drop",
@@ -16860,7 +16860,7 @@
       ]
     }
   ],
-  "Lumberjack top": [
+  "10939": [
     {
       "approx": false,
       "kind": "drop",
@@ -16870,7 +16870,7 @@
       ]
     }
   ],
-  "Lumberyard teleport": [
+  "12642": [
     {
       "approx": false,
       "kind": "drop",
@@ -16921,7 +16921,7 @@
       ]
     }
   ],
-  "Lunar isle teleport": [
+  "12405": [
     {
       "approx": false,
       "kind": "drop",
@@ -16972,7 +16972,7 @@
       ]
     }
   ],
-  "Magic comp bow": [
+  "10284": [
     {
       "approx": false,
       "kind": "drop",
@@ -16982,7 +16982,7 @@
       ]
     }
   ],
-  "Magic fang": [
+  "12932": [
     {
       "approx": false,
       "kind": "drop",
@@ -16992,7 +16992,7 @@
       ]
     }
   ],
-  "Magma mutagen": [
+  "13201": [
     {
       "approx": false,
       "kind": "drop",
@@ -17002,7 +17002,7 @@
       ]
     }
   ],
-  "Magus vestige": [
+  "28281": [
     {
       "approx": false,
       "kind": "drop",
@@ -17012,7 +17012,7 @@
       ]
     }
   ],
-  "Major beginner scroll case": [
+  "30904": [
     {
       "approx": false,
       "kind": "drop",
@@ -17022,7 +17022,7 @@
       ]
     }
   ],
-  "Major easy scroll case": [
+  "30908": [
     {
       "approx": false,
       "kind": "drop",
@@ -17032,7 +17032,7 @@
       ]
     }
   ],
-  "Major elite scroll case": [
+  "30920": [
     {
       "approx": false,
       "kind": "drop",
@@ -17042,7 +17042,7 @@
       ]
     }
   ],
-  "Major hard scroll case": [
+  "30916": [
     {
       "approx": false,
       "kind": "drop",
@@ -17052,7 +17052,7 @@
       ]
     }
   ],
-  "Major master scroll case": [
+  "30924": [
     {
       "approx": false,
       "kind": "drop",
@@ -17062,7 +17062,7 @@
       ]
     }
   ],
-  "Major medium scroll case": [
+  "30912": [
     {
       "approx": false,
       "kind": "drop",
@@ -17072,7 +17072,7 @@
       ]
     }
   ],
-  "Malediction shard 1": [
+  "11931": [
     {
       "approx": false,
       "kind": "drop",
@@ -17082,7 +17082,7 @@
       ]
     }
   ],
-  "Malediction shard 2": [
+  "11932": [
     {
       "approx": false,
       "kind": "drop",
@@ -17092,7 +17092,7 @@
       ]
     }
   ],
-  "Malediction shard 3": [
+  "11933": [
     {
       "approx": false,
       "kind": "drop",
@@ -17102,7 +17102,7 @@
       ]
     }
   ],
-  "Mask of ranul": [
+  "23522": [
     {
       "approx": false,
       "kind": "drop",
@@ -17112,7 +17112,7 @@
       ]
     }
   ],
-  "Masori body": [
+  "27229": [
     {
       "approx": false,
       "kind": "drop",
@@ -17122,7 +17122,7 @@
       ]
     }
   ],
-  "Masori chaps": [
+  "27232": [
     {
       "approx": false,
       "kind": "drop",
@@ -17132,7 +17132,7 @@
       ]
     }
   ],
-  "Masori crafting kit": [
+  "27372": [
     {
       "approx": false,
       "kind": "drop",
@@ -17142,7 +17142,7 @@
       ]
     }
   ],
-  "Masori mask": [
+  "27226": [
     {
       "approx": false,
       "kind": "drop",
@@ -17152,7 +17152,7 @@
       ]
     }
   ],
-  "Master scroll book#Empty": [
+  "21387": [
     {
       "approx": false,
       "kind": "drop",
@@ -17203,7 +17203,7 @@
       ]
     }
   ],
-  "Medallion fragment#1": [
+  "32388": [
     {
       "approx": true,
       "kind": "drop",
@@ -17213,67 +17213,7 @@
       ]
     }
   ],
-  "Medallion fragment#2": [
-    {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/4",
-      "sources": [
-        "Rusty chest"
-      ]
-    },
-    {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/6",
-      "sources": [
-        "Pirate (Thieving)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/10",
-      "sources": [
-        "Pirate (Thieving)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "Always",
-      "sources": [
-        "Silver stall (Port Roberts)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "Always",
-      "sources": [
-        "Teak tree"
-      ]
-    }
-  ],
-  "Medallion fragment#3": [
-    {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/6",
-      "sources": [
-        "Pirate (Thieving)"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/10",
-      "sources": [
-        "Pirate (Thieving)"
-      ]
-    }
-  ],
-  "Medallion fragment#4": [
+  "32389": [
     {
       "approx": true,
       "kind": "drop",
@@ -17315,27 +17255,25 @@
       ]
     }
   ],
-  "Medallion fragment#5": [
+  "32390": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/6",
+      "sources": [
+        "Pirate (Thieving)"
+      ]
+    },
     {
       "approx": false,
       "kind": "drop",
-      "rate": "Always",
+      "rate": "1/10",
       "sources": [
-        "Silver stall (Port Roberts)"
+        "Pirate (Thieving)"
       ]
     }
   ],
-  "Medallion fragment#6": [
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "Always",
-      "sources": [
-        "Teak tree"
-      ]
-    }
-  ],
-  "Medallion fragment#7": [
+  "32391": [
     {
       "approx": true,
       "kind": "drop",
@@ -17377,7 +17315,27 @@
       ]
     }
   ],
-  "Medallion fragment#8": [
+  "32392": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Silver stall (Port Roberts)"
+      ]
+    }
+  ],
+  "32393": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Teak tree"
+      ]
+    }
+  ],
+  "32394": [
     {
       "approx": true,
       "kind": "drop",
@@ -17419,7 +17377,49 @@
       ]
     }
   ],
-  "Menaphite ornament kit": [
+  "32395": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/4",
+      "sources": [
+        "Rusty chest"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/6",
+      "sources": [
+        "Pirate (Thieving)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/10",
+      "sources": [
+        "Pirate (Thieving)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Silver stall (Port Roberts)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Teak tree"
+      ]
+    }
+  ],
+  "27255": [
     {
       "approx": false,
       "kind": "drop",
@@ -17429,7 +17429,7 @@
       ]
     }
   ],
-  "Metamorphic dust": [
+  "22386": [
     {
       "approx": false,
       "kind": "drop",
@@ -17439,7 +17439,7 @@
       ]
     }
   ],
-  "Mime boots": [
+  "3061": [
     {
       "approx": false,
       "kind": "drop",
@@ -17449,7 +17449,7 @@
       ]
     }
   ],
-  "Mime gloves": [
+  "3060": [
     {
       "approx": false,
       "kind": "drop",
@@ -17459,7 +17459,7 @@
       ]
     }
   ],
-  "Mime legs": [
+  "3059": [
     {
       "approx": false,
       "kind": "drop",
@@ -17469,7 +17469,7 @@
       ]
     }
   ],
-  "Mime mask": [
+  "3057": [
     {
       "approx": false,
       "kind": "drop",
@@ -17479,7 +17479,7 @@
       ]
     }
   ],
-  "Mime top": [
+  "3058": [
     {
       "approx": false,
       "kind": "drop",
@@ -17489,7 +17489,7 @@
       ]
     }
   ],
-  "Mimic scroll case": [
+  "30926": [
     {
       "approx": false,
       "kind": "drop",
@@ -17500,7 +17500,7 @@
       ]
     }
   ],
-  "Minor beginner scroll case": [
+  "30902": [
     {
       "approx": false,
       "kind": "drop",
@@ -17510,7 +17510,7 @@
       ]
     }
   ],
-  "Minor easy scroll case": [
+  "30906": [
     {
       "approx": false,
       "kind": "drop",
@@ -17520,7 +17520,7 @@
       ]
     }
   ],
-  "Minor elite scroll case": [
+  "30918": [
     {
       "approx": false,
       "kind": "drop",
@@ -17530,7 +17530,7 @@
       ]
     }
   ],
-  "Minor hard scroll case": [
+  "30914": [
     {
       "approx": false,
       "kind": "drop",
@@ -17540,7 +17540,7 @@
       ]
     }
   ],
-  "Minor master scroll case": [
+  "30922": [
     {
       "approx": false,
       "kind": "drop",
@@ -17550,7 +17550,7 @@
       ]
     }
   ],
-  "Minor medium scroll case": [
+  "30910": [
     {
       "approx": false,
       "kind": "drop",
@@ -17560,7 +17560,7 @@
       ]
     }
   ],
-  "Mint cake": [
+  "9475": [
     {
       "approx": false,
       "kind": "drop",
@@ -17572,7 +17572,7 @@
       ]
     }
   ],
-  "Mist battlestaff": [
+  "20730": [
     {
       "approx": false,
       "kind": "drop",
@@ -17816,7 +17816,7 @@
       ]
     }
   ],
-  "Mithril boots": [
+  "4127": [
     {
       "approx": false,
       "kind": "drop",
@@ -17860,7 +17860,7 @@
       ]
     }
   ],
-  "Mithril defender#Normal": [
+  "8848": [
     {
       "approx": false,
       "kind": "drop",
@@ -17870,7 +17870,7 @@
       ]
     }
   ],
-  "Mithril dragon mask": [
+  "12369": [
     {
       "approx": false,
       "kind": "drop",
@@ -17880,7 +17880,7 @@
       ]
     }
   ],
-  "Mithril full helm (g)": [
+  "12283": [
     {
       "approx": false,
       "kind": "drop",
@@ -17890,7 +17890,7 @@
       ]
     }
   ],
-  "Mithril full helm (t)": [
+  "12293": [
     {
       "approx": false,
       "kind": "drop",
@@ -17900,7 +17900,7 @@
       ]
     }
   ],
-  "Mithril keel#Sloop": [
+  "23188": [
     {
       "approx": false,
       "kind": "drop",
@@ -17910,7 +17910,7 @@
       ]
     }
   ],
-  "Mithril kiteshield (g)": [
+  "12281": [
     {
       "approx": false,
       "kind": "drop",
@@ -17920,7 +17920,7 @@
       ]
     }
   ],
-  "Mithril kiteshield (t)": [
+  "12291": [
     {
       "approx": false,
       "kind": "drop",
@@ -17930,7 +17930,7 @@
       ]
     }
   ],
-  "Mithril platebody (g)": [
+  "12277": [
     {
       "approx": false,
       "kind": "drop",
@@ -17940,7 +17940,7 @@
       ]
     }
   ],
-  "Mithril platebody (t)": [
+  "12287": [
     {
       "approx": false,
       "kind": "drop",
@@ -17950,7 +17950,7 @@
       ]
     }
   ],
-  "Mithril platelegs (g)": [
+  "12279": [
     {
       "approx": false,
       "kind": "drop",
@@ -17960,7 +17960,7 @@
       ]
     }
   ],
-  "Mithril platelegs (t)": [
+  "12289": [
     {
       "approx": false,
       "kind": "drop",
@@ -17970,7 +17970,7 @@
       ]
     }
   ],
-  "Mithril plateskirt (g)": [
+  "12285": [
     {
       "approx": false,
       "kind": "drop",
@@ -17980,7 +17980,7 @@
       ]
     }
   ],
-  "Mithril plateskirt (t)": [
+  "12295": [
     {
       "approx": false,
       "kind": "drop",
@@ -17990,7 +17990,7 @@
       ]
     }
   ],
-  "Mokhaiotl cloth": [
+  "31109": [
     {
       "approx": false,
       "kind": "drop",
@@ -18000,7 +18000,7 @@
       ]
     }
   ],
-  "Mokhaiotl waystone": [
+  "31099": [
     {
       "approx": false,
       "kind": "drop",
@@ -18010,7 +18010,7 @@
       ]
     }
   ],
-  "Mole claw": [
+  "7416": [
     {
       "approx": false,
       "kind": "drop",
@@ -18029,7 +18029,7 @@
       ]
     }
   ],
-  "Mole skin": [
+  "7418": [
     {
       "approx": false,
       "kind": "drop",
@@ -18039,7 +18039,7 @@
       ]
     }
   ],
-  "Mole slippers": [
+  "23285": [
     {
       "approx": false,
       "kind": "drop",
@@ -18049,7 +18049,7 @@
       ]
     }
   ],
-  "Monk's robe (g)": [
+  "20202": [
     {
       "approx": false,
       "kind": "drop",
@@ -18059,7 +18059,7 @@
       ]
     }
   ],
-  "Monk's robe (t)": [
+  "23306": [
     {
       "approx": false,
       "kind": "drop",
@@ -18069,7 +18069,7 @@
       ]
     }
   ],
-  "Monk's robe top (g)": [
+  "20199": [
     {
       "approx": false,
       "kind": "drop",
@@ -18079,7 +18079,7 @@
       ]
     }
   ],
-  "Monk's robe top (t)": [
+  "23303": [
     {
       "approx": false,
       "kind": "drop",
@@ -18089,7 +18089,7 @@
       ]
     }
   ],
-  "Monkey tail": [
+  "19610": [
     {
       "approx": false,
       "kind": "drop",
@@ -18115,7 +18115,7 @@
       ]
     }
   ],
-  "Monocle": [
+  "12353": [
     {
       "approx": false,
       "kind": "drop",
@@ -18125,7 +18125,7 @@
       ]
     }
   ],
-  "Mooleta": [
+  "33101": [
     {
       "approx": false,
       "kind": "drop",
@@ -18135,7 +18135,7 @@
       ]
     }
   ],
-  "Mort'ton teleport": [
+  "12406": [
     {
       "approx": false,
       "kind": "drop",
@@ -18186,7 +18186,7 @@
       ]
     }
   ],
-  "Mos le'harmless teleport": [
+  "12411": [
     {
       "approx": false,
       "kind": "drop",
@@ -18237,7 +18237,7 @@
       ]
     }
   ],
-  "Mossy key": [
+  "22374": [
     {
       "approx": false,
       "kind": "drop",
@@ -18266,7 +18266,7 @@
       ]
     }
   ],
-  "Mouldy block": [
+  "32864": [
     {
       "approx": false,
       "kind": "drop",
@@ -18276,7 +18276,7 @@
       ]
     }
   ],
-  "Mouldy doll": [
+  "32869": [
     {
       "approx": false,
       "kind": "drop",
@@ -18286,7 +18286,7 @@
       ]
     }
   ],
-  "Moxi#Item": [
+  "30154": [
     {
       "approx": false,
       "kind": "drop",
@@ -18296,7 +18296,7 @@
       ]
     }
   ],
-  "Mud battlestaff": [
+  "6562": [
     {
       "approx": false,
       "kind": "drop",
@@ -18306,7 +18306,7 @@
       ]
     }
   ],
-  "Mudskipper hat": [
+  "6665": [
     {
       "approx": false,
       "kind": "drop",
@@ -18324,7 +18324,7 @@
       ]
     }
   ],
-  "Mummy's body": [
+  "20083": [
     {
       "approx": false,
       "kind": "drop",
@@ -18334,7 +18334,7 @@
       ]
     }
   ],
-  "Mummy's feet": [
+  "20092": [
     {
       "approx": false,
       "kind": "drop",
@@ -18344,7 +18344,7 @@
       ]
     }
   ],
-  "Mummy's hands": [
+  "20086": [
     {
       "approx": false,
       "kind": "drop",
@@ -18354,7 +18354,7 @@
       ]
     }
   ],
-  "Mummy's head": [
+  "20080": [
     {
       "approx": false,
       "kind": "drop",
@@ -18364,7 +18364,7 @@
       ]
     }
   ],
-  "Mummy's legs": [
+  "20089": [
     {
       "approx": false,
       "kind": "drop",
@@ -18374,7 +18374,7 @@
       ]
     }
   ],
-  "Muphin#Ranged": [
+  "27590": [
     {
       "approx": false,
       "kind": "drop",
@@ -18384,7 +18384,7 @@
       ]
     }
   ],
-  "Musketeer hat": [
+  "12351": [
     {
       "approx": false,
       "kind": "drop",
@@ -18394,7 +18394,7 @@
       ]
     }
   ],
-  "Musketeer pants": [
+  "12443": [
     {
       "approx": false,
       "kind": "drop",
@@ -18404,7 +18404,7 @@
       ]
     }
   ],
-  "Musketeer tabard": [
+  "12441": [
     {
       "approx": false,
       "kind": "drop",
@@ -18414,7 +18414,7 @@
       ]
     }
   ],
-  "Musty smelling note": [
+  "21676": [
     {
       "approx": false,
       "kind": "drop",
@@ -18424,7 +18424,7 @@
       ]
     }
   ],
-  "Mysterious page#1": [
+  "24763": [
     {
       "approx": false,
       "kind": "drop",
@@ -18434,7 +18434,7 @@
       ]
     }
   ],
-  "Mysterious page#2": [
+  "24765": [
     {
       "approx": false,
       "kind": "drop",
@@ -18444,7 +18444,7 @@
       ]
     }
   ],
-  "Mysterious page#3": [
+  "24767": [
     {
       "approx": false,
       "kind": "drop",
@@ -18454,7 +18454,7 @@
       ]
     }
   ],
-  "Mysterious page#4": [
+  "24769": [
     {
       "approx": false,
       "kind": "drop",
@@ -18464,7 +18464,7 @@
       ]
     }
   ],
-  "Mysterious page#5": [
+  "24771": [
     {
       "approx": false,
       "kind": "drop",
@@ -18474,7 +18474,7 @@
       ]
     }
   ],
-  "Mystic boots (dark)": [
+  "4107": [
     {
       "approx": false,
       "kind": "drop",
@@ -18492,7 +18492,7 @@
       ]
     }
   ],
-  "Mystic boots (dusk)": [
+  "23059": [
     {
       "approx": false,
       "kind": "drop",
@@ -18502,7 +18502,7 @@
       ]
     }
   ],
-  "Mystic boots (light)": [
+  "4117": [
     {
       "approx": false,
       "kind": "drop",
@@ -18521,7 +18521,7 @@
       ]
     }
   ],
-  "Mystic gloves (dark)": [
+  "4105": [
     {
       "approx": false,
       "kind": "drop",
@@ -18555,7 +18555,7 @@
       ]
     }
   ],
-  "Mystic gloves (dusk)": [
+  "23056": [
     {
       "approx": false,
       "kind": "drop",
@@ -18565,7 +18565,7 @@
       ]
     }
   ],
-  "Mystic gloves (light)": [
+  "4115": [
     {
       "approx": false,
       "kind": "drop",
@@ -18588,7 +18588,7 @@
       ]
     }
   ],
-  "Mystic hat (dark)": [
+  "4099": [
     {
       "approx": false,
       "kind": "drop",
@@ -18606,7 +18606,7 @@
       ]
     }
   ],
-  "Mystic hat (dusk)": [
+  "23047": [
     {
       "approx": false,
       "kind": "drop",
@@ -18616,7 +18616,7 @@
       ]
     }
   ],
-  "Mystic hat (light)": [
+  "4109": [
     {
       "approx": false,
       "kind": "drop",
@@ -18644,7 +18644,7 @@
       ]
     }
   ],
-  "Mystic robe bottom (dark)": [
+  "4103": [
     {
       "approx": false,
       "kind": "drop",
@@ -18664,7 +18664,7 @@
       ]
     }
   ],
-  "Mystic robe bottom (dusk)": [
+  "23053": [
     {
       "approx": false,
       "kind": "drop",
@@ -18674,7 +18674,7 @@
       ]
     }
   ],
-  "Mystic robe bottom (light)": [
+  "4113": [
     {
       "approx": false,
       "kind": "drop",
@@ -18700,7 +18700,7 @@
       ]
     }
   ],
-  "Mystic robe top (dark)": [
+  "4101": [
     {
       "approx": false,
       "kind": "drop",
@@ -18718,7 +18718,7 @@
       ]
     }
   ],
-  "Mystic robe top (dusk)": [
+  "23050": [
     {
       "approx": false,
       "kind": "drop",
@@ -18728,7 +18728,7 @@
       ]
     }
   ],
-  "Mystic robe top (light)": [
+  "4111": [
     {
       "approx": false,
       "kind": "drop",
@@ -18754,7 +18754,7 @@
       ]
     }
   ],
-  "Mystic vigour prayer scroll": [
+  "30627": [
     {
       "approx": false,
       "kind": "drop",
@@ -18764,7 +18764,7 @@
       ]
     }
   ],
-  "Nardah teleport": [
+  "12402": [
     {
       "approx": false,
       "kind": "drop",
@@ -18815,7 +18815,7 @@
       ]
     }
   ],
-  "Narwhal horn": [
+  "31954": [
     {
       "approx": false,
       "kind": "drop",
@@ -18825,7 +18825,7 @@
       ]
     }
   ],
-  "Navy cavalier": [
+  "12325": [
     {
       "approx": false,
       "kind": "drop",
@@ -18835,7 +18835,7 @@
       ]
     }
   ],
-  "Nexling": [
+  "26348": [
     {
       "approx": false,
       "kind": "drop",
@@ -18845,7 +18845,7 @@
       ]
     }
   ],
-  "Nid#Nid": [
+  "29836": [
     {
       "approx": false,
       "kind": "drop",
@@ -18855,7 +18855,7 @@
       ]
     }
   ],
-  "Nightmare staff": [
+  "24422": [
     {
       "approx": false,
       "kind": "drop",
@@ -18873,7 +18873,7 @@
       ]
     }
   ],
-  "Nihil horn": [
+  "26372": [
     {
       "approx": false,
       "kind": "drop",
@@ -18883,7 +18883,7 @@
       ]
     }
   ],
-  "Nihil shard": [
+  "26231": [
     {
       "approx": false,
       "kind": "drop",
@@ -18912,7 +18912,7 @@
       ]
     }
   ],
-  "Noon#Noon": [
+  "21748": [
     {
       "approx": false,
       "kind": "drop",
@@ -18922,7 +18922,7 @@
       ]
     }
   ],
-  "Noxious blade": [
+  "29792": [
     {
       "approx": false,
       "kind": "drop",
@@ -18932,7 +18932,7 @@
       ]
     }
   ],
-  "Noxious point": [
+  "29790": [
     {
       "approx": false,
       "kind": "drop",
@@ -18942,7 +18942,7 @@
       ]
     }
   ],
-  "Noxious pommel": [
+  "29794": [
     {
       "approx": false,
       "kind": "drop",
@@ -18952,7 +18952,7 @@
       ]
     }
   ],
-  "Nunchaku": [
+  "19918": [
     {
       "approx": false,
       "kind": "drop",
@@ -18962,7 +18962,7 @@
       ]
     }
   ],
-  "Oathplate chest": [
+  "30753": [
     {
       "approx": false,
       "kind": "drop",
@@ -18988,7 +18988,7 @@
       ]
     }
   ],
-  "Oathplate helm": [
+  "30750": [
     {
       "approx": false,
       "kind": "drop",
@@ -19014,7 +19014,7 @@
       ]
     }
   ],
-  "Oathplate legs": [
+  "30756": [
     {
       "approx": false,
       "kind": "drop",
@@ -19040,7 +19040,7 @@
       ]
     }
   ],
-  "Oathplate shards": [
+  "30765": [
     {
       "approx": false,
       "kind": "drop",
@@ -19074,7 +19074,7 @@
       ]
     }
   ],
-  "Obsidian cape": [
+  "6568": [
     {
       "approx": false,
       "kind": "drop",
@@ -19101,7 +19101,7 @@
       ]
     }
   ],
-  "Obsidian cape (r)": [
+  "20050": [
     {
       "approx": false,
       "kind": "drop",
@@ -19111,7 +19111,7 @@
       ]
     }
   ],
-  "Obsidian helmet": [
+  "21298": [
     {
       "approx": false,
       "kind": "drop",
@@ -19121,7 +19121,7 @@
       ]
     }
   ],
-  "Obsidian platebody": [
+  "21301": [
     {
       "approx": false,
       "kind": "drop",
@@ -19131,7 +19131,7 @@
       ]
     }
   ],
-  "Obsidian platelegs": [
+  "21304": [
     {
       "approx": false,
       "kind": "drop",
@@ -19141,7 +19141,7 @@
       ]
     }
   ],
-  "Occult necklace": [
+  "12002": [
     {
       "approx": false,
       "kind": "drop",
@@ -19167,7 +19167,7 @@
       ]
     }
   ],
-  "Occult ornament kit": [
+  "20065": [
     {
       "approx": false,
       "kind": "drop",
@@ -19177,7 +19177,7 @@
       ]
     }
   ],
-  "Odium shard 1": [
+  "11928": [
     {
       "approx": false,
       "kind": "drop",
@@ -19187,7 +19187,7 @@
       ]
     }
   ],
-  "Odium shard 2": [
+  "11929": [
     {
       "approx": false,
       "kind": "drop",
@@ -19197,7 +19197,7 @@
       ]
     }
   ],
-  "Odium shard 3": [
+  "11930": [
     {
       "approx": false,
       "kind": "drop",
@@ -19207,7 +19207,7 @@
       ]
     }
   ],
-  "Old demon mask": [
+  "20029": [
     {
       "approx": false,
       "kind": "drop",
@@ -19217,7 +19217,7 @@
       ]
     }
   ],
-  "Old writing": [
+  "21680": [
     {
       "approx": false,
       "kind": "drop",
@@ -19227,7 +19227,7 @@
       ]
     }
   ],
-  "Olmlet#Olmlet": [
+  "20851": [
     {
       "approx": false,
       "kind": "drop",
@@ -19237,7 +19237,7 @@
       ]
     }
   ],
-  "Onyx": [
+  "6573": [
     {
       "approx": false,
       "kind": "drop",
@@ -19255,7 +19255,7 @@
       ]
     }
   ],
-  "Orange boater": [
+  "7321": [
     {
       "approx": false,
       "kind": "drop",
@@ -19265,7 +19265,7 @@
       ]
     }
   ],
-  "Orange egg sac": [
+  "25844": [
     {
       "approx": false,
       "kind": "drop",
@@ -19275,7 +19275,7 @@
       ]
     }
   ],
-  "Orangefin": [
+  "31416": [
     {
       "approx": false,
       "kind": "drop",
@@ -19301,7 +19301,7 @@
       ]
     }
   ],
-  "Osmumten's fang": [
+  "26219": [
     {
       "approx": false,
       "kind": "drop",
@@ -19311,7 +19311,7 @@
       ]
     }
   ],
-  "Pantaloons": [
+  "10396": [
     {
       "approx": false,
       "kind": "drop",
@@ -19321,7 +19321,7 @@
       ]
     }
   ],
-  "Paragraph of text": [
+  "21674": [
     {
       "approx": false,
       "kind": "drop",
@@ -19331,7 +19331,7 @@
       ]
     }
   ],
-  "Parasitic egg": [
+  "25838": [
     {
       "approx": false,
       "kind": "drop",
@@ -19341,7 +19341,7 @@
       ]
     }
   ],
-  "Partial note": [
+  "21666": [
     {
       "approx": false,
       "kind": "drop",
@@ -19351,7 +19351,7 @@
       ]
     }
   ],
-  "Peaceful blessing": [
+  "20226": [
     {
       "approx": false,
       "kind": "drop",
@@ -19409,7 +19409,7 @@
       ]
     }
   ],
-  "Pegasian crystal": [
+  "13229": [
     {
       "approx": false,
       "kind": "drop",
@@ -19419,7 +19419,7 @@
       ]
     }
   ],
-  "Pendant of ates#Inert": [
+  "29892": [
     {
       "approx": false,
       "kind": "drop",
@@ -19437,7 +19437,7 @@
       ]
     }
   ],
-  "Penguin mask": [
+  "12428": [
     {
       "approx": false,
       "kind": "drop",
@@ -19447,7 +19447,7 @@
       ]
     }
   ],
-  "Pest control teleport": [
+  "12407": [
     {
       "approx": false,
       "kind": "drop",
@@ -19498,7 +19498,7 @@
       ]
     }
   ],
-  "Pet chaos elemental": [
+  "11995": [
     {
       "approx": false,
       "kind": "drop",
@@ -19516,7 +19516,7 @@
       ]
     }
   ],
-  "Pet dagannoth prime": [
+  "12644": [
     {
       "approx": false,
       "kind": "drop",
@@ -19526,7 +19526,7 @@
       ]
     }
   ],
-  "Pet dagannoth rex": [
+  "12645": [
     {
       "approx": false,
       "kind": "drop",
@@ -19536,7 +19536,7 @@
       ]
     }
   ],
-  "Pet dagannoth supreme": [
+  "12643": [
     {
       "approx": false,
       "kind": "drop",
@@ -19546,7 +19546,7 @@
       ]
     }
   ],
-  "Pet dark core#Dark core": [
+  "12816": [
     {
       "approx": false,
       "kind": "drop",
@@ -19556,7 +19556,7 @@
       ]
     }
   ],
-  "Pet general graardor": [
+  "12650": [
     {
       "approx": false,
       "kind": "drop",
@@ -19566,7 +19566,7 @@
       ]
     }
   ],
-  "Pet k'ril tsutsaroth": [
+  "12652": [
     {
       "approx": false,
       "kind": "drop",
@@ -19576,7 +19576,7 @@
       ]
     }
   ],
-  "Pet kraken": [
+  "12655": [
     {
       "approx": false,
       "kind": "drop",
@@ -19586,7 +19586,7 @@
       ]
     }
   ],
-  "Pet kree'arra": [
+  "12649": [
     {
       "approx": false,
       "kind": "drop",
@@ -19596,7 +19596,7 @@
       ]
     }
   ],
-  "Pet penance queen": [
+  "12703": [
     {
       "approx": false,
       "kind": "drop",
@@ -19606,7 +19606,7 @@
       ]
     }
   ],
-  "Pet smoke devil#Thermonuclear": [
+  "12648": [
     {
       "approx": false,
       "kind": "drop",
@@ -19616,7 +19616,7 @@
       ]
     }
   ],
-  "Pet snakeling#Normal": [
+  "12921": [
     {
       "approx": false,
       "kind": "drop",
@@ -19626,7 +19626,7 @@
       ]
     }
   ],
-  "Pet zilyana": [
+  "12651": [
     {
       "approx": false,
       "kind": "drop",
@@ -19636,7 +19636,7 @@
       ]
     }
   ],
-  "Petal garland": [
+  "28655": [
     {
       "approx": false,
       "kind": "drop",
@@ -19646,7 +19646,7 @@
       ]
     }
   ],
-  "Pharaoh's sceptre#Uncharged": [
+  "26945": [
     {
       "approx": false,
       "kind": "drop",
@@ -19713,7 +19713,7 @@
       ]
     }
   ],
-  "Phoenix#Regular": [
+  "20693": [
     {
       "approx": false,
       "kind": "drop",
@@ -19723,7 +19723,7 @@
       ]
     }
   ],
-  "Pink boater": [
+  "12309": [
     {
       "approx": false,
       "kind": "drop",
@@ -19733,7 +19733,7 @@
       ]
     }
   ],
-  "Pink elegant blouse": [
+  "12339": [
     {
       "approx": false,
       "kind": "drop",
@@ -19743,7 +19743,7 @@
       ]
     }
   ],
-  "Pink elegant legs": [
+  "12317": [
     {
       "approx": false,
       "kind": "drop",
@@ -19753,7 +19753,7 @@
       ]
     }
   ],
-  "Pink elegant shirt": [
+  "12315": [
     {
       "approx": false,
       "kind": "drop",
@@ -19763,7 +19763,7 @@
       ]
     }
   ],
-  "Pink elegant skirt": [
+  "12341": [
     {
       "approx": false,
       "kind": "drop",
@@ -19773,7 +19773,7 @@
       ]
     }
   ],
-  "Pink headband": [
+  "12305": [
     {
       "approx": false,
       "kind": "drop",
@@ -19783,7 +19783,7 @@
       ]
     }
   ],
-  "Pirate's hat": [
+  "2651": [
     {
       "approx": false,
       "kind": "drop",
@@ -19793,7 +19793,7 @@
       ]
     }
   ],
-  "Piscarilius banner": [
+  "20260": [
     {
       "approx": false,
       "kind": "drop",
@@ -19803,7 +19803,7 @@
       ]
     }
   ],
-  "Piscarilius hood": [
+  "20122": [
     {
       "approx": false,
       "kind": "drop",
@@ -19813,7 +19813,7 @@
       ]
     }
   ],
-  "Piscarilius scarf": [
+  "19952": [
     {
       "approx": false,
       "kind": "drop",
@@ -19823,7 +19823,7 @@
       ]
     }
   ],
-  "Piscatoris teleport": [
+  "12408": [
     {
       "approx": false,
       "kind": "drop",
@@ -19874,7 +19874,7 @@
       ]
     }
   ],
-  "Pith helmet": [
+  "12516": [
     {
       "approx": false,
       "kind": "drop",
@@ -19884,7 +19884,7 @@
       ]
     }
   ],
-  "Plain satchel": [
+  "25618": [
     {
       "approx": false,
       "kind": "drop",
@@ -19894,7 +19894,7 @@
       ]
     }
   ],
-  "Primordial crystal": [
+  "13231": [
     {
       "approx": false,
       "kind": "drop",
@@ -19904,7 +19904,7 @@
       ]
     }
   ],
-  "Prince black dragon": [
+  "12653": [
     {
       "approx": false,
       "kind": "drop",
@@ -19914,7 +19914,7 @@
       ]
     }
   ],
-  "Pristine spider silk": [
+  "33133": [
     {
       "approx": false,
       "kind": "drop",
@@ -19924,7 +19924,7 @@
       ]
     }
   ],
-  "Purple boater": [
+  "12311": [
     {
       "approx": false,
       "kind": "drop",
@@ -19934,7 +19934,7 @@
       ]
     }
   ],
-  "Purple elegant blouse": [
+  "10436": [
     {
       "approx": false,
       "kind": "drop",
@@ -19944,7 +19944,7 @@
       ]
     }
   ],
-  "Purple elegant legs": [
+  "10418": [
     {
       "approx": false,
       "kind": "drop",
@@ -19954,7 +19954,7 @@
       ]
     }
   ],
-  "Purple elegant shirt": [
+  "10416": [
     {
       "approx": false,
       "kind": "drop",
@@ -19964,7 +19964,7 @@
       ]
     }
   ],
-  "Purple elegant skirt": [
+  "10438": [
     {
       "approx": false,
       "kind": "drop",
@@ -19974,7 +19974,7 @@
       ]
     }
   ],
-  "Purple firelighter": [
+  "10326": [
     {
       "approx": false,
       "kind": "drop",
@@ -20032,7 +20032,7 @@
       ]
     }
   ],
-  "Purple sweets": [
+  "10476": [
     {
       "approx": false,
       "kind": "drop",
@@ -20139,7 +20139,7 @@
       ]
     }
   ],
-  "Purplefin": [
+  "31424": [
     {
       "approx": false,
       "kind": "drop",
@@ -20165,7 +20165,7 @@
       ]
     }
   ],
-  "Pyromancer boots": [
+  "20710": [
     {
       "approx": false,
       "kind": "drop",
@@ -20175,7 +20175,7 @@
       ]
     }
   ],
-  "Pyromancer garb": [
+  "20704": [
     {
       "approx": false,
       "kind": "drop",
@@ -20185,7 +20185,7 @@
       ]
     }
   ],
-  "Pyromancer hood": [
+  "20708": [
     {
       "approx": false,
       "kind": "drop",
@@ -20195,7 +20195,7 @@
       ]
     }
   ],
-  "Pyromancer robe": [
+  "20706": [
     {
       "approx": false,
       "kind": "drop",
@@ -20205,7 +20205,7 @@
       ]
     }
   ],
-  "Quetzin": [
+  "28962": [
     {
       "approx": false,
       "kind": "drop",
@@ -20216,7 +20216,7 @@
       ]
     }
   ],
-  "Rain bow": [
+  "23357": [
     {
       "approx": false,
       "kind": "drop",
@@ -20226,7 +20226,7 @@
       ]
     }
   ],
-  "Ranger boots": [
+  "2577": [
     {
       "approx": false,
       "kind": "drop",
@@ -20236,7 +20236,7 @@
       ]
     }
   ],
-  "Ranger gloves": [
+  "19994": [
     {
       "approx": false,
       "kind": "drop",
@@ -20246,7 +20246,7 @@
       ]
     }
   ],
-  "Rangers' tights": [
+  "23249": [
     {
       "approx": false,
       "kind": "drop",
@@ -20256,7 +20256,7 @@
       ]
     }
   ],
-  "Rangers' tunic": [
+  "12596": [
     {
       "approx": false,
       "kind": "drop",
@@ -20266,7 +20266,7 @@
       ]
     }
   ],
-  "Ray barbs": [
+  "31959": [
     {
       "approx": false,
       "kind": "drop",
@@ -20300,7 +20300,7 @@
       ]
     }
   ],
-  "Red beret": [
+  "12247": [
     {
       "approx": false,
       "kind": "drop",
@@ -20310,7 +20310,7 @@
       ]
     }
   ],
-  "Red boater": [
+  "7319": [
     {
       "approx": false,
       "kind": "drop",
@@ -20320,7 +20320,7 @@
       ]
     }
   ],
-  "Red cavalier": [
+  "12323": [
     {
       "approx": false,
       "kind": "drop",
@@ -20330,7 +20330,7 @@
       ]
     }
   ],
-  "Red d'hide body (g)": [
+  "12327": [
     {
       "approx": false,
       "kind": "drop",
@@ -20340,7 +20340,7 @@
       ]
     }
   ],
-  "Red d'hide body (t)": [
+  "12331": [
     {
       "approx": false,
       "kind": "drop",
@@ -20350,7 +20350,7 @@
       ]
     }
   ],
-  "Red d'hide chaps (g)": [
+  "12329": [
     {
       "approx": false,
       "kind": "drop",
@@ -20360,7 +20360,7 @@
       ]
     }
   ],
-  "Red d'hide chaps (t)": [
+  "12333": [
     {
       "approx": false,
       "kind": "drop",
@@ -20370,7 +20370,7 @@
       ]
     }
   ],
-  "Red dragon mask": [
+  "12522": [
     {
       "approx": false,
       "kind": "drop",
@@ -20380,7 +20380,7 @@
       ]
     }
   ],
-  "Red elegant blouse": [
+  "10424": [
     {
       "approx": false,
       "kind": "drop",
@@ -20390,7 +20390,7 @@
       ]
     }
   ],
-  "Red elegant legs": [
+  "10406": [
     {
       "approx": false,
       "kind": "drop",
@@ -20400,7 +20400,7 @@
       ]
     }
   ],
-  "Red elegant shirt": [
+  "10404": [
     {
       "approx": false,
       "kind": "drop",
@@ -20410,7 +20410,7 @@
       ]
     }
   ],
-  "Red elegant skirt": [
+  "10426": [
     {
       "approx": false,
       "kind": "drop",
@@ -20420,7 +20420,7 @@
       ]
     }
   ],
-  "Red firelighter": [
+  "7329": [
     {
       "approx": false,
       "kind": "drop",
@@ -20478,7 +20478,7 @@
       ]
     }
   ],
-  "Red headband": [
+  "2645": [
     {
       "approx": false,
       "kind": "drop",
@@ -20488,7 +20488,7 @@
       ]
     }
   ],
-  "Red satchel": [
+  "25620": [
     {
       "approx": false,
       "kind": "drop",
@@ -20498,7 +20498,7 @@
       ]
     }
   ],
-  "Remnant of akkha": [
+  "27377": [
     {
       "approx": false,
       "kind": "drop",
@@ -20508,7 +20508,7 @@
       ]
     }
   ],
-  "Remnant of ba-ba": [
+  "27378": [
     {
       "approx": false,
       "kind": "drop",
@@ -20518,7 +20518,7 @@
       ]
     }
   ],
-  "Remnant of kephri": [
+  "27379": [
     {
       "approx": false,
       "kind": "drop",
@@ -20528,7 +20528,7 @@
       ]
     }
   ],
-  "Remnant of zebak": [
+  "27380": [
     {
       "approx": false,
       "kind": "drop",
@@ -20538,7 +20538,7 @@
       ]
     }
   ],
-  "Revenant cave teleport": [
+  "21802": [
     {
       "approx": false,
       "kind": "drop",
@@ -20800,7 +20800,7 @@
       ]
     }
   ],
-  "Revenant ether": [
+  "21820": [
     {
       "approx": false,
       "kind": "drop",
@@ -20821,7 +20821,7 @@
       ]
     }
   ],
-  "Right skull half": [
+  "9007": [
     {
       "approx": false,
       "kind": "drop",
@@ -20831,7 +20831,7 @@
       ]
     }
   ],
-  "Ring of 3rd age": [
+  "23185": [
     {
       "approx": false,
       "kind": "drop",
@@ -20849,7 +20849,7 @@
       ]
     }
   ],
-  "Ring of coins": [
+  "20017": [
     {
       "approx": false,
       "kind": "drop",
@@ -20859,7 +20859,7 @@
       ]
     }
   ],
-  "Ring of endurance#Uncharged": [
+  "24844": [
     {
       "approx": false,
       "kind": "drop",
@@ -20869,7 +20869,7 @@
       ]
     }
   ],
-  "Ring of nature": [
+  "20005": [
     {
       "approx": false,
       "kind": "drop",
@@ -20879,7 +20879,7 @@
       ]
     }
   ],
-  "Ring of the gods": [
+  "12601": [
     {
       "approx": false,
       "kind": "drop",
@@ -20897,7 +20897,7 @@
       ]
     }
   ],
-  "Rite of vile transference": [
+  "30806": [
     {
       "approx": false,
       "kind": "drop",
@@ -20907,7 +20907,7 @@
       ]
     }
   ],
-  "Robe bottom of darkness": [
+  "20137": [
     {
       "approx": false,
       "kind": "drop",
@@ -20917,7 +20917,7 @@
       ]
     }
   ],
-  "Robe top of darkness": [
+  "20131": [
     {
       "approx": false,
       "kind": "drop",
@@ -20927,7 +20927,7 @@
       ]
     }
   ],
-  "Robin hood hat": [
+  "2581": [
     {
       "approx": false,
       "kind": "drop",
@@ -20937,7 +20937,7 @@
       ]
     }
   ],
-  "Rock golem#Rock": [
+  "13321": [
     {
       "approx": false,
       "kind": "drop",
@@ -21103,7 +21103,7 @@
       ]
     }
   ],
-  "Royal crown": [
+  "12397": [
     {
       "approx": false,
       "kind": "drop",
@@ -21113,7 +21113,7 @@
       ]
     }
   ],
-  "Royal gown bottom": [
+  "12395": [
     {
       "approx": false,
       "kind": "drop",
@@ -21123,7 +21123,7 @@
       ]
     }
   ],
-  "Royal gown top": [
+  "12393": [
     {
       "approx": false,
       "kind": "drop",
@@ -21133,7 +21133,7 @@
       ]
     }
   ],
-  "Royal sceptre": [
+  "12439": [
     {
       "approx": false,
       "kind": "drop",
@@ -21143,7 +21143,7 @@
       ]
     }
   ],
-  "Rum (blue)": [
+  "8941": [
     {
       "approx": false,
       "kind": "drop",
@@ -21170,7 +21170,7 @@
       ]
     }
   ],
-  "Rum (red)": [
+  "8940": [
     {
       "approx": false,
       "kind": "drop",
@@ -21197,7 +21197,7 @@
       ]
     }
   ],
-  "Rune boots": [
+  "4131": [
     {
       "approx": false,
       "kind": "drop",
@@ -21239,7 +21239,7 @@
       ]
     }
   ],
-  "Rune cane": [
+  "12379": [
     {
       "approx": false,
       "kind": "drop",
@@ -21249,7 +21249,7 @@
       ]
     }
   ],
-  "Rune defender ornament kit": [
+  "23227": [
     {
       "approx": false,
       "kind": "drop",
@@ -21259,7 +21259,7 @@
       ]
     }
   ],
-  "Rune defender#Normal": [
+  "8850": [
     {
       "approx": false,
       "kind": "drop",
@@ -21269,7 +21269,7 @@
       ]
     }
   ],
-  "Rune dragon mask": [
+  "23273": [
     {
       "approx": false,
       "kind": "drop",
@@ -21279,7 +21279,7 @@
       ]
     }
   ],
-  "Rune full helm (g)": [
+  "2619": [
     {
       "approx": false,
       "kind": "drop",
@@ -21289,7 +21289,7 @@
       ]
     }
   ],
-  "Rune full helm (t)": [
+  "2627": [
     {
       "approx": false,
       "kind": "drop",
@@ -21299,7 +21299,7 @@
       ]
     }
   ],
-  "Rune helm (h1)": [
+  "10286": [
     {
       "approx": false,
       "kind": "drop",
@@ -21309,7 +21309,7 @@
       ]
     }
   ],
-  "Rune helm (h2)": [
+  "10288": [
     {
       "approx": false,
       "kind": "drop",
@@ -21319,7 +21319,7 @@
       ]
     }
   ],
-  "Rune helm (h3)": [
+  "10290": [
     {
       "approx": false,
       "kind": "drop",
@@ -21329,7 +21329,7 @@
       ]
     }
   ],
-  "Rune helm (h4)": [
+  "10292": [
     {
       "approx": false,
       "kind": "drop",
@@ -21339,7 +21339,7 @@
       ]
     }
   ],
-  "Rune helm (h5)": [
+  "10294": [
     {
       "approx": false,
       "kind": "drop",
@@ -21349,7 +21349,7 @@
       ]
     }
   ],
-  "Rune kiteshield (g)": [
+  "2621": [
     {
       "approx": false,
       "kind": "drop",
@@ -21359,7 +21359,7 @@
       ]
     }
   ],
-  "Rune kiteshield (t)": [
+  "2629": [
     {
       "approx": false,
       "kind": "drop",
@@ -21369,7 +21369,7 @@
       ]
     }
   ],
-  "Rune platebody (g)": [
+  "2615": [
     {
       "approx": false,
       "kind": "drop",
@@ -21379,7 +21379,7 @@
       ]
     }
   ],
-  "Rune platebody (h1)": [
+  "23209": [
     {
       "approx": false,
       "kind": "drop",
@@ -21389,7 +21389,7 @@
       ]
     }
   ],
-  "Rune platebody (h2)": [
+  "23212": [
     {
       "approx": false,
       "kind": "drop",
@@ -21399,7 +21399,7 @@
       ]
     }
   ],
-  "Rune platebody (h3)": [
+  "23215": [
     {
       "approx": false,
       "kind": "drop",
@@ -21409,7 +21409,7 @@
       ]
     }
   ],
-  "Rune platebody (h4)": [
+  "23218": [
     {
       "approx": false,
       "kind": "drop",
@@ -21419,7 +21419,7 @@
       ]
     }
   ],
-  "Rune platebody (h5)": [
+  "23221": [
     {
       "approx": false,
       "kind": "drop",
@@ -21429,7 +21429,7 @@
       ]
     }
   ],
-  "Rune platebody (t)": [
+  "2623": [
     {
       "approx": false,
       "kind": "drop",
@@ -21439,7 +21439,7 @@
       ]
     }
   ],
-  "Rune platelegs (g)": [
+  "2617": [
     {
       "approx": false,
       "kind": "drop",
@@ -21449,7 +21449,7 @@
       ]
     }
   ],
-  "Rune platelegs (t)": [
+  "2625": [
     {
       "approx": false,
       "kind": "drop",
@@ -21459,7 +21459,7 @@
       ]
     }
   ],
-  "Rune plateskirt (g)": [
+  "3476": [
     {
       "approx": false,
       "kind": "drop",
@@ -21469,7 +21469,7 @@
       ]
     }
   ],
-  "Rune plateskirt (t)": [
+  "3477": [
     {
       "approx": false,
       "kind": "drop",
@@ -21479,7 +21479,7 @@
       ]
     }
   ],
-  "Rune satchel": [
+  "25623": [
     {
       "approx": false,
       "kind": "drop",
@@ -21489,7 +21489,7 @@
       ]
     }
   ],
-  "Rune scimitar ornament kit (guthix)": [
+  "23321": [
     {
       "approx": false,
       "kind": "drop",
@@ -21499,7 +21499,7 @@
       ]
     }
   ],
-  "Rune scimitar ornament kit (saradomin)": [
+  "23324": [
     {
       "approx": false,
       "kind": "drop",
@@ -21509,7 +21509,7 @@
       ]
     }
   ],
-  "Rune scimitar ornament kit (zamorak)": [
+  "23327": [
     {
       "approx": false,
       "kind": "drop",
@@ -21519,7 +21519,7 @@
       ]
     }
   ],
-  "Rune shield (h1)": [
+  "7336": [
     {
       "approx": false,
       "kind": "drop",
@@ -21529,7 +21529,7 @@
       ]
     }
   ],
-  "Rune shield (h2)": [
+  "7342": [
     {
       "approx": false,
       "kind": "drop",
@@ -21539,7 +21539,7 @@
       ]
     }
   ],
-  "Rune shield (h3)": [
+  "7348": [
     {
       "approx": false,
       "kind": "drop",
@@ -21549,7 +21549,7 @@
       ]
     }
   ],
-  "Rune shield (h4)": [
+  "7354": [
     {
       "approx": false,
       "kind": "drop",
@@ -21559,7 +21559,7 @@
       ]
     }
   ],
-  "Rune shield (h5)": [
+  "7360": [
     {
       "approx": false,
       "kind": "drop",
@@ -21569,7 +21569,7 @@
       ]
     }
   ],
-  "Rusty coin": [
+  "32867": [
     {
       "approx": false,
       "kind": "drop",
@@ -21579,7 +21579,7 @@
       ]
     }
   ],
-  "Rusty locket": [
+  "32863": [
     {
       "approx": false,
       "kind": "drop",
@@ -21589,7 +21589,7 @@
       ]
     }
   ],
-  "Sagacious spectacles": [
+  "12337": [
     {
       "approx": false,
       "kind": "drop",
@@ -21599,7 +21599,7 @@
       ]
     }
   ],
-  "Sailors' amulet#Inert": [
+  "32398": [
     {
       "approx": false,
       "kind": "drop",
@@ -21665,7 +21665,7 @@
       ]
     }
   ],
-  "Salvor's paint": [
+  "32099": [
     {
       "approx": false,
       "kind": "drop",
@@ -21675,7 +21675,7 @@
       ]
     }
   ],
-  "Samurai boots": [
+  "20047": [
     {
       "approx": false,
       "kind": "drop",
@@ -21685,7 +21685,7 @@
       ]
     }
   ],
-  "Samurai gloves": [
+  "20041": [
     {
       "approx": false,
       "kind": "drop",
@@ -21695,7 +21695,7 @@
       ]
     }
   ],
-  "Samurai greaves": [
+  "20044": [
     {
       "approx": false,
       "kind": "drop",
@@ -21705,7 +21705,7 @@
       ]
     }
   ],
-  "Samurai kasa": [
+  "20035": [
     {
       "approx": false,
       "kind": "drop",
@@ -21715,7 +21715,7 @@
       ]
     }
   ],
-  "Samurai shirt": [
+  "20038": [
     {
       "approx": false,
       "kind": "drop",
@@ -21725,7 +21725,7 @@
       ]
     }
   ],
-  "Sandwich lady bottom": [
+  "23318": [
     {
       "approx": false,
       "kind": "drop",
@@ -21735,7 +21735,7 @@
       ]
     }
   ],
-  "Sandwich lady hat": [
+  "23312": [
     {
       "approx": false,
       "kind": "drop",
@@ -21745,7 +21745,7 @@
       ]
     }
   ],
-  "Sandwich lady top": [
+  "23315": [
     {
       "approx": false,
       "kind": "drop",
@@ -21755,7 +21755,7 @@
       ]
     }
   ],
-  "Sandy paint": [
+  "32113": [
     {
       "approx": false,
       "kind": "drop",
@@ -21765,7 +21765,7 @@
       ]
     }
   ],
-  "Sanguine dust": [
+  "25746": [
     {
       "approx": false,
       "kind": "drop",
@@ -21775,7 +21775,7 @@
       ]
     }
   ],
-  "Sanguine ornament kit": [
+  "25744": [
     {
       "approx": false,
       "kind": "drop",
@@ -21785,7 +21785,7 @@
       ]
     }
   ],
-  "Sanguinesti staff#Uncharged": [
+  "22481": [
     {
       "approx": false,
       "kind": "drop",
@@ -21803,7 +21803,7 @@
       ]
     }
   ],
-  "Sarachnis cudgel": [
+  "23528": [
     {
       "approx": false,
       "kind": "drop",
@@ -21813,7 +21813,7 @@
       ]
     }
   ],
-  "Saradomin bracers": [
+  "10384": [
     {
       "approx": false,
       "kind": "drop",
@@ -21823,7 +21823,7 @@
       ]
     }
   ],
-  "Saradomin chaps": [
+  "10388": [
     {
       "approx": false,
       "kind": "drop",
@@ -21833,7 +21833,7 @@
       ]
     }
   ],
-  "Saradomin cloak": [
+  "10446": [
     {
       "approx": false,
       "kind": "drop",
@@ -21843,7 +21843,7 @@
       ]
     }
   ],
-  "Saradomin coif": [
+  "10390": [
     {
       "approx": false,
       "kind": "drop",
@@ -21853,7 +21853,7 @@
       ]
     }
   ],
-  "Saradomin crozier": [
+  "10440": [
     {
       "approx": false,
       "kind": "drop",
@@ -21863,7 +21863,7 @@
       ]
     }
   ],
-  "Saradomin d'hide body": [
+  "10386": [
     {
       "approx": false,
       "kind": "drop",
@@ -21873,7 +21873,7 @@
       ]
     }
   ],
-  "Saradomin d'hide boots": [
+  "19933": [
     {
       "approx": false,
       "kind": "drop",
@@ -21883,7 +21883,7 @@
       ]
     }
   ],
-  "Saradomin d'hide shield": [
+  "23191": [
     {
       "approx": false,
       "kind": "drop",
@@ -21893,7 +21893,7 @@
       ]
     }
   ],
-  "Saradomin full helm": [
+  "2665": [
     {
       "approx": false,
       "kind": "drop",
@@ -21903,7 +21903,7 @@
       ]
     }
   ],
-  "Saradomin godsword ornament kit": [
+  "20074": [
     {
       "approx": false,
       "kind": "drop",
@@ -21913,7 +21913,7 @@
       ]
     }
   ],
-  "Saradomin hilt": [
+  "11814": [
     {
       "approx": false,
       "kind": "drop",
@@ -21923,7 +21923,7 @@
       ]
     }
   ],
-  "Saradomin kiteshield": [
+  "2667": [
     {
       "approx": false,
       "kind": "drop",
@@ -21933,7 +21933,7 @@
       ]
     }
   ],
-  "Saradomin mitre": [
+  "10452": [
     {
       "approx": false,
       "kind": "drop",
@@ -21943,7 +21943,7 @@
       ]
     }
   ],
-  "Saradomin page 1": [
+  "3827": [
     {
       "approx": false,
       "kind": "drop",
@@ -21994,7 +21994,7 @@
       ]
     }
   ],
-  "Saradomin page 2": [
+  "3828": [
     {
       "approx": false,
       "kind": "drop",
@@ -22045,7 +22045,7 @@
       ]
     }
   ],
-  "Saradomin page 3": [
+  "3829": [
     {
       "approx": false,
       "kind": "drop",
@@ -22096,7 +22096,7 @@
       ]
     }
   ],
-  "Saradomin page 4": [
+  "3830": [
     {
       "approx": false,
       "kind": "drop",
@@ -22147,7 +22147,7 @@
       ]
     }
   ],
-  "Saradomin platebody": [
+  "2661": [
     {
       "approx": false,
       "kind": "drop",
@@ -22157,7 +22157,7 @@
       ]
     }
   ],
-  "Saradomin platelegs": [
+  "2663": [
     {
       "approx": false,
       "kind": "drop",
@@ -22167,7 +22167,7 @@
       ]
     }
   ],
-  "Saradomin plateskirt": [
+  "3479": [
     {
       "approx": false,
       "kind": "drop",
@@ -22177,7 +22177,7 @@
       ]
     }
   ],
-  "Saradomin robe legs": [
+  "10464": [
     {
       "approx": false,
       "kind": "drop",
@@ -22187,7 +22187,7 @@
       ]
     }
   ],
-  "Saradomin robe top": [
+  "10458": [
     {
       "approx": false,
       "kind": "drop",
@@ -22197,7 +22197,7 @@
       ]
     }
   ],
-  "Saradomin stole": [
+  "10470": [
     {
       "approx": false,
       "kind": "drop",
@@ -22207,7 +22207,7 @@
       ]
     }
   ],
-  "Saradomin sword": [
+  "11838": [
     {
       "approx": false,
       "kind": "drop",
@@ -22227,7 +22227,7 @@
       ]
     }
   ],
-  "Saradomin's light": [
+  "13256": [
     {
       "approx": false,
       "kind": "drop",
@@ -22237,7 +22237,7 @@
       ]
     }
   ],
-  "Scarred tablet": [
+  "28332": [
     {
       "approx": false,
       "kind": "drop",
@@ -22247,7 +22247,7 @@
       ]
     }
   ],
-  "Scorpia's offspring": [
+  "13181": [
     {
       "approx": false,
       "kind": "drop",
@@ -22257,7 +22257,7 @@
       ]
     }
   ],
-  "Scribbled note": [
+  "21664": [
     {
       "approx": false,
       "kind": "drop",
@@ -22267,7 +22267,7 @@
       ]
     }
   ],
-  "Scurrius' spine": [
+  "28798": [
     {
       "approx": false,
       "kind": "drop",
@@ -22278,7 +22278,7 @@
       ]
     }
   ],
-  "Scurry": [
+  "28801": [
     {
       "approx": false,
       "kind": "drop",
@@ -22288,7 +22288,7 @@
       ]
     }
   ],
-  "Scythe of vitur#Uncharged": [
+  "22486": [
     {
       "approx": false,
       "kind": "drop",
@@ -22306,7 +22306,7 @@
       ]
     }
   ],
-  "Seercull": [
+  "6724": [
     {
       "approx": false,
       "kind": "drop",
@@ -22316,7 +22316,7 @@
       ]
     }
   ],
-  "Seers ring": [
+  "6731": [
     {
       "approx": false,
       "kind": "drop",
@@ -22326,7 +22326,7 @@
       ]
     }
   ],
-  "Serpentine visage": [
+  "12927": [
     {
       "approx": false,
       "kind": "drop",
@@ -22336,7 +22336,7 @@
       ]
     }
   ],
-  "Shadow quartz": [
+  "28272": [
     {
       "approx": false,
       "kind": "drop",
@@ -22346,7 +22346,7 @@
       ]
     }
   ],
-  "Shaman mask": [
+  "21838": [
     {
       "approx": false,
       "kind": "drop",
@@ -22357,7 +22357,7 @@
       ]
     }
   ],
-  "Shayzien banner": [
+  "20263": [
     {
       "approx": false,
       "kind": "drop",
@@ -22367,7 +22367,7 @@
       ]
     }
   ],
-  "Shayzien body (5)": [
+  "13381": [
     {
       "approx": false,
       "kind": "drop",
@@ -22377,7 +22377,7 @@
       ]
     }
   ],
-  "Shayzien boots (1)": [
+  "13358": [
     {
       "approx": false,
       "kind": "drop",
@@ -22387,7 +22387,7 @@
       ]
     }
   ],
-  "Shayzien boots (2)": [
+  "13363": [
     {
       "approx": false,
       "kind": "drop",
@@ -22397,7 +22397,7 @@
       ]
     }
   ],
-  "Shayzien boots (3)": [
+  "13368": [
     {
       "approx": false,
       "kind": "drop",
@@ -22407,7 +22407,7 @@
       ]
     }
   ],
-  "Shayzien boots (4)": [
+  "13373": [
     {
       "approx": false,
       "kind": "drop",
@@ -22417,7 +22417,7 @@
       ]
     }
   ],
-  "Shayzien boots (5)": [
+  "13378": [
     {
       "approx": false,
       "kind": "drop",
@@ -22427,7 +22427,7 @@
       ]
     }
   ],
-  "Shayzien gloves (1)": [
+  "13357": [
     {
       "approx": false,
       "kind": "drop",
@@ -22437,7 +22437,7 @@
       ]
     }
   ],
-  "Shayzien gloves (2)": [
+  "13362": [
     {
       "approx": false,
       "kind": "drop",
@@ -22447,7 +22447,7 @@
       ]
     }
   ],
-  "Shayzien gloves (3)": [
+  "13367": [
     {
       "approx": false,
       "kind": "drop",
@@ -22457,7 +22457,7 @@
       ]
     }
   ],
-  "Shayzien gloves (4)": [
+  "13372": [
     {
       "approx": false,
       "kind": "drop",
@@ -22467,7 +22467,7 @@
       ]
     }
   ],
-  "Shayzien gloves (5)": [
+  "13377": [
     {
       "approx": false,
       "kind": "drop",
@@ -22477,7 +22477,7 @@
       ]
     }
   ],
-  "Shayzien greaves (1)": [
+  "13360": [
     {
       "approx": false,
       "kind": "drop",
@@ -22487,7 +22487,7 @@
       ]
     }
   ],
-  "Shayzien greaves (2)": [
+  "13365": [
     {
       "approx": false,
       "kind": "drop",
@@ -22497,7 +22497,7 @@
       ]
     }
   ],
-  "Shayzien greaves (3)": [
+  "13370": [
     {
       "approx": false,
       "kind": "drop",
@@ -22507,7 +22507,7 @@
       ]
     }
   ],
-  "Shayzien greaves (4)": [
+  "13375": [
     {
       "approx": false,
       "kind": "drop",
@@ -22517,7 +22517,7 @@
       ]
     }
   ],
-  "Shayzien greaves (5)": [
+  "13380": [
     {
       "approx": false,
       "kind": "drop",
@@ -22527,7 +22527,7 @@
       ]
     }
   ],
-  "Shayzien helm (1)": [
+  "13359": [
     {
       "approx": false,
       "kind": "drop",
@@ -22537,7 +22537,7 @@
       ]
     }
   ],
-  "Shayzien helm (2)": [
+  "13364": [
     {
       "approx": false,
       "kind": "drop",
@@ -22547,7 +22547,7 @@
       ]
     }
   ],
-  "Shayzien helm (3)": [
+  "13369": [
     {
       "approx": false,
       "kind": "drop",
@@ -22557,7 +22557,7 @@
       ]
     }
   ],
-  "Shayzien helm (4)": [
+  "13374": [
     {
       "approx": false,
       "kind": "drop",
@@ -22567,7 +22567,7 @@
       ]
     }
   ],
-  "Shayzien helm (5)": [
+  "13379": [
     {
       "approx": false,
       "kind": "drop",
@@ -22577,7 +22577,7 @@
       ]
     }
   ],
-  "Shayzien hood": [
+  "20125": [
     {
       "approx": false,
       "kind": "drop",
@@ -22587,7 +22587,7 @@
       ]
     }
   ],
-  "Shayzien platebody (1)": [
+  "13361": [
     {
       "approx": false,
       "kind": "drop",
@@ -22597,7 +22597,7 @@
       ]
     }
   ],
-  "Shayzien platebody (2)": [
+  "13366": [
     {
       "approx": false,
       "kind": "drop",
@@ -22607,7 +22607,7 @@
       ]
     }
   ],
-  "Shayzien platebody (3)": [
+  "13371": [
     {
       "approx": false,
       "kind": "drop",
@@ -22617,7 +22617,7 @@
       ]
     }
   ],
-  "Shayzien platebody (4)": [
+  "13376": [
     {
       "approx": false,
       "kind": "drop",
@@ -22627,7 +22627,7 @@
       ]
     }
   ],
-  "Shayzien scarf": [
+  "19955": [
     {
       "approx": false,
       "kind": "drop",
@@ -22637,7 +22637,7 @@
       ]
     }
   ],
-  "Shield left half": [
+  "2366": [
     {
       "approx": false,
       "kind": "drop",
@@ -23910,7 +23910,7 @@
       ]
     }
   ],
-  "Short note": [
+  "21682": [
     {
       "approx": false,
       "kind": "drop",
@@ -23920,7 +23920,7 @@
       ]
     }
   ],
-  "Shoulder parrot": [
+  "23300": [
     {
       "approx": false,
       "kind": "drop",
@@ -23930,7 +23930,7 @@
       ]
     }
   ],
-  "Silver locks": [
+  "25451": [
     {
       "approx": false,
       "kind": "drop",
@@ -23972,7 +23972,7 @@
       ]
     }
   ],
-  "Siren's staff": [
+  "28323": [
     {
       "approx": false,
       "kind": "drop",
@@ -23982,7 +23982,7 @@
       ]
     }
   ],
-  "Sirenic tablet": [
+  "28331": [
     {
       "approx": false,
       "kind": "drop",
@@ -23992,7 +23992,7 @@
       ]
     }
   ],
-  "Skeletal visage": [
+  "22006": [
     {
       "approx": false,
       "kind": "drop",
@@ -24002,7 +24002,7 @@
       ]
     }
   ],
-  "Skeleton champion scroll": [
+  "6806": [
     {
       "approx": false,
       "kind": "drop",
@@ -24046,7 +24046,7 @@
       ]
     }
   ],
-  "Skotos": [
+  "21273": [
     {
       "approx": false,
       "kind": "drop",
@@ -24056,7 +24056,7 @@
       ]
     }
   ],
-  "Skull of vet'ion": [
+  "27673": [
     {
       "approx": false,
       "kind": "drop",
@@ -24074,7 +24074,7 @@
       ]
     }
   ],
-  "Sleeping cap": [
+  "10398": [
     {
       "approx": false,
       "kind": "drop",
@@ -24084,7 +24084,7 @@
       ]
     }
   ],
-  "Slepey tablet": [
+  "25837": [
     {
       "approx": false,
       "kind": "drop",
@@ -24094,7 +24094,7 @@
       ]
     }
   ],
-  "Smashed mirror": [
+  "32870": [
     {
       "approx": false,
       "kind": "drop",
@@ -24104,7 +24104,7 @@
       ]
     }
   ],
-  "Smoke battlestaff": [
+  "11998": [
     {
       "approx": false,
       "kind": "drop",
@@ -24114,7 +24114,7 @@
       ]
     }
   ],
-  "Smoke quartz": [
+  "28274": [
     {
       "approx": false,
       "kind": "drop",
@@ -24124,7 +24124,7 @@
       ]
     }
   ],
-  "Smol heredit": [
+  "28960": [
     {
       "approx": false,
       "kind": "drop",
@@ -24134,7 +24134,7 @@
       ]
     }
   ],
-  "Smolcano": [
+  "23760": [
     {
       "approx": false,
       "kind": "drop",
@@ -24144,7 +24144,7 @@
       ]
     }
   ],
-  "Smouldering stone": [
+  "13233": [
     {
       "approx": false,
       "kind": "drop",
@@ -24170,7 +24170,7 @@
       ]
     }
   ],
-  "Soaked page": [
+  "25578": [
     {
       "approx": false,
       "kind": "drop",
@@ -24189,7 +24189,7 @@
       ]
     }
   ],
-  "Soiled page": [
+  "30068": [
     {
       "approx": false,
       "kind": "drop",
@@ -24199,7 +24199,7 @@
       ]
     }
   ],
-  "Soulflame horn": [
+  "30759": [
     {
       "approx": false,
       "kind": "drop",
@@ -24217,7 +24217,7 @@
       ]
     }
   ],
-  "Soup": [
+  "31283": [
     {
       "approx": false,
       "kind": "drop",
@@ -24291,7 +24291,7 @@
       ]
     }
   ],
-  "Spectral sigil": [
+  "12823": [
     {
       "approx": false,
       "kind": "drop",
@@ -24301,7 +24301,7 @@
       ]
     }
   ],
-  "Spider cave teleport": [
+  "29782": [
     {
       "approx": true,
       "kind": "drop",
@@ -24311,7 +24311,7 @@
       ]
     }
   ],
-  "Spiked manacles": [
+  "23389": [
     {
       "approx": false,
       "kind": "drop",
@@ -24321,7 +24321,7 @@
       ]
     }
   ],
-  "Spirit flakes": [
+  "25588": [
     {
       "approx": false,
       "kind": "drop",
@@ -24331,7 +24331,7 @@
       ]
     }
   ],
-  "Spirit shield": [
+  "12829": [
     {
       "approx": false,
       "kind": "drop",
@@ -24341,7 +24341,7 @@
       ]
     }
   ],
-  "Squid beak": [
+  "31572": [
     {
       "approx": false,
       "kind": "drop",
@@ -24359,7 +24359,7 @@
       ]
     }
   ],
-  "Sraracha#Red": [
+  "23495": [
     {
       "approx": false,
       "kind": "drop",
@@ -24369,7 +24369,7 @@
       ]
     }
   ],
-  "Staff of bob the cat": [
+  "23363": [
     {
       "approx": false,
       "kind": "drop",
@@ -24379,7 +24379,7 @@
       ]
     }
   ],
-  "Staff of the dead": [
+  "11791": [
     {
       "approx": false,
       "kind": "drop",
@@ -24389,7 +24389,7 @@
       ]
     }
   ],
-  "Stale baguette": [
+  "20590": [
     {
       "approx": false,
       "kind": "drop",
@@ -24409,7 +24409,7 @@
       ]
     }
   ],
-  "Steam battlestaff": [
+  "11787": [
     {
       "approx": false,
       "kind": "drop",
@@ -24419,7 +24419,7 @@
       ]
     }
   ],
-  "Steel boots": [
+  "4123": [
     {
       "approx": false,
       "kind": "drop",
@@ -24440,7 +24440,7 @@
       ]
     }
   ],
-  "Steel defender#Normal": [
+  "8846": [
     {
       "approx": false,
       "kind": "drop",
@@ -24450,7 +24450,7 @@
       ]
     }
   ],
-  "Steel dragon mask": [
+  "12367": [
     {
       "approx": false,
       "kind": "drop",
@@ -24460,7 +24460,7 @@
       ]
     }
   ],
-  "Steel full helm (g)": [
+  "20178": [
     {
       "approx": false,
       "kind": "drop",
@@ -24470,7 +24470,7 @@
       ]
     }
   ],
-  "Steel full helm (t)": [
+  "20193": [
     {
       "approx": false,
       "kind": "drop",
@@ -24480,7 +24480,7 @@
       ]
     }
   ],
-  "Steel kiteshield (g)": [
+  "20181": [
     {
       "approx": false,
       "kind": "drop",
@@ -24490,7 +24490,7 @@
       ]
     }
   ],
-  "Steel kiteshield (t)": [
+  "20196": [
     {
       "approx": false,
       "kind": "drop",
@@ -24500,7 +24500,7 @@
       ]
     }
   ],
-  "Steel locks": [
+  "25445": [
     {
       "approx": false,
       "kind": "drop",
@@ -24542,7 +24542,7 @@
       ]
     }
   ],
-  "Steel platebody (g)": [
+  "20169": [
     {
       "approx": false,
       "kind": "drop",
@@ -24552,7 +24552,7 @@
       ]
     }
   ],
-  "Steel platebody (t)": [
+  "20184": [
     {
       "approx": false,
       "kind": "drop",
@@ -24562,7 +24562,7 @@
       ]
     }
   ],
-  "Steel platelegs (g)": [
+  "20172": [
     {
       "approx": false,
       "kind": "drop",
@@ -24572,7 +24572,7 @@
       ]
     }
   ],
-  "Steel platelegs (t)": [
+  "20187": [
     {
       "approx": false,
       "kind": "drop",
@@ -24582,7 +24582,7 @@
       ]
     }
   ],
-  "Steel plateskirt (g)": [
+  "20175": [
     {
       "approx": false,
       "kind": "drop",
@@ -24592,7 +24592,7 @@
       ]
     }
   ],
-  "Steel plateskirt (t)": [
+  "20190": [
     {
       "approx": false,
       "kind": "drop",
@@ -24602,7 +24602,7 @@
       ]
     }
   ],
-  "Steel ring": [
+  "30895": [
     {
       "approx": false,
       "kind": "drop",
@@ -24612,7 +24612,7 @@
       ]
     }
   ],
-  "Strange old lockpick#Full": [
+  "24740": [
     {
       "approx": false,
       "kind": "drop",
@@ -24622,7 +24622,7 @@
       ]
     }
   ],
-  "Strangled tablet": [
+  "28330": [
     {
       "approx": false,
       "kind": "drop",
@@ -24632,7 +24632,7 @@
       ]
     }
   ],
-  "Strength amulet (t)": [
+  "10364": [
     {
       "approx": false,
       "kind": "drop",
@@ -24642,7 +24642,7 @@
       ]
     }
   ],
-  "Studded body (g)": [
+  "7362": [
     {
       "approx": false,
       "kind": "drop",
@@ -24652,7 +24652,7 @@
       ]
     }
   ],
-  "Studded body (t)": [
+  "7364": [
     {
       "approx": false,
       "kind": "drop",
@@ -24662,7 +24662,7 @@
       ]
     }
   ],
-  "Studded chaps (g)": [
+  "7366": [
     {
       "approx": false,
       "kind": "drop",
@@ -24672,7 +24672,7 @@
       ]
     }
   ],
-  "Studded chaps (t)": [
+  "7368": [
     {
       "approx": false,
       "kind": "drop",
@@ -24682,7 +24682,7 @@
       ]
     }
   ],
-  "Sturdy beehive parts": [
+  "28674": [
     {
       "approx": false,
       "kind": "drop",
@@ -24692,7 +24692,7 @@
       ]
     }
   ],
-  "Sulphur blades": [
+  "29084": [
     {
       "approx": false,
       "kind": "drop",
@@ -24702,7 +24702,7 @@
       ]
     }
   ],
-  "Sunfire fanatic chausses": [
+  "28939": [
     {
       "approx": false,
       "kind": "drop",
@@ -24776,7 +24776,7 @@
       ]
     }
   ],
-  "Sunfire fanatic cuirass": [
+  "28936": [
     {
       "approx": false,
       "kind": "drop",
@@ -24850,7 +24850,7 @@
       ]
     }
   ],
-  "Sunfire fanatic helm": [
+  "28933": [
     {
       "approx": false,
       "kind": "drop",
@@ -24924,7 +24924,7 @@
       ]
     }
   ],
-  "Sunfire splinters": [
+  "28924": [
     {
       "approx": false,
       "kind": "drop",
@@ -25080,7 +25080,7 @@
       ]
     }
   ],
-  "Swift albatross feather": [
+  "31952": [
     {
       "approx": false,
       "kind": "drop",
@@ -25090,7 +25090,7 @@
       ]
     }
   ],
-  "Swift marlin": [
+  "31428": [
     {
       "approx": false,
       "kind": "drop",
@@ -25116,7 +25116,7 @@
       ]
     }
   ],
-  "Tackle box": [
+  "25580": [
     {
       "approx": false,
       "kind": "drop",
@@ -25126,7 +25126,7 @@
       ]
     }
   ],
-  "Tai bwo wannai teleport": [
+  "12409": [
     {
       "approx": false,
       "kind": "drop",
@@ -25177,7 +25177,7 @@
       ]
     }
   ],
-  "Tan cavalier": [
+  "2639": [
     {
       "approx": false,
       "kind": "drop",
@@ -25187,7 +25187,7 @@
       ]
     }
   ],
-  "Tangleroot#Normal": [
+  "20661": [
     {
       "approx": false,
       "kind": "drop",
@@ -25197,7 +25197,7 @@
       ]
     }
   ],
-  "Tanzanite fang": [
+  "12922": [
     {
       "approx": false,
       "kind": "drop",
@@ -25207,7 +25207,7 @@
       ]
     }
   ],
-  "Tanzanite mutagen": [
+  "13200": [
     {
       "approx": false,
       "kind": "drop",
@@ -25217,7 +25217,7 @@
       ]
     }
   ],
-  "Tarnished locket": [
+  "26910": [
     {
       "approx": false,
       "kind": "drop",
@@ -25227,7 +25227,7 @@
       ]
     }
   ],
-  "Tea flask": [
+  "25617": [
     {
       "approx": false,
       "kind": "drop",
@@ -25242,7 +25242,7 @@
       ]
     }
   ],
-  "Team cape i": [
+  "20217": [
     {
       "approx": false,
       "kind": "drop",
@@ -25252,7 +25252,7 @@
       ]
     }
   ],
-  "Team cape x": [
+  "20214": [
     {
       "approx": false,
       "kind": "drop",
@@ -25262,7 +25262,7 @@
       ]
     }
   ],
-  "Team cape zero": [
+  "20211": [
     {
       "approx": false,
       "kind": "drop",
@@ -25272,7 +25272,7 @@
       ]
     }
   ],
-  "Teleport anchoring scroll": [
+  "29455": [
     {
       "approx": false,
       "kind": "drop",
@@ -25298,7 +25298,7 @@
       ]
     }
   ],
-  "Thammaron's sceptre#Uncharged": [
+  "22552": [
     {
       "approx": false,
       "kind": "drop",
@@ -25408,7 +25408,7 @@
       ]
     }
   ],
-  "Thieving bag": [
+  "23224": [
     {
       "approx": false,
       "kind": "drop",
@@ -25418,7 +25418,7 @@
       ]
     }
   ],
-  "Thread of elidinis": [
+  "27279": [
     {
       "approx": false,
       "kind": "drop",
@@ -25428,7 +25428,7 @@
       ]
     }
   ],
-  "Tiny tempor": [
+  "25602": [
     {
       "approx": false,
       "kind": "drop",
@@ -25438,7 +25438,7 @@
       ]
     }
   ],
-  "Toktz-ket-xil": [
+  "6524": [
     {
       "approx": false,
       "kind": "drop",
@@ -25449,7 +25449,7 @@
       ]
     }
   ],
-  "Toktz-mej-tal": [
+  "6526": [
     {
       "approx": false,
       "kind": "drop",
@@ -25459,7 +25459,7 @@
       ]
     }
   ],
-  "Toktz-xil-ak": [
+  "6523": [
     {
       "approx": false,
       "kind": "drop",
@@ -25469,7 +25469,7 @@
       ]
     }
   ],
-  "Toktz-xil-ek": [
+  "6525": [
     {
       "approx": false,
       "kind": "drop",
@@ -25479,7 +25479,7 @@
       ]
     }
   ],
-  "Toktz-xil-ul": [
+  "6522": [
     {
       "approx": false,
       "kind": "drop",
@@ -25489,7 +25489,7 @@
       ]
     }
   ],
-  "Tome of earth#Empty": [
+  "30066": [
     {
       "approx": false,
       "kind": "drop",
@@ -25499,7 +25499,7 @@
       ]
     }
   ],
-  "Tome of fire#Empty": [
+  "20716": [
     {
       "approx": false,
       "kind": "drop",
@@ -25509,7 +25509,7 @@
       ]
     }
   ],
-  "Tome of water#Empty": [
+  "25576": [
     {
       "approx": false,
       "kind": "drop",
@@ -25519,7 +25519,7 @@
       ]
     }
   ],
-  "Tonalztics of ralos#Uncharged": [
+  "28919": [
     {
       "approx": false,
       "kind": "drop",
@@ -25569,7 +25569,7 @@
       ]
     }
   ],
-  "Top hat": [
+  "12432": [
     {
       "approx": false,
       "kind": "drop",
@@ -25579,7 +25579,7 @@
       ]
     }
   ],
-  "Top of sceptre": [
+  "9010": [
     {
       "approx": false,
       "kind": "drop",
@@ -25589,7 +25589,7 @@
       ]
     }
   ],
-  "Torag's hammers#Undamaged": [
+  "4747": [
     {
       "approx": false,
       "kind": "drop",
@@ -25599,7 +25599,7 @@
       ]
     }
   ],
-  "Torag's helm#Undamaged": [
+  "4745": [
     {
       "approx": false,
       "kind": "drop",
@@ -25609,7 +25609,7 @@
       ]
     }
   ],
-  "Torag's platebody#Undamaged": [
+  "4749": [
     {
       "approx": false,
       "kind": "drop",
@@ -25619,7 +25619,7 @@
       ]
     }
   ],
-  "Torag's platelegs#Undamaged": [
+  "4751": [
     {
       "approx": false,
       "kind": "drop",
@@ -25629,7 +25629,7 @@
       ]
     }
   ],
-  "Tormented ornament kit": [
+  "23348": [
     {
       "approx": false,
       "kind": "drop",
@@ -25639,7 +25639,7 @@
       ]
     }
   ],
-  "Tormented synapse": [
+  "29580": [
     {
       "approx": false,
       "kind": "drop",
@@ -25649,7 +25649,7 @@
       ]
     }
   ],
-  "Torn prayer scroll": [
+  "21047": [
     {
       "approx": false,
       "kind": "drop",
@@ -25659,7 +25659,7 @@
       ]
     }
   ],
-  "Torture ornament kit": [
+  "20062": [
     {
       "approx": false,
       "kind": "drop",
@@ -25669,7 +25669,7 @@
       ]
     }
   ],
-  "Torva full helm#Damaged": [
+  "26376": [
     {
       "approx": false,
       "kind": "drop",
@@ -25679,7 +25679,7 @@
       ]
     }
   ],
-  "Torva platebody#Damaged": [
+  "26378": [
     {
       "approx": false,
       "kind": "drop",
@@ -25689,7 +25689,7 @@
       ]
     }
   ],
-  "Torva platelegs#Damaged": [
+  "26380": [
     {
       "approx": false,
       "kind": "drop",
@@ -25699,7 +25699,7 @@
       ]
     }
   ],
-  "Treasonous ring": [
+  "12605": [
     {
       "approx": false,
       "kind": "drop",
@@ -25717,7 +25717,7 @@
       ]
     }
   ],
-  "Tree wizards' journal": [
+  "25474": [
     {
       "approx": false,
       "kind": "drop",
@@ -25879,7 +25879,7 @@
       ]
     }
   ],
-  "Trident of the seas#Charged": [
+  "11905": [
     {
       "approx": false,
       "kind": "drop",
@@ -25889,7 +25889,7 @@
       ]
     }
   ],
-  "Trident of the seas#Uncharged": [
+  "11908": [
     {
       "approx": false,
       "kind": "drop",
@@ -25899,7 +25899,7 @@
       ]
     }
   ],
-  "Tumeken's shadow#Uncharged": [
+  "27277": [
     {
       "approx": false,
       "kind": "drop",
@@ -25909,7 +25909,7 @@
       ]
     }
   ],
-  "Twisted ancestral colour kit": [
+  "24670": [
     {
       "approx": false,
       "kind": "drop",
@@ -25919,7 +25919,7 @@
       ]
     }
   ],
-  "Twisted bow": [
+  "20997": [
     {
       "approx": false,
       "kind": "drop",
@@ -25929,7 +25929,7 @@
       ]
     }
   ],
-  "Twisted buckler": [
+  "21000": [
     {
       "approx": false,
       "kind": "drop",
@@ -25939,7 +25939,7 @@
       ]
     }
   ],
-  "Tyrannical ring": [
+  "12603": [
     {
       "approx": false,
       "kind": "drop",
@@ -25957,7 +25957,7 @@
       ]
     }
   ],
-  "Tzhaar-ket-om": [
+  "6528": [
     {
       "approx": false,
       "kind": "drop",
@@ -25968,7 +25968,7 @@
       ]
     }
   ],
-  "Tzhaar-ket-om ornament kit": [
+  "23232": [
     {
       "approx": false,
       "kind": "drop",
@@ -25978,7 +25978,7 @@
       ]
     }
   ],
-  "Tzrek-jad#TzRek-Jad": [
+  "13225": [
     {
       "approx": false,
       "kind": "drop",
@@ -25988,7 +25988,7 @@
       ]
     }
   ],
-  "Ultor vestige": [
+  "28285": [
     {
       "approx": false,
       "kind": "drop",
@@ -25998,7 +25998,7 @@
       ]
     }
   ],
-  "Uncut onyx": [
+  "6571": [
     {
       "approx": false,
       "kind": "drop",
@@ -26064,7 +26064,7 @@
       ]
     }
   ],
-  "Unholy blessing": [
+  "20223": [
     {
       "approx": false,
       "kind": "drop",
@@ -26122,7 +26122,7 @@
       ]
     }
   ],
-  "Unsired": [
+  "25624": [
     {
       "approx": false,
       "kind": "drop",
@@ -26132,7 +26132,7 @@
       ]
     }
   ],
-  "Uri's hat": [
+  "23255": [
     {
       "approx": false,
       "kind": "drop",
@@ -26142,7 +26142,7 @@
       ]
     }
   ],
-  "Venator shard": [
+  "27614": [
     {
       "approx": false,
       "kind": "drop",
@@ -26160,7 +26160,7 @@
       ]
     }
   ],
-  "Venator vestige": [
+  "28283": [
     {
       "approx": false,
       "kind": "drop",
@@ -26170,7 +26170,7 @@
       ]
     }
   ],
-  "Venenatis spiderling#Normal": [
+  "13177": [
     {
       "approx": false,
       "kind": "drop",
@@ -26188,7 +26188,7 @@
       ]
     }
   ],
-  "Verac's brassard#Undamaged": [
+  "4757": [
     {
       "approx": false,
       "kind": "drop",
@@ -26198,7 +26198,7 @@
       ]
     }
   ],
-  "Verac's flail#Undamaged": [
+  "4755": [
     {
       "approx": false,
       "kind": "drop",
@@ -26208,7 +26208,7 @@
       ]
     }
   ],
-  "Verac's helm#Undamaged": [
+  "4753": [
     {
       "approx": false,
       "kind": "drop",
@@ -26218,7 +26218,7 @@
       ]
     }
   ],
-  "Verac's plateskirt#Undamaged": [
+  "4759": [
     {
       "approx": false,
       "kind": "drop",
@@ -26228,7 +26228,7 @@
       ]
     }
   ],
-  "Vet'ion jr.#Normal": [
+  "13179": [
     {
       "approx": false,
       "kind": "drop",
@@ -26246,7 +26246,7 @@
       ]
     }
   ],
-  "Vial of blood": [
+  "22446": [
     {
       "approx": false,
       "kind": "drop",
@@ -26256,7 +26256,7 @@
       ]
     }
   ],
-  "Viggora's chainmace#Uncharged": [
+  "22542": [
     {
       "approx": false,
       "kind": "drop",
@@ -26366,7 +26366,7 @@
       ]
     }
   ],
-  "Virtus mask": [
+  "26241": [
     {
       "approx": false,
       "kind": "drop",
@@ -26400,7 +26400,7 @@
       ]
     }
   ],
-  "Virtus robe bottom": [
+  "26245": [
     {
       "approx": false,
       "kind": "drop",
@@ -26434,7 +26434,7 @@
       ]
     }
   ],
-  "Virtus robe top": [
+  "26243": [
     {
       "approx": false,
       "kind": "drop",
@@ -26468,7 +26468,7 @@
       ]
     }
   ],
-  "Voidwaker blade": [
+  "27684": [
     {
       "approx": false,
       "kind": "drop",
@@ -26486,7 +26486,7 @@
       ]
     }
   ],
-  "Voidwaker gem": [
+  "27687": [
     {
       "approx": false,
       "kind": "drop",
@@ -26504,7 +26504,7 @@
       ]
     }
   ],
-  "Voidwaker hilt": [
+  "27681": [
     {
       "approx": false,
       "kind": "drop",
@@ -26522,7 +26522,7 @@
       ]
     }
   ],
-  "Volatile orb": [
+  "24514": [
     {
       "approx": false,
       "kind": "drop",
@@ -26540,7 +26540,7 @@
       ]
     }
   ],
-  "Vorkath's head": [
+  "21907": [
     {
       "approx": false,
       "kind": "drop",
@@ -26550,7 +26550,7 @@
       ]
     }
   ],
-  "Vorki": [
+  "21992": [
     {
       "approx": false,
       "kind": "drop",
@@ -26560,7 +26560,7 @@
       ]
     }
   ],
-  "War blessing": [
+  "20232": [
     {
       "approx": false,
       "kind": "drop",
@@ -26618,7 +26618,7 @@
       ]
     }
   ],
-  "Warm gloves": [
+  "20712": [
     {
       "approx": false,
       "kind": "drop",
@@ -26628,7 +26628,7 @@
       ]
     }
   ],
-  "Warped sceptre#Uncharged": [
+  "28583": [
     {
       "approx": false,
       "kind": "drop",
@@ -26641,7 +26641,7 @@
       ]
     }
   ],
-  "Warrior ring": [
+  "6735": [
     {
       "approx": false,
       "kind": "drop",
@@ -26651,7 +26651,7 @@
       ]
     }
   ],
-  "White beret": [
+  "2637": [
     {
       "approx": false,
       "kind": "drop",
@@ -26661,7 +26661,7 @@
       ]
     }
   ],
-  "White boater": [
+  "12313": [
     {
       "approx": false,
       "kind": "drop",
@@ -26671,7 +26671,7 @@
       ]
     }
   ],
-  "White cavalier": [
+  "12321": [
     {
       "approx": false,
       "kind": "drop",
@@ -26681,7 +26681,7 @@
       ]
     }
   ],
-  "White elegant blouse": [
+  "10420": [
     {
       "approx": false,
       "kind": "drop",
@@ -26691,7 +26691,7 @@
       ]
     }
   ],
-  "White elegant skirt": [
+  "10422": [
     {
       "approx": false,
       "kind": "drop",
@@ -26701,7 +26701,7 @@
       ]
     }
   ],
-  "White firelighter": [
+  "10327": [
     {
       "approx": false,
       "kind": "drop",
@@ -26759,7 +26759,7 @@
       ]
     }
   ],
-  "White headband": [
+  "12299": [
     {
       "approx": false,
       "kind": "drop",
@@ -26769,7 +26769,7 @@
       ]
     }
   ],
-  "White unicorn mask": [
+  "20269": [
     {
       "approx": false,
       "kind": "drop",
@@ -26779,7 +26779,7 @@
       ]
     }
   ],
-  "Willow comp bow": [
+  "10280": [
     {
       "approx": false,
       "kind": "drop",
@@ -26789,7 +26789,7 @@
       ]
     }
   ],
-  "Wisp": [
+  "28246": [
     {
       "approx": false,
       "kind": "drop",
@@ -26799,7 +26799,7 @@
       ]
     }
   ],
-  "Wizard boots": [
+  "2579": [
     {
       "approx": false,
       "kind": "drop",
@@ -26809,7 +26809,7 @@
       ]
     }
   ],
-  "Wolf cloak": [
+  "23410": [
     {
       "approx": false,
       "kind": "drop",
@@ -26819,7 +26819,7 @@
       ]
     }
   ],
-  "Wolf mask": [
+  "23407": [
     {
       "approx": false,
       "kind": "drop",
@@ -26829,7 +26829,7 @@
       ]
     }
   ],
-  "Wooden shield (g)": [
+  "20166": [
     {
       "approx": false,
       "kind": "drop",
@@ -26839,7 +26839,7 @@
       ]
     }
   ],
-  "Wyvern visage": [
+  "21637": [
     {
       "approx": false,
       "kind": "drop",
@@ -26859,7 +26859,7 @@
       ]
     }
   ],
-  "Xeric's talisman#Inert": [
+  "13392": [
     {
       "approx": false,
       "kind": "drop",
@@ -26887,7 +26887,7 @@
       ]
     }
   ],
-  "Yami": [
+  "30888": [
     {
       "approx": false,
       "kind": "drop",
@@ -26905,7 +26905,7 @@
       ]
     }
   ],
-  "Yew comp bow": [
+  "10282": [
     {
       "approx": false,
       "kind": "drop",
@@ -26915,7 +26915,7 @@
       ]
     }
   ],
-  "Youngllef#Youngllef": [
+  "23757": [
     {
       "approx": false,
       "kind": "drop",
@@ -26933,7 +26933,7 @@
       ]
     }
   ],
-  "Zalcano shard": [
+  "23908": [
     {
       "approx": false,
       "kind": "drop",
@@ -26943,7 +26943,7 @@
       ]
     }
   ],
-  "Zamorak bracers": [
+  "10368": [
     {
       "approx": false,
       "kind": "drop",
@@ -26953,7 +26953,7 @@
       ]
     }
   ],
-  "Zamorak chaps": [
+  "10372": [
     {
       "approx": false,
       "kind": "drop",
@@ -26963,7 +26963,7 @@
       ]
     }
   ],
-  "Zamorak cloak": [
+  "10450": [
     {
       "approx": false,
       "kind": "drop",
@@ -26973,7 +26973,7 @@
       ]
     }
   ],
-  "Zamorak coif": [
+  "10374": [
     {
       "approx": false,
       "kind": "drop",
@@ -26983,7 +26983,7 @@
       ]
     }
   ],
-  "Zamorak crozier": [
+  "10444": [
     {
       "approx": false,
       "kind": "drop",
@@ -26993,7 +26993,7 @@
       ]
     }
   ],
-  "Zamorak d'hide body": [
+  "10370": [
     {
       "approx": false,
       "kind": "drop",
@@ -27003,7 +27003,7 @@
       ]
     }
   ],
-  "Zamorak d'hide boots": [
+  "19936": [
     {
       "approx": false,
       "kind": "drop",
@@ -27013,7 +27013,7 @@
       ]
     }
   ],
-  "Zamorak d'hide shield": [
+  "23194": [
     {
       "approx": false,
       "kind": "drop",
@@ -27023,7 +27023,7 @@
       ]
     }
   ],
-  "Zamorak full helm": [
+  "2657": [
     {
       "approx": false,
       "kind": "drop",
@@ -27033,7 +27033,7 @@
       ]
     }
   ],
-  "Zamorak godsword ornament kit": [
+  "20077": [
     {
       "approx": false,
       "kind": "drop",
@@ -27043,7 +27043,7 @@
       ]
     }
   ],
-  "Zamorak hilt": [
+  "11816": [
     {
       "approx": false,
       "kind": "drop",
@@ -27053,7 +27053,7 @@
       ]
     }
   ],
-  "Zamorak kiteshield": [
+  "2659": [
     {
       "approx": false,
       "kind": "drop",
@@ -27063,7 +27063,7 @@
       ]
     }
   ],
-  "Zamorak mitre": [
+  "10456": [
     {
       "approx": false,
       "kind": "drop",
@@ -27073,7 +27073,7 @@
       ]
     }
   ],
-  "Zamorak page 1": [
+  "3831": [
     {
       "approx": false,
       "kind": "drop",
@@ -27124,7 +27124,7 @@
       ]
     }
   ],
-  "Zamorak page 2": [
+  "3832": [
     {
       "approx": false,
       "kind": "drop",
@@ -27175,7 +27175,7 @@
       ]
     }
   ],
-  "Zamorak page 3": [
+  "3833": [
     {
       "approx": false,
       "kind": "drop",
@@ -27226,7 +27226,7 @@
       ]
     }
   ],
-  "Zamorak page 4": [
+  "3834": [
     {
       "approx": false,
       "kind": "drop",
@@ -27277,7 +27277,7 @@
       ]
     }
   ],
-  "Zamorak platebody": [
+  "2653": [
     {
       "approx": false,
       "kind": "drop",
@@ -27287,7 +27287,7 @@
       ]
     }
   ],
-  "Zamorak platelegs": [
+  "2655": [
     {
       "approx": false,
       "kind": "drop",
@@ -27297,7 +27297,7 @@
       ]
     }
   ],
-  "Zamorak plateskirt": [
+  "3478": [
     {
       "approx": false,
       "kind": "drop",
@@ -27307,7 +27307,7 @@
       ]
     }
   ],
-  "Zamorak robe legs": [
+  "10468": [
     {
       "approx": false,
       "kind": "drop",
@@ -27317,7 +27317,7 @@
       ]
     }
   ],
-  "Zamorak robe top": [
+  "10460": [
     {
       "approx": false,
       "kind": "drop",
@@ -27327,7 +27327,7 @@
       ]
     }
   ],
-  "Zamorak stole": [
+  "10474": [
     {
       "approx": false,
       "kind": "drop",
@@ -27337,7 +27337,7 @@
       ]
     }
   ],
-  "Zamorakian spear": [
+  "11824": [
     {
       "approx": false,
       "kind": "drop",
@@ -27357,7 +27357,7 @@
       ]
     }
   ],
-  "Zaryte vambraces": [
+  "26235": [
     {
       "approx": false,
       "kind": "drop",
@@ -27367,7 +27367,7 @@
       ]
     }
   ],
-  "Zealot's boots": [
+  "25440": [
     {
       "approx": false,
       "kind": "drop",
@@ -27381,7 +27381,7 @@
       ]
     }
   ],
-  "Zealot's helm": [
+  "25438": [
     {
       "approx": false,
       "kind": "drop",
@@ -27395,7 +27395,7 @@
       ]
     }
   ],
-  "Zealot's robe bottom": [
+  "25436": [
     {
       "approx": false,
       "kind": "drop",
@@ -27409,7 +27409,7 @@
       ]
     }
   ],
-  "Zealot's robe top": [
+  "25434": [
     {
       "approx": false,
       "kind": "drop",
@@ -27423,7 +27423,7 @@
       ]
     }
   ],
-  "Zenyte shard": [
+  "19529": [
     {
       "approx": false,
       "kind": "drop",
@@ -27441,7 +27441,7 @@
       ]
     }
   ],
-  "Zombie boots": [
+  "7596": [
     {
       "approx": false,
       "kind": "drop",
@@ -27451,7 +27451,7 @@
       ]
     }
   ],
-  "Zombie champion scroll": [
+  "6807": [
     {
       "approx": false,
       "kind": "drop",
@@ -27493,7 +27493,7 @@
       ]
     }
   ],
-  "Zombie gloves": [
+  "7595": [
     {
       "approx": false,
       "kind": "drop",
@@ -27503,7 +27503,7 @@
       ]
     }
   ],
-  "Zombie head (Treasure Trails)": [
+  "19912": [
     {
       "approx": false,
       "kind": "drop",
@@ -27513,7 +27513,7 @@
       ]
     }
   ],
-  "Zombie mask": [
+  "7594": [
     {
       "approx": false,
       "kind": "drop",
@@ -27523,7 +27523,7 @@
       ]
     }
   ],
-  "Zombie shirt": [
+  "7592": [
     {
       "approx": false,
       "kind": "drop",
@@ -27533,7 +27533,7 @@
       ]
     }
   ],
-  "Zombie trousers": [
+  "7593": [
     {
       "approx": false,
       "kind": "drop",
@@ -27543,7 +27543,7 @@
       ]
     }
   ],
-  "Zul-andra teleport": [
+  "12938": [
     {
       "approx": false,
       "kind": "drop",
@@ -27553,7 +27553,7 @@
       ]
     }
   ],
-  "Zulrah's scales": [
+  "12934": [
     {
       "approx": false,
       "kind": "drop",

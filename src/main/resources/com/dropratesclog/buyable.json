@@ -1,5 +1,5 @@
 {
-  "Agility arena ticket": {
+  "2996": {
     "entries": [
       {
         "approx": false,
@@ -14,7 +14,7 @@
     ],
     "revid": 15221886
   },
-  "Alchemist gloves": {
+  "29986": {
     "entries": [
       {
         "approx": false,
@@ -29,7 +29,7 @@
     ],
     "revid": 15207075
   },
-  "Alchemist labcoat": {
+  "29978": {
     "entries": [
       {
         "approx": false,
@@ -44,7 +44,7 @@
     ],
     "revid": 15221886
   },
-  "Alchemist pants": {
+  "29982": {
     "entries": [
       {
         "approx": false,
@@ -59,7 +59,7 @@
     ],
     "revid": 15221886
   },
-  "Alchemist's amulet": {
+  "29992": {
     "entries": [
       {
         "approx": false,
@@ -74,7 +74,7 @@
     ],
     "revid": 15221886
   },
-  "Amulet of eternal glory": {
+  "19707": {
     "entries": [
       {
         "approx": false,
@@ -89,7 +89,7 @@
     ],
     "revid": 15221886
   },
-  "Amy's saw": {
+  "24880": {
     "entries": [
       {
         "approx": false,
@@ -104,7 +104,7 @@
     ],
     "revid": 15189849
   },
-  "Ancient halo": {
+  "24201": {
     "entries": [
       {
         "approx": false,
@@ -119,58 +119,7 @@
     ],
     "revid": 15189523
   },
-  "Animation overrides": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Reward from participating in a Leagues season",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Twisted League",
-          "Trailblazer League",
-          "Shattered Relics League",
-          "Trailblazer Reloaded League",
-          "Raging Echoes League",
-          "Demonic Pacts League"
-        ]
-      },
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Reward from Quest Speedrunning",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Quest Speedrunning"
-        ]
-      },
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Reward from Deadman modes",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Deadman: Armageddon",
-          "Deadman Reward Store"
-        ]
-      },
-      {
-        "approx": false,
-        "cost": "75 LMS Points",
-        "description": null,
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Justine's stuff"
-        ]
-      }
-    ],
-    "revid": 15209951
-  },
-  "Apprentice wand": {
+  "6910": {
     "entries": [
       {
         "approx": false,
@@ -185,7 +134,7 @@
     ],
     "revid": 15221886
   },
-  "Armadyl halo": {
+  "24192": {
     "entries": [
       {
         "approx": false,
@@ -200,7 +149,7 @@
     ],
     "revid": 15189521
   },
-  "Armadylean paint": {
+  "32102": {
     "entries": [
       {
         "approx": false,
@@ -215,7 +164,7 @@
     ],
     "revid": 15221886
   },
-  "Ash covered tome": {
+  "21697": {
     "entries": [
       {
         "approx": false,
@@ -230,22 +179,7 @@
     ],
     "revid": 15188494
   },
-  "Baby chinchompa (grey)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while catching chinchompas - Colour matches the chinchompa caught (grey = grey chinchompas)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Hunter"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Ballistic attractor schematic": {
+  "33143": {
     "entries": [
       {
         "approx": false,
@@ -260,7 +194,7 @@
     ],
     "revid": 15221886
   },
-  "Bandos halo": {
+  "24195": {
     "entries": [
       {
         "approx": false,
@@ -275,7 +209,7 @@
     ],
     "revid": 15189522
   },
-  "Barracuda paint": {
+  "32087": {
     "entries": [
       {
         "approx": false,
@@ -310,7 +244,7 @@
     ],
     "revid": 15221886
   },
-  "Barrel stand": {
+  "31733": {
     "entries": [
       {
         "approx": false,
@@ -325,7 +259,7 @@
     ],
     "revid": 15221886
   },
-  "Barronite mace": {
+  "25641": {
     "entries": [
       {
         "approx": false,
@@ -340,7 +274,7 @@
     ],
     "revid": 15221886
   },
-  "Beginner wand": {
+  "6908": {
     "entries": [
       {
         "approx": false,
@@ -355,7 +289,7 @@
     ],
     "revid": 15221886
   },
-  "Big bass": {
+  "7989": {
     "entries": [
       {
         "approx": false,
@@ -370,7 +304,7 @@
     ],
     "revid": 15221886
   },
-  "Big pearl": {
+  "31782": {
     "entries": [
       {
         "approx": false,
@@ -385,7 +319,7 @@
     ],
     "revid": 15221886
   },
-  "Big swordfish": {
+  "7991": {
     "entries": [
       {
         "approx": false,
@@ -400,7 +334,7 @@
     ],
     "revid": 15221886
   },
-  "Black naval shirt": {
+  "8956": {
     "entries": [
       {
         "approx": false,
@@ -415,7 +349,7 @@
     ],
     "revid": 15187311
   },
-  "Black navy slacks": {
+  "8995": {
     "entries": [
       {
         "approx": false,
@@ -430,7 +364,7 @@
     ],
     "revid": 15187318
   },
-  "Black tricorn hat": {
+  "8963": {
     "entries": [
       {
         "approx": false,
@@ -445,7 +379,7 @@
     ],
     "revid": 15187304
   },
-  "Blue dark bow paint": {
+  "12757": {
     "entries": [
       {
         "approx": false,
@@ -460,7 +394,7 @@
     ],
     "revid": 15186406
   },
-  "Blue naval shirt": {
+  "8952": {
     "entries": [
       {
         "approx": false,
@@ -475,7 +409,7 @@
     ],
     "revid": 15187307
   },
-  "Blue navy slacks": {
+  "8991": {
     "entries": [
       {
         "approx": false,
@@ -490,7 +424,7 @@
     ],
     "revid": 15187314
   },
-  "Blue tricorn hat": {
+  "8959": {
     "entries": [
       {
         "approx": false,
@@ -505,7 +439,7 @@
     ],
     "revid": 15187299
   },
-  "Bones to Peaches": {
+  "6926": {
     "entries": [
       {
         "approx": false,
@@ -520,7 +454,7 @@
     ],
     "revid": 15221886
   },
-  "Boots of the eye": {
+  "26856": {
     "entries": [
       {
         "approx": false,
@@ -535,20 +469,7 @@
     ],
     "revid": 15190842
   },
-  "Bosun's workbench schematic": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Complete The Red Reef Quest",
-        "kind": "currency",
-        "rate": null,
-        "sources": []
-      }
-    ],
-    "revid": 15215433
-  },
-  "Brassica halo": {
+  "24204": {
     "entries": [
       {
         "approx": false,
@@ -563,7 +484,7 @@
     ],
     "revid": 15189525
   },
-  "Bright pearl": {
+  "31779": {
     "entries": [
       {
         "approx": false,
@@ -578,7 +499,7 @@
     ],
     "revid": 15221886
   },
-  "Brilliant pearl": {
+  "31797": {
     "entries": [
       {
         "approx": false,
@@ -593,7 +514,7 @@
     ],
     "revid": 15221886
   },
-  "Brimhaven voucher": {
+  "29482": {
     "entries": [
       {
         "approx": false,
@@ -608,7 +529,7 @@
     ],
     "revid": 15221886
   },
-  "Bronze fist flag": {
+  "8968": {
     "entries": [
       {
         "approx": false,
@@ -623,7 +544,7 @@
     ],
     "revid": 15184768
   },
-  "Brown naval shirt": {
+  "8955": {
     "entries": [
       {
         "approx": false,
@@ -638,7 +559,7 @@
     ],
     "revid": 15187309
   },
-  "Brown navy slacks": {
+  "8994": {
     "entries": [
       {
         "approx": false,
@@ -653,7 +574,7 @@
     ],
     "revid": 15187317
   },
-  "Brown tricorn hat": {
+  "8962": {
     "entries": [
       {
         "approx": false,
@@ -668,7 +589,7 @@
     ],
     "revid": 15187303
   },
-  "Calcified acorn": {
+  "30042": {
     "entries": [
       {
         "approx": false,
@@ -683,7 +604,7 @@
     ],
     "revid": 15192724
   },
-  "Cape pouch": {
+  "28613": {
     "entries": [
       {
         "approx": false,
@@ -698,7 +619,7 @@
     ],
     "revid": 15191620
   },
-  "Captured wind mote": {
+  "31745": {
     "entries": [
       {
         "approx": false,
@@ -713,7 +634,7 @@
     ],
     "revid": 15221886
   },
-  "Carpenter's boots": {
+  "24878": {
     "entries": [
       {
         "approx": false,
@@ -728,7 +649,7 @@
     ],
     "revid": 15189855
   },
-  "Carpenter's helmet": {
+  "24872": {
     "entries": [
       {
         "approx": false,
@@ -743,7 +664,7 @@
     ],
     "revid": 15189852
   },
-  "Carpenter's shirt": {
+  "24874": {
     "entries": [
       {
         "approx": false,
@@ -758,7 +679,7 @@
     ],
     "revid": 15189853
   },
-  "Carpenter's trousers": {
+  "24876": {
     "entries": [
       {
         "approx": false,
@@ -773,7 +694,7 @@
     ],
     "revid": 15189854
   },
-  "Castlewars cloak (Saradomin)": {
+  "4514": {
     "entries": [
       {
         "approx": false,
@@ -788,7 +709,7 @@
     ],
     "revid": 15185150
   },
-  "Castlewars cloak (Zamorak)": {
+  "4516": {
     "entries": [
       {
         "approx": false,
@@ -803,7 +724,7 @@
     ],
     "revid": 15185151
   },
-  "Castlewars hood (Saradomin)": {
+  "4513": {
     "entries": [
       {
         "approx": false,
@@ -818,7 +739,7 @@
     ],
     "revid": 15185149
   },
-  "Castlewars hood (Zamorak)": {
+  "4515": {
     "entries": [
       {
         "approx": false,
@@ -833,7 +754,7 @@
     ],
     "revid": 15185148
   },
-  "Celestial ring (uncharged)": {
+  "25539": {
     "entries": [
       {
         "approx": false,
@@ -848,7 +769,7 @@
     ],
     "revid": 15185148
   },
-  "Champion's cape": {
+  "21439": {
     "entries": [
       {
         "approx": false,
@@ -863,7 +784,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (bowman)": {
+  "2979": {
     "entries": [
       {
         "approx": false,
@@ -878,7 +799,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (bowmaster)": {
+  "2989": {
     "entries": [
       {
         "approx": false,
@@ -893,7 +814,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (dragon archer)": {
+  "2993": {
     "entries": [
       {
         "approx": false,
@@ -908,7 +829,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (expert dragon archer)": {
+  "2995": {
     "entries": [
       {
         "approx": false,
@@ -923,7 +844,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (expert ogre dragon archer)": {
+  "2994": {
     "entries": [
       {
         "approx": false,
@@ -938,7 +859,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (expert)": {
+  "2991": {
     "entries": [
       {
         "approx": false,
@@ -953,7 +874,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (forester)": {
+  "2987": {
     "entries": [
       {
         "approx": false,
@@ -968,7 +889,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (marksman)": {
+  "2983": {
     "entries": [
       {
         "approx": false,
@@ -983,7 +904,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre bowman)": {
+  "2978": {
     "entries": [
       {
         "approx": false,
@@ -998,7 +919,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre bowmaster)": {
+  "2988": {
     "entries": [
       {
         "approx": false,
@@ -1013,7 +934,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre dragon archer)": {
+  "2992": {
     "entries": [
       {
         "approx": false,
@@ -1028,7 +949,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre expert)": {
+  "2990": {
     "entries": [
       {
         "approx": false,
@@ -1043,7 +964,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre forester)": {
+  "2986": {
     "entries": [
       {
         "approx": false,
@@ -1058,7 +979,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre marksman)": {
+  "2982": {
     "entries": [
       {
         "approx": false,
@@ -1073,7 +994,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre woodsman)": {
+  "2984": {
     "entries": [
       {
         "approx": false,
@@ -1088,7 +1009,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (ogre yeoman)": {
+  "2980": {
     "entries": [
       {
         "approx": false,
@@ -1103,7 +1024,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (woodsman)": {
+  "2985": {
     "entries": [
       {
         "approx": false,
@@ -1118,7 +1039,7 @@
     ],
     "revid": 15221886
   },
-  "Chompy bird hat (yeoman)": {
+  "2981": {
     "entries": [
       {
         "approx": false,
@@ -1133,7 +1054,7 @@
     ],
     "revid": 15221886
   },
-  "Chugging barrel (disassembled)": {
+  "30002": {
     "entries": [
       {
         "approx": false,
@@ -1148,7 +1069,7 @@
     ],
     "revid": 15207075
   },
-  "Clothes pouch blueprint": {
+  "28166": {
     "entries": [
       {
         "approx": false,
@@ -1163,7 +1084,7 @@
     ],
     "revid": 15191377
   },
-  "Coal bag": {
+  "25627": {
     "entries": [
       {
         "approx": false,
@@ -1178,7 +1099,7 @@
     ],
     "revid": 15215029
   },
-  "Colossal blade": {
+  "27021": {
     "entries": [
       {
         "approx": false,
@@ -1193,7 +1114,7 @@
     ],
     "revid": 15213692
   },
-  "Colossal wyrm teleport scroll": {
+  "30040": {
     "entries": [
       {
         "approx": false,
@@ -1208,7 +1129,7 @@
     ],
     "revid": 15192735
   },
-  "Cutthroat flag": {
+  "8966": {
     "entries": [
       {
         "approx": false,
@@ -1223,7 +1144,7 @@
     ],
     "revid": 15184278
   },
-  "Dark acorn": {
+  "24733": {
     "entries": [
       {
         "approx": false,
@@ -1238,7 +1159,7 @@
     ],
     "revid": 15189744
   },
-  "Dark dye": {
+  "24729": {
     "entries": [
       {
         "approx": false,
@@ -1253,7 +1174,7 @@
     ],
     "revid": 15189755
   },
-  "Deadman's cape": {
+  "24191": {
     "entries": [
       {
         "approx": false,
@@ -1268,7 +1189,7 @@
     ],
     "revid": 15221886
   },
-  "Deadman's chest": {
+  "24189": {
     "entries": [
       {
         "approx": false,
@@ -1283,7 +1204,7 @@
     ],
     "revid": 15221886
   },
-  "Deadman's legs": {
+  "24190": {
     "entries": [
       {
         "approx": false,
@@ -1298,7 +1219,7 @@
     ],
     "revid": 15221886
   },
-  "Decorative armour (gold platebody)": {
+  "4509": {
     "entries": [
       {
         "approx": false,
@@ -1313,7 +1234,7 @@
     ],
     "revid": 15185125
   },
-  "Decorative armour (gold platelegs)": {
+  "4510": {
     "entries": [
       {
         "approx": false,
@@ -1328,7 +1249,7 @@
     ],
     "revid": 15185130
   },
-  "Decorative armour (gold plateskirt)": {
+  "11895": {
     "entries": [
       {
         "approx": false,
@@ -1343,7 +1264,7 @@
     ],
     "revid": 15185133
   },
-  "Decorative armour (magic hat)": {
+  "11898": {
     "entries": [
       {
         "approx": false,
@@ -1358,7 +1279,7 @@
     ],
     "revid": 15185142
   },
-  "Decorative armour (magic legs)": {
+  "11897": {
     "entries": [
       {
         "approx": false,
@@ -1373,7 +1294,7 @@
     ],
     "revid": 15185144
   },
-  "Decorative armour (magic top)": {
+  "11896": {
     "entries": [
       {
         "approx": false,
@@ -1389,7 +1310,7 @@
     ],
     "revid": 15185143
   },
-  "Decorative armour (quiver)": {
+  "11901": {
     "entries": [
       {
         "approx": false,
@@ -1404,7 +1325,7 @@
     ],
     "revid": 15185147
   },
-  "Decorative armour (ranged legs)": {
+  "11900": {
     "entries": [
       {
         "approx": false,
@@ -1419,7 +1340,7 @@
     ],
     "revid": 15185146
   },
-  "Decorative armour (ranged top)": {
+  "11899": {
     "entries": [
       {
         "approx": false,
@@ -1434,7 +1355,7 @@
     ],
     "revid": 15185145
   },
-  "Decorative armour (red platebody)": {
+  "4069": {
     "entries": [
       {
         "approx": false,
@@ -1449,7 +1370,7 @@
     ],
     "revid": 15185127
   },
-  "Decorative armour (red platelegs)": {
+  "4070": {
     "entries": [
       {
         "approx": false,
@@ -1464,7 +1385,7 @@
     ],
     "revid": 15185132
   },
-  "Decorative armour (red plateskirt)": {
+  "11893": {
     "entries": [
       {
         "approx": false,
@@ -1479,7 +1400,7 @@
     ],
     "revid": 15185135
   },
-  "Decorative armour (white platebody)": {
+  "4504": {
     "entries": [
       {
         "approx": false,
@@ -1494,7 +1415,7 @@
     ],
     "revid": 15185126
   },
-  "Decorative armour (white platelegs)": {
+  "4505": {
     "entries": [
       {
         "approx": false,
@@ -1509,7 +1430,7 @@
     ],
     "revid": 15185131
   },
-  "Decorative armour (white plateskirt)": {
+  "11894": {
     "entries": [
       {
         "approx": false,
@@ -1524,7 +1445,7 @@
     ],
     "revid": 15185134
   },
-  "Decorative boots (gold)": {
+  "25171": {
     "entries": [
       {
         "approx": false,
@@ -1539,7 +1460,7 @@
     ],
     "revid": 15189938
   },
-  "Decorative boots (red)": {
+  "25163": {
     "entries": [
       {
         "approx": false,
@@ -1554,7 +1475,7 @@
     ],
     "revid": 15189939
   },
-  "Decorative boots (white)": {
+  "25167": {
     "entries": [
       {
         "approx": false,
@@ -1569,7 +1490,7 @@
     ],
     "revid": 15189940
   },
-  "Decorative full helm (gold)": {
+  "25174": {
     "entries": [
       {
         "approx": false,
@@ -1584,7 +1505,7 @@
     ],
     "revid": 15211403
   },
-  "Decorative full helm (red)": {
+  "25165": {
     "entries": [
       {
         "approx": false,
@@ -1599,7 +1520,7 @@
     ],
     "revid": 15189942
   },
-  "Decorative full helm (white)": {
+  "25169": {
     "entries": [
       {
         "approx": false,
@@ -1614,7 +1535,7 @@
     ],
     "revid": 15189941
   },
-  "Decorative helm (gold)": {
+  "4511": {
     "entries": [
       {
         "approx": false,
@@ -1629,7 +1550,7 @@
     ],
     "revid": 15185128
   },
-  "Decorative helm (red)": {
+  "4071": {
     "entries": [
       {
         "approx": false,
@@ -1644,7 +1565,7 @@
     ],
     "revid": 15185124
   },
-  "Decorative helm (white)": {
+  "4506": {
     "entries": [
       {
         "approx": false,
@@ -1659,7 +1580,7 @@
     ],
     "revid": 15185129
   },
-  "Decorative shield (gold)": {
+  "4512": {
     "entries": [
       {
         "approx": false,
@@ -1674,7 +1595,7 @@
     ],
     "revid": 15185136
   },
-  "Decorative shield (red)": {
+  "4072": {
     "entries": [
       {
         "approx": false,
@@ -1689,7 +1610,7 @@
     ],
     "revid": 15185138
   },
-  "Decorative shield (white)": {
+  "4507": {
     "entries": [
       {
         "approx": false,
@@ -1704,7 +1625,7 @@
     ],
     "revid": 15185137
   },
-  "Decorative sword (gold)": {
+  "4508": {
     "entries": [
       {
         "approx": false,
@@ -1719,7 +1640,7 @@
     ],
     "revid": 15185139
   },
-  "Decorative sword (red)": {
+  "4068": {
     "entries": [
       {
         "approx": false,
@@ -1734,7 +1655,7 @@
     ],
     "revid": 15185141
   },
-  "Decorative sword (white)": {
+  "4503": {
     "entries": [
       {
         "approx": false,
@@ -1749,7 +1670,7 @@
     ],
     "revid": 15185140
   },
-  "Dizana's quiver (uncharged)": {
+  "28947": {
     "entries": [
       {
         "approx": false,
@@ -1764,7 +1685,7 @@
     ],
     "revid": 15221886
   },
-  "Double ammo mould": {
+  "27012": {
     "entries": [
       {
         "approx": false,
@@ -1779,7 +1700,7 @@
     ],
     "revid": 15190919
   },
-  "Dragon cannon schematic": {
+  "32406": {
     "entries": [
       {
         "approx": false,
@@ -1794,7 +1715,7 @@
     ],
     "revid": 15221886
   },
-  "Dragon helm schematic": {
+  "32409": {
     "entries": [
       {
         "approx": false,
@@ -1809,7 +1730,7 @@
     ],
     "revid": 15221886
   },
-  "Dragon keel schematic": {
+  "32410": {
     "entries": [
       {
         "approx": false,
@@ -1824,22 +1745,7 @@
     ],
     "revid": 15221886
   },
-  "Dragon legs+skirt ornament kit": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Reward from elite clue caskets",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Elite Treasure Trails"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Dragon pickaxe upgrade kit": {
+  "12800": {
     "entries": [
       {
         "approx": false,
@@ -1854,7 +1760,7 @@
     ],
     "revid": 15186420
   },
-  "Dragon salvaging hook schematic": {
+  "32404": {
     "entries": [
       {
         "approx": false,
@@ -1869,7 +1775,7 @@
     ],
     "revid": 15221886
   },
-  "Ectoplasmator": {
+  "25340": {
     "entries": [
       {
         "approx": false,
@@ -1884,7 +1790,7 @@
     ],
     "revid": 15210533
   },
-  "Elite void robe": {
+  "13073": {
     "entries": [
       {
         "approx": false,
@@ -1899,7 +1805,7 @@
     ],
     "revid": 15221886
   },
-  "Elite void top": {
+  "13072": {
     "entries": [
       {
         "approx": false,
@@ -1914,7 +1820,7 @@
     ],
     "revid": 15221886
   },
-  "Enormous pearl": {
+  "31788": {
     "entries": [
       {
         "approx": false,
@@ -1929,7 +1835,7 @@
     ],
     "revid": 15221886
   },
-  "Eternal brazier schematic": {
+  "32403": {
     "entries": [
       {
         "approx": false,
@@ -1944,7 +1850,7 @@
     ],
     "revid": 15221886
   },
-  "Expert mining gloves": {
+  "21392": {
     "entries": [
       {
         "approx": false,
@@ -1959,7 +1865,7 @@
     ],
     "revid": 15221886
   },
-  "Eye of ayak": {
+  "31115": {
     "entries": [
       {
         "approx": false,
@@ -1974,7 +1880,7 @@
     ],
     "revid": 15221886
   },
-  "Farmer's boots": {
+  "13644": {
     "entries": [
       {
         "approx": false,
@@ -1989,7 +1895,7 @@
     ],
     "revid": 15187415
   },
-  "Farmer's boro trousers": {
+  "13640": {
     "entries": [
       {
         "approx": false,
@@ -2004,7 +1910,7 @@
     ],
     "revid": 15187414
   },
-  "Farmer's jacket": {
+  "13642": {
     "entries": [
       {
         "approx": false,
@@ -2019,7 +1925,7 @@
     ],
     "revid": 15187412
   },
-  "Farmer's strawhat": {
+  "13646": {
     "entries": [
       {
         "approx": false,
@@ -2034,7 +1940,7 @@
     ],
     "revid": 15187411
   },
-  "Felling axe handle": {
+  "28177": {
     "entries": [
       {
         "approx": false,
@@ -2049,7 +1955,7 @@
     ],
     "revid": 15205670
   },
-  "Fetid key": {
+  "31744": {
     "entries": [
       {
         "approx": false,
@@ -2064,7 +1970,7 @@
     ],
     "revid": 15221886
   },
-  "Fighter hat": {
+  "10548": {
     "entries": [
       {
         "approx": false,
@@ -2079,7 +1985,7 @@
     ],
     "revid": 15221886
   },
-  "Fighter torso": {
+  "10551": {
     "entries": [
       {
         "approx": false,
@@ -2094,7 +2000,7 @@
     ],
     "revid": 15221886
   },
-  "Fire cape": {
+  "6570": {
     "entries": [
       {
         "approx": false,
@@ -2109,7 +2015,7 @@
     ],
     "revid": 15221886
   },
-  "Fish sack": {
+  "22838": {
     "entries": [
       {
         "approx": false,
@@ -2124,7 +2030,7 @@
     ],
     "revid": 15189096
   },
-  "Forestry boots": {
+  "28175": {
     "entries": [
       {
         "approx": false,
@@ -2139,7 +2045,7 @@
     ],
     "revid": 15191364
   },
-  "Forestry hat": {
+  "28173": {
     "entries": [
       {
         "approx": false,
@@ -2154,7 +2060,7 @@
     ],
     "revid": 15191361
   },
-  "Forestry legs": {
+  "28171": {
     "entries": [
       {
         "approx": false,
@@ -2169,7 +2075,7 @@
     ],
     "revid": 15191363
   },
-  "Forestry top": {
+  "28169": {
     "entries": [
       {
         "approx": false,
@@ -2184,7 +2090,7 @@
     ],
     "revid": 15191362
   },
-  "Frozen whip mix": {
+  "12769": {
     "entries": [
       {
         "approx": false,
@@ -2199,7 +2105,7 @@
     ],
     "revid": 15186402
   },
-  "Funky shaped log": {
+  "28138": {
     "entries": [
       {
         "approx": false,
@@ -2214,7 +2120,7 @@
     ],
     "revid": 15191385
   },
-  "Gale catcher schematic": {
+  "32402": {
     "entries": [
       {
         "approx": false,
@@ -2229,7 +2135,7 @@
     ],
     "revid": 15221886
   },
-  "Gem bag": {
+  "25628": {
     "entries": [
       {
         "approx": false,
@@ -2244,7 +2150,7 @@
     ],
     "revid": 15215028
   },
-  "Giant squirrel": {
+  "20659": {
     "entries": [
       {
         "approx": false,
@@ -2259,7 +2165,7 @@
     ],
     "revid": 15221886
   },
-  "Gilded smile flag": {
+  "8967": {
     "entries": [
       {
         "approx": false,
@@ -2274,7 +2180,7 @@
     ],
     "revid": 15184767
   },
-  "Glistening pearl": {
+  "31794": {
     "entries": [
       {
         "approx": false,
@@ -2289,7 +2195,7 @@
     ],
     "revid": 15221886
   },
-  "Golden armadyl special attack": {
+  "24868": {
     "entries": [
       {
         "approx": false,
@@ -2304,7 +2210,7 @@
     ],
     "revid": 15221886
   },
-  "Golden bandos special attack": {
+  "24869": {
     "entries": [
       {
         "approx": false,
@@ -2319,7 +2225,7 @@
     ],
     "revid": 15221886
   },
-  "Golden saradomin special attack": {
+  "24870": {
     "entries": [
       {
         "approx": false,
@@ -2334,7 +2240,7 @@
     ],
     "revid": 15221886
   },
-  "Golden zamorak special attack": {
+  "24871": {
     "entries": [
       {
         "approx": false,
@@ -2349,7 +2255,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful boots": {
+  "11860": {
     "entries": [
       {
         "approx": false,
@@ -2364,7 +2270,7 @@
     ],
     "revid": 15184831
   },
-  "Graceful boots (Agility Arena)": {
+  "21076": {
     "entries": [
       {
         "approx": false,
@@ -2379,7 +2285,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful boots (Varlamore)": {
+  "30060": {
     "entries": [
       {
         "approx": false,
@@ -2394,7 +2300,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful cape": {
+  "11852": {
     "entries": [
       {
         "approx": false,
@@ -2409,7 +2315,7 @@
     ],
     "revid": 15184833
   },
-  "Graceful cape (Agility Arena)": {
+  "21064": {
     "entries": [
       {
         "approx": false,
@@ -2424,7 +2330,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful cape (Varlamore)": {
+  "30048": {
     "entries": [
       {
         "approx": false,
@@ -2439,7 +2345,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful gloves": {
+  "11858": {
     "entries": [
       {
         "approx": false,
@@ -2452,7 +2358,7 @@
     ],
     "revid": 15184834
   },
-  "Graceful gloves (Agility Arena)": {
+  "21073": {
     "entries": [
       {
         "approx": false,
@@ -2467,7 +2373,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful gloves (Varlamore)": {
+  "30057": {
     "entries": [
       {
         "approx": false,
@@ -2482,7 +2388,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful hood": {
+  "11850": {
     "entries": [
       {
         "approx": false,
@@ -2495,7 +2401,7 @@
     ],
     "revid": 15184835
   },
-  "Graceful hood (Agility Arena)": {
+  "21061": {
     "entries": [
       {
         "approx": false,
@@ -2510,7 +2416,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful hood (Varlamore)": {
+  "30045": {
     "entries": [
       {
         "approx": false,
@@ -2525,7 +2431,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful legs": {
+  "11856": {
     "entries": [
       {
         "approx": false,
@@ -2538,7 +2444,7 @@
     ],
     "revid": 15184830
   },
-  "Graceful legs (Agility Arena)": {
+  "21070": {
     "entries": [
       {
         "approx": false,
@@ -2553,7 +2459,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful legs (Varlamore)": {
+  "30054": {
     "entries": [
       {
         "approx": false,
@@ -2568,7 +2474,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful top": {
+  "11854": {
     "entries": [
       {
         "approx": false,
@@ -2583,7 +2489,7 @@
     ],
     "revid": 15184832
   },
-  "Graceful top (Agility Arena)": {
+  "21067": {
     "entries": [
       {
         "approx": false,
@@ -2598,7 +2504,7 @@
     ],
     "revid": 15221886
   },
-  "Graceful top (Varlamore)": {
+  "30051": {
     "entries": [
       {
         "approx": false,
@@ -2613,7 +2519,7 @@
     ],
     "revid": 15221886
   },
-  "Granite body": {
+  "10564": {
     "entries": [
       {
         "approx": false,
@@ -2628,7 +2534,7 @@
     ],
     "revid": 15221886
   },
-  "Granite clamp": {
+  "12849": {
     "entries": [
       {
         "approx": false,
@@ -2643,7 +2549,7 @@
     ],
     "revid": 15186459
   },
-  "Green dark bow paint": {
+  "12759": {
     "entries": [
       {
         "approx": false,
@@ -2658,7 +2564,7 @@
     ],
     "revid": 15186403
   },
-  "Green naval shirt": {
+  "8953": {
     "entries": [
       {
         "approx": false,
@@ -2673,7 +2579,7 @@
     ],
     "revid": 15187308
   },
-  "Green navy slacks": {
+  "8992": {
     "entries": [
       {
         "approx": false,
@@ -2688,7 +2594,7 @@
     ],
     "revid": 15187315
   },
-  "Green tricorn hat": {
+  "8960": {
     "entries": [
       {
         "approx": false,
@@ -2703,7 +2609,7 @@
     ],
     "revid": 15187300
   },
-  "Grey naval shirt": {
+  "8958": {
     "entries": [
       {
         "approx": false,
@@ -2718,7 +2624,7 @@
     ],
     "revid": 15187313
   },
-  "Grey navy slacks": {
+  "8997": {
     "entries": [
       {
         "approx": false,
@@ -2733,7 +2639,7 @@
     ],
     "revid": 15187320
   },
-  "Grey tricorn hat": {
+  "8965": {
     "entries": [
       {
         "approx": false,
@@ -2748,7 +2654,7 @@
     ],
     "revid": 15187306
   },
-  "Gricoller's can": {
+  "13353": {
     "entries": [
       {
         "approx": false,
@@ -2763,7 +2669,7 @@
     ],
     "revid": 15187202
   },
-  "Guardian's eye": {
+  "26820": {
     "entries": [
       {
         "approx": false,
@@ -2778,7 +2684,7 @@
     ],
     "revid": 15190838
   },
-  "Gull (pet)": {
+  "31285": {
     "entries": [
       {
         "approx": false,
@@ -2793,7 +2699,7 @@
     ],
     "revid": 15214051
   },
-  "Gurtob's fabric roll": {
+  "31746": {
     "entries": [
       {
         "approx": false,
@@ -2808,7 +2714,7 @@
     ],
     "revid": 15221886
   },
-  "Guthix halo": {
+  "12639": {
     "entries": [
       {
         "approx": false,
@@ -2823,7 +2729,7 @@
     ],
     "revid": 15186206
   },
-  "Guthixian icon": {
+  "24217": {
     "entries": [
       {
         "approx": false,
@@ -2838,7 +2744,7 @@
     ],
     "revid": 15189528
   },
-  "Guthixian paint": {
+  "32106": {
     "entries": [
       {
         "approx": false,
@@ -2853,7 +2759,7 @@
     ],
     "revid": 15221886
   },
-  "Gwyna's fabric roll": {
+  "31758": {
     "entries": [
       {
         "approx": false,
@@ -2868,7 +2774,7 @@
     ],
     "revid": 15221886
   },
-  "Hallowed focus": {
+  "24723": {
     "entries": [
       {
         "approx": false,
@@ -2883,7 +2789,7 @@
     ],
     "revid": 15189752
   },
-  "Hallowed grapple": {
+  "24721": {
     "entries": [
       {
         "approx": false,
@@ -2898,7 +2804,7 @@
     ],
     "revid": 15189751
   },
-  "Hallowed hammer": {
+  "24727": {
     "entries": [
       {
         "approx": false,
@@ -2913,7 +2819,7 @@
     ],
     "revid": 15189753
   },
-  "Hallowed ring": {
+  "24731": {
     "entries": [
       {
         "approx": false,
@@ -2928,7 +2834,7 @@
     ],
     "revid": 15189754
   },
-  "Hallowed symbol": {
+  "24725": {
     "entries": [
       {
         "approx": false,
@@ -2943,7 +2849,7 @@
     ],
     "revid": 15189750
   },
-  "Hallowed token": {
+  "24719": {
     "entries": [
       {
         "approx": false,
@@ -2958,7 +2864,7 @@
     ],
     "revid": 15189742
   },
-  "Hat of the eye": {
+  "26850": {
     "entries": [
       {
         "approx": false,
@@ -2973,7 +2879,7 @@
     ],
     "revid": 15190839
   },
-  "Healer hat": {
+  "10547": {
     "entries": [
       {
         "approx": false,
@@ -2988,7 +2894,7 @@
     ],
     "revid": 15221886
   },
-  "Heart of ithell": {
+  "31757": {
     "entries": [
       {
         "approx": false,
@@ -3003,7 +2909,7 @@
     ],
     "revid": 15221886
   },
-  "Herb sack": {
+  "13226": {
     "entries": [
       {
         "approx": false,
@@ -3028,7 +2934,7 @@
     ],
     "revid": 15207328
   },
-  "Hosidius blueprints": {
+  "24885": {
     "entries": [
       {
         "approx": false,
@@ -3043,7 +2949,7 @@
     ],
     "revid": 15189851
   },
-  "Huge pearl": {
+  "31785": {
     "entries": [
       {
         "approx": false,
@@ -3058,7 +2964,7 @@
     ],
     "revid": 15221886
   },
-  "Icthlarin's shroud (tier 1)": {
+  "27257": {
     "entries": [
       {
         "approx": false,
@@ -3073,7 +2979,7 @@
     ],
     "revid": 15221886
   },
-  "Icthlarin's shroud (tier 2)": {
+  "27259": {
     "entries": [
       {
         "approx": false,
@@ -3088,7 +2994,7 @@
     ],
     "revid": 15221886
   },
-  "Icthlarin's shroud (tier 3)": {
+  "27261": {
     "entries": [
       {
         "approx": false,
@@ -3103,7 +3009,7 @@
     ],
     "revid": 15221886
   },
-  "Icthlarin's shroud (tier 4)": {
+  "27263": {
     "entries": [
       {
         "approx": false,
@@ -3118,7 +3024,7 @@
     ],
     "revid": 15221886
   },
-  "Icthlarin's shroud (tier 5)": {
+  "27265": {
     "entries": [
       {
         "approx": false,
@@ -3133,7 +3039,7 @@
     ],
     "revid": 15221886
   },
-  "Ikkle hydra": {
+  "22746": {
     "entries": [
       {
         "approx": false,
@@ -3148,7 +3054,7 @@
     ],
     "revid": 15221886
   },
-  "Imcando hammer": {
+  "25644": {
     "entries": [
       {
         "approx": false,
@@ -3163,7 +3069,7 @@
     ],
     "revid": 15221886
   },
-  "Infernal cape": {
+  "21295": {
     "entries": [
       {
         "approx": false,
@@ -3178,7 +3084,7 @@
     ],
     "revid": 15221886
   },
-  "Infinity boots": {
+  "6920": {
     "entries": [
       {
         "approx": false,
@@ -3193,7 +3099,7 @@
     ],
     "revid": 15221886
   },
-  "Infinity bottoms": {
+  "6924": {
     "entries": [
       {
         "approx": false,
@@ -3208,7 +3114,7 @@
     ],
     "revid": 15221886
   },
-  "Infinity gloves": {
+  "6922": {
     "entries": [
       {
         "approx": false,
@@ -3223,7 +3129,7 @@
     ],
     "revid": 15221886
   },
-  "Infinity hat": {
+  "6918": {
     "entries": [
       {
         "approx": false,
@@ -3238,7 +3144,7 @@
     ],
     "revid": 15221886
   },
-  "Infinity top": {
+  "6916": {
     "entries": [
       {
         "approx": false,
@@ -3253,7 +3159,7 @@
     ],
     "revid": 15221886
   },
-  "Karamjan monkey (item)": {
+  "24862": {
     "entries": [
       {
         "approx": false,
@@ -3268,7 +3174,7 @@
     ],
     "revid": 15221886
   },
-  "Kovac's grog": {
+  "27014": {
     "entries": [
       {
         "approx": false,
@@ -3283,7 +3189,7 @@
     ],
     "revid": 15190920
   },
-  "Kruk jr": {
+  "24866": {
     "entries": [
       {
         "approx": false,
@@ -3298,7 +3204,7 @@
     ],
     "revid": 15221886
   },
-  "Large water container": {
+  "25615": {
     "entries": [
       {
         "approx": false,
@@ -3313,7 +3219,7 @@
     ],
     "revid": 15221886
   },
-  "Lava staff upgrade kit": {
+  "21202": {
     "entries": [
       {
         "approx": false,
@@ -3328,7 +3234,7 @@
     ],
     "revid": 15188194
   },
-  "Log basket": {
+  "28140": {
     "entries": [
       {
         "approx": false,
@@ -3343,7 +3249,7 @@
     ],
     "revid": 15191357
   },
-  "Log brace": {
+  "28146": {
     "entries": [
       {
         "approx": false,
@@ -3358,7 +3264,7 @@
     ],
     "revid": 15191360
   },
-  "Lucky shot flag": {
+  "8969": {
     "entries": [
       {
         "approx": false,
@@ -3373,7 +3279,7 @@
     ],
     "revid": 15184769
   },
-  "Mage's book": {
+  "6889": {
     "entries": [
       {
         "approx": false,
@@ -3388,7 +3294,7 @@
     ],
     "revid": 15221886
   },
-  "Maniacal monkey (item)": {
+  "24864": {
     "entries": [
       {
         "approx": false,
@@ -3403,7 +3309,7 @@
     ],
     "revid": 15221886
   },
-  "Mark of grace": {
+  "11849": {
     "entries": [
       {
         "approx": false,
@@ -3418,7 +3324,7 @@
     ],
     "revid": 15221886
   },
-  "Master wand": {
+  "6914": {
     "entries": [
       {
         "approx": false,
@@ -3433,7 +3339,7 @@
     ],
     "revid": 15221886
   },
-  "Merchant's paint": {
+  "32110": {
     "entries": [
       {
         "approx": false,
@@ -3448,7 +3354,7 @@
     ],
     "revid": 15221886
   },
-  "Merfolk trident": {
+  "21649": {
     "entries": [
       {
         "approx": false,
@@ -3463,7 +3369,7 @@
     ],
     "revid": 15188410
   },
-  "Mining gloves": {
+  "21343": {
     "entries": [
       {
         "approx": false,
@@ -3478,7 +3384,7 @@
     ],
     "revid": 15188374
   },
-  "Muphin": {
+  "27590": {
     "entries": [
       {
         "approx": false,
@@ -3493,7 +3399,7 @@
     ],
     "revid": 15221886
   },
-  "Ore pack (Giants' Foundry)": {
+  "27019": {
     "entries": [
       {
         "approx": false,
@@ -3508,7 +3414,7 @@
     ],
     "revid": 15190928
   },
-  "Ornate maul handle": {
+  "24229": {
     "entries": [
       {
         "approx": false,
@@ -3523,7 +3429,7 @@
     ],
     "revid": 15189537
   },
-  "Pearl barbarian rod": {
+  "22842": {
     "entries": [
       {
         "approx": false,
@@ -3538,7 +3444,7 @@
     ],
     "revid": 15189098
   },
-  "Pearl fishing rod": {
+  "22846": {
     "entries": [
       {
         "approx": false,
@@ -3553,7 +3459,7 @@
     ],
     "revid": 15189100
   },
-  "Pearl fly fishing rod": {
+  "22844": {
     "entries": [
       {
         "approx": false,
@@ -3568,7 +3474,7 @@
     ],
     "revid": 15189099
   },
-  "Penance gloves": {
+  "10553": {
     "entries": [
       {
         "approx": false,
@@ -3583,7 +3489,7 @@
     ],
     "revid": 15221886
   },
-  "Penance skirt": {
+  "10555": {
     "entries": [
       {
         "approx": false,
@@ -3598,7 +3504,7 @@
     ],
     "revid": 15221886
   },
-  "Pendant of ates (inert)": {
+  "29892": {
     "entries": [
       {
         "approx": false,
@@ -3613,7 +3519,7 @@
     ],
     "revid": 15221886
   },
-  "Pharaoh's sceptre (uncharged)": {
+  "26945": {
     "entries": [
       {
         "approx": false,
@@ -3628,7 +3534,7 @@
     ],
     "revid": 15221886
   },
-  "Phasmatys flag": {
+  "8971": {
     "entries": [
       {
         "approx": false,
@@ -3643,7 +3549,7 @@
     ],
     "revid": 15184771
   },
-  "Pheasant boots": {
+  "28618": {
     "entries": [
       {
         "approx": false,
@@ -3658,7 +3564,7 @@
     ],
     "revid": 15221886
   },
-  "Pheasant cape": {
+  "28616": {
     "entries": [
       {
         "approx": false,
@@ -3673,7 +3579,7 @@
     ],
     "revid": 15221886
   },
-  "Pheasant hat": {
+  "28620": {
     "entries": [
       {
         "approx": false,
@@ -3688,7 +3594,7 @@
     ],
     "revid": 15221886
   },
-  "Pheasant legs": {
+  "28622": {
     "entries": [
       {
         "approx": false,
@@ -3703,7 +3609,7 @@
     ],
     "revid": 15221886
   },
-  "Pirate's hook": {
+  "2997": {
     "entries": [
       {
         "approx": false,
@@ -3718,7 +3624,7 @@
     ],
     "revid": 15195066
   },
-  "Plank sack": {
+  "25629": {
     "entries": [
       {
         "approx": false,
@@ -3733,7 +3639,7 @@
     ],
     "revid": 15215027
   },
-  "Prescription goggles": {
+  "29974": {
     "entries": [
       {
         "approx": false,
@@ -3748,7 +3654,7 @@
     ],
     "revid": 15221886
   },
-  "Princely monkey": {
+  "24867": {
     "entries": [
       {
         "approx": false,
@@ -3763,7 +3669,7 @@
     ],
     "revid": 15221886
   },
-  "Prospector boots": {
+  "12016": {
     "entries": [
       {
         "approx": false,
@@ -3788,7 +3694,7 @@
     ],
     "revid": 15221886
   },
-  "Prospector helmet": {
+  "12013": {
     "entries": [
       {
         "approx": false,
@@ -3813,7 +3719,7 @@
     ],
     "revid": 15221886
   },
-  "Prospector jacket": {
+  "12014": {
     "entries": [
       {
         "approx": false,
@@ -3838,7 +3744,7 @@
     ],
     "revid": 15221886
   },
-  "Prospector legs": {
+  "12015": {
     "entries": [
       {
         "approx": false,
@@ -3863,7 +3769,7 @@
     ],
     "revid": 15221886
   },
-  "Purple naval shirt": {
+  "8957": {
     "entries": [
       {
         "approx": false,
@@ -3878,7 +3784,7 @@
     ],
     "revid": 15187312
   },
-  "Purple navy slacks": {
+  "8996": {
     "entries": [
       {
         "approx": false,
@@ -3893,7 +3799,7 @@
     ],
     "revid": 15187319
   },
-  "Purple tricorn hat": {
+  "8964": {
     "entries": [
       {
         "approx": false,
@@ -3908,7 +3814,7 @@
     ],
     "revid": 15187305
   },
-  "Radiant pearl": {
+  "31800": {
     "entries": [
       {
         "approx": false,
@@ -3923,7 +3829,7 @@
     ],
     "revid": 15221886
   },
-  "Ralph's fabric roll": {
+  "31734": {
     "entries": [
       {
         "approx": false,
@@ -3938,7 +3844,7 @@
     ],
     "revid": 15221886
   },
-  "Ranger hat": {
+  "10550": {
     "entries": [
       {
         "approx": false,
@@ -3953,7 +3859,7 @@
     ],
     "revid": 15221886
   },
-  "Reagent pouch": {
+  "29996": {
     "entries": [
       {
         "approx": false,
@@ -3968,7 +3874,7 @@
     ],
     "revid": 15192712
   },
-  "Red naval shirt": {
+  "8954": {
     "entries": [
       {
         "approx": false,
@@ -3983,7 +3889,7 @@
     ],
     "revid": 15187310
   },
-  "Red navy slacks": {
+  "8993": {
     "entries": [
       {
         "approx": false,
@@ -3998,7 +3904,7 @@
     ],
     "revid": 15187316
   },
-  "Red tricorn hat": {
+  "8961": {
     "entries": [
       {
         "approx": false,
@@ -4013,22 +3919,7 @@
     ],
     "revid": 15187301
   },
-  "Rift guardian (fire)": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": null,
-        "description": "Random reward while training Runecraft - Colour matches the rune crafted (fire = crafting fire runes)",
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Runecraft"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
-  "Ring of the elements": {
+  "26815": {
     "entries": [
       {
         "approx": false,
@@ -4043,7 +3934,7 @@
     ],
     "revid": 15190794
   },
-  "Robe bottoms of the eye": {
+  "26854": {
     "entries": [
       {
         "approx": false,
@@ -4058,7 +3949,7 @@
     ],
     "revid": 15190841
   },
-  "Robe top of the eye": {
+  "26852": {
     "entries": [
       {
         "approx": false,
@@ -4073,7 +3964,7 @@
     ],
     "revid": 15190840
   },
-  "Rocky": {
+  "20663": {
     "entries": [
       {
         "approx": false,
@@ -4088,7 +3979,7 @@
     ],
     "revid": 15221886
   },
-  "Rogue boots": {
+  "5557": {
     "entries": [
       {
         "approx": false,
@@ -4103,7 +3994,7 @@
     ],
     "revid": 15221886
   },
-  "Rogue gloves": {
+  "5556": {
     "entries": [
       {
         "approx": false,
@@ -4118,7 +4009,7 @@
     ],
     "revid": 15221886
   },
-  "Rogue mask": {
+  "5554": {
     "entries": [
       {
         "approx": false,
@@ -4133,7 +4024,7 @@
     ],
     "revid": 15221886
   },
-  "Rogue top": {
+  "5553": {
     "entries": [
       {
         "approx": false,
@@ -4148,7 +4039,7 @@
     ],
     "revid": 15221886
   },
-  "Rogue trousers": {
+  "5555": {
     "entries": [
       {
         "approx": false,
@@ -4163,7 +4054,7 @@
     ],
     "revid": 15221886
   },
-  "Rosewood & cotton sails schematic": {
+  "32408": {
     "entries": [
       {
         "approx": false,
@@ -4178,7 +4069,7 @@
     ],
     "revid": 15221886
   },
-  "Rosewood cargo hold schematic": {
+  "32405": {
     "entries": [
       {
         "approx": false,
@@ -4193,7 +4084,7 @@
     ],
     "revid": 15221886
   },
-  "Rosewood hull schematic": {
+  "32407": {
     "entries": [
       {
         "approx": false,
@@ -4208,7 +4099,7 @@
     ],
     "revid": 15221886
   },
-  "Rum (blue)": {
+  "8941": {
     "entries": [
       {
         "approx": false,
@@ -4223,7 +4114,7 @@
     ],
     "revid": 15189260
   },
-  "Rum (red)": {
+  "8940": {
     "entries": [
       {
         "approx": false,
@@ -4238,7 +4129,7 @@
     ],
     "revid": 15189259
   },
-  "Runner boots": {
+  "10552": {
     "entries": [
       {
         "approx": false,
@@ -4253,7 +4144,7 @@
     ],
     "revid": 15221886
   },
-  "Runner hat": {
+  "10549": {
     "entries": [
       {
         "approx": false,
@@ -4268,7 +4159,7 @@
     ],
     "revid": 15221886
   },
-  "Salvaging station schematic": {
+  "32401": {
     "entries": [
       {
         "approx": false,
@@ -4283,7 +4174,7 @@
     ],
     "revid": 15221886
   },
-  "Saradomin banner": {
+  "11891": {
     "entries": [
       {
         "approx": false,
@@ -4298,7 +4189,7 @@
     ],
     "revid": 15209323
   },
-  "Saradomin halo": {
+  "12637": {
     "entries": [
       {
         "approx": false,
@@ -4313,7 +4204,7 @@
     ],
     "revid": 15186205
   },
-  "Saradominist paint": {
+  "32108": {
     "entries": [
       {
         "approx": false,
@@ -4328,7 +4219,7 @@
     ],
     "revid": 15221886
   },
-  "Seed box": {
+  "13639": {
     "entries": [
       {
         "approx": false,
@@ -4343,7 +4234,7 @@
     ],
     "revid": 15207329
   },
-  "Seren halo": {
+  "24198": {
     "entries": [
       {
         "approx": false,
@@ -4358,7 +4249,7 @@
     ],
     "revid": 15189524
   },
-  "Serrated key": {
+  "31756": {
     "entries": [
       {
         "approx": false,
@@ -4373,7 +4264,7 @@
     ],
     "revid": 15221886
   },
-  "Shark paint": {
+  "32090": {
     "entries": [
       {
         "approx": false,
@@ -4388,7 +4279,7 @@
     ],
     "revid": 15221886
   },
-  "Shimmering pearl": {
+  "31791": {
     "entries": [
       {
         "approx": false,
@@ -4403,7 +4294,7 @@
     ],
     "revid": 15221886
   },
-  "Shiny pearl": {
+  "31776": {
     "entries": [
       {
         "approx": false,
@@ -4418,7 +4309,7 @@
     ],
     "revid": 15221886
   },
-  "Sinhaza shroud tier 1": {
+  "22494": {
     "entries": [
       {
         "approx": false,
@@ -4433,7 +4324,7 @@
     ],
     "revid": 15221886
   },
-  "Sinhaza shroud tier 2": {
+  "22496": {
     "entries": [
       {
         "approx": false,
@@ -4448,7 +4339,7 @@
     ],
     "revid": 15221886
   },
-  "Sinhaza shroud tier 3": {
+  "22498": {
     "entries": [
       {
         "approx": false,
@@ -4463,7 +4354,7 @@
     ],
     "revid": 15221886
   },
-  "Sinhaza shroud tier 4": {
+  "22500": {
     "entries": [
       {
         "approx": false,
@@ -4478,7 +4369,7 @@
     ],
     "revid": 15221886
   },
-  "Sinhaza shroud tier 5": {
+  "22502": {
     "entries": [
       {
         "approx": false,
@@ -4493,7 +4384,7 @@
     ],
     "revid": 15221886
   },
-  "Skeleton monkey (item)": {
+  "24865": {
     "entries": [
       {
         "approx": false,
@@ -4508,7 +4399,7 @@
     ],
     "revid": 15221886
   },
-  "Small pearl": {
+  "31773": {
     "entries": [
       {
         "approx": false,
@@ -4523,7 +4414,7 @@
     ],
     "revid": 15221886
   },
-  "Smithing catalyst": {
+  "27017": {
     "entries": [
       {
         "approx": false,
@@ -4538,7 +4429,7 @@
     ],
     "revid": 15190922
   },
-  "Smiths boots": {
+  "27027": {
     "entries": [
       {
         "approx": false,
@@ -4553,7 +4444,7 @@
     ],
     "revid": 15190926
   },
-  "Smiths gloves": {
+  "27029": {
     "entries": [
       {
         "approx": false,
@@ -4568,7 +4459,7 @@
     ],
     "revid": 15190925
   },
-  "Smiths trousers": {
+  "27025": {
     "entries": [
       {
         "approx": false,
@@ -4583,7 +4474,7 @@
     ],
     "revid": 15190923
   },
-  "Smiths tunic": {
+  "27023": {
     "entries": [
       {
         "approx": false,
@@ -4598,7 +4489,7 @@
     ],
     "revid": 15190924
   },
-  "Soul cape": {
+  "25346": {
     "entries": [
       {
         "approx": false,
@@ -4613,7 +4504,7 @@
     ],
     "revid": 15189973
   },
-  "Spirit angler boots": {
+  "25598": {
     "entries": [
       {
         "approx": false,
@@ -4628,7 +4519,7 @@
     ],
     "revid": 15221886
   },
-  "Spirit angler headband": {
+  "25592": {
     "entries": [
       {
         "approx": false,
@@ -4643,7 +4534,7 @@
     ],
     "revid": 15221886
   },
-  "Spirit angler top": {
+  "25594": {
     "entries": [
       {
         "approx": false,
@@ -4658,7 +4549,7 @@
     ],
     "revid": 15221886
   },
-  "Spirit angler waders": {
+  "25596": {
     "entries": [
       {
         "approx": false,
@@ -4673,7 +4564,7 @@
     ],
     "revid": 15221886
   },
-  "Star fragment": {
+  "25547": {
     "entries": [
       {
         "approx": false,
@@ -4688,7 +4579,7 @@
     ],
     "revid": 15190128
   },
-  "Steam staff upgrade kit": {
+  "12798": {
     "entries": [
       {
         "approx": false,
@@ -4703,7 +4594,7 @@
     ],
     "revid": 15186418
   },
-  "Stormy key": {
+  "31732": {
     "entries": [
       {
         "approx": false,
@@ -4718,7 +4609,7 @@
     ],
     "revid": 15221886
   },
-  "Superior mining gloves": {
+  "21345": {
     "entries": [
       {
         "approx": false,
@@ -4733,7 +4624,7 @@
     ],
     "revid": 15214874
   },
-  "Supply crate (Mahogany Homes)": {
+  "24884": {
     "entries": [
       {
         "approx": false,
@@ -4748,7 +4639,7 @@
     ],
     "revid": 15189848
   },
-  "Swift blade": {
+  "24219": {
     "entries": [
       {
         "approx": false,
@@ -4763,7 +4654,7 @@
     ],
     "revid": 15189526
   },
-  "Teacher wand": {
+  "6912": {
     "entries": [
       {
         "approx": false,
@@ -4778,7 +4669,7 @@
     ],
     "revid": 15221886
   },
-  "The stuff": {
+  "8988": {
     "entries": [
       {
         "approx": false,
@@ -4793,7 +4684,7 @@
     ],
     "revid": 15184691
   },
-  "Tiny pearl": {
+  "31770": {
     "entries": [
       {
         "approx": false,
@@ -4808,7 +4699,7 @@
     ],
     "revid": 15221886
   },
-  "Treasure flag": {
+  "8970": {
     "entries": [
       {
         "approx": false,
@@ -4823,7 +4714,7 @@
     ],
     "revid": 15184770
   },
-  "Tumeken's guardian": {
+  "27352": {
     "entries": [
       {
         "approx": false,
@@ -4838,7 +4729,7 @@
     ],
     "revid": 15221886
   },
-  "Twitcher's gloves": {
+  "28630": {
     "entries": [
       {
         "approx": false,
@@ -4853,7 +4744,7 @@
     ],
     "revid": 15210425
   },
-  "Victor's cape (1)": {
+  "24207": {
     "entries": [
       {
         "approx": false,
@@ -4868,7 +4759,7 @@
     ],
     "revid": 15221886
   },
-  "Victor's cape (10)": {
+  "24209": {
     "entries": [
       {
         "approx": false,
@@ -4883,7 +4774,7 @@
     ],
     "revid": 15221886
   },
-  "Victor's cape (100)": {
+  "24213": {
     "entries": [
       {
         "approx": false,
@@ -4898,7 +4789,7 @@
     ],
     "revid": 15221886
   },
-  "Victor's cape (1000)": {
+  "24520": {
     "entries": [
       {
         "approx": false,
@@ -4913,7 +4804,7 @@
     ],
     "revid": 15221886
   },
-  "Victor's cape (50)": {
+  "24211": {
     "entries": [
       {
         "approx": false,
@@ -4928,7 +4819,7 @@
     ],
     "revid": 15221886
   },
-  "Victor's cape (500)": {
+  "24215": {
     "entries": [
       {
         "approx": false,
@@ -4943,7 +4834,7 @@
     ],
     "revid": 15221886
   },
-  "Void knight gloves": {
+  "8842": {
     "entries": [
       {
         "approx": false,
@@ -4958,7 +4849,7 @@
     ],
     "revid": 15184291
   },
-  "Void knight mace": {
+  "8841": {
     "entries": [
       {
         "approx": false,
@@ -4973,7 +4864,7 @@
     ],
     "revid": 15183258
   },
-  "Void knight robe": {
+  "8840": {
     "entries": [
       {
         "approx": false,
@@ -4988,7 +4879,7 @@
     ],
     "revid": 15183257
   },
-  "Void knight top": {
+  "8839": {
     "entries": [
       {
         "approx": false,
@@ -5003,7 +4894,7 @@
     ],
     "revid": 15183259
   },
-  "Void mage helm": {
+  "11663": {
     "entries": [
       {
         "approx": false,
@@ -5018,7 +4909,7 @@
     ],
     "revid": 15204981
   },
-  "Void melee helm": {
+  "11665": {
     "entries": [
       {
         "approx": false,
@@ -5033,7 +4924,7 @@
     ],
     "revid": 15184503
   },
-  "Void ranger helm": {
+  "11664": {
     "entries": [
       {
         "approx": false,
@@ -5048,7 +4939,7 @@
     ],
     "revid": 15183922
   },
-  "Void seal(8)": {
+  "11666": {
     "entries": [
       {
         "approx": false,
@@ -5063,7 +4954,7 @@
     ],
     "revid": 15184504
   },
-  "Volcanic mine teleport": {
+  "21541": {
     "entries": [
       {
         "approx": false,
@@ -5078,7 +4969,7 @@
     ],
     "revid": 15188411
   },
-  "Volcanic whip mix": {
+  "12771": {
     "entries": [
       {
         "approx": false,
@@ -5093,7 +4984,7 @@
     ],
     "revid": 15186401
   },
-  "Ward upgrade kit": {
+  "12802": {
     "entries": [
       {
         "approx": false,
@@ -5108,7 +4999,7 @@
     ],
     "revid": 15186422
   },
-  "White dark bow paint": {
+  "12763": {
     "entries": [
       {
         "approx": false,
@@ -5123,7 +5014,7 @@
     ],
     "revid": 15186405
   },
-  "Xeric's champion": {
+  "22396": {
     "entries": [
       {
         "approx": false,
@@ -5138,7 +5029,7 @@
     ],
     "revid": 15221886
   },
-  "Xeric's general": {
+  "22394": {
     "entries": [
       {
         "approx": false,
@@ -5153,7 +5044,7 @@
     ],
     "revid": 15221886
   },
-  "Xeric's guard": {
+  "22388": {
     "entries": [
       {
         "approx": false,
@@ -5168,7 +5059,7 @@
     ],
     "revid": 15221886
   },
-  "Xeric's sentinel": {
+  "22392": {
     "entries": [
       {
         "approx": false,
@@ -5183,7 +5074,7 @@
     ],
     "revid": 15221886
   },
-  "Xeric's warrior": {
+  "22390": {
     "entries": [
       {
         "approx": false,
@@ -5198,7 +5089,7 @@
     ],
     "revid": 15221886
   },
-  "Yellow dark bow paint": {
+  "12761": {
     "entries": [
       {
         "approx": false,
@@ -5213,7 +5104,7 @@
     ],
     "revid": 15186404
   },
-  "Zamorak banner": {
+  "11892": {
     "entries": [
       {
         "approx": false,
@@ -5228,7 +5119,7 @@
     ],
     "revid": 15209356
   },
-  "Zamorak halo": {
+  "12638": {
     "entries": [
       {
         "approx": false,
@@ -5243,7 +5134,7 @@
     ],
     "revid": 15186207
   },
-  "Zamorakian paint": {
+  "32104": {
     "entries": [
       {
         "approx": false,
@@ -5258,7 +5149,7 @@
     ],
     "revid": 15221886
   },
-  "Zombie monkey (item)": {
+  "24863": {
     "entries": [
       {
         "approx": false,

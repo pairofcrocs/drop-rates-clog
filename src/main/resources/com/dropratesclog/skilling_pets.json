@@ -1,5 +1,5 @@
 {
-  "Tangleroot": {
+  "20661": {
     "skill": "Farming",
     "sources": [
       {
@@ -404,7 +404,7 @@
       }
     ]
   },
-  "Soup": {
+  "31283": {
     "skill": "Sailing",
     "sources": [
       {
@@ -514,7 +514,7 @@
       }
     ]
   },
-  "Rocky": {
+  "20663": {
     "skill": "Thieving",
     "sources": [
       {
@@ -735,7 +735,7 @@
       }
     ]
   },
-  "Rock golem": {
+  "13321": {
     "skill": "Mining",
     "sources": [
       {
@@ -848,7 +848,7 @@
       }
     ]
   },
-  "Rift guardian": {
+  "20665": {
     "skill": "Runecraft",
     "sources": [
       {
@@ -869,7 +869,7 @@
       }
     ]
   },
-  "Heron": {
+  "13320": {
     "skill": "Fishing",
     "sources": [
       {
@@ -1006,7 +1006,7 @@
       }
     ]
   },
-  "Beaver": {
+  "13322": {
     "skill": "Woodcutting",
     "sources": [
       {
@@ -1087,7 +1087,7 @@
       }
     ]
   },
-  "Baby chinchompa": {
+  "13324": {
     "skill": "Hunter",
     "sources": [
       {
@@ -1104,7 +1104,7 @@
       }
     ]
   },
-  "Giant squirrel": {
+  "20659": {
     "skill": "Agility",
     "sources": [
       {

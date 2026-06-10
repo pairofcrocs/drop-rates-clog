@@ -33,6 +33,5 @@ Thumbs.db
 run.ps1
 plugin-hub/
 scripts/preview.html
-scripts/clog_items.json
 scripts/scrape_acquisition.py
 scripts/scrape_popular_methods.py

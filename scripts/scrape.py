@@ -12,9 +12,9 @@ carry a numeric rarity). A rate is kept only if it is a fraction (e.g. "1/512",
 "Rare", "Once", "Varies") are dropped, as is any shop / reward-currency data,
 which is covered by the curated Acquirable Items pipeline (buyable.json).
 
-Output is keyed by each item's `wiki_page` (the page_name_sub form, e.g.
-"Medallion fragment#1") so the plugin can look up drops by the deterministic
-wiki name instead of the colliding in-game name.
+Output is keyed by each item's in-game item ID (as a string, e.g. "32388").
+The plugin gets the ID directly from RuneLite on hover, so no string
+matching is needed between in-game and wiki names.
 
 Run (after scrape_clog_items.py has produced clog_items.json):
   pip install requests
@@ -38,10 +38,7 @@ HEADERS       = {"User-Agent": "DropRatesClog/1.0 (RuneLite plugin; contact via 
 REQUEST_DELAY = 0.3
 
 
-CLOG_ITEMS_DEFAULT = (
-    Path(__file__).resolve().parents[1]
-    / "src" / "main" / "resources" / "com" / "dropratesclog" / "clog_items.json"
-)
+CLOG_ITEMS_DEFAULT = Path(__file__).resolve().parent / "clog_items.json"
 
 
 def load_clog_items(path: Path) -> list[dict]:
@@ -253,7 +250,7 @@ def main() -> None:
                     break
 
         if entries:
-            drop_rates[wiki_page] = entries
+            drop_rates[str(item["id"])] = entries
             total_kept += sum(len(g["sources"]) for g in entries)
         else:
             no_data.append(item)

@@ -80,12 +80,12 @@ public class DropRatesClogPlugin extends Plugin
 
     // Reassigned wholesale (never mutated in place) from OkHttp callback threads and read on the
     // client thread, so volatile reference publication is all the synchronisation needed.
-    private volatile Map<String, List<DropEntry>> dropRates       = Collections.emptyMap();
-    private volatile Map<String, AcquirableItem>  acquirables     = Collections.emptyMap();
-    private volatile Map<String, SkillingPet>     skillingPets    = Collections.emptyMap();
-    // ID-indexed clog item table — wikiPage is the primary lookup key into the data files.
-    private volatile Map<Integer, ClogItem>       clogItems       = Collections.emptyMap();
-    private volatile Map<String, Set<String>>     popularMethods  = Collections.emptyMap();
+    // Keys are item IDs (as strings, since the JSON files use string keys for cross-language
+    // portability); the plugin uses Integer-keyed views via parseInt at lookup time.
+    private volatile Map<Integer, List<DropEntry>> dropRates       = Collections.emptyMap();
+    private volatile Map<Integer, AcquirableItem>  acquirables     = Collections.emptyMap();
+    private volatile Map<Integer, SkillingPet>     skillingPets    = Collections.emptyMap();
+    private volatile Map<String, Set<String>>      popularMethods  = Collections.emptyMap();
 
     // Guards against a late network callback repopulating data after the plugin has shut down.
     private volatile boolean running;
@@ -119,6 +119,23 @@ public class DropRatesClogPlugin extends Plugin
         lastSeenTime        = 0;
     }
 
+    /**
+     * Convert a Gson-decoded {@code Map<String,V>} (where keys are decimal item-ID strings) into
+     * a {@code Map<Integer,V>}. Entries whose key isn't a valid integer are dropped — they're
+     * stale, mis-formatted, or a non-item entry that doesn't belong in an ID-keyed file.
+     */
+    private static <V> Map<Integer, V> idMap(Map<String, V> raw)
+    {
+        if (raw == null || raw.isEmpty()) return Collections.emptyMap();
+        Map<Integer, V> out = new HashMap<>(raw.size() * 2);
+        for (Map.Entry<String, V> e : raw.entrySet())
+        {
+            try { out.put(Integer.parseInt(e.getKey()), e.getValue()); }
+            catch (NumberFormatException ignored) { /* skip non-ID keys */ }
+        }
+        return out;
+    }
+
     /** Populate every dataset from the JSON bundled in the jar. Synchronous, but cheap (local). */
     private void loadBundled()
     {
@@ -127,8 +144,8 @@ public class DropRatesClogPlugin extends Plugin
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType());
         if (drops != null)
         {
-            dropRates = drops;
-            log.info("Loaded drop rates for {} items", drops.size());
+            dropRates = idMap(drops);
+            log.info("Loaded drop rates for {} items", dropRates.size());
         }
 
         Map<String, AcquirableItem> acquire = loadResource(
@@ -136,8 +153,8 @@ public class DropRatesClogPlugin extends Plugin
             new TypeToken<Map<String, AcquirableItem>>() {}.getType());
         if (acquire != null)
         {
-            acquirables = acquire;
-            log.info("Loaded acquirable info for {} items", acquire.size());
+            acquirables = idMap(acquire);
+            log.info("Loaded acquirable info for {} items", acquirables.size());
         }
 
         Map<String, SkillingPet> pets = loadResource(
@@ -145,23 +162,8 @@ public class DropRatesClogPlugin extends Plugin
             new TypeToken<Map<String, SkillingPet>>() {}.getType());
         if (pets != null)
         {
-            skillingPets = pets;
-            log.info("Loaded skilling pet data for {} pets", pets.size());
-        }
-
-        // clog_items.json arrives as a JSON list of ClogItem; index by id for O(1) lookup.
-        List<ClogItem> clogList = loadResource(
-            "/com/dropratesclog/clog_items.json",
-            new TypeToken<List<ClogItem>>() {}.getType());
-        if (clogList != null)
-        {
-            Map<Integer, ClogItem> indexed = new HashMap<>(clogList.size() * 2);
-            for (ClogItem ci : clogList)
-            {
-                if (ci != null) indexed.put(ci.getId(), ci);
-            }
-            clogItems = indexed;
-            log.info("Loaded clog item table with {} entries", indexed.size());
+            skillingPets = idMap(pets);
+            log.info("Loaded skilling pet data for {} pets", skillingPets.size());
         }
 
         Map<String, List<String>> popularList = loadResource(
@@ -180,23 +182,15 @@ public class DropRatesClogPlugin extends Plugin
     {
         fetchData("drop_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-            (Map<String, List<DropEntry>> data) -> dropRates = data);
+            (Map<String, List<DropEntry>> data) -> dropRates = idMap(data));
 
         fetchData("buyable.json",
             new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
-            (Map<String, AcquirableItem> data) -> acquirables = data);
+            (Map<String, AcquirableItem> data) -> acquirables = idMap(data));
 
         fetchData("skilling_pets.json",
             new TypeToken<Map<String, SkillingPet>>() {}.getType(),
-            (Map<String, SkillingPet> data) -> skillingPets = data);
-
-        fetchData("clog_items.json",
-            new TypeToken<List<ClogItem>>() {}.getType(),
-            (List<ClogItem> data) -> {
-                Map<Integer, ClogItem> indexed = new HashMap<>(data.size() * 2);
-                for (ClogItem ci : data) if (ci != null) indexed.put(ci.getId(), ci);
-                clogItems = indexed;
-            });
+            (Map<String, SkillingPet> data) -> skillingPets = idMap(data));
 
         fetchData("popular_methods.json",
             new TypeToken<Map<String, List<String>>>() {}.getType(),
@@ -308,39 +302,6 @@ public class DropRatesClogPlugin extends Plugin
         return widget != null && widget.getOpacity() == 0;
     }
 
-    /**
-     * Resolve a hovered clog slot to two lookup keys (wiki page + in-game/alias name) and a
-     * display label. Looking up data maps tries {@link #pick} on both keys so the plugin works
-     * with either the new wiki_page-keyed scrape output OR the legacy name-keyed files.
-     */
-    private static final class Lookup
-    {
-        final String wikiKey;       // clog_items.json's wiki_page (e.g. "Medallion fragment#1")
-        final String nameKey;       // alias-resolved in-game name (back-compat with old data)
-        final String displayLabel;  // what we render in the tooltip header
-
-        Lookup(String wikiKey, String nameKey, String displayLabel)
-        {
-            this.wikiKey      = wikiKey;
-            this.nameKey      = nameKey;
-            this.displayLabel = displayLabel;
-        }
-    }
-
-    private Lookup currentLookup()
-    {
-        ClogItem ci = clogItems.get(hoveredItemId);
-        String wikiKey = ci != null ? ci.getWikiPage() : null;
-        // Fallback for data files keyed by the in-game name (the historical layout).
-        return new Lookup(wikiKey, hoveredItem, hoveredItem);
-    }
-
-    private static <T> T pick(Map<String, T> map, Lookup k)
-    {
-        T r = k.wikiKey != null ? map.get(k.wikiKey) : null;
-        return r != null ? r : map.get(k.nameKey);
-    }
-
     String buildActiveTooltip()
     {
         if (hoveredItem == null) return null;
@@ -348,32 +309,30 @@ public class DropRatesClogPlugin extends Plugin
         if (client.isMenuOpen()) return null;
         if (config.hideTooltipIfObtained() && hoveredItemObtained) return null;
 
-        Lookup k = currentLookup();
-
         List<String> sections = new ArrayList<>(2);
 
         // For skilling pets, show only the skilling_pets.json data — suppress the (often noisy,
         // e.g. "Very rare"/"Unknown") drop-rate and acquirable entries the other files carry for them.
-        boolean skillingPetOnly = config.showSkillingPetChance() && pick(skillingPets, k) != null;
+        boolean skillingPetOnly = config.showSkillingPetChance() && skillingPets.containsKey(hoveredItemId);
 
         if (!skillingPetOnly)
         {
             if (config.showDropRates())
             {
-                String drops = buildDropSection(k);
+                String drops = buildDropSection();
                 if (drops != null) sections.add(drops);
             }
 
             if (config.showAcquirableItems())
             {
-                String acquire = buildAcquirableSection(k);
+                String acquire = buildAcquirableSection();
                 if (acquire != null) sections.add(acquire);
             }
         }
 
         if (config.showSkillingPetChance())
         {
-            String pets = buildSkillingPetSection(k);
+            String pets = buildSkillingPetSection();
             if (pets != null) sections.add(pets);
         }
 
@@ -385,7 +344,7 @@ public class DropRatesClogPlugin extends Plugin
             // so the user has visual confirmation the plugin recognised the slot.
             String itemCol = toHex(config.itemNameColor());
             return wrapTooltipLines(
-                "<col=" + itemCol + ">" + k.displayLabel + "</col>",
+                "<col=" + itemCol + ">" + hoveredItem + "</col>",
                 TOOLTIP_MAX_CHARS);
         }
         return wrapTooltipLines(String.join("<br>", sections), TOOLTIP_MAX_CHARS);
@@ -441,9 +400,9 @@ public class DropRatesClogPlugin extends Plugin
         return out.toString();
     }
 
-    private String buildDropSection(Lookup k)
+    private String buildDropSection()
     {
-        List<DropEntry> groups = pick(dropRates, k);
+        List<DropEntry> groups = dropRates.get(hoveredItemId);
         if (groups == null || groups.isEmpty()) return null;
 
         int maxGroups = config.maxSources();
@@ -454,7 +413,7 @@ public class DropRatesClogPlugin extends Plugin
         String rateCol   = toHex(config.rateColor());
         String srcCol    = toHex(config.sourceColor());
         StringBuilder sb = new StringBuilder("<col=").append(headerCol).append(">Drop Rate: </col>")
-            .append("<col=").append(itemCol).append(">").append(k.displayLabel).append("</col>");
+            .append("<col=").append(itemCol).append(">").append(hoveredItem).append("</col>");
 
         for (int i = 0; i < groups.size(); i++)
         {
@@ -471,9 +430,9 @@ public class DropRatesClogPlugin extends Plugin
         return sb.toString();
     }
 
-    private String buildAcquirableSection(Lookup k)
+    private String buildAcquirableSection()
     {
-        AcquirableItem data = pick(acquirables, k);
+        AcquirableItem data = acquirables.get(hoveredItemId);
         if (data == null || data.entries == null) return null;
 
         // Drop entries that carry neither a detail nor any source — nothing to show.
@@ -492,7 +451,7 @@ public class DropRatesClogPlugin extends Plugin
         String rateCol   = toHex(config.rateColor());
         String srcCol    = toHex(config.sourceColor());
         StringBuilder sb = new StringBuilder("<col=").append(headerCol).append(">Acquirable Items: </col>")
-            .append("<col=").append(itemCol).append(">").append(k.displayLabel).append("</col>");
+            .append("<col=").append(itemCol).append(">").append(hoveredItem).append("</col>");
 
         for (int i = 0; i < entries.size(); i++)
         {
@@ -519,9 +478,9 @@ public class DropRatesClogPlugin extends Plugin
         return sb.toString();
     }
 
-    private String buildSkillingPetSection(Lookup k)
+    private String buildSkillingPetSection()
     {
-        SkillingPet pet = pick(skillingPets, k);
+        SkillingPet pet = skillingPets.get(hoveredItemId);
         if (pet == null || pet.sources == null) return null;
 
         int level = realLevel(pet.skill);
@@ -547,7 +506,7 @@ public class DropRatesClogPlugin extends Plugin
         String rateCol   = toHex(config.rateColor());
         String srcCol    = toHex(config.sourceColor());
         StringBuilder sb = new StringBuilder("<col=").append(headerCol).append(">Skilling Pet: </col>")
-            .append("<col=").append(itemCol).append(">").append(k.displayLabel).append("</col>")
+            .append("<col=").append(itemCol).append(">").append(hoveredItem).append("</col>")
             .append("<col=").append(headerCol).append("> - ").append(pet.skill);
         if (level > 0) sb.append(" (Lvl ").append(level).append(')');
         sb.append("</col>");

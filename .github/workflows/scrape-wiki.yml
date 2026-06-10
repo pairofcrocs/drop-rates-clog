@@ -35,22 +35,23 @@ jobs:
       - name: Scrape clog_items.json
         run: |
           python scripts/scrape_clog_items.py \
-            --out src/main/resources/com/dropratesclog/clog_items.json
+            --out scripts/clog_items.json
 
       - name: Scrape drop_rates.json
         run: |
           python scripts/scrape.py \
-            --out src/main/resources/com/dropratesclog/drop_rates.json
+            --out src/main/resources/com/dropratesclog/drop_rates.json \
+            --clog-items scripts/clog_items.json
 
       - name: Commit if changed
         run: |
-          if git diff --quiet src/main/resources/com/dropratesclog/; then
+          if git diff --quiet scripts/clog_items.json src/main/resources/com/dropratesclog/drop_rates.json; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/main/resources/com/dropratesclog/clog_items.json \
+          git add scripts/clog_items.json \
                   src/main/resources/com/dropratesclog/drop_rates.json
           git commit -m "data: refresh clog_items + drop_rates from wiki"
           git push
