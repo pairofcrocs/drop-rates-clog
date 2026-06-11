@@ -854,7 +854,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Farmer Gricoller's Rewards, Hosidius"
+          "Tithe Farm"
         ]
       }
     ],
@@ -864,7 +864,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150 Points",
+        "cost": "150 Tithe Farm Points",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -899,7 +899,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gricoller's Rewards, Hosidius"
+          "Tithe Farm"
         ]
       }
     ],
@@ -2800,7 +2800,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Participate in the Agility Arena",
+        "description": "Tag a ticket dispenser",
         "kind": "currency",
         "rate": null,
         "sources": [
