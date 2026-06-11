@@ -35,6 +35,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -540,9 +541,44 @@ public class DropRatesClogPlugin extends Plugin
         }
     }
 
+    // Matches a source ending in a "(qualifier)" group: group(1) = base name, group(2) = qualifier.
+    private static final Pattern SOURCE_QUALIFIER = Pattern.compile("^(.*?)\\s*\\(([^()]*)\\)$");
+
+    /**
+     * Collapse sources that share a base name but differ only by a trailing "(qualifier)" into one
+     * "Base (q1, q2, …)" entry, preserving first-seen order and de-duplicating. Lossless — every
+     * qualifier is kept, just grouped:
+     *   ["Hunters' loot sack (adept)", "… (expert)", "… (master)"]
+     *        → ["Hunters' loot sack (adept, expert, master)"]
+     * A bare base (no qualifier) is emitted on its own line, so a generic source and its qualified
+     * siblings (e.g. "Spiritual mage" + "Spiritual mage (Zaros)") are never conflated.
+     */
+    static List<String> mergeVariantSources(List<String> sources)
+    {
+        LinkedHashMap<String, List<String>> quals = new LinkedHashMap<>();
+        Set<String> bare = new HashSet<>();
+        for (String s : sources)
+        {
+            Matcher m = SOURCE_QUALIFIER.matcher(s);
+            String base = m.matches() ? m.group(1) : s;
+            String qual = m.matches() ? m.group(2).trim() : "";
+            List<String> list = quals.computeIfAbsent(base, b -> new ArrayList<>());
+            if (qual.isEmpty()) bare.add(base);
+            else if (!list.contains(qual)) list.add(qual);
+        }
+        List<String> out = new ArrayList<>();
+        for (Map.Entry<String, List<String>> e : quals.entrySet())
+        {
+            if (bare.contains(e.getKey())) out.add(e.getKey());
+            if (!e.getValue().isEmpty()) out.add(e.getKey() + " (" + String.join(", ", e.getValue()) + ")");
+        }
+        return out;
+    }
+
     /** Append a source list, collapsing more than 3 entries into a "+N more" suffix. */
     private static void appendSources(StringBuilder sb, List<String> sources, String sourceCol)
     {
+        sources = mergeVariantSources(sources);
         if (sources.size() <= 3)
         {
             sb.append("<col=").append(sourceCol).append(">").append(String.join(", ", sources)).append("</col>");
