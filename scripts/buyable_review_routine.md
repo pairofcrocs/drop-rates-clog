@@ -80,6 +80,23 @@ Multi-source items (a drop *and* a shop, or two shops) get one entry per source 
 `entries` array. Apply the cost formula sanity check: the store's player price is
 `store_buy_price × 1000 / store_buy_multiplier` — already computed as `effectiveCost`.
 
+### Keep `cost` and `description` terse — they render in a small in-game tooltip
+
+Space is tight in the collection-log popup, so condense **without dropping information**:
+
+- **Factor out a shared quantity or unit.** `500 noted yew logs + 500 noted redwood logs`
+  → `500 noted yew and redwood logs`. Only merge the number when the quantities are equal;
+  if they differ, keep them separate (`1,500 bark + 60 noted yew logs` stays explicit).
+- **Collapse a shared noun across a list.** `120 noted magic logs + 120 noted redwood logs`
+  → `120 noted magic and redwood logs`; three or more → `A, B and C` with one trailing noun.
+- Use `+` to join genuinely different cost parts (`1,200 bark + 200 noted yew logs`); use
+  `and` only inside a merged same-quantity group.
+- Keep every number, currency, and source name exact — brevity never changes a value, and a
+  reader must still be able to reconstruct the full cost. Don't merge across different units
+  (`bark` and `logs` stay separate parts).
+- `description` is for a genuinely needed qualifier only (a requirement, an "untradeable"
+  note). If it just restates the cost or source, leave it `null`.
+
 ## 3. Distill guidelines from rejections
 
 Scan `rejections.json` for `scope:"general"` reasons that express a rule not already in
