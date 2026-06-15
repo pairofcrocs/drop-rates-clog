@@ -134,6 +134,21 @@
     ],
     "revid": 15221886
   },
+  "10940": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,300 anima-infused bark + 160 noted yew logs + 140 noted magic logs",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15184204
+  },
   "11663": {
     "entries": [
       {
