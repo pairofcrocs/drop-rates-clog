@@ -815,6 +815,21 @@
     ],
     "revid": 15207328
   },
+  "13258": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 Molch pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Alry the Angler (Aerial Fishing)"
+        ]
+      }
+    ],
+    "revid": 15210537
+  },
   "13353": {
     "entries": [
       {
