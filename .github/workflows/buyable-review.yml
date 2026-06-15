@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout (master)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5     # v5 runs on Node 24 (v4 triggers the Node 20 deprecation notice)
         with:
           fetch-depth: 0     # need the suggestions branch too
 
