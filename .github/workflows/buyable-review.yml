@@ -1,0 +1,97 @@
+name: Buyable review routine
+
+# Researches buyable.json gaps/drifts and writes proposals to the `suggestions` branch for
+# human approval in the container editor. See scripts/buyable_review_routine.md + PROPOSALS.md.
+#
+# Triggered manually from the editor's "Run routine" button (workflow_dispatch), or on its
+# own — uncomment the schedule below to run nightly.
+
+on:
+  workflow_dispatch:
+    inputs:
+      window:
+        description: "Existing items to re-check for cost changes"
+        required: false
+        default: "25"
+  # schedule:
+  #   - cron: "37 3 * * *"   # 03:37 UTC nightly (off-peak / off-minute)
+
+permissions:
+  contents: write          # default GITHUB_TOKEN pushes proposals to the suggestions branch
+
+concurrency:
+  group: buyable-review     # never let two runs fight over proposals.json
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (master)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # need the suggestions branch too
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check out suggestions branch in a worktree
+        run: |
+          git fetch origin suggestions
+          git worktree add ../suggestions origin/suggestions
+
+      - name: Audit (deterministic candidates)
+        run: |
+          python scripts/audit_buyables.py \
+            --clog-items scripts/clog_items.json \
+            --buyable    https://raw.githubusercontent.com/${{ github.repository }}/data/buyable.json \
+            --rejections ../suggestions/rejections.json \
+            --cursor     ../suggestions/audit_cursor.json \
+            --window     "${{ github.event.inputs.window || '25' }}" \
+            --out        candidates.json
+
+      - name: Research candidates and write proposals (Claude)
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash,Read,Write,Edit,WebFetch,WebSearch"
+          max_turns: "60"
+          timeout_minutes: "25"
+          prompt: |
+            You are the buyable review routine running in CI. Everything mechanical is already
+            done for you:
+              - the repo is checked out (you are in its root),
+              - `candidates.json` (from scripts/audit_buyables.py) is in the working directory,
+              - the `suggestions` branch is checked out at `../suggestions` and holds
+                proposals.json, rejections.json, buyable-guidelines.md.
+
+            Follow scripts/buyable_review_routine.md, sections "2. Research each candidate, then
+            propose" and "3. Distill guidelines from rejections". For each candidate (process at
+            most 20 this run — all `changed`, then fill with `missing`):
+              - VERIFY the cost against the wiki PROSE via WebFetch — storeline numbers are
+                unreliable. Only propose a `changed` correction when the wiki prose disagrees
+                with the stored value.
+              - apply every rule in ../suggestions/buyable-guidelines.md and keep cost/description
+                text terse (it renders in a small in-game tooltip),
+              - write each proposal with:
+                  python scripts/propose.py --dir ../suggestions buyable|guideline ...
+                (it computes the valueHash and suppresses already-rejected values).
+
+            Do NOT run git commit or git push — the workflow commits and pushes for you. Just
+            leave the edited ../suggestions/proposals.json in place. When done, print a short
+            summary of what you proposed and what you skipped.
+
+      - name: Commit + push proposals to the suggestions branch
+        run: |
+          cd ../suggestions
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No proposal changes to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add proposals.json audit_cursor.json
+          git commit -m "routine: buyable proposals ($(date -u +%F))"
+          git push origin HEAD:suggestions
