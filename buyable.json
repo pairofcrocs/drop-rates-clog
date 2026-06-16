@@ -1175,6 +1175,36 @@
     ],
     "revid": 15188346
   },
+  "21301": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "126,000 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15188348
+  },
+  "21304": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100,500 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15188347
+  },
   "21343": {
     "entries": [
       {
@@ -2930,6 +2960,21 @@
     ],
     "revid": 15221886
   },
+  "28626": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75,000 anima-infused bark",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15210039
+  },
   "28630": {
     "entries": [
       {
@@ -4569,6 +4614,118 @@
       }
     ],
     "revid": 15221886
+  },
+  "6522": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "375 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183252
+  },
+  "6523": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60,000 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183249
+  },
+  "6524": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "67,500 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183248
+  },
+  "6525": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "37,500 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183250
+  },
+  "6526": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "52,500 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183251
+  },
+  "6528": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75,001 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183438
+  },
+  "6568": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "90,000 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Tel's Equipment Store",
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15183434
   },
   "6570": {
     "entries": [
