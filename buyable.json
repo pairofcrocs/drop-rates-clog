@@ -2420,6 +2420,21 @@
     ],
     "revid": 15190838
   },
+  "26822": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,500 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Apprentice Felix"
+        ]
+      }
+    ],
+    "revid": 15233252
+  },
   "26850": {
     "entries": [
       {
