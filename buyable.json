@@ -4045,6 +4045,21 @@
     ],
     "revid": 15221886
   },
+  "33074": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75,000 coins",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Seb's Shipyard Supplies"
+        ]
+      }
+    ],
+    "revid": 15210567
+  },
   "33143": {
     "entries": [
       {
