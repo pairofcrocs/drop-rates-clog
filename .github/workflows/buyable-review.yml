@@ -37,18 +37,21 @@ jobs:
         with:
           python-version: "3.11"
 
+      # The worktree MUST live inside the workspace (_suggestions/) — the Claude action only
+      # has filesystem access within the checkout, so a sibling ../suggestions is invisible to
+      # it (that's why an earlier run wrote nothing).
       - name: Check out suggestions branch in a worktree
         run: |
           git fetch origin suggestions
-          git worktree add ../suggestions origin/suggestions
+          git worktree add -B suggestions _suggestions origin/suggestions
 
       - name: Audit (deterministic candidates)
         run: |
           python scripts/audit_buyables.py \
             --clog-items scripts/clog_items.json \
             --buyable    https://raw.githubusercontent.com/${{ github.repository }}/data/buyable.json \
-            --rejections ../suggestions/rejections.json \
-            --cursor     ../suggestions/audit_cursor.json \
+            --rejections _suggestions/rejections.json \
+            --cursor     _suggestions/audit_cursor.json \
             --window     "${{ github.event.inputs.window || '25' }}" \
             --out        candidates.json
 
@@ -59,37 +62,42 @@ jobs:
           # Pin a current model — the action's default (claude-sonnet-4-20250514) is retired and 404s.
           model: "claude-sonnet-4-6"
           allowed_tools: "Bash,Read,Write,Edit,WebFetch,WebSearch"
-          max_turns: "60"
+          max_turns: "80"
           timeout_minutes: "25"
           prompt: |
-            You are the buyable review routine running in CI. Everything mechanical is already
-            done for you:
-              - the repo is checked out (you are in its root),
-              - `candidates.json` (from scripts/audit_buyables.py) is in the working directory,
-              - the `suggestions` branch is checked out at `../suggestions` and holds
-                proposals.json, rejections.json, buyable-guidelines.md.
+            You are the buyable review routine running in CI. Your working directory is the repo
+            root. Everything mechanical is already done:
+              - `./candidates.json` holds this run's candidates (missing + changed),
+              - `./_suggestions/` is a checkout of the suggestions branch with proposals.json,
+                rejections.json and buyable-guidelines.md.
+            ALL paths below are relative to your working directory (the repo root). Use exactly
+            `_suggestions` — do not invent `../suggestions` or absolute paths.
 
-            Follow scripts/buyable_review_routine.md, sections "2. Research each candidate, then
-            propose" and "3. Distill guidelines from rejections". For each candidate (process at
-            most 20 this run — all `changed`, then fill with `missing`):
-              - VERIFY the cost against the wiki PROSE via WebFetch — storeline numbers are
-                unreliable. Only propose a `changed` correction when the wiki prose disagrees
-                with the stored value.
-              - apply every rule in ../suggestions/buyable-guidelines.md and keep cost/description
-                text terse (it renders in a small in-game tooltip),
-              - write each proposal with:
-                  python scripts/propose.py --dir ../suggestions buyable|guideline ...
-                (it computes the valueHash and suppresses already-rejected values).
+            Steps:
+            1. Read ./candidates.json, ./_suggestions/buyable-guidelines.md, and
+               ./_suggestions/rejections.json.
+            2. For each candidate (process at most 20 — all `changed` first, then `missing`):
+               - Verify the cost against the wiki PROSE with WebFetch — storeline numbers are
+                 unreliable, so only propose a `changed` correction when the prose disagrees with
+                 the stored value. Skip a candidate you can't confirm.
+               - Apply every rule in buyable-guidelines.md; keep cost/description terse.
+               - WRITE THE PROPOSAL by actually RUNNING this (don't just describe it):
+                   python scripts/propose.py --dir _suggestions buyable \
+                     --item-id <id> --item-name "<name>" --change new \
+                     --entries '[{"approx":false,"cost":"<cost>","description":null,"kind":"currency","rate":null,"sources":["<shop>"]}]' \
+                     --revid <revid> --rationale "<why>" --source <wiki URL>
+                 Each successful call prints `wrote buyable:<id>`. Confirm you see that line.
+            3. Distill recurring scope:"general" rejections into guideline proposals the same way
+               (`propose.py --dir _suggestions guideline ...`), if any.
 
-            Do NOT run git commit or git push — the workflow commits and pushes for you. Just
-            leave the edited ../suggestions/proposals.json in place. When done, print a short
-            summary of what you proposed and what you skipped.
+            Do NOT git commit or push — the workflow does that. Just leave _suggestions/proposals.json
+            edited. End by printing how many proposals you wrote (buyable + guideline) and what you skipped.
 
       - name: Commit + push proposals to the suggestions branch
         run: |
-          cd ../suggestions
+          cd _suggestions
           if git diff --quiet && git diff --cached --quiet; then
-            echo "No proposal changes to commit."
+            echo "No proposal changes to commit — Claude wrote nothing this run."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
