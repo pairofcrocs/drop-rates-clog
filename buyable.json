@@ -3500,6 +3500,21 @@
     ],
     "revid": 15194023
   },
+  "31043": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "350 Vale Research Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Vale Research Exchange"
+        ]
+      }
+    ],
+    "revid": 15192291
+  },
   "31052": {
     "entries": [
       {
