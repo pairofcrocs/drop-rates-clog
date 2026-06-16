@@ -4555,6 +4555,22 @@
     ],
     "revid": 15221886
   },
+  "6571": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "300,000 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Lek's Ore and Gem Store",
+          "TzHaar-Hur-Rin's Ore and Gem Store"
+        ]
+      }
+    ],
+    "revid": 15218230
+  },
   "6889": {
     "entries": [
       {
