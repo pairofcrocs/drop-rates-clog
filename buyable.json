@@ -2915,6 +2915,21 @@
     ],
     "revid": 15210425
   },
+  "28663": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75,000 anima-infused bark",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Forestry Shop"
+        ]
+      }
+    ],
+    "revid": 15210966
+  },
   "29482": {
     "entries": [
       {
