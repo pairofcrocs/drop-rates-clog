@@ -4480,6 +4480,21 @@
     ],
     "revid": 15185151
   },
+  "4740": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "27 coins",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ak-Haranu's Exotic Shop."
+        ]
+      }
+    ],
+    "revid": 15206541
+  },
   "5553": {
     "entries": [
       {
