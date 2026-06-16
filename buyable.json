@@ -4150,6 +4150,21 @@
     ],
     "revid": 15185138
   },
+  "4207": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "12 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff for the Last Shopper Standing"
+        ]
+      }
+    ],
+    "revid": 15189417
+  },
   "4503": {
     "entries": [
       {
