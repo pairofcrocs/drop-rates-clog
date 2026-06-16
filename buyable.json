@@ -1160,6 +1160,21 @@
     ],
     "revid": 15221886
   },
+  "21298": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "84,480 Tokkul",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "TzHaar-Hur-Zal's Equipment Store"
+        ]
+      }
+    ],
+    "revid": 15188346
+  },
   "21343": {
     "entries": [
       {
