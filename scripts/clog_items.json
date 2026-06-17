@@ -13796,5 +13796,21 @@
       "Lost Schematics"
     ],
     "wiki_page": "Ballistic attractor schematic"
+  },
+  {
+    "id": 33423,
+    "name": "Bosun's workbench schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Bosun's workbench schematic"
+  },
+  {
+    "id": 33382,
+    "name": "Immaculate mole skin",
+    "tabs": [
+      "Giant Mole"
+    ],
+    "wiki_page": "Immaculate mole skin"
   }
 ]
