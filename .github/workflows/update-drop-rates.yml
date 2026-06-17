@@ -21,9 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout plugin repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.HUB_TOKEN }}
+        uses: actions/checkout@v5
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -51,7 +49,7 @@ jobs:
       - name: Open issue on sanity failure
         if: steps.sanity.outcome == 'failure'
         env:
-          GH_TOKEN: ${{ secrets.HUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
             --title "Drop rates scraper sanity check failed ($(date -u +%F))" \
