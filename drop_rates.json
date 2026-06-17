@@ -6012,7 +6012,7 @@
       "kind": "drop",
       "rate": "2 × 1/158,378.67",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -16955,7 +16955,7 @@
       "kind": "drop",
       "rate": "2 × 1/118,784",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22021,7 +22021,7 @@
       "kind": "drop",
       "rate": "1/100",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22039,7 +22039,7 @@
       "kind": "drop",
       "rate": "1/25",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22057,7 +22057,7 @@
       "kind": "drop",
       "rate": "6/10",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22065,7 +22065,7 @@
       "kind": "drop",
       "rate": "3/10",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22073,7 +22073,7 @@
       "kind": "drop",
       "rate": "1/10",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22172,7 +22172,7 @@
       "kind": "drop",
       "rate": "2 × 1/58",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     },
     {
@@ -22234,7 +22234,7 @@
       "kind": "drop",
       "rate": "1/3,000",
       "sources": [
-        "Amoxliatl"
+        "Amoxliatl (Post-quest)"
       ]
     }
   ],
@@ -23555,14 +23555,6 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/90",
-      "sources": [
-        "Armoured kraken"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
       "rate": "1/100",
       "sources": [
         "Frost dragon"
@@ -23582,6 +23574,14 @@
       "rate": "4/500",
       "sources": [
         "Veiled kraken"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/140",
+      "sources": [
+        "Armoured kraken"
       ]
     },
     {
