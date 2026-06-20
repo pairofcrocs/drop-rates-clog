@@ -186,22 +186,34 @@ def parse_cost(cost):
 
 
 def detect_change(stored_entries, summary):
-    """Reason string for the ONE high-confidence signal: a stored entry whose currency
-    overlaps a store row, but whose number differs (e.g. Foundry Reputation 4000 stored
-    vs 3200 in-store). We deliberately do NOT flag "store has a currency not in stored" —
-    for an existing item that's dominated by phrasing gaps, general-store sell rows, and
-    recolor name-collisions, i.e. noise. A flag means 'Claude, verify this', not a value."""
+    """Reasons an existing item's wiki store data differs from what's stored — each a thing
+    for Claude to verify (not an asserted value). Two signals:
+
+      • NEW SOURCE — the wiki sells the item for a currency none of the stored entries have,
+        i.e. an acquisition method added on the wiki since the entry was written (e.g. an item
+        now buyable from the Mastering Mixology or Deadman Blood-money shop).
+      • COST DRIFT — a currency we already store, but the wiki's number differs.
+
+    This used to be cost-drift-only because "new currency" was noisy. It's safe now that the
+    upstream filters (shared-name multi-id items, reclaim-only merchants) strip the collisions
+    and sell-back rows that caused it — a full sweep yields ~a dozen real candidates, not noise."""
     stored = [parse_cost(e.get("cost")) for e in (stored_entries or [])]
-    stored = [(n, c) for (n, c) in stored if n is not None and c]
+    stored = [(n, c) for (n, c) in stored if c]   # keep any entry with a currency, number or not
     reasons = []
     for r in summary:
-        cost = r["effectiveCost"]
         cur = norm_currency(r["currency"])
-        if cost is None or not cur:
+        if not cur:
             continue
-        match = [s for s in stored if s[1] & cur]   # overlapping currency tokens
-        if match and all(s[0] != cost for s in match):
-            reasons.append(f"store cost {cost} {r['currency']} ≠ stored {match[0][0]}")
+        cost = r["effectiveCost"]
+        overlap = [s for s in stored if s[1] & cur]
+        if not overlap:
+            amt = f"{cost} " if cost is not None else ""
+            reasons.append(f"new source: {amt}{r['currency']} via {r.get('soldBy') or '?'} "
+                           f"(no stored entry has this currency)")
+            continue
+        nums = [s[0] for s in overlap if s[0] is not None]
+        if cost is not None and nums and all(cost != x for x in nums):
+            reasons.append(f"cost {cost} {r['currency']} ≠ stored {nums[0]}")
     return "; ".join(reasons) or None
 
 
