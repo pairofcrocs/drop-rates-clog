@@ -57,9 +57,15 @@ human corrections. For each candidate:
    currency name, the shop/source, and any requirement worth a one-line `description`.
 2. Re-read this item's `priorRejections` — honour the reasons (don't repeat a rejected
    value or framing).
-3. For a `changed` candidate, decide whether the wiki is actually right. The audit only
-   flags a numeric mismatch; the curated value may be the wrong one *or* the wiki may be.
-   Propose only when you're confident the stored value should change.
+3. For a `changed` candidate, read its `reason`:
+   - **`new source: …`** — the wiki now sells the item for a currency the stored entry lacks
+     (a newly-added acquisition method). If the wiki confirms it, propose a `--change update`
+     that **keeps the existing entries and ADDS** one for the new source — never drop the
+     entries already there.
+   - **`cost … ≠ stored …`** — a numeric mismatch on a currency we already have. Decide
+     whether the wiki is actually right; the curated value may be correct and the wiki's
+     storeline number unreliable (esp. reputation/points shops). Propose only when you're
+     confident the stored value should change.
 4. Build the entry(ies) in the exact `buyable.json` shape and call `propose.py`:
 
 ```sh
