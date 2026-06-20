@@ -126,9 +126,21 @@ def effective_cost(row):
     return round(price * 1000.0 / mult)
 
 
+# Reclaim/holiday merchants: you re-claim a lost or holiday item from these, you don't buy it,
+# so they aren't acquisition sources. An item whose only store row is one of these isn't a real
+# "missing" buyable — skip it (otherwise the routine re-evaluates and skips it on every run).
+NON_PURCHASE_SOURCES = {"diango", "lost property shop", "lost property"}
+
+
+def _is_purchase(row):
+    return (row.get("sold_by") or "").strip().lower() not in NON_PURCHASE_SOURCES
+
+
 def index_by_base(rows):
     idx = {}
     for r in rows:
+        if not _is_purchase(r):
+            continue
         idx.setdefault(base_name(r.get("sold_item") or "").lower(), []).append(r)
     return idx
 
