@@ -22879,7 +22879,47 @@
       "kind": "drop",
       "rate": "1/1,350",
       "sources": [
-        "Doom of Mokhaiotl"
+        "Delve level 4"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/810",
+      "sources": [
+        "Delve level 5"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/765",
+      "sources": [
+        "Delve level 6"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/720",
+      "sources": [
+        "Delve level 7"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/630",
+      "sources": [
+        "Delve level 8"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/540",
+      "sources": [
+        "Delve level 9+"
       ]
     }
   ],
@@ -22899,7 +22939,63 @@
       "kind": "drop",
       "rate": "1/2,500",
       "sources": [
-        "Doom of Mokhaiotl"
+        "Delve level 2"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Delve level 3"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,350",
+      "sources": [
+        "Delve level 4"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/810",
+      "sources": [
+        "Delve level 5"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/765",
+      "sources": [
+        "Delve level 6"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/720",
+      "sources": [
+        "Delve level 7"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/630",
+      "sources": [
+        "Delve level 8"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/540",
+      "sources": [
+        "Delve level 9+"
       ]
     }
   ],
@@ -22935,7 +23031,55 @@
       "kind": "drop",
       "rate": "1/2,000",
       "sources": [
-        "Doom of Mokhaiotl"
+        "Delve level 3"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,350",
+      "sources": [
+        "Delve level 4"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/810",
+      "sources": [
+        "Delve level 5"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/765",
+      "sources": [
+        "Delve level 6"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/720",
+      "sources": [
+        "Delve level 7"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/630",
+      "sources": [
+        "Delve level 8"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/540",
+      "sources": [
+        "Delve level 9+"
       ]
     }
   ],
@@ -22945,7 +23089,31 @@
       "kind": "drop",
       "rate": "1/1,000",
       "sources": [
-        "Doom of Mokhaiotl"
+        "Delve level 6"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/750",
+      "sources": [
+        "Delve level 7"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/500",
+      "sources": [
+        "Delve level 8"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/250",
+      "sources": [
+        "Delve level 9+"
       ]
     }
   ],
