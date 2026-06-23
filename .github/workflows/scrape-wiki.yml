@@ -37,10 +37,13 @@ jobs:
             --out scripts/clog_items.json
 
       - name: Scrape drop_rates.json
+        # --merge-prev (the checked-out file) carries over any item that transiently failed this
+        # run, so a flaky wiki query can't silently delete an item's drop data.
         run: |
           python scripts/scrape.py \
             --out src/main/resources/com/dropratesclog/drop_rates.json \
-            --clog-items scripts/clog_items.json
+            --clog-items scripts/clog_items.json \
+            --merge-prev src/main/resources/com/dropratesclog/drop_rates.json
 
       - name: Commit if changed
         run: |

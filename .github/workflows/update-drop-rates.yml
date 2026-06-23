@@ -31,15 +31,17 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run scraper
-        run: python scripts/scrape.py --out "$SCRAPE_OUT"
-
       - name: Fetch current live data
         run: |
           git fetch origin "$DATA_BRANCH"
           # The currently-published file on the data branch, or empty if the branch
           # doesn't have it yet (first run / fresh branch).
           git show "origin/${DATA_BRANCH}:${DATA_FILE}" > drop_rates.json.cur 2>/dev/null || : > drop_rates.json.cur
+
+      - name: Run scraper
+        # --merge-prev carries over any item that transiently failed to scrape this run, so a
+        # single flaky wiki query can never silently delete an item's drop data.
+        run: python scripts/scrape.py --out "$SCRAPE_OUT" --merge-prev drop_rates.json.cur
 
       - name: Sanity check
         id: sanity

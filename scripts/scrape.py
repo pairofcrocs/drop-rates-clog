@@ -196,6 +196,10 @@ def main() -> None:
     parser.add_argument("--overrides", default=str(Path(__file__).resolve().parent / "drop_rate_overrides.json"),
                         help="Curated id-keyed overrides merged over the scraped output. For drops the "
                              "dropsline bucket can't express (per-delve-level rates, etc.). Pass '' to skip.")
+    parser.add_argument("--merge-prev", default="",
+                        help="Previously-published drop_rates.json. Any item that HAD data there but the "
+                             "wiki returned nothing for this run (a transient failure) is carried over, so "
+                             "items never silently vanish. Genuine rate changes still win (fresh scrape > prev).")
     args = parser.parse_args()
 
     items = load_clog_items(Path(args.clog_items))
@@ -259,6 +263,22 @@ def main() -> None:
             no_data.append(item)
 
         time.sleep(REQUEST_DELAY)
+
+    # Stickiness: carry over any item that previously had data but the wiki gave us nothing this
+    # run. Transient dropsline failures must never *delete* an item's data — stale beats empty for
+    # a drop-rate tooltip. Fresh results still win; only genuine gaps are back-filled.
+    if args.merge_prev:
+        try:
+            with open(args.merge_prev, encoding="utf-8") as f:
+                prev = json.load(f)
+            carried = [k for k in prev if k not in drop_rates]
+            for k in carried:
+                drop_rates[k] = prev[k]
+            if carried:
+                print(f"Carried over {len(carried)} item(s) missing from this scrape (transient?): "
+                      f"{', '.join(carried[:10])}{' …' if len(carried) > 10 else ''}")
+        except FileNotFoundError:
+            print(f"No --merge-prev file at {args.merge_prev} — skipping carry-over")
 
     # Curated overrides win over the scraped single-rate. These are drops the dropsline bucket
     # can't express — e.g. Doom of Mokhaiotl uniques, whose rate improves per delve level (the
