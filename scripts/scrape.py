@@ -193,6 +193,9 @@ def main() -> None:
     parser.add_argument("--out", required=True, help="Output JSON path")
     parser.add_argument("--clog-items", default=str(CLOG_ITEMS_DEFAULT),
                         help="Path to clog_items.json (default: resources/com/dropratesclog/clog_items.json)")
+    parser.add_argument("--overrides", default=str(Path(__file__).resolve().parent / "drop_rate_overrides.json"),
+                        help="Curated id-keyed overrides merged over the scraped output. For drops the "
+                             "dropsline bucket can't express (per-delve-level rates, etc.). Pass '' to skip.")
     args = parser.parse_args()
 
     items = load_clog_items(Path(args.clog_items))
@@ -256,6 +259,18 @@ def main() -> None:
             no_data.append(item)
 
         time.sleep(REQUEST_DELAY)
+
+    # Curated overrides win over the scraped single-rate. These are drops the dropsline bucket
+    # can't express — e.g. Doom of Mokhaiotl uniques, whose rate improves per delve level (the
+    # full curve lives only in a hand-authored wikitable). See drop_rate_overrides.json.
+    if args.overrides:
+        try:
+            with open(args.overrides, encoding="utf-8") as f:
+                overrides = json.load(f)
+            drop_rates.update(overrides)
+            print(f"Applied {len(overrides)} curated override(s) from {args.overrides}")
+        except FileNotFoundError:
+            print(f"No overrides file at {args.overrides} — skipping")
 
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(drop_rates, f, indent=2, ensure_ascii=False, sort_keys=True)
