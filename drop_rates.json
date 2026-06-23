@@ -24364,6 +24364,16 @@
       ]
     }
   ],
+  "33382": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/50",
+      "sources": [
+        "Giant Mole"
+      ]
+    }
+  ],
   "3470": [
     {
       "approx": false,
