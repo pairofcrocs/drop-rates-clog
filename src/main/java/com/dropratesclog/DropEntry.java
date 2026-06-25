@@ -19,7 +19,7 @@ class DropEntry
     /**
      * Rate for display, transformed per the user's config. Multi-roll rates ("3 × 1/6") are kept verbatim
      * unless {@link DropRatesClogConfig#combineMultiRolls()} is set, in which case they are merged into one
-     * probability using the configured {@link MultiRollMethod}. The resulting probability is then shown as a
+     * probability ({@link DropRatesClogConfig#multiRollChancePerKill()}). The resulting probability is then shown as a
      * percentage ({@link DropRatesClogConfig#showDropRateAsPercentage()}) or, when
      * {@link DropRatesClogConfig#normaliseToOneInN()} is set, as "1/N" with
      * {@link DropRatesClogConfig#oneInNDecimals()} decimal places. Non-numeric rates ("Very rare") and
@@ -39,7 +39,7 @@ class DropEntry
             return displayRate();
         }
 
-        boolean atLeastOne = config.multiRollMethod() == MultiRollMethod.AT_LEAST_ONE;
+        boolean atLeastOne = config.multiRollChancePerKill();
         double probability = RateFormat.combinedProbability(roll, atLeastOne);
 
         if (config.showDropRateAsPercentage())

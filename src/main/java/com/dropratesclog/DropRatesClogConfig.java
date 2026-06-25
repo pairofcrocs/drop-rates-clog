@@ -105,15 +105,16 @@ public interface DropRatesClogConfig extends Config
     }
 
     @ConfigItem(
-        keyName = "multiRollMethod",
-        name = "Multi-roll combine method",
-        description = "Expected number of drops per kill, or the chance of at least one per kill",
+        keyName = "multiRollChancePerKill",
+        name = "Multi-roll: chance per kill",
+        description = "How a rate rolled several times per kill is combined — off: expected count (N × a/b); "
+            + "on: chance of at least one per kill (1−(1−a/b)^N)",
         section = dropRatesSection,
         position = 5
     )
-    default MultiRollMethod multiRollMethod()
+    default boolean multiRollChancePerKill()
     {
-        return MultiRollMethod.EXPECTED_COUNT;
+        return false;
     }
 
     // --- Skilling Pet Chances section ---
