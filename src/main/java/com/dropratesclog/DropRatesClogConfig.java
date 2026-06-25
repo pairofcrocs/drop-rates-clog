@@ -5,6 +5,7 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.ConfigSection;
+import net.runelite.client.config.Range;
 
 import java.awt.Color;
 
@@ -67,15 +68,52 @@ public interface DropRatesClogConfig extends Config
     }
 
     @ConfigItem(
-        keyName = "reduceFractions",
-        name = "Reduce fractions",
-        description = "Normalise drop fractions to 1/N (e.g. 90/18,014 → ~1/200)",
+        keyName = "normaliseToOneInN",
+        name = "Show as 1/N",
+        description = "Normalise each drop fraction to 1/N (e.g. 90/18,014 → 1/200)",
         section = dropRatesSection,
         position = 2
     )
-    default boolean reduceFractions()
+    default boolean normaliseToOneInN()
     {
         return true;
+    }
+
+    @Range(min = 0, max = 3)
+    @ConfigItem(
+        keyName = "oneInNDecimals",
+        name = "1/N decimal places",
+        description = "Decimals kept in the N of a 1/N rate (0 = whole number; e.g. 1 → 1/181.1)",
+        section = dropRatesSection,
+        position = 3
+    )
+    default int oneInNDecimals()
+    {
+        return 1;
+    }
+
+    @ConfigItem(
+        keyName = "combineMultiRolls",
+        name = "Combine multi-roll rates",
+        description = "Merge rates rolled several times per kill (e.g. 3 × 1/6) into one; off keeps \"N × a/b\"",
+        section = dropRatesSection,
+        position = 4
+    )
+    default boolean combineMultiRolls()
+    {
+        return true;
+    }
+
+    @ConfigItem(
+        keyName = "multiRollMethod",
+        name = "Multi-roll combine method",
+        description = "Expected number of drops per kill, or the chance of at least one per kill",
+        section = dropRatesSection,
+        position = 5
+    )
+    default MultiRollMethod multiRollMethod()
+    {
+        return MultiRollMethod.EXPECTED_COUNT;
     }
 
     // --- Skilling Pet Chances section ---

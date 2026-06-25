@@ -1,7 +1,6 @@
 package com.dropratesclog;
 
 import java.util.List;
-import java.util.Locale;
 
 /** One rate group for an item: a rate shared by one or more sources. */
 class DropEntry
@@ -18,47 +17,43 @@ class DropEntry
     }
 
     /**
-     * Rate for display, optionally transformed. {@code asPercentage} converts a ratio to a percentage
-     * (e.g. "~0.0191%"); otherwise {@code reduceFraction} normalises it to "1 in N" (e.g. "90/18,014"
-     * → "~1/200", "2 × 1/33" → "~1/17", with no ~ when the result is exact). Non-numeric rates ("Very
-     * rare") and currency costs are always left unchanged. Percentage takes precedence if both are set.
+     * Rate for display, transformed per the user's config. Multi-roll rates ("3 × 1/6") are kept verbatim
+     * unless {@link DropRatesClogConfig#combineMultiRolls()} is set, in which case they are merged into one
+     * probability using the configured {@link MultiRollMethod}. The resulting probability is then shown as a
+     * percentage ({@link DropRatesClogConfig#showDropRateAsPercentage()}) or, when
+     * {@link DropRatesClogConfig#normaliseToOneInN()} is set, as "1/N" with
+     * {@link DropRatesClogConfig#oneInNDecimals()} decimal places. Non-numeric rates ("Very rare") and
+     * currency costs are always left unchanged.
      */
-    String displayRate(boolean asPercentage, boolean reduceFraction)
+    String displayRate(DropRatesClogConfig config)
     {
-        if (asPercentage)
+        RateFormat.Roll roll = RateFormat.parseRoll(rate);
+        if (roll == null)
         {
-            Double probability = RateFormat.parseProbability(rate);
-            if (probability != null)
-            {
-                return (approx ? "~" : "") + RateFormat.formatPercent(probability) + "%";
-            }
+            return displayRate(); // non-numeric ("Very rare") / currency cost — leave as-is
         }
-        else if (reduceFraction)
-        {
-            String reduced = reduceToOneInN();
-            if (reduced != null)
-            {
-                return reduced;
-            }
-        }
-        return displayRate();
-    }
 
-    /**
-     * Normalise the rate to "1/N" (numerator 1). Multi-roll rates are combined first (2 × 1/33 → 2/33).
-     * The denominator is rounded; a "~" prefix marks any rounding (or an approximate source rate).
-     * Returns null for rates that aren't a numeric probability.
-     */
-    private String reduceToOneInN()
-    {
-        Double probability = RateFormat.parseProbability(rate);
-        if (probability == null || probability <= 0 || probability >= 1.0)
+        // Keep "N × a/b" intact when the user doesn't want multiple rolls combined.
+        if (roll.rolls > 1 && !config.combineMultiRolls())
         {
-            return null; // not a reducible fraction (e.g. "Always" / 1/1) — leave as-is
+            return displayRate();
         }
-        double denominator = 1.0 / probability;
-        long rounded = Math.max(1, Math.round(denominator));
-        boolean exact = !approx && Math.abs(denominator - rounded) < 1e-6;
-        return (exact ? "" : "~") + "1/" + String.format(Locale.ENGLISH, "%,d", rounded);
+
+        boolean atLeastOne = config.multiRollMethod() == MultiRollMethod.AT_LEAST_ONE;
+        double probability = RateFormat.combinedProbability(roll, atLeastOne);
+
+        if (config.showDropRateAsPercentage())
+        {
+            return (approx ? "~" : "") + RateFormat.formatPercent(probability) + "%";
+        }
+
+        // Combined multi-rolls have no clean "a/b" form, so they are always shown as 1/N.
+        boolean combined = roll.rolls > 1;
+        if ((config.normaliseToOneInN() || combined) && probability > 0 && probability < 1.0)
+        {
+            return RateFormat.formatOneInN(probability, config.oneInNDecimals(), approx);
+        }
+
+        return displayRate(); // plain fraction, normalising disabled — leave as-is
     }
 }

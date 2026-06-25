@@ -407,8 +407,6 @@ public class DropRatesClogPlugin extends Plugin
         if (groups == null || groups.isEmpty()) return null;
 
         int maxGroups = config.maxSources();
-        boolean asPercentage = config.showDropRateAsPercentage();
-        boolean reduceFractions = config.reduceFractions();
         String headerCol = toHex(config.headerColor());
         String itemCol   = toHex(config.itemNameColor());
         String rateCol   = toHex(config.rateColor());
@@ -424,7 +422,7 @@ public class DropRatesClogPlugin extends Plugin
                 break;
             }
             DropEntry entry = groups.get(i);
-            sb.append("<br><col=").append(rateCol).append(">").append(formatDetail(entry.displayRate(asPercentage, reduceFractions))).append("</col>: ");
+            sb.append("<br><col=").append(rateCol).append(">").append(formatDetail(entry.displayRate(config))).append("</col>: ");
             appendSources(sb, entry.sources, srcCol);
         }
 
