@@ -24,7 +24,7 @@ A RuneLite plugin that shows drop rates and acquisition methods in a tooltip whe
 - **Show as percentage** *(default: off)* — Show drop rates as a percentage (e.g. 1/200 → 0.5%) instead of a ratio; text rates like "Very rare" are left as-is.
 - **Show as 1/N** *(default: on)* — Normalise awkward fractions to "1/N" (e.g. 90/18,014 → 1/200); ignored when percentage is on.
 - **1/N decimal places** *(default: 1, range 0–3)* — Decimals kept in the N of a "1/N" rate (0 = whole number, e.g. `~1/181`; 1 = `1/181.1`). Matches the wiki's approximate rates more closely than rounding to a whole number.
-- **Combine multi-roll rates** *(default: on)* — Merge rates rolled several times per kill (e.g. `3 × 1/6`) into a single rate; off keeps the raw `N × a/b` form.
+- **Combine multi-roll rates** *(default: on)* — Merge rates rolled several times per kill (e.g. `3 × 1/6`) into a single rate; off keeps the `N ×` multiplier and formats each per-roll fraction with the settings above (e.g. `3 × 90/18,014` → `3 × ~1/200`).
 - **Multi-roll combine method** *(default: Expected count)* — How combined rates are computed: **Expected count** uses `N × a/b` (the average number of drops per kill); **Chance per kill** uses `1 − (1 − a/b)^N` (the probability of getting at least one per kill, e.g. `3 × 1/6` → `~1/2.37`).
 
 **Skilling Pet Chances**

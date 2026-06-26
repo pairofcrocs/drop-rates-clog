@@ -17,9 +17,10 @@ class DropEntry
     }
 
     /**
-     * Rate for display, transformed per the user's config. Multi-roll rates ("3 × 1/6") are kept verbatim
-     * unless {@link DropRatesClogConfig#combineMultiRolls()} is set, in which case they are merged into one
-     * probability ({@link DropRatesClogConfig#multiRollChancePerKill()}). The resulting probability is then shown as a
+     * Rate for display, transformed per the user's config. When {@link DropRatesClogConfig#combineMultiRolls()}
+     * is set, a multi-roll rate ("3 × 1/6") is merged into one probability
+     * ({@link DropRatesClogConfig#multiRollChancePerKill()}); otherwise the "N ×" multiplier is kept and the
+     * per-roll fraction is formatted on its own. Either way the per-roll/combined probability is shown as a
      * percentage ({@link DropRatesClogConfig#showDropRateAsPercentage()}) or, when
      * {@link DropRatesClogConfig#normaliseToOneInN()} is set, as "1/N" with
      * {@link DropRatesClogConfig#oneInNDecimals()} decimal places. Non-numeric rates ("Very rare") and
@@ -33,27 +34,36 @@ class DropEntry
             return displayRate(); // non-numeric ("Very rare") / currency cost — leave as-is
         }
 
-        // Keep "N × a/b" intact when the user doesn't want multiple rolls combined.
+        // Keep the "N ×" multiplier when the user doesn't want multiple rolls merged, but still apply the
+        // per-roll display format ("Show as 1/N" / percentage) to the underlying a/b fraction.
         if (roll.rolls > 1 && !config.combineMultiRolls())
         {
-            return displayRate();
+            String perRoll = formatProbability(config, roll.perRoll, false);
+            return perRoll == null ? displayRate() : roll.rolls + " × " + perRoll;
         }
 
-        boolean atLeastOne = config.multiRollChancePerKill();
-        double probability = RateFormat.combinedProbability(roll, atLeastOne);
+        // Combined multi-rolls have no clean "a/b" form, so they are always shown as 1/N (or percentage).
+        double probability = RateFormat.combinedProbability(roll, config.multiRollChancePerKill());
+        String formatted = formatProbability(config, probability, roll.rolls > 1);
+        return formatted == null ? displayRate() : formatted;
+    }
 
+    /**
+     * Format a single probability per the user's display settings, or null when neither percentage nor 1/N
+     * applies (a plain fraction with normalising disabled) so the caller can fall back to the raw text.
+     * {@code forceOneInN} shows 1/N even when {@link DropRatesClogConfig#normaliseToOneInN()} is off, used for
+     * combined multi-rolls that have no clean fraction to fall back to.
+     */
+    private String formatProbability(DropRatesClogConfig config, double probability, boolean forceOneInN)
+    {
         if (config.showDropRateAsPercentage())
         {
             return (approx ? "~" : "") + RateFormat.formatPercent(probability) + "%";
         }
-
-        // Combined multi-rolls have no clean "a/b" form, so they are always shown as 1/N.
-        boolean combined = roll.rolls > 1;
-        if ((config.normaliseToOneInN() || combined) && probability > 0 && probability < 1.0)
+        if ((forceOneInN || config.normaliseToOneInN()) && probability > 0 && probability < 1.0)
         {
             return RateFormat.formatOneInN(probability, config.oneInNDecimals(), approx);
         }
-
-        return displayRate(); // plain fraction, normalising disabled — leave as-is
+        return null; // plain fraction, normalising disabled — caller leaves it as-is
     }
 }
