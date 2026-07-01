@@ -18060,6 +18060,14 @@
   ],
   "24777": [
     {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Venator (monster)"
+      ]
+    },
+    {
       "approx": false,
       "kind": "drop",
       "rate": "1/1,500",
