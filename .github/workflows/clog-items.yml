@@ -1,0 +1,89 @@
+name: Update collection log items
+
+# Rebuilds scripts/clog_items.json straight from the OSRS game cache (via the OpenRS2
+# archive) instead of scraping the wiki's hand-maintained list — so new collection-log
+# content shows up within a day of a game update rather than waiting on wiki editors.
+#
+# The job never touches master directly: if the generated file differs it opens/updates a
+# pull request for review (the cache can surface item-id changes worth a human glance —
+# see scripts/gen_clog_items.py). Merging that PR is what feeds the new list to the
+# drop-rates scraper, which is keyed on clog_items.json.
+
+on:
+  schedule:
+    - cron: '43 8 * * *'    # 08:43 UTC daily — after the wiki-refresh job, off the hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: clog-items
+  cancel-in-progress: false
+
+env:
+  BRANCH: auto/clog-items
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (master)
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate clog_items.json from the cache
+        # Seeds wiki_page from the committed file (preserves anchors, avoids re-hitting the
+        # wiki) and only looks up genuinely new item ids. --prev is read fully before --out
+        # is written, so writing back to the same path is safe.
+        run: |
+          python scripts/gen_clog_items.py \
+            --out       scripts/clog_items.json \
+            --prev      scripts/clog_items.json \
+            --overrides scripts/clog_wiki_overrides.json
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet scripts/clog_items.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "clog_items.json is up to date."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            # Summarise added/removed ids for the run summary (old = committed HEAD,
+            # new = the just-generated working-tree file).
+            git show HEAD:scripts/clog_items.json > /tmp/old.json
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          old={i["id"] for i in json.load(open("/tmp/old.json"))}
+          new=json.load(open("scripts/clog_items.json"))
+          newids={i["id"] for i in new}
+          nm={i["id"]:i["name"] for i in new}
+          add=sorted(newids-old); rem=sorted(old-newids)
+          print(f"### clog_items.json: +{len(add)} / -{len(rem)}\n")
+          for i in add: print(f"- add `{i}` {nm[i]}")
+          PY
+          fi
+
+      - name: Open / update pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add scripts/clog_items.json
+          git commit -m "data: rebuild clog_items.json from cache ($(date -u +%F))"
+          git push -f origin "$BRANCH"
+          if ! gh pr view "$BRANCH" >/dev/null 2>&1; then
+            gh pr create \
+              --base master --head "$BRANCH" \
+              --title "Rebuild clog_items.json from the game cache" \
+              --body "Automated: regenerated \`scripts/clog_items.json\` from the newest OpenRS2 OSRS cache. Review the diff — cache-derived item ids can differ from the wiki list (e.g. real items vs collection-log display duplicates). See the run summary for added/removed ids. Merging feeds the new list to the drop-rates scraper."
+          fi

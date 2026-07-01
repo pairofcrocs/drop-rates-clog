@@ -1,8 +1,10 @@
 name: Refresh wiki-sourced data
 
-# Daily refresh of clog_items.json and drop_rates.json from the OSRS wiki.
-# Workflow is a no-op when there's nothing new: it skips the commit step if the
-# scrapers produce an identical byte-for-byte output, so the commit log stays clean.
+# Daily refresh of drop_rates.json from the OSRS wiki. It reads the committed
+# scripts/clog_items.json as its item list — that file is now generated from the game
+# cache by the "Update collection log items" workflow (scripts/gen_clog_items.py), not
+# scraped here. Workflow is a no-op when there's nothing new: it skips the commit step
+# if the scraper produces an identical byte-for-byte output, so the commit log stays clean.
 
 on:
   schedule:
@@ -31,11 +33,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Scrape clog_items.json
-        run: |
-          python scripts/scrape_clog_items.py \
-            --out scripts/clog_items.json
-
       - name: Scrape drop_rates.json
         # --merge-prev (the checked-out file) carries over any item that transiently failed this
         # run, so a flaky wiki query can't silently delete an item's drop data.
@@ -47,13 +44,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet scripts/clog_items.json src/main/resources/com/dropratesclog/drop_rates.json; then
+          if git diff --quiet src/main/resources/com/dropratesclog/drop_rates.json; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add scripts/clog_items.json \
-                  src/main/resources/com/dropratesclog/drop_rates.json
-          git commit -m "data: refresh clog_items + drop_rates from wiki"
+          git add src/main/resources/com/dropratesclog/drop_rates.json
+          git commit -m "data: refresh drop_rates from wiki"
           git push
