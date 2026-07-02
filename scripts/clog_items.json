@@ -13812,5 +13812,46 @@
       "Giant Mole"
     ],
     "wiki_page": "Immaculate mole skin"
+  },
+  {
+    "id": 33642,
+    "name": "Maggot marquess",
+    "tabs": [
+      "Maggot King",
+      "All Pets"
+    ],
+    "wiki_page": "Maggot marquess"
+  },
+  {
+    "id": 33631,
+    "name": "Crimson kisten",
+    "tabs": [
+      "Maggot King"
+    ],
+    "wiki_page": "Crimson kisten"
+  },
+  {
+    "id": 33634,
+    "name": "Elder venator fang",
+    "tabs": [
+      "Maggot King"
+    ],
+    "wiki_page": "Elder venator fang"
+  },
+  {
+    "id": 33663,
+    "name": "Venator tooth",
+    "tabs": [
+      "Venators"
+    ],
+    "wiki_page": "Venator tooth"
+  },
+  {
+    "id": 33661,
+    "name": "Venator fang",
+    "tabs": [
+      "Venators"
+    ],
+    "wiki_page": "Venator fang"
   }
 ]

@@ -11889,6 +11889,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/536",
+      "sources": [
+        "Superior venator"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/600",
       "sources": [
         "King kurask"
@@ -12143,6 +12151,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/153",
+      "sources": [
+        "Superior venator"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/171",
       "sources": [
         "King kurask"
@@ -12382,6 +12398,14 @@
       "rate": "1/149",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/153",
+      "sources": [
+        "Superior venator"
       ]
     },
     {
@@ -12889,6 +12913,14 @@
       "rate": "1/520",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/536",
+      "sources": [
+        "Superior venator"
       ]
     },
     {
@@ -18062,9 +18094,17 @@
     {
       "approx": true,
       "kind": "drop",
+      "rate": "1/5",
+      "sources": [
+        "Superior venator"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
       "rate": "1/1,000",
       "sources": [
-        "Venator (monster)"
+        "Venator"
       ]
     },
     {
@@ -24379,6 +24419,72 @@
       "rate": "1/50",
       "sources": [
         "Giant Mole"
+      ]
+    }
+  ],
+  "33631": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/1,000",
+      "sources": [
+        "Maggot King"
+      ]
+    }
+  ],
+  "33634": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3/1,000",
+      "sources": [
+        "Maggot King"
+      ]
+    }
+  ],
+  "33642": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/3,333",
+      "sources": [
+        "Maggot King"
+      ]
+    }
+  ],
+  "33661": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3/117",
+      "sources": [
+        "Venator"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/159",
+      "sources": [
+        "Maggot King"
+      ]
+    }
+  ],
+  "33663": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3/117",
+      "sources": [
+        "Venator"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/159",
+      "sources": [
+        "Maggot King"
       ]
     }
   ],
