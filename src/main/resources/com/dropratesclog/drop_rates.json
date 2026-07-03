@@ -24446,7 +24446,7 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "1/3,333",
+      "rate": "1/3,250",
       "sources": [
         "Maggot King"
       ]
