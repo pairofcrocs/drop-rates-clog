@@ -5578,7 +5578,7 @@
       "kind": "drop",
       "rate": "1/10,817.03",
       "sources": [
-        "Steel dragon",
+        "Steel dragon (Standard)",
         "Crazy archaeologist",
         "Chaos Fanatic",
         "Smoke devil"
@@ -5680,7 +5680,7 @@
       "sources": [
         "Black dragon (Regular)",
         "Black dragon (Wilderness Slayer Cave)",
-        "Iron dragon",
+        "Iron dragon (Standard)",
         "Mammoth",
         "Brutal black dragon",
         "Brutal red dragon"
@@ -5830,7 +5830,7 @@
       "rate": "1/36,492.04",
       "sources": [
         "Mithril dragon",
-        "Bronze dragon"
+        "Bronze dragon (Standard)"
       ]
     },
     {
@@ -16561,7 +16561,7 @@
       "kind": "drop",
       "rate": "1/8,112.77",
       "sources": [
-        "Steel dragon",
+        "Steel dragon (Standard)",
         "Crazy archaeologist",
         "Chaos Fanatic",
         "Smoke devil"
@@ -16663,7 +16663,7 @@
       "sources": [
         "Black dragon (Regular)",
         "Black dragon (Wilderness Slayer Cave)",
-        "Iron dragon",
+        "Iron dragon (Standard)",
         "Mammoth",
         "Brutal black dragon",
         "Brutal red dragon"
@@ -16813,7 +16813,7 @@
       "rate": "1/27,369.03",
       "sources": [
         "Mithril dragon",
-        "Bronze dragon"
+        "Bronze dragon (Standard)"
       ]
     },
     {
