@@ -11899,7 +11899,7 @@
       "kind": "drop",
       "rate": "1/536",
       "sources": [
-        "Superior venator"
+        "Blood-starved venator"
       ]
     },
     {
@@ -12161,7 +12161,7 @@
       "kind": "drop",
       "rate": "1/153",
       "sources": [
-        "Superior venator"
+        "Blood-starved venator"
       ]
     },
     {
@@ -12413,7 +12413,7 @@
       "kind": "drop",
       "rate": "1/153",
       "sources": [
-        "Superior venator"
+        "Blood-starved venator"
       ]
     },
     {
@@ -12928,7 +12928,7 @@
       "kind": "drop",
       "rate": "1/536",
       "sources": [
-        "Superior venator"
+        "Blood-starved venator"
       ]
     },
     {
@@ -18112,7 +18112,7 @@
       "kind": "drop",
       "rate": "1/5",
       "sources": [
-        "Superior venator"
+        "Blood-starved venator"
       ]
     },
     {
@@ -24470,9 +24470,9 @@
   ],
   "33661": [
     {
-      "approx": false,
+      "approx": true,
       "kind": "drop",
-      "rate": "3/131",
+      "rate": "7/131",
       "sources": [
         "Venator"
       ]
@@ -24488,9 +24488,9 @@
   ],
   "33663": [
     {
-      "approx": false,
+      "approx": true,
       "kind": "drop",
-      "rate": "3/131",
+      "rate": "7/131",
       "sources": [
         "Venator"
       ]
