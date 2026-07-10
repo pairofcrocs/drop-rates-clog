@@ -4225,6 +4225,19 @@
     ],
     "revid": 15221886
   },
+  "33423": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Complete the The Red Reef quest",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
   "4068": {
     "entries": [
       {
