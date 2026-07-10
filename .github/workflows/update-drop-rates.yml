@@ -1,19 +1,36 @@
 name: Update drop rates
 
+# The single drop-rates pipeline: scrapes the wiki once and publishes to BOTH
+# destinations — the data branch (what running plugins fetch) and the bundled
+# resource on master (the jar's offline fallback, refreshed here so plugin
+# releases ship current data). The old scrape-wiki.yml daily job is gone; the
+# clog item list it also used to scrape now comes from the game cache via
+# clog-items.yml, and merging one of those PRs re-triggers this workflow (the
+# push path filter below) so new items get rates the same cycle.
+
 on:
   schedule:
     # Wednesdays 14:00 UTC — a few hours after the weekly OSRS game update
     - cron: '0 14 * * 3'
+  push:
+    branches: [master]
+    paths: ['scripts/clog_items.json']
   workflow_dispatch:
 
 permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: update-drop-rates
+  cancel-in-progress: false
+
 env:
   # Branch the plugin fetches its JSON from on start-up. Files live at the branch root.
   DATA_BRANCH: data
   DATA_FILE: drop_rates.json
+  # Copy bundled into the plugin jar as the offline/startup fallback.
+  BUNDLED_FILE: src/main/resources/com/dropratesclog/drop_rates.json
   SCRAPE_OUT: drop_rates.json.new
 
 jobs:
@@ -83,3 +100,23 @@ jobs:
           git add "$DATA_FILE"
           git commit -m "Update drop rates from wiki ($(date -u +%F))"
           git push origin "$DATA_BRANCH"
+
+      - name: Refresh bundled fallback on master
+        # Same scrape output, second destination: the resource compiled into the plugin
+        # jar. Only used by clients before their async data-branch fetch lands (or when
+        # it fails), so freshness here only really matters at plugin-release time.
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          set -e
+          cp "$SCRAPE_OUT" "$BUNDLED_FILE"
+          if git diff --quiet "$BUNDLED_FILE"; then
+            echo "Bundled copy already current."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$BUNDLED_FILE"
+          git commit -m "data: refresh bundled drop_rates fallback ($(date -u +%F))"
+          # Master may have moved while we scraped (the checkout is from job start).
+          git pull --rebase origin master
+          git push origin HEAD:master
