@@ -50,24 +50,29 @@ queries on `wiki_page`). `--force` skips the sanity check that refuses to write
 when the walked item count shrinks more than 20% versus `--prev` (which would
 signal a cache-layout change, not a real content removal).
 
-## Item-id caveat (`clog_wiki_overrides.json` and review)
+## Display-id remap (enum 3721)
 
 Some collection-log items exist in the cache under **two** ids: the real in-game
-item (which carries a bank `placeholderId`) and a stripped "display duplicate" Jagex
-created for the log UI. The cache's collection-log enum references the **real** item,
-so that is what this generator emits (e.g. Tea flask `10859`, not the wiki list's
-historical `25617`).
+item (which carries a bank `placeholderId`) and a stripped "display duplicate"
+Jagex created for the log UI (e.g. Tea flask `10859` real vs `25617` display).
+The page item-enums reference the **real** id, but the game's clog interface swaps
+it through **enum `3721`** before rendering — so the id RuneLite hands the plugin
+on hover (and the id the wiki documents) is the *display* one. The generator
+applies the same remap, so it emits the ids the plugin actually sees; no manual
+handling needed.
 
-`clog_wiki_overrides.json` maps `itemId → wiki_page` and always wins over both the
-cache and the previous file — the id must be one the generator emits (the cache id).
-For example, to pin the page the Volcanic Mine prospector helmet resolves to:
+## `clog_wiki_overrides.json`
+
+Maps `itemId → wiki_page` and always wins over both the wiki lookup and the
+previous file — the id must be one the generator emits (post-remap). For example,
+to pin the page the Volcanic Mine prospector helmet resolves to:
 
 ```json
 { "29472": "Prospector helmet#Volcanic Mine" }
 ```
 
-(It only overrides `wiki_page`; to force a different *item id* into the log, that
-belongs in the plugin's hover mapping, not here.)
+(It only overrides `wiki_page`, never which item ids appear in the list.)
 
-This is why the CI workflow opens a **pull request** rather than committing to
-`master`: the first rebuild may swap a handful of ids, and that deserves a glance.
+The CI workflow still opens a **pull request** rather than committing to `master`:
+additions/removals track game updates and deserve a quick human glance before they
+feed the drop-rates scraper.

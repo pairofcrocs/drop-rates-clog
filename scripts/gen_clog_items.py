@@ -15,7 +15,9 @@ Pipeline
        page-list  -> ordered page struct ids
        page struct-> param 689 = page name, param 690 = item-id enum
        item enum  -> ordered item ids
-   Item names come from the item definitions (obj, opcode 2).
+   Item ids are then passed through the display-id remap enum (see DISPLAY_MAP_ENUM)
+   exactly like the game's clog interface does, and names come from the item
+   definitions (obj, opcode 2).
 4. Resolve each item's wiki page from its id via the wiki's Special:Lookup redirect,
    reusing the pages already in the previous clog_items.json (so existing anchors are
    preserved and we only hit the wiki for genuinely new ids), with an overrides file
@@ -44,6 +46,12 @@ REF_TABLE_ARCHIVE = 255
 TOP_ENUM = 2102
 P_TAB_NAME, P_PAGES_ENUM = 682, 683
 P_PAGE_NAME, P_ITEMS_ENUM = 689, 690
+# Display-id remap. A handful of clog items exist under two ids: the real item
+# (carries a bank placeholderId) and a stripped display duplicate Jagex made for
+# the log UI. The page item-enums reference the REAL id, but the interface swaps
+# it through this enum before rendering — so the id RuneLite sees on hover (and
+# the id the wiki documents) is the mapped one. We apply the same remap.
+DISPLAY_MAP_ENUM = 3721
 
 
 # ── byte reader ──────────────────────────────────────────────────────────────
@@ -260,6 +268,8 @@ def build_items(cache_id):
         nm = parse_item_name(b)
         if nm: names[fid] = nm
 
+    display_map = enums.get(DISPLAY_MAP_ENUM, {})
+
     items = {}  # id -> {"name", "tabs": [page, ...]}
     for tidx in sorted(enums[TOP_ENUM]):
         tab = structs[enums[TOP_ENUM][tidx]]
@@ -269,7 +279,7 @@ def build_items(cache_id):
             pname = page[P_PAGE_NAME]
             item_enum = enums[page[P_ITEMS_ENUM]]
             for iidx in sorted(item_enum):
-                iid = item_enum[iidx]
+                iid = display_map.get(item_enum[iidx], item_enum[iidx])
                 rec = items.setdefault(iid, {"name": names.get(iid, f"item_{iid}"), "tabs": []})
                 if pname not in rec["tabs"]:
                     rec["tabs"].append(pname)
