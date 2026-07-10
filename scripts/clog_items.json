@@ -4364,8 +4364,7 @@
     "id": 12013,
     "name": "Prospector helmet",
     "tabs": [
-      "Motherlode Mine",
-      "Volcanic Mine"
+      "Motherlode Mine"
     ],
     "wiki_page": "Prospector helmet#Motherlode Mine"
   },
@@ -4373,8 +4372,7 @@
     "id": 12014,
     "name": "Prospector jacket",
     "tabs": [
-      "Motherlode Mine",
-      "Volcanic Mine"
+      "Motherlode Mine"
     ],
     "wiki_page": "Prospector jacket#Motherlode Mine"
   },
@@ -4382,8 +4380,7 @@
     "id": 12015,
     "name": "Prospector legs",
     "tabs": [
-      "Motherlode Mine",
-      "Volcanic Mine"
+      "Motherlode Mine"
     ],
     "wiki_page": "Prospector legs#Motherlode Mine"
   },
@@ -4391,8 +4388,7 @@
     "id": 12016,
     "name": "Prospector boots",
     "tabs": [
-      "Motherlode Mine",
-      "Volcanic Mine"
+      "Motherlode Mine"
     ],
     "wiki_page": "Prospector boots#Motherlode Mine"
   },
@@ -12352,6 +12348,38 @@
     "wiki_page": "Teleport anchoring scroll"
   },
   {
+    "id": 29472,
+    "name": "Prospector helmet",
+    "tabs": [
+      "Volcanic Mine"
+    ],
+    "wiki_page": "Prospector helmet#Volcanic Mine"
+  },
+  {
+    "id": 29474,
+    "name": "Prospector jacket",
+    "tabs": [
+      "Volcanic Mine"
+    ],
+    "wiki_page": "Prospector jacket#Volcanic Mine"
+  },
+  {
+    "id": 29476,
+    "name": "Prospector legs",
+    "tabs": [
+      "Volcanic Mine"
+    ],
+    "wiki_page": "Prospector legs#Volcanic Mine"
+  },
+  {
+    "id": 29478,
+    "name": "Prospector boots",
+    "tabs": [
+      "Volcanic Mine"
+    ],
+    "wiki_page": "Prospector boots#Volcanic Mine"
+  },
+  {
     "id": 29482,
     "name": "Brimhaven voucher",
     "tabs": [
@@ -12660,6 +12688,14 @@
     "wiki_page": "Huasca seed"
   },
   {
+    "id": 30111,
+    "name": "Helmet of the moon",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Helmet of the moon"
+  },
+  {
     "id": 30152,
     "name": "Huberte",
     "tabs": [
@@ -12743,23 +12779,6 @@
     "wiki_page": "Desiccated page"
   },
   {
-    "id": 30888,
-    "name": "Yami",
-    "tabs": [
-      "Yama",
-      "All Pets"
-    ],
-    "wiki_page": "Yami"
-  },
-  {
-    "id": 30775,
-    "name": "Chasm teleport scroll",
-    "tabs": [
-      "Yama"
-    ],
-    "wiki_page": "Chasm teleport scroll"
-  },
-  {
     "id": 30750,
     "name": "Oathplate helm",
     "tabs": [
@@ -12792,6 +12811,14 @@
     "wiki_page": "Soulflame horn"
   },
   {
+    "id": 30763,
+    "name": "Forgotten lockbox",
+    "tabs": [
+      "Yama"
+    ],
+    "wiki_page": "Forgotten lockbox"
+  },
+  {
     "id": 30765,
     "name": "Oathplate shards",
     "tabs": [
@@ -12800,20 +12827,20 @@
     "wiki_page": "Oathplate shards"
   },
   {
-    "id": 30806,
-    "name": "Rite of vile transference",
+    "id": 30775,
+    "name": "Chasm teleport scroll",
     "tabs": [
       "Yama"
     ],
-    "wiki_page": "Rite of vile transference"
+    "wiki_page": "Chasm teleport scroll"
   },
   {
-    "id": 30763,
-    "name": "Forgotten lockbox",
+    "id": 30795,
+    "name": "Barrel of demonic tallow (full)",
     "tabs": [
       "Yama"
     ],
-    "wiki_page": "Forgotten lockbox"
+    "wiki_page": "Barrel of demonic tallow#Full"
   },
   {
     "id": 30805,
@@ -12824,12 +12851,21 @@
     "wiki_page": "Dossier"
   },
   {
-    "id": 30795,
-    "name": "Barrel of demonic tallow (full)",
+    "id": 30806,
+    "name": "Rite of vile transference",
     "tabs": [
       "Yama"
     ],
-    "wiki_page": "Barrel of demonic tallow#Full"
+    "wiki_page": "Rite of vile transference"
+  },
+  {
+    "id": 30888,
+    "name": "Yami",
+    "tabs": [
+      "Yama",
+      "All Pets"
+    ],
+    "wiki_page": "Yami"
   },
   {
     "id": 30893,
@@ -12843,7 +12879,7 @@
     "id": 30895,
     "name": "Steel ring",
     "tabs": [
-      "Deranged archaeologist"
+      "Deranged Archaeologist"
     ],
     "wiki_page": "Steel ring"
   },
@@ -12952,69 +12988,12 @@
     "wiki_page": "Mimic scroll case"
   },
   {
-    "id": 31130,
-    "name": "Dom",
+    "id": 30957,
+    "name": "Earthbound tecpatl",
     "tabs": [
-      "Doom of Mokhaiotl",
-      "All Pets"
+      "Slayer"
     ],
-    "wiki_page": "Dom"
-  },
-  {
-    "id": 31088,
-    "name": "Avernic treads",
-    "tabs": [
-      "Doom of Mokhaiotl"
-    ],
-    "wiki_page": "Avernic treads"
-  },
-  {
-    "id": 31115,
-    "name": "Eye of ayak",
-    "tabs": [
-      "Doom of Mokhaiotl"
-    ],
-    "wiki_page": "Eye of ayak#Uncharged"
-  },
-  {
-    "id": 31109,
-    "name": "Mokhaiotl cloth",
-    "tabs": [
-      "Doom of Mokhaiotl"
-    ],
-    "wiki_page": "Mokhaiotl cloth"
-  },
-  {
-    "id": 31099,
-    "name": "Mokhaiotl waystone",
-    "tabs": [
-      "Doom of Mokhaiotl"
-    ],
-    "wiki_page": "Mokhaiotl waystone"
-  },
-  {
-    "id": 31111,
-    "name": "Demon tear",
-    "tabs": [
-      "Doom of Mokhaiotl"
-    ],
-    "wiki_page": "Demon tear"
-  },
-  {
-    "id": 31043,
-    "name": "Fletching knife",
-    "tabs": [
-      "Vale Totems"
-    ],
-    "wiki_page": "Fletching knife"
-  },
-  {
-    "id": 31052,
-    "name": "Bow string spool",
-    "tabs": [
-      "Vale Totems"
-    ],
-    "wiki_page": "Bow string spool"
+    "wiki_page": "Earthbound tecpatl"
   },
   {
     "id": 31032,
@@ -13033,12 +13012,20 @@
     "wiki_page": "Greenman mask#Default"
   },
   {
-    "id": 30957,
-    "name": "Earthbound tecpatl",
+    "id": 31043,
+    "name": "Fletching knife",
     "tabs": [
-      "Slayer"
+      "Vale Totems"
     ],
-    "wiki_page": "Earthbound tecpatl"
+    "wiki_page": "Fletching knife"
+  },
+  {
+    "id": 31052,
+    "name": "Bow string spool",
+    "tabs": [
+      "Vale Totems"
+    ],
+    "wiki_page": "Bow string spool"
   },
   {
     "id": 31081,
@@ -13065,29 +13052,70 @@
     "wiki_page": "Broken antler"
   },
   {
-    "id": 30111,
-    "name": "Helmet of the moon",
+    "id": 31088,
+    "name": "Avernic treads",
     "tabs": [
-      "Miscellaneous"
+      "Doom of Mokhaiotl"
     ],
-    "wiki_page": "Helmet of the moon"
+    "wiki_page": "Avernic treads"
   },
   {
-    "id": 31285,
-    "name": "Gull (pet)",
+    "id": 31099,
+    "name": "Mokhaiotl waystone",
     "tabs": [
-      "Shellbane Gryphon",
+      "Doom of Mokhaiotl"
+    ],
+    "wiki_page": "Mokhaiotl waystone"
+  },
+  {
+    "id": 31109,
+    "name": "Mokhaiotl cloth",
+    "tabs": [
+      "Doom of Mokhaiotl"
+    ],
+    "wiki_page": "Mokhaiotl cloth"
+  },
+  {
+    "id": 31111,
+    "name": "Demon tear",
+    "tabs": [
+      "Doom of Mokhaiotl"
+    ],
+    "wiki_page": "Demon tear"
+  },
+  {
+    "id": 31115,
+    "name": "Eye of ayak (uncharged)",
+    "tabs": [
+      "Doom of Mokhaiotl"
+    ],
+    "wiki_page": "Eye of ayak#Uncharged"
+  },
+  {
+    "id": 31130,
+    "name": "Dom",
+    "tabs": [
+      "Doom of Mokhaiotl",
       "All Pets"
     ],
-    "wiki_page": "Gull (pet)#Gull"
+    "wiki_page": "Dom"
   },
   {
-    "id": 32921,
-    "name": "Jar of feathers",
+    "id": 31235,
+    "name": "Gryphon feather",
     "tabs": [
-      "Shellbane Gryphon"
+      "Shellbane Gryphon",
+      "Slayer"
     ],
-    "wiki_page": "Jar of feathers"
+    "wiki_page": "Gryphon feather"
+  },
+  {
+    "id": 31243,
+    "name": "Horn of plenty (empty)",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Horn of plenty#Empty"
   },
   {
     "id": 31245,
@@ -13098,13 +13126,86 @@
     "wiki_page": "Belle's folly (tarnished)"
   },
   {
-    "id": 31235,
-    "name": "Gryphon feather",
+    "id": 31283,
+    "name": "Soup",
+    "tabs": [
+      "All Pets",
+      "Skilling Pets"
+    ],
+    "wiki_page": "Soup"
+  },
+  {
+    "id": 31285,
+    "name": "Gull",
     "tabs": [
       "Shellbane Gryphon",
-      "Slayer"
+      "All Pets"
     ],
-    "wiki_page": "Gryphon feather"
+    "wiki_page": "Gull (pet)#Gull"
+  },
+  {
+    "id": 31406,
+    "name": "Dragon nails",
+    "tabs": [
+      "Sailing Miscellaneous"
+    ],
+    "wiki_page": "Dragon nails"
+  },
+  {
+    "id": 31408,
+    "name": "Giant blue krill",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Giant blue krill"
+  },
+  {
+    "id": 31412,
+    "name": "Golden haddock",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Golden haddock"
+  },
+  {
+    "id": 31416,
+    "name": "Orangefin",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Orangefin"
+  },
+  {
+    "id": 31420,
+    "name": "Huge halibut",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Huge halibut"
+  },
+  {
+    "id": 31424,
+    "name": "Purplefin",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Purplefin"
+  },
+  {
+    "id": 31428,
+    "name": "Swift marlin",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Swift marlin"
+  },
+  {
+    "id": 31572,
+    "name": "Squid beak",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Squid beak"
   },
   {
     "id": 31732,
@@ -13177,174 +13278,6 @@
       "Barracuda Trials"
     ],
     "wiki_page": "Gwyna's fabric roll"
-  },
-  {
-    "id": 32087,
-    "name": "Barracuda paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Barracuda paint"
-  },
-  {
-    "id": 32090,
-    "name": "Shark paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Shark paint"
-  },
-  {
-    "id": 32093,
-    "name": "Inky paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Inky paint"
-  },
-  {
-    "id": 32096,
-    "name": "Angler's paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Angler's paint"
-  },
-  {
-    "id": 32099,
-    "name": "Salvor's paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Salvor's paint"
-  },
-  {
-    "id": 32102,
-    "name": "Armadylean paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Armadylean paint"
-  },
-  {
-    "id": 32104,
-    "name": "Zamorakian paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Zamorakian paint"
-  },
-  {
-    "id": 32106,
-    "name": "Guthixian paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Guthixian paint"
-  },
-  {
-    "id": 32108,
-    "name": "Saradominist paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Saradominist paint"
-  },
-  {
-    "id": 32110,
-    "name": "Merchant's paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Merchant's paint"
-  },
-  {
-    "id": 32113,
-    "name": "Sandy paint",
-    "tabs": [
-      "Boat Paints"
-    ],
-    "wiki_page": "Sandy paint"
-  },
-  {
-    "id": 32401,
-    "name": "Salvaging station schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Salvaging station schematic"
-  },
-  {
-    "id": 32402,
-    "name": "Gale catcher schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Gale catcher schematic"
-  },
-  {
-    "id": 32403,
-    "name": "Eternal brazier schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Eternal brazier schematic"
-  },
-  {
-    "id": 32405,
-    "name": "Rosewood cargo hold schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Rosewood cargo hold schematic"
-  },
-  {
-    "id": 32407,
-    "name": "Rosewood hull schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Rosewood hull schematic"
-  },
-  {
-    "id": 32408,
-    "name": "Rosewood & cotton sails schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Rosewood & cotton sails schematic"
-  },
-  {
-    "id": 32409,
-    "name": "Dragon helm schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Dragon helm schematic"
-  },
-  {
-    "id": 32410,
-    "name": "Dragon keel schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Dragon keel schematic"
-  },
-  {
-    "id": 32404,
-    "name": "Dragon salvaging hook schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Dragon salvaging hook schematic"
-  },
-  {
-    "id": 32406,
-    "name": "Dragon cannon schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Dragon cannon schematic"
   },
   {
     "id": 31770,
@@ -13435,23 +13368,6 @@
     "wiki_page": "Radiant pearl"
   },
   {
-    "id": 31996,
-    "name": "Dragon metal sheet",
-    "tabs": [
-      "Sailing Miscellaneous",
-      "Slayer"
-    ],
-    "wiki_page": "Dragon metal sheet"
-  },
-  {
-    "id": 31406,
-    "name": "Dragon nails",
-    "tabs": [
-      "Sailing Miscellaneous"
-    ],
-    "wiki_page": "Dragon nails"
-  },
-  {
     "id": 31916,
     "name": "Dragon cannonball",
     "tabs": [
@@ -13466,6 +13382,14 @@
       "Sailing Miscellaneous"
     ],
     "wiki_page": "Echo pearl"
+  },
+  {
+    "id": 31949,
+    "name": "Bottled storm",
+    "tabs": [
+      "Sailing Miscellaneous"
+    ],
+    "wiki_page": "Bottled storm"
   },
   {
     "id": 31952,
@@ -13500,12 +13424,109 @@
     "wiki_page": "Broken dragon hook"
   },
   {
-    "id": 31949,
-    "name": "Bottled storm",
+    "id": 31989,
+    "name": "Boat bottle (empty)",
     "tabs": [
       "Sailing Miscellaneous"
     ],
-    "wiki_page": "Bottled storm"
+    "wiki_page": "Boat bottle#Empty"
+  },
+  {
+    "id": 31996,
+    "name": "Dragon metal sheet",
+    "tabs": [
+      "Sailing Miscellaneous",
+      "Slayer"
+    ],
+    "wiki_page": "Dragon metal sheet"
+  },
+  {
+    "id": 32087,
+    "name": "Barracuda paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Barracuda paint"
+  },
+  {
+    "id": 32090,
+    "name": "Shark paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Shark paint"
+  },
+  {
+    "id": 32093,
+    "name": "Inky paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Inky paint"
+  },
+  {
+    "id": 32096,
+    "name": "Angler's paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Angler's paint"
+  },
+  {
+    "id": 32099,
+    "name": "Salvor's paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Salvor's paint"
+  },
+  {
+    "id": 32102,
+    "name": "Armadylean paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Armadylean paint"
+  },
+  {
+    "id": 32104,
+    "name": "Zamorakian paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Zamorakian paint"
+  },
+  {
+    "id": 32106,
+    "name": "Guthixian paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Guthixian paint"
+  },
+  {
+    "id": 32108,
+    "name": "Saradominist paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Saradominist paint"
+  },
+  {
+    "id": 32110,
+    "name": "Merchant's paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Merchant's paint"
+  },
+  {
+    "id": 32113,
+    "name": "Sandy paint",
+    "tabs": [
+      "Boat Paints"
+    ],
+    "wiki_page": "Sandy paint"
   },
   {
     "id": 32115,
@@ -13514,14 +13535,6 @@
       "Sailing Miscellaneous"
     ],
     "wiki_page": "Dragon cannon barrel"
-  },
-  {
-    "id": 31989,
-    "name": "Boat bottle (empty)",
-    "tabs": [
-      "Sailing Miscellaneous"
-    ],
-    "wiki_page": "Boat bottle#Empty"
   },
   {
     "id": 32388,
@@ -13596,6 +13609,86 @@
     "wiki_page": "Sailors' amulet#Inert"
   },
   {
+    "id": 32401,
+    "name": "Salvaging station schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Salvaging station schematic"
+  },
+  {
+    "id": 32402,
+    "name": "Gale catcher schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Gale catcher schematic"
+  },
+  {
+    "id": 32403,
+    "name": "Eternal brazier schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Eternal brazier schematic"
+  },
+  {
+    "id": 32404,
+    "name": "Dragon salvaging hook schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Dragon salvaging hook schematic"
+  },
+  {
+    "id": 32405,
+    "name": "Rosewood cargo hold schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Rosewood cargo hold schematic"
+  },
+  {
+    "id": 32406,
+    "name": "Dragon cannon schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Dragon cannon schematic"
+  },
+  {
+    "id": 32407,
+    "name": "Rosewood hull schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Rosewood hull schematic"
+  },
+  {
+    "id": 32408,
+    "name": "Rosewood & cotton sails schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Rosewood & cotton sails schematic"
+  },
+  {
+    "id": 32409,
+    "name": "Dragon helm schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Dragon helm schematic"
+  },
+  {
+    "id": 32410,
+    "name": "Dragon keel schematic",
+    "tabs": [
+      "Lost Schematics"
+    ],
+    "wiki_page": "Dragon keel schematic"
+  },
+  {
     "id": 32863,
     "name": "Rusty locket",
     "tabs": [
@@ -13668,77 +13761,12 @@
     "wiki_page": "Aquanite tendon"
   },
   {
-    "id": 31243,
-    "name": "Horn of plenty (empty)",
+    "id": 32921,
+    "name": "Jar of feathers",
     "tabs": [
-      "Slayer"
+      "Shellbane Gryphon"
     ],
-    "wiki_page": "Horn of plenty#Empty"
-  },
-  {
-    "id": 31408,
-    "name": "Giant blue krill",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Giant blue krill"
-  },
-  {
-    "id": 31412,
-    "name": "Golden haddock",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Golden haddock"
-  },
-  {
-    "id": 31416,
-    "name": "Orangefin",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Orangefin"
-  },
-  {
-    "id": 31420,
-    "name": "Huge halibut",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Huge halibut"
-  },
-  {
-    "id": 31424,
-    "name": "Purplefin",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Purplefin"
-  },
-  {
-    "id": 31428,
-    "name": "Swift marlin",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Swift marlin"
-  },
-  {
-    "id": 31572,
-    "name": "Squid beak",
-    "tabs": [
-      "Miscellaneous"
-    ],
-    "wiki_page": "Squid beak"
-  },
-  {
-    "id": 31283,
-    "name": "Soup",
-    "tabs": [
-      "Skilling Pets",
-      "All Pets"
-    ],
-    "wiki_page": "Soup"
+    "wiki_page": "Jar of feathers"
   },
   {
     "id": 33074,
@@ -13798,14 +13826,6 @@
     "wiki_page": "Ballistic attractor schematic"
   },
   {
-    "id": 33423,
-    "name": "Bosun's workbench schematic",
-    "tabs": [
-      "Lost Schematics"
-    ],
-    "wiki_page": "Bosun's workbench schematic"
-  },
-  {
     "id": 33382,
     "name": "Immaculate mole skin",
     "tabs": [
@@ -13814,13 +13834,12 @@
     "wiki_page": "Immaculate mole skin"
   },
   {
-    "id": 33642,
-    "name": "Maggot marquess",
+    "id": 33423,
+    "name": "Bosun's workbench schematic",
     "tabs": [
-      "Maggot King",
-      "All Pets"
+      "Lost Schematics"
     ],
-    "wiki_page": "Maggot marquess"
+    "wiki_page": "Bosun's workbench schematic"
   },
   {
     "id": 33631,
@@ -13839,19 +13858,28 @@
     "wiki_page": "Elder venator fang"
   },
   {
-    "id": 33663,
-    "name": "Venator tooth",
+    "id": 33642,
+    "name": "Maggot marquess",
     "tabs": [
-      "Venators"
+      "Maggot King",
+      "All Pets"
     ],
-    "wiki_page": "Venator tooth"
+    "wiki_page": "Maggot marquess"
   },
   {
     "id": 33661,
     "name": "Venator fang",
     "tabs": [
-      "Venators"
+      "Slayer"
     ],
     "wiki_page": "Venator fang"
+  },
+  {
+    "id": 33663,
+    "name": "Venator tooth",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Venator tooth"
   }
 ]
