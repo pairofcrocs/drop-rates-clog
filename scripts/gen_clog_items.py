@@ -29,7 +29,7 @@ Usage:
         --prev scripts/clog_items.json \
         --overrides scripts/clog_wiki_overrides.json
 """
-import argparse, base64, bz2, gzip, json, sys, time, urllib.parse, urllib.request
+import argparse, bz2, gzip, json, sys, time, urllib.parse, urllib.request
 
 UA = "clog-items-generator (+https://github.com/pairofcrocs/drop-rates-clog)"
 OPENRS2 = "https://archive.openrs2.org"
@@ -220,24 +220,32 @@ def fetch_group(cache_id, archive, group):
 
 
 # ── wiki page resolution ─────────────────────────────────────────────────────
-def resolve_wiki_page(item_id):
+def resolve_wiki_page(item_id, tries=3):
     """item id -> wiki page title (with any #anchor), via Special:Lookup's redirect.
-    Returns None if the wiki has no mapping for the id."""
+    Returns None if the wiki has no mapping for the id (it redirects to the site
+    root then). Retries transient network errors so a blip doesn't read as a miss."""
     url = f"{WIKI_LOOKUP}?type=item&id={item_id}"
-    try:
-        resp = http(url, method="HEAD")
-        final = resp.geturl()
-    except urllib.error.HTTPError as e:
-        final = e.headers.get("Location") if e.code in (301, 302) else None
-        if not final: return None
-    except urllib.error.URLError:
-        return None
+    final = None
+    for attempt in range(tries):
+        try:
+            resp = http(url, method="HEAD")
+            final = resp.geturl()
+            break
+        except urllib.error.HTTPError as e:
+            final = e.headers.get("Location") if e.code in (301, 302) else None
+            break
+        except urllib.error.URLError:
+            if attempt == tries - 1:
+                raise            # network problem, not a missing page — caller decides
+            time.sleep(2 * (attempt + 1))
     prefix = "/w/"
-    if prefix not in final:
+    if not final or prefix not in final:
         return None
-    title = final.split(prefix, 1)[1]
+    title = final.split(prefix, 1)[1].split("?", 1)[0]   # defensively drop any query
     title = urllib.parse.unquote(title).replace("_", " ")
-    return title or None
+    if not title or title.startswith("Special:"):        # search page etc., not an article
+        return None
+    return title
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
@@ -275,6 +283,12 @@ def main():
     ap.add_argument("--overrides", default="", help="JSON {id: wiki_page} manual overrides")
     ap.add_argument("--cache-id", type=int, default=0, help="force an OpenRS2 cache id")
     ap.add_argument("--sleep", type=float, default=0.3, help="delay between wiki lookups (s)")
+    ap.add_argument("--strict", action="store_true",
+                    help="exit 1 instead of writing output if any wiki lookup misses "
+                         "(for CI: a name-fallback wiki_page would otherwise be reused "
+                         "from --prev forever and silently mis-key the drop-rates scraper)")
+    ap.add_argument("--force", action="store_true",
+                    help="skip the shrink sanity check against --prev")
     args = ap.parse_args()
 
     if args.cache_id:
@@ -302,6 +316,12 @@ def main():
         except FileNotFoundError:
             pass
 
+    # Sanity: the walk shrinking sharply vs the committed file means the cache layout
+    # (or our hardcoded enum/param ids) changed, not that Jagex removed 20% of the log.
+    if prev_pages and not args.force and len(items) < 0.8 * len(prev_pages):
+        sys.exit(f"sanity: walked {len(items)} items but previous file has "
+                 f"{len(prev_pages)} — cache layout may have changed (--force to override)")
+
     looked_up = misses = 0
     out = []
     for iid in sorted(items):
@@ -315,13 +335,15 @@ def main():
             looked_up += 1
             if page is None:
                 misses += 1
-                page = rec["name"]  # fallback; flagged below
+                page = rec["name"]  # fallback; --strict refuses to persist this
                 print(f"  ! no wiki page for {iid} ({rec['name']}), using name", file=sys.stderr)
             if args.sleep:
                 time.sleep(args.sleep)
         out.append({"id": iid, "name": rec["name"], "tabs": rec["tabs"], "wiki_page": page})
 
     print(f"wiki lookups: {looked_up} ({misses} misses)", file=sys.stderr)
+    if args.strict and misses:
+        sys.exit(f"strict: {misses} wiki lookup miss(es) — not writing {args.out}")
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
         f.write("\n")

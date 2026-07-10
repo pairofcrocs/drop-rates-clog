@@ -40,12 +40,15 @@ jobs:
       - name: Generate clog_items.json from the cache
         # Seeds wiki_page from the committed file (preserves anchors, avoids re-hitting the
         # wiki) and only looks up genuinely new item ids. --prev is read fully before --out
-        # is written, so writing back to the same path is safe.
+        # is written, so writing back to the same path is safe. --strict fails the run on
+        # any wiki-lookup miss rather than PRing a guessed wiki_page (which --prev would
+        # then reuse forever, and scrape.py keys its drop-rate queries on wiki_page).
         run: |
           python scripts/gen_clog_items.py \
             --out       scripts/clog_items.json \
             --prev      scripts/clog_items.json \
-            --overrides scripts/clog_wiki_overrides.json
+            --overrides scripts/clog_wiki_overrides.json \
+            --strict
 
       - name: Detect changes
         id: diff
@@ -64,9 +67,11 @@ jobs:
           new=json.load(open("scripts/clog_items.json"))
           newids={i["id"] for i in new}
           nm={i["id"]:i["name"] for i in new}
+          om={i["id"]:i["name"] for i in json.load(open("/tmp/old.json"))}
           add=sorted(newids-old); rem=sorted(old-newids)
           print(f"### clog_items.json: +{len(add)} / -{len(rem)}\n")
           for i in add: print(f"- add `{i}` {nm[i]}")
+          for i in rem: print(f"- **remove** `{i}` {om[i]}")
           PY
           fi
 
@@ -81,9 +86,22 @@ jobs:
           git add scripts/clog_items.json
           git commit -m "data: rebuild clog_items.json from cache ($(date -u +%F))"
           git push -f origin "$BRANCH"
-          if ! gh pr view "$BRANCH" >/dev/null 2>&1; then
+          # gh pr view would match a CLOSED PR too, and a rejected auto-PR would then
+          # block every future one — only skip creation when an OPEN PR already exists.
+          if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
             gh pr create \
               --base master --head "$BRANCH" \
               --title "Rebuild clog_items.json from the game cache" \
               --body "Automated: regenerated \`scripts/clog_items.json\` from the newest OpenRS2 OSRS cache. Review the diff — cache-derived item ids can differ from the wiki list (e.g. real items vs collection-log display duplicates). See the run summary for added/removed ids. Merging feeds the new list to the drop-rates scraper."
           fi
+
+      - name: Open issue on failure
+        # Scheduled runs fail silently otherwise. Covers wiki-lookup misses (--strict),
+        # the shrink sanity check, and cache-format parse errors alike.
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "clog_items generator failed ($(date -u +%F))" \
+            --body "The cache-based clog_items.json rebuild failed — a wiki lookup missed (--strict), the sanity check tripped (item count shrank >20%), or the cache/OpenRS2 layout changed. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."

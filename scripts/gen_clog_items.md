@@ -43,22 +43,31 @@ python scripts/gen_clog_items.py \
 ```
 
 `--cache-id N` forces a specific OpenRS2 cache; otherwise the newest is used.
+`--strict` (used in CI) exits non-zero instead of writing output when any wiki
+lookup misses, so a transient wiki failure can't bake a guessed `wiki_page` into
+the file (`--prev` would then reuse it forever, and `scrape.py` keys its drop-rate
+queries on `wiki_page`). `--force` skips the sanity check that refuses to write
+when the walked item count shrinks more than 20% versus `--prev` (which would
+signal a cache-layout change, not a real content removal).
 
 ## Item-id caveat (`clog_wiki_overrides.json` and review)
 
 Some collection-log items exist in the cache under **two** ids: the real in-game
 item (which carries a bank `placeholderId`) and a stripped "display duplicate" Jagex
 created for the log UI. The cache's collection-log enum references the **real** item,
-so that is what this generator emits. Historically the wiki list used some display
-duplicates instead. If the plugin needs a specific id for a given item, pin it:
-
-```json
-{ "25617": "Tea flask" }
-```
+so that is what this generator emits (e.g. Tea flask `10859`, not the wiki list's
+historical `25617`).
 
 `clog_wiki_overrides.json` maps `itemId → wiki_page` and always wins over both the
-cache and the previous file. (It only overrides `wiki_page`; to force a different
-*item id* into the log, that belongs in the plugin's hover mapping, not here.)
+cache and the previous file — the id must be one the generator emits (the cache id).
+For example, to pin the page the Volcanic Mine prospector helmet resolves to:
+
+```json
+{ "29472": "Prospector helmet#Volcanic Mine" }
+```
+
+(It only overrides `wiki_page`; to force a different *item id* into the log, that
+belongs in the plugin's hover mapping, not here.)
 
 This is why the CI workflow opens a **pull request** rather than committing to
 `master`: the first rebuild may swap a handful of ids, and that deserves a glance.
