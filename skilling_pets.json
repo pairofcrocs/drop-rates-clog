@@ -413,7 +413,7 @@
         "rarity": "1/120000"
       },
       {
-        "method": "Port tasks (notice board",
+        "method": "Port tasks (notice board)",
         "level": 1,
         "rarity": "1/6000 to 1/3150 (scales by task level)"
       },
@@ -562,7 +562,7 @@
         "baseChance": 257211
       },
       {
-        "method": "Pickpocketing - Bandit (Pollnivneach, bearded",
+        "method": "Pickpocketing - Bandit (Pollnivneach, bearded)",
         "baseChance": 257211
       },
       {
@@ -570,7 +570,7 @@
         "baseChance": 257211
       },
       {
-        "method": "Pickpocketing - Bandit (Bandit Camp",
+        "method": "Pickpocketing - Bandit (Bandit Camp)",
         "baseChance": 257211
       },
       {
@@ -578,7 +578,7 @@
         "baseChance": 257211
       },
       {
-        "method": "Pickpocketing - Bandit (Pollnivneach, no beard",
+        "method": "Pickpocketing - Bandit (Pollnivneach, no beard)",
         "baseChance": 257211
       },
       {
@@ -650,7 +650,7 @@
         "baseChance": 68926
       },
       {
-        "method": "Stall - Market (wine",
+        "method": "Stall - Market (wine)",
         "baseChance": 36490
       },
       {
@@ -698,35 +698,35 @@
         "baseChance": 36490
       },
       {
-        "method": "PP - Grand Gold Chest (Room 1",
+        "method": "PP - Grand Gold Chest (Room 1)",
         "baseChance": 41355
       },
       {
-        "method": "PP - Grand Gold Chest (Room 2",
+        "method": "PP - Grand Gold Chest (Room 2)",
         "baseChance": 29540
       },
       {
-        "method": "PP - Grand Gold Chest (Room 3",
+        "method": "PP - Grand Gold Chest (Room 3)",
         "baseChance": 25847
       },
       {
-        "method": "PP - Grand Gold Chest (Room 4",
+        "method": "PP - Grand Gold Chest (Room 4)",
         "baseChance": 20678
       },
       {
-        "method": "PP - Grand Gold Chest (Room 5",
+        "method": "PP - Grand Gold Chest (Room 5)",
         "baseChance": 20678
       },
       {
-        "method": "PP - Grand Gold Chest (Room 6",
+        "method": "PP - Grand Gold Chest (Room 6)",
         "baseChance": 20678
       },
       {
-        "method": "PP - Grand Gold Chest (Room 7",
+        "method": "PP - Grand Gold Chest (Room 7)",
         "baseChance": 10339
       },
       {
-        "method": "PP - Grand Gold Chest (Room 8",
+        "method": "PP - Grand Gold Chest (Room 8)",
         "baseChance": 6893
       },
       {
@@ -852,7 +852,7 @@
     "skill": "Runecraft",
     "sources": [
       {
-        "method": "Blood runes (Arceuus",
+        "method": "Blood runes (Arceuus)",
         "baseChance": 804984
       },
       {
@@ -860,7 +860,7 @@
         "baseChance": 782999
       },
       {
-        "method": "Ourania Altar (ZMI",
+        "method": "Ourania Altar (ZMI)",
         "baseChance": 1487213
       },
       {
@@ -1116,11 +1116,11 @@
         "baseChance": 9901
       },
       {
-        "method": "Dorgesh-Kaan (Agility route",
+        "method": "Dorgesh-Kaan (Agility route)",
         "baseChance": 10561
       },
       {
-        "method": "Dorgesh-Kaan (Grapple route",
+        "method": "Dorgesh-Kaan (Grapple route)",
         "baseChance": 10561
       },
       {
@@ -1132,7 +1132,7 @@
         "baseChance": 25146
       },
       {
-        "method": "Colossal Wyrm Remains (advanced",
+        "method": "Colossal Wyrm Remains (advanced)",
         "baseChance": 25406
       },
       {
@@ -1148,11 +1148,11 @@
         "baseChance": 26806
       },
       {
-        "method": "Colossal Wyrm Remains (basic",
+        "method": "Colossal Wyrm Remains (basic)",
         "baseChance": 28503
       },
       {
-        "method": "Shayzien (advanced",
+        "method": "Shayzien (advanced)",
         "baseChance": 29738
       },
       {
@@ -1160,7 +1160,7 @@
         "baseChance": 31063
       },
       {
-        "method": "Shayzien (basic",
+        "method": "Shayzien (basic)",
         "baseChance": 31804
       },
       {
