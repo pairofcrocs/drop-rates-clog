@@ -117,6 +117,19 @@ public interface DropRatesClogConfig extends Config
         return false;
     }
 
+    @ConfigItem(
+        keyName = "showSlayerRates",
+        name = "Show Slayer task rates",
+        description = "Annotate drops whose rate improves on a Slayer task, and tag sources "
+            + "(superior monsters) that only appear while on one",
+        section = dropRatesSection,
+        position = 6
+    )
+    default boolean showSlayerRates()
+    {
+        return true;
+    }
+
     // --- Skilling Pet Chances section ---
 
     @ConfigItem(
@@ -209,6 +222,19 @@ public interface DropRatesClogConfig extends Config
     default Color sourceColor()
     {
         return Color.WHITE;
+    }
+
+    @Alpha
+    @ConfigItem(
+        keyName = "taskColor",
+        name = "Slayer task color",
+        description = "On-task rate annotations and \"(task)\" tags",
+        section = uiSection,
+        position = 4
+    )
+    default Color taskColor()
+    {
+        return new Color(0x00BC00);
     }
 
     // --- General (unsectioned, render below the four sections) ---

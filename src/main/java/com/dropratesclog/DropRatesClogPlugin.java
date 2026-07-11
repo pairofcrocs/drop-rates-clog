@@ -84,6 +84,7 @@ public class DropRatesClogPlugin extends Plugin
     // Keys are item IDs (as strings, since the JSON files use string keys for cross-language
     // portability); the plugin uses Integer-keyed views via parseInt at lookup time.
     private volatile Map<Integer, List<DropEntry>> dropRates       = Collections.emptyMap();
+    private volatile Map<Integer, List<DropEntry>> slayerRates     = Collections.emptyMap();
     private volatile Map<Integer, AcquirableItem>  acquirables     = Collections.emptyMap();
     private volatile Map<Integer, SkillingPet>     skillingPets    = Collections.emptyMap();
     private volatile Map<String, Set<String>>      popularMethods  = Collections.emptyMap();
@@ -184,6 +185,12 @@ public class DropRatesClogPlugin extends Plugin
         fetchData("drop_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
             (Map<String, List<DropEntry>> data) -> dropRates = idMap(data));
+
+        // On-Slayer-task rates. Network-only (no bundled copy yet) — the file is new and small,
+        // and until the fetch lands the tooltip simply renders without task annotations.
+        fetchData("slayer_rates.json",
+            new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
+            (Map<String, List<DropEntry>> data) -> slayerRates = idMap(data));
 
         fetchData("buyable.json",
             new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
@@ -401,29 +408,145 @@ public class DropRatesClogPlugin extends Plugin
         return out.toString();
     }
 
+    /** How one drop line relates to the on-task data: the annotation to render. */
+    private static final class TaskNote
+    {
+        String       rateOnTask;  // config-formatted better rate, e.g. "1/1,000" — null if none
+        boolean      wholeLine;   // every source on the line is task-only → one " (task)" suffix
+        List<String> sources;     // source list with per-source tags applied (partial lines)
+    }
+
+    /**
+     * Work out the on-task annotation for one drop line. Three shapes, matching the data:
+     *  - every source has the same better on-task rate  → append "(X on task)" after the rate
+     *    (dual-rate drops: Tzrek-jad, Basilisk jaw, …)
+     *  - every source is task-only at the same rate     → append " (task)" after the sources
+     *    (superior-monster lines: Imbued heart, superiors' whip rolls, …)
+     *  - a mix (a monster and its superior grouped on one line, e.g. Kurask + King kurask)
+     *    → tag just the on-task sources individually.
+     */
+    private TaskNote taskNoteFor(DropEntry entry, Map<String, DropEntry> taskBySource, Set<String> matched)
+    {
+        TaskNote note = new TaskNote();
+        note.sources = entry.sources;
+        if (taskBySource.isEmpty() || entry.sources == null || entry.sources.isEmpty()) return note;
+
+        int equal = 0, diff = 0;
+        DropEntry diffEntry = null;
+        boolean diffSame = true;
+        for (String s : entry.sources)
+        {
+            DropEntry t = taskBySource.get(s);
+            if (t == null) continue;
+            matched.add(s);
+            if (t.rate != null && t.rate.equals(entry.rate)) equal++;
+            else
+            {
+                diff++;
+                if (diffEntry == null) diffEntry = t;
+                else if (t.rate == null || !t.rate.equals(diffEntry.rate)) diffSame = false;
+            }
+        }
+        int n = entry.sources.size();
+        if (diff == n && diffSame)
+        {
+            note.rateOnTask = diffEntry.displayRate(config);
+        }
+        else if (equal == n)
+        {
+            note.wholeLine = true;
+        }
+        else if (equal + diff > 0)
+        {
+            List<String> tagged = new ArrayList<>(n);
+            for (String s : entry.sources)
+            {
+                DropEntry t = taskBySource.get(s);
+                if (t == null) tagged.add(s);
+                else if (t.rate != null && t.rate.equals(entry.rate)) tagged.add(s + " (task)");
+                else tagged.add(s + " (" + t.displayRate(config) + " on task)");
+            }
+            note.sources = tagged;
+        }
+        return note;
+    }
+
     private String buildDropSection()
     {
         List<DropEntry> groups = dropRates.get(hoveredItemId);
-        if (groups == null || groups.isEmpty()) return null;
+        List<DropEntry> taskGroups = config.showSlayerRates() ? slayerRates.get(hoveredItemId) : null;
+        boolean haveDrops = groups != null && !groups.isEmpty();
+        boolean haveTask  = taskGroups != null && !taskGroups.isEmpty();
+        if (!haveDrops && !haveTask) return null;
+        if (!haveDrops) groups = Collections.emptyList();
+
+        // source name → its on-task entry, for rate comparison + config-formatted display
+        Map<String, DropEntry> taskBySource = new HashMap<>();
+        if (haveTask)
+        {
+            for (DropEntry t : taskGroups)
+            {
+                if (t.sources == null) continue;
+                for (String s : t.sources) taskBySource.put(s, t);
+            }
+        }
+
+        // Pre-pass over ALL lines (not just the ones the cap will render) so every task source
+        // that appears somewhere in the drop list counts as matched — a source hidden behind
+        // "…and N more" must not resurface as a duplicate task-only line below.
+        Set<String> matched = new HashSet<>();
+        List<TaskNote> notes = new ArrayList<>(groups.size());
+        for (DropEntry entry : groups) notes.add(taskNoteFor(entry, taskBySource, matched));
+
+        // Task entries with sources that never appeared above become their own lines (an item
+        // whose only source is on-task, or task data drop_rates doesn't carry).
+        List<DropEntry> extraTask = new ArrayList<>();
+        if (haveTask)
+        {
+            for (DropEntry t : taskGroups)
+            {
+                if (t.sources == null) continue;
+                List<String> left = new ArrayList<>();
+                for (String s : t.sources) if (!matched.contains(s)) left.add(s);
+                if (left.isEmpty()) continue;
+                DropEntry copy = new DropEntry();
+                copy.kind = t.kind; copy.rate = t.rate; copy.approx = t.approx; copy.sources = left;
+                extraTask.add(copy);
+            }
+        }
 
         int maxGroups = config.maxSources();
         String headerCol = toHex(config.headerColor());
         String itemCol   = toHex(config.itemNameColor());
         String rateCol   = toHex(config.rateColor());
         String srcCol    = toHex(config.sourceColor());
+        String taskCol   = toHex(config.taskColor());
         StringBuilder sb = new StringBuilder("<col=").append(headerCol).append(">Drop Rate: </col>")
             .append("<col=").append(itemCol).append(">").append(hoveredItem).append("</col>");
 
-        for (int i = 0; i < groups.size(); i++)
+        int total = groups.size() + extraTask.size();
+        for (int i = 0; i < total; i++)
         {
             if (maxGroups > 0 && i >= maxGroups)
             {
-                sb.append("<br><col=").append(MORE_COLOR).append(">…and ").append(groups.size() - i).append(" more</col>");
+                sb.append("<br><col=").append(MORE_COLOR).append(">…and ").append(total - i).append(" more</col>");
                 break;
             }
-            DropEntry entry = groups.get(i);
-            sb.append("<br><col=").append(rateCol).append(">").append(formatDetail(entry.displayRate(config))).append("</col>: ");
-            appendSources(sb, entry.sources, srcCol);
+            boolean extra = i >= groups.size();
+            DropEntry entry = extra ? extraTask.get(i - groups.size()) : groups.get(i);
+            TaskNote note = extra ? null : notes.get(i);
+
+            sb.append("<br><col=").append(rateCol).append(">").append(formatDetail(entry.displayRate(config))).append("</col>");
+            if (note != null && note.rateOnTask != null)
+            {
+                sb.append("<col=").append(taskCol).append("> (").append(formatDetail(note.rateOnTask)).append(" on task)</col>");
+            }
+            sb.append(": ");
+            appendSources(sb, note != null ? note.sources : entry.sources, srcCol);
+            if (extra || (note != null && note.wholeLine))
+            {
+                sb.append("<col=").append(taskCol).append("> (task)</col>");
+            }
         }
 
         return sb.toString();
