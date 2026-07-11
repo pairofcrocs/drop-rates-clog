@@ -1,1 +1,2034 @@
-{}
+{
+  "10976": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/400",
+      "sources": [
+        "Night beast",
+        "Cave abomination",
+        "Basilisk Sentinel",
+        "Mutated Tortoise"
+      ]
+    }
+  ],
+  "10977": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5,012.5",
+      "sources": [
+        "Night beast",
+        "Cave abomination",
+        "Basilisk Sentinel",
+        "Mutated Tortoise"
+      ]
+    }
+  ],
+  "11235": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Night beast"
+      ]
+    }
+  ],
+  "11902": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/384",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/500",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    }
+  ],
+  "11942": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/60",
+      "sources": [
+        "Flaming pyrelord"
+      ]
+    }
+  ],
+  "12002": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    }
+  ],
+  "1249": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/10,817.03",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/14,422.71",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/14,726.54",
+      "sources": [
+        "Insatiable mutated Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/19,796.13",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/21,845.33",
+      "sources": [
+        "Repugnant spectre"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/31,430.19",
+      "sources": [
+        "Nechryarch (Normal)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/35,498.67",
+      "sources": [
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/87,381.33",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/112,867.56",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/116,508.44",
+      "sources": [
+        "Giant rockslug",
+        "Mutated Terrorbird"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/139,810.13",
+      "sources": [
+        "Abhorrent spectre",
+        "Marble gargoyle",
+        "Cave abomination",
+        "Monstrous basilisk",
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/174,762.67",
+      "sources": [
+        "Vitreous Jelly",
+        "Insatiable Bloodveld",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/233,016.89",
+      "sources": [
+        "Flaming pyrelord",
+        "Nechryarch (Greater)",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/116,508.44",
+      "sources": [
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/349,525.33",
+      "sources": [
+        "Screaming banshee",
+        "Crushing hand",
+        "Cockathrice",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/415,061.33",
+      "sources": [
+        "Shadow Wyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/507,904",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/699,050.67",
+      "sources": [
+        "Chasm Crawler",
+        "Colossal Hydra",
+        "Dire gryphon"
+      ]
+    }
+  ],
+  "13225": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/100",
+      "sources": [
+        "TzTok-Jad"
+      ]
+    }
+  ],
+  "13265": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/32,000",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    }
+  ],
+  "19677": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/66",
+      "sources": [
+        "Greater abyssal demon",
+        "Insatiable mutated Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/73",
+      "sources": [
+        "Repugnant spectre"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/120",
+      "sources": [
+        "Nechryarch (Greater)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/133",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/186",
+      "sources": [
+        "Vitreous Warped Jelly",
+        "Screaming twisted banshee"
+      ]
+    }
+  ],
+  "19679": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Greater abyssal demon",
+        "Choke devil",
+        "Nechryarch (Greater)",
+        "Repugnant spectre",
+        "Insatiable mutated Bloodveld",
+        "Vitreous Warped Jelly",
+        "Screaming twisted banshee"
+      ]
+    }
+  ],
+  "19681": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Greater abyssal demon",
+        "Choke devil",
+        "Nechryarch (Greater)",
+        "Repugnant spectre",
+        "Insatiable mutated Bloodveld",
+        "Vitreous Warped Jelly",
+        "Screaming twisted banshee"
+      ]
+    }
+  ],
+  "19683": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Greater abyssal demon",
+        "Choke devil",
+        "Nechryarch (Greater)",
+        "Repugnant spectre",
+        "Insatiable mutated Bloodveld",
+        "Vitreous Warped Jelly",
+        "Screaming twisted banshee"
+      ]
+    }
+  ],
+  "20724": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/160",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/200",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/224",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/352",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/368",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/440",
+      "sources": [
+        "Nechryarch (Normal)",
+        "Nechryarch (Greater)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/520",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/600",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/680",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/728",
+      "sources": [
+        "Shadow Wyrm",
+        "Magma strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/760",
+      "sources": [
+        "Abhorrent spectre",
+        "Repugnant spectre",
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/784",
+      "sources": [
+        "Cave abomination"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/816",
+      "sources": [
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/832",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/872",
+      "sources": [
+        "Vitreous Jelly",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/888",
+      "sources": [
+        "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/896",
+      "sources": [
+        "Insatiable mutated Bloodveld",
+        "Insatiable Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/960",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,024",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,144",
+      "sources": [
+        "Flaming pyrelord",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,192",
+      "sources": [
+        "Cockathrice"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,240",
+      "sources": [
+        "Giant rockslug"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,288",
+      "sources": [
+        "Screaming banshee",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,336",
+      "sources": [
+        "Chasm Crawler"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,376",
+      "sources": [
+        "Crushing hand"
+      ]
+    }
+  ],
+  "20727": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/1,026",
+      "sources": [
+        "King kurask"
+      ]
+    }
+  ],
+  "20730": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/46",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/57",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/73",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/101",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/105",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/126",
+      "sources": [
+        "Nechryarch (Normal)",
+        "Nechryarch (Greater)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/149",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/171",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/194",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/208",
+      "sources": [
+        "Shadow Wyrm",
+        "Magma strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/217",
+      "sources": [
+        "Abhorrent spectre",
+        "Repugnant spectre",
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/224",
+      "sources": [
+        "Cave abomination"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/233",
+      "sources": [
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/238",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/249",
+      "sources": [
+        "Vitreous Jelly",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/254",
+      "sources": [
+        "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256",
+      "sources": [
+        "Insatiable mutated Bloodveld",
+        "Insatiable Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/274",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/293",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/327",
+      "sources": [
+        "Flaming pyrelord",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/341",
+      "sources": [
+        "Cockathrice"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/354",
+      "sources": [
+        "Giant rockslug"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/368",
+      "sources": [
+        "Screaming banshee",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/382",
+      "sources": [
+        "Chasm Crawler"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/393",
+      "sources": [
+        "Crushing hand"
+      ]
+    }
+  ],
+  "20736": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/46",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/57",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/73",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/101",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/105",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/126",
+      "sources": [
+        "Nechryarch (Normal)",
+        "Nechryarch (Greater)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/149",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/171",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/194",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/208",
+      "sources": [
+        "Shadow Wyrm",
+        "Magma strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/217",
+      "sources": [
+        "Abhorrent spectre",
+        "Repugnant spectre",
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/224",
+      "sources": [
+        "Cave abomination"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/233",
+      "sources": [
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/238",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/249",
+      "sources": [
+        "Vitreous Jelly",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/254",
+      "sources": [
+        "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256",
+      "sources": [
+        "Insatiable mutated Bloodveld",
+        "Insatiable Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/274",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/293",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/327",
+      "sources": [
+        "Flaming pyrelord",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/341",
+      "sources": [
+        "Cockathrice"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/354",
+      "sources": [
+        "Giant rockslug"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/368",
+      "sources": [
+        "Screaming banshee",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/382",
+      "sources": [
+        "Chasm Crawler"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/393",
+      "sources": [
+        "Crushing hand"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/4,000",
+      "sources": [
+        "Choke devil"
+      ]
+    }
+  ],
+  "20849": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/2,000",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Drake",
+        "Shadow Wyrm",
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "21009": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Wyrm",
+        "Shadow Wyrm"
+      ]
+    }
+  ],
+  "21028": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Shadow Wyrm"
+      ]
+    }
+  ],
+  "21270": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/160",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/200",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/224",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/352",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/368",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/440",
+      "sources": [
+        "Nechryarch (Normal)",
+        "Nechryarch (Greater)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/520",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/600",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/680",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/728",
+      "sources": [
+        "Shadow Wyrm",
+        "Magma strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/760",
+      "sources": [
+        "Abhorrent spectre",
+        "Repugnant spectre",
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/784",
+      "sources": [
+        "Cave abomination"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/816",
+      "sources": [
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/832",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/872",
+      "sources": [
+        "Vitreous Jelly",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/888",
+      "sources": [
+        "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/896",
+      "sources": [
+        "Insatiable mutated Bloodveld",
+        "Insatiable Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/960",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,024",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,144",
+      "sources": [
+        "Flaming pyrelord",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,192",
+      "sources": [
+        "Cockathrice"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,240",
+      "sources": [
+        "Giant rockslug"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,288",
+      "sources": [
+        "Screaming banshee",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,336",
+      "sources": [
+        "Chasm Crawler"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,376",
+      "sources": [
+        "Crushing hand"
+      ]
+    }
+  ],
+  "21291": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/75",
+      "sources": [
+        "TzKal-Zuk"
+      ]
+    }
+  ],
+  "22374": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/8",
+      "sources": [
+        "Bryophyta (Members)",
+        "Bryophyta (Free-to-play)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/40",
+      "sources": [
+        "Moss Giant (Iorwerth Dungeon)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/75",
+      "sources": [
+        "Moss giant (Regular)"
+      ]
+    }
+  ],
+  "22804": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/2,000",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Shadow Wyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,001",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "22957": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Guardian Drake"
+      ]
+    }
+  ],
+  "22960": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/512",
+      "sources": [
+        "Drake"
+      ]
+    }
+  ],
+  "22969": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/360.72",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "22971": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/360.72",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "22973": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/360.72",
+      "sources": [
+        "Hydra",
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "22988": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,001",
+      "sources": [
+        "Colossal Hydra"
+      ]
+    }
+  ],
+  "2366": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/8,112.77",
+      "sources": [
+        "Nuclear smoke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/10,817.03",
+      "sources": [
+        "Night beast"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/11,044.91",
+      "sources": [
+        "Insatiable mutated Bloodveld"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/14,847.09",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/16,384",
+      "sources": [
+        "Repugnant spectre"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/23,572.64",
+      "sources": [
+        "Nechryarch (Normal)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/26,624",
+      "sources": [
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/65,536",
+      "sources": [
+        "Choke devil"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/84,650.67",
+      "sources": [
+        "King kurask"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/87,381.33",
+      "sources": [
+        "Giant rockslug",
+        "Mutated Terrorbird"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/104,857.6",
+      "sources": [
+        "Abhorrent spectre",
+        "Marble gargoyle",
+        "Cave abomination",
+        "Monstrous basilisk",
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/131,072",
+      "sources": [
+        "Vitreous Jelly",
+        "Insatiable Bloodveld",
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/174,762.67",
+      "sources": [
+        "Flaming pyrelord",
+        "Nechryarch (Greater)",
+        "Infernal pyrelord"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/87,381.33",
+      "sources": [
+        "Mutated Tortoise"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/262,144",
+      "sources": [
+        "Screaming banshee",
+        "Crushing hand",
+        "Cockathrice",
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/311,296",
+      "sources": [
+        "Shadow Wyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/380,928",
+      "sources": [
+        "Guardian Drake"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/524,288",
+      "sources": [
+        "Chasm Crawler",
+        "Colossal Hydra",
+        "Dire gryphon"
+      ]
+    }
+  ],
+  "24268": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Basilisk Knight",
+        "Basilisk Sentinel"
+      ]
+    }
+  ],
+  "28583": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/320",
+      "sources": [
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
+      ]
+    }
+  ],
+  "29784": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 5/127",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    }
+  ],
+  "29788": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/2,000",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    }
+  ],
+  "29806": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/400",
+      "sources": [
+        "Dreadborn Araxyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/800",
+      "sources": [
+        "Araxyte (Level 146)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,600",
+      "sources": [
+        "Araxyte (Level 96)"
+      ]
+    }
+  ],
+  "31235": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 17/128",
+      "sources": [
+        "Dire gryphon"
+      ]
+    }
+  ],
+  "31243": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Gryphon",
+        "Dire gryphon"
+      ]
+    }
+  ],
+  "3140": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/32,768",
+      "sources": [
+        "Choke devil",
+        "Nuclear smoke devil"
+      ]
+    }
+  ],
+  "31996": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/45",
+      "sources": [
+        "Magma strykewyrm"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/40",
+      "sources": [
+        "Frost dragon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/45",
+      "sources": [
+        "Lava Strykewyrm"
+      ]
+    }
+  ],
+  "32876": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/750",
+      "sources": [
+        "Aquanite"
+      ]
+    }
+  ],
+  "4099": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    }
+  ],
+  "4101": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    }
+  ],
+  "4103": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Abhorrent spectre"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/512",
+      "sources": [
+        "Repugnant spectre"
+      ]
+    }
+  ],
+  "4105": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/256",
+      "sources": [
+        "Screaming twisted banshee"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Screaming banshee"
+      ]
+    }
+  ],
+  "4107": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    }
+  ],
+  "4109": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256",
+      "sources": [
+        "Basilisk Sentinel"
+      ]
+    }
+  ],
+  "4111": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "King kurask"
+      ]
+    }
+  ],
+  "4113": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    }
+  ],
+  "4115": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Giant rockslug"
+      ]
+    }
+  ],
+  "4117": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Cockathrice"
+      ]
+    }
+  ],
+  "4119": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Chasm Crawler"
+      ]
+    }
+  ],
+  "4121": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Cockathrice"
+      ]
+    }
+  ],
+  "4123": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Flaming pyrelord",
+        "Infernal pyrelord"
+      ]
+    }
+  ],
+  "4125": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Insatiable mutated Bloodveld",
+        "Insatiable Bloodveld"
+      ]
+    }
+  ],
+  "4127": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 2/128",
+      "sources": [
+        "Vitreous Warped Jelly",
+        "Vitreous Chilled Jelly"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Vitreous Jelly"
+      ]
+    }
+  ],
+  "4129": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    }
+  ],
+  "4131": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/116",
+      "sources": [
+        "Nechryarch (Normal)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Nechryarch (Greater)"
+      ]
+    }
+  ],
+  "4151": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    }
+  ],
+  "4153": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/256",
+      "sources": [
+        "Marble gargoyle"
+      ]
+    }
+  ],
+  "7975": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/500",
+      "sources": [
+        "Crushing hand"
+      ]
+    }
+  ],
+  "7976": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Cockathrice"
+      ]
+    }
+  ],
+  "7977": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Basilisk Sentinel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Monstrous basilisk"
+      ]
+    }
+  ],
+  "7978": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/3,000",
+      "sources": [
+        "King kurask"
+      ]
+    }
+  ],
+  "7979": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/6,000",
+      "sources": [
+        "Greater abyssal demon"
+      ]
+    }
+  ],
+  "8901": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/512",
+      "sources": [
+        "Cave abomination"
+      ]
+    }
+  ]
+}
