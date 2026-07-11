@@ -32,6 +32,9 @@ env:
   # Copy bundled into the plugin jar as the offline/startup fallback.
   BUNDLED_FILE: src/main/resources/com/dropratesclog/drop_rates.json
   SCRAPE_OUT: drop_rates.json.new
+  # On-Slayer-task rates, generated from the same scrape pass (see scrape.py docstring).
+  SLAYER_FILE: slayer_rates.json
+  SLAYER_OUT: slayer_rates.json.new
 
 jobs:
   update:
@@ -51,14 +54,18 @@ jobs:
       - name: Fetch current live data
         run: |
           git fetch origin "$DATA_BRANCH"
-          # The currently-published file on the data branch, or empty if the branch
-          # doesn't have it yet (first run / fresh branch).
+          # The currently-published files on the data branch, or empty if the branch
+          # doesn't have them yet (first run / fresh branch).
           git show "origin/${DATA_BRANCH}:${DATA_FILE}" > drop_rates.json.cur 2>/dev/null || : > drop_rates.json.cur
+          git show "origin/${DATA_BRANCH}:${SLAYER_FILE}" > slayer_rates.json.cur 2>/dev/null || : > slayer_rates.json.cur
 
       - name: Run scraper
         # --merge-prev carries over any item that transiently failed to scrape this run, so a
-        # single flaky wiki query can never silently delete an item's drop data.
-        run: python scripts/scrape.py --out "$SCRAPE_OUT" --merge-prev drop_rates.json.cur
+        # single flaky wiki query can never silently delete an item's drop data. The slayer
+        # pass reuses the same dropsline rows, so this stays a single wiki sweep.
+        run: |
+          python scripts/scrape.py --out "$SCRAPE_OUT" --merge-prev drop_rates.json.cur \
+            --slayer-out "$SLAYER_OUT" --slayer-merge-prev slayer_rates.json.cur
 
       - name: Sanity check
         id: sanity
@@ -78,7 +85,7 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
-          if cmp -s drop_rates.json.cur "$SCRAPE_OUT"; then
+          if cmp -s drop_rates.json.cur "$SCRAPE_OUT" && cmp -s slayer_rates.json.cur "$SLAYER_OUT"; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes."
           else
@@ -93,11 +100,12 @@ jobs:
           # plugin's working tree don't collide with the data branch's contents.
           git worktree add -B "$DATA_BRANCH" data-wt "origin/${DATA_BRANCH}"
           cp "$SCRAPE_OUT" "data-wt/${DATA_FILE}"
+          cp "$SLAYER_OUT" "data-wt/${SLAYER_FILE}"
 
           cd data-wt
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$DATA_FILE"
+          git add "$DATA_FILE" "$SLAYER_FILE"
           git commit -m "Update drop rates from wiki ($(date -u +%F))"
           git push origin "$DATA_BRANCH"
 

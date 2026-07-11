@@ -19,6 +19,15 @@ matching is needed between in-game and wiki names.
 Run (after scrape_clog_items.py has produced clog_items.json):
   pip install requests
   python scripts/scrape.py --out src/main/resources/com/dropratesclog/drop_rates.json
+
+Optionally also emits slayer_rates.json (--slayer-out): the on-Slayer-task rates,
+built from the SAME dropsline rows this scrape already fetches. Two sources:
+  - rows whose monster is a superior (Slayer task page, Superior column): superiors
+    only spawn on task, so their drops are inherently on-task (Imbued heart, …).
+  - rows carrying an "Alt Rarity" whose {{DropsLine}} wikitext mentions a slayer
+    task (e.g. Tzrek-jad 1/200 base, 1/100 on a TzHaar task). altrarity is a
+    generic second-rarity field on the wiki, so each use is confirmed against the
+    monster page's wikitext before it is trusted; unconfirmed alts are logged.
 """
 
 from __future__ import annotations
@@ -188,6 +197,133 @@ def group_drops(drops: list[dict]) -> list[dict]:
     return result
 
 
+# --- on-Slayer-task rates (slayer_rates.json) ----------------------------------------
+
+SLAYER_TASK_PAGE = "Slayer task"
+_SLAYER_NOTE_RX = re.compile(r"slayer task|on[- ]task", re.IGNORECASE)
+
+
+def fetch_superiors() -> set[str]:
+    """Monster page titles from the Superior column of the Slayer task assignment
+    table. Superiors only spawn while on a task, so every drop row sourced from
+    one is an on-task rate by definition."""
+    params = {"action": "parse", "page": SLAYER_TASK_PAGE, "prop": "wikitext",
+              "format": "json", "redirects": 1}
+    resp = requests.get(API, params=params, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    wikitext = resp.json().get("parse", {}).get("wikitext", {}).get("*", "")
+
+    superiors: set[str] = set()
+    # The assignments table has one header cell per column; find the Superior
+    # column's position, then read that cell out of every row.
+    for table in re.findall(r"\{\|.*?\|\}", wikitext, re.DOTALL):
+        headers = [h.strip() for h in re.findall(r"^!\s*(.+?)\s*$", table, re.MULTILINE)]
+        sup_idx = next((i for i, h in enumerate(headers) if "Superior" in h), None)
+        if sup_idx is None:
+            continue
+        for row in table.split("|-")[1:]:
+            cells = [l for l in row.splitlines() if l.startswith("|") and not l.startswith("|}")]
+            if sup_idx < len(cells):
+                for target in re.findall(r"\[\[([^\]|#]+)", cells[sup_idx]):
+                    superiors.add(target.replace("_", " ").strip())
+    return superiors
+
+
+_wikitext_cache: dict[str, str] = {}
+
+
+def page_wikitext(page: str) -> str:
+    """Fetch (and cache) a page's raw wikitext; empty string on any failure."""
+    if page not in _wikitext_cache:
+        params = {"action": "parse", "page": page, "prop": "wikitext",
+                  "format": "json", "redirects": 1}
+        try:
+            resp = requests.get(API, params=params, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            _wikitext_cache[page] = resp.json().get("parse", {}).get("wikitext", {}).get("*", "")
+        except Exception:
+            _wikitext_cache[page] = ""
+        time.sleep(REQUEST_DELAY)
+    return _wikitext_cache[page]
+
+
+def _dropsline_blobs(wikitext: str, item_name: str) -> list[str]:
+    """Every {{DropsLine ...}} template in `wikitext` whose name= is `item_name`,
+    extracted with brace counting (raritynotes nest {{efn}}/{{CiteTwitter}} etc.,
+    which defeats a lazy regex)."""
+    blobs, i = [], 0
+    name_rx = re.compile(r"\|\s*name\s*=\s*" + re.escape(item_name) + r"\s*[|}]", re.IGNORECASE)
+    while True:
+        j = wikitext.find("{{DropsLine", i)
+        if j < 0:
+            break
+        depth, k = 0, j
+        while k < len(wikitext) - 1:
+            pair = wikitext[k:k + 2]
+            if pair == "{{":
+                depth += 1; k += 2
+            elif pair == "}}":
+                depth -= 1; k += 2
+                if depth == 0:
+                    break
+            else:
+                k += 1
+        blob = wikitext[j:k]
+        if name_rx.search(blob):
+            blobs.append(blob)
+        i = k
+    return blobs
+
+
+def alt_rate_key(drop: dict) -> str:
+    """rate_key, but for the row's Alt Rarity."""
+    alt = (drop.get("Alt Rarity") or "").strip()
+    if not alt:
+        return ""
+    try:
+        rolls = int(drop.get("Rolls", 1))
+    except (TypeError, ValueError):
+        rolls = 1
+    return f"{rolls} × {alt}" if rolls > 1 else alt
+
+
+def slayer_entries(raw_rows: list[dict], superiors: set[str]) -> list[dict]:
+    """Build the on-task entry list for one item from its raw dropsline rows.
+
+    Superior-sourced rows keep their base rate (it IS the on-task rate). Rows with
+    an Alt Rarity contribute the alt rate, but only after the monster page's
+    {{DropsLine}} wikitext confirms the alt is slayer-conditioned — altrarity is
+    also used for unrelated conditions (e.g. Ring of wealth (i) clue rates)."""
+    on_task: list[dict] = []
+    for row in raw_rows:
+        source = (row.get("Dropped from") or "").strip()
+        if not source:
+            continue
+        base_page = source.split("#", 1)[0].replace("_", " ")
+
+        if base_page in superiors and is_drop_rate(rate_key(row)):
+            on_task.append(row)
+            continue
+
+        alt = alt_rate_key(row)
+        if not is_drop_rate(alt):
+            continue
+        item = (row.get("Dropped item") or "").strip()
+        blobs = _dropsline_blobs(page_wikitext(base_page), item)
+        if not blobs:
+            # No inline {{DropsLine}} for this item on the page — the row comes from a
+            # transcluded table (rare drop table etc.), whose alt is never slayer-related.
+            continue
+        if any(_SLAYER_NOTE_RX.search(blob) for blob in blobs):
+            fake = dict(row)
+            fake["Rarity"] = (row.get("Alt Rarity") or "").strip()
+            on_task.append(fake)
+        else:
+            print(f"          ?? alt rarity {alt} for {item} from {base_page} "
+                  f"has an inline DropsLine but no slayer-task note — skipped (verify by hand)")
+    return group_drops(on_task)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--out", required=True, help="Output JSON path")
@@ -200,12 +336,26 @@ def main() -> None:
                         help="Previously-published drop_rates.json. Any item that HAD data there but the "
                              "wiki returned nothing for this run (a transient failure) is carried over, so "
                              "items never silently vanish. Genuine rate changes still win (fresh scrape > prev).")
+    parser.add_argument("--slayer-out", default="",
+                        help="Also write on-Slayer-task rates (same shape) to this path, derived from "
+                             "the same dropsline rows — superior-monster drops + slayer-confirmed alt "
+                             "rarities. Empty (default) skips the pass entirely.")
+    parser.add_argument("--slayer-merge-prev", default="",
+                        help="Previously-published slayer_rates.json, same stickiness as --merge-prev.")
     args = parser.parse_args()
 
     items = load_clog_items(Path(args.clog_items))
     print(f"Loaded {len(items)} clog items from {args.clog_items}")
 
+    superiors: set[str] = set()
+    if args.slayer_out:
+        superiors = fetch_superiors()
+        print(f"Slayer pass on: {len(superiors)} superior monsters from the {SLAYER_TASK_PAGE} page")
+        if not superiors:
+            raise SystemExit("Slayer task page yielded no superiors — table layout changed?")
+
     drop_rates: dict[str, list] = {}
+    slayer_rates: dict[str, list] = {}
     no_data: list[dict] = []
     total_rows = total_kept = 0
 
@@ -214,6 +364,7 @@ def main() -> None:
         name      = item["name"]
         print(f"[{i:>4}/{len(items)}] {wiki_page}")
         entries: list[dict] = []
+        raw_rows: list[dict] = []   # the dropsline rows behind `entries`, for the slayer pass
 
         # Lookup chain mirrors the wiki-side Source module:
         #   1. wiki_page (page_name_sub) — most specific
@@ -233,6 +384,7 @@ def main() -> None:
             kept = group_drops(drops)
             if kept:
                 entries = kept
+                raw_rows = drops
                 break
             time.sleep(REQUEST_DELAY)
 
@@ -245,12 +397,14 @@ def main() -> None:
                         continue
                     tried.append(alt)
                     try:
-                        kept = group_drops(dropsline_query(alt))
+                        alt_drops = dropsline_query(alt)
+                        kept = group_drops(alt_drops)
                     except Exception as exc:
                         print(f"          !! dropsline alt '{alt}': {exc}")
-                        kept = []
+                        alt_drops, kept = [], []
                     if kept:
                         entries.extend(kept)
+                        raw_rows.extend(alt_drops)
                     time.sleep(REQUEST_DELAY)
                 if entries:
                     print(f"          ↳ recovered via templates: {alts}")
@@ -261,6 +415,12 @@ def main() -> None:
             total_kept += sum(len(g["sources"]) for g in entries)
         else:
             no_data.append(item)
+
+        if args.slayer_out and raw_rows:
+            on_task = slayer_entries(raw_rows, superiors)
+            if on_task:
+                slayer_rates[str(item["id"])] = on_task
+                print(f"          ↳ on-task: {', '.join(e['rate'] for e in on_task)}")
 
         time.sleep(REQUEST_DELAY)
 
@@ -294,6 +454,24 @@ def main() -> None:
 
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(drop_rates, f, indent=2, ensure_ascii=False, sort_keys=True)
+
+    if args.slayer_out:
+        # Same stickiness as the main file: a transient failure must not delete
+        # an item's on-task data.
+        if args.slayer_merge_prev:
+            try:
+                with open(args.slayer_merge_prev, encoding="utf-8") as f:
+                    prev = json.load(f)
+                carried = [k for k in prev if k not in slayer_rates]
+                for k in carried:
+                    slayer_rates[k] = prev[k]
+                if carried:
+                    print(f"Slayer: carried over {len(carried)} item(s) missing from this scrape")
+            except FileNotFoundError:
+                print(f"No --slayer-merge-prev file at {args.slayer_merge_prev} — skipping carry-over")
+        with open(args.slayer_out, "w", encoding="utf-8") as f:
+            json.dump(slayer_rates, f, indent=2, ensure_ascii=False, sort_keys=True)
+        print(f"Wrote {len(slayer_rates)} on-task items to {args.slayer_out}")
 
     print(f"\nWrote {len(drop_rates)} items to {args.out}")
     print(f"Kept {total_kept} source rows across all items "
