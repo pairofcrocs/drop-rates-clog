@@ -24440,7 +24440,7 @@
   ],
   "33631": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/520",
       "sources": [
@@ -24450,9 +24450,9 @@
   ],
   "33634": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/335",
+      "rate": "1/340",
       "sources": [
         "Maggot King"
       ]
@@ -24460,9 +24460,9 @@
   ],
   "33642": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/3,600",
+      "rate": "1/3,500",
       "sources": [
         "Maggot King"
       ]
