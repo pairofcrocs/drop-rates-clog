@@ -3560,6 +3560,175 @@
     ],
     "revid": 15221886
   },
+  "30902": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50",
+        "description": "Beginner clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30904": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100",
+        "description": "Beginner clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30906": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100",
+        "description": "Easy clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30908": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "200",
+        "description": "Easy clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30910": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100",
+        "description": "Medium clue scroll",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30912": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "250",
+        "description": "Medium clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30914": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50",
+        "description": "Hard clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30916": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150",
+        "description": "Hard clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30918": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50",
+        "description": "Elite clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30920": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "150",
+        "description": "Elite clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30922": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "25",
+        "description": "Master clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30924": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "75",
+        "description": "Master clue scrolls",
+        "kind": "currency",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
+  "30926": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1",
+        "description": "Mimic Kill",
+        "kind": "drop",
+        "rate": null,
+        "sources": []
+      }
+    ],
+    "revid": null
+  },
   "31032": {
     "entries": [
       {
