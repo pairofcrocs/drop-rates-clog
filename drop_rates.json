@@ -8347,6 +8347,14 @@
       "sources": [
         "Fishing Trawler"
       ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,845,877",
+      "sources": [
+        "Fishing spot (river) (Leechfin)"
+      ]
     }
   ],
   "13321": [
@@ -8544,11 +8552,27 @@
       ]
     },
     {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/317,358",
+      "sources": [
+        "Engorged bloodwood tree"
+      ]
+    },
+    {
       "approx": true,
       "kind": "drop",
       "rate": "1/360,000",
       "sources": [
         "Oak tree"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/967,358",
+      "sources": [
+        "Bloodwood tree"
       ]
     }
   ],
@@ -11719,6 +11743,327 @@
       "rate": "1/5,375",
       "sources": [
         "Hespori"
+      ]
+    }
+  ],
+  "20663": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/10,314",
+      "sources": [
+        "Sq'irk tree"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/34,315",
+      "sources": [
+        "Cannonball stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/34,440",
+      "sources": [
+        "Shop Counter (ore)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/34,615",
+      "sources": [
+        "Gem stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/34,865",
+      "sources": [
+        "Magic Stall",
+        "Scimitar Stall",
+        "Spice stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,240",
+      "sources": [
+        "Silver stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,265",
+      "sources": [
+        "Crossbow stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,440",
+      "sources": [
+        "Fish stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,615",
+      "sources": [
+        "Fur stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,815",
+      "sources": [
+        "Seed Stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/35,940",
+      "sources": [
+        "Market stall (wine)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/47,593",
+      "sources": [
+        "Crafting stall",
+        "Food Stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/68,426",
+      "sources": [
+        "Silk stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/68,801",
+      "sources": [
+        "Tea stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/97,050",
+      "sources": [
+        "Elf (Thieving)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/97,125",
+      "sources": [
+        "Vyre"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/97,175",
+      "sources": [
+        "Hero"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/106,843",
+      "sources": [
+        "Gnome"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/123,441",
+      "sources": [
+        "Fruit Stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/123,941",
+      "sources": [
+        "Bakery stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/125,306",
+      "sources": [
+        "Paladin"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/133,000",
+      "sources": [
+        "Watchman"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/174,493",
+      "sources": [
+        "TzHaar-Hur"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/206,727",
+      "sources": [
+        "Veg stall"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/255,586",
+      "sources": [
+        "Menaphite Thug"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/255,711",
+      "sources": [
+        "Pirate (Thieving)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/255,836",
+      "sources": [
+        "Bandit (Pollnivneach)",
+        "Knight of Ardougne"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/255,886",
+      "sources": [
+        "Bandit (Bandit Camp)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/255,961",
+      "sources": [
+        "Wealthy citizen"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,086",
+      "sources": [
+        "Bandit (Pollnivneach)",
+        "Fremennik citizen"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,211",
+      "sources": [
+        "Guard"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,261",
+      "sources": [
+        "Master Farmer"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,311",
+      "sources": [
+        "Cave goblin (Dorgesh-Kaan)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,411",
+      "sources": [
+        "Rogue"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,461",
+      "sources": [
+        "Villager"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,586",
+      "sources": [
+        "Al Kharid warrior",
+        "Warrior (Thieving)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,836",
+      "sources": [
+        "H.A.M. Member"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,961",
+      "sources": [
+        "Farmer"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/257,211",
+      "sources": [
+        "Man",
+        "Woman"
       ]
     }
   ],
@@ -23239,7 +23584,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/256",
+      "rate": "1/75",
       "sources": [
         "Shellbane gryphon"
       ]
