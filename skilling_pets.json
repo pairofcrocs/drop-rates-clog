@@ -1,4 +1,453 @@
 {
+  "13320": {
+    "skill": "Fishing",
+    "sources": [
+      {
+        "method": "Shrimps/Anchovies",
+        "baseChance": 870330
+      },
+      {
+        "method": "Karambwanji",
+        "baseChance": 443697
+      },
+      {
+        "method": "Sardines/Herring",
+        "baseChance": 1056000
+      },
+      {
+        "method": "Big net fishing",
+        "baseChance": 1147827
+      },
+      {
+        "method": "Trout/Salmon",
+        "baseChance": 923616
+      },
+      {
+        "method": "Pike",
+        "baseChance": 305792
+      },
+      {
+        "method": "Rainbow fish",
+        "baseChance": 137739
+      },
+      {
+        "method": "Tuna/Swordfish",
+        "baseChance": 257770
+      },
+      {
+        "method": "Lobster",
+        "baseChance": 116129
+      },
+      {
+        "method": "Aerial fishing",
+        "baseChance": 636833
+      },
+      {
+        "method": "Cave eels",
+        "baseChance": 257770
+      },
+      {
+        "method": "Monkfish",
+        "baseChance": 138583
+      },
+      {
+        "method": "Karambwan",
+        "baseChance": 170874
+      },
+      {
+        "method": "Leaping trout/salmon/sturgeon",
+        "baseChance": 1280862
+      },
+      {
+        "method": "Sharks",
+        "baseChance": 82243
+      },
+      {
+        "method": "Infernal eels",
+        "baseChance": 165000
+      },
+      {
+        "method": "Anglerfish",
+        "baseChance": 78649
+      },
+      {
+        "method": "Minnow",
+        "baseChance": 977778
+      },
+      {
+        "method": "Dark crabs",
+        "baseChance": 149434
+      },
+      {
+        "method": "Sacred eels",
+        "baseChance": 99000
+      },
+      {
+        "method": "Fishing Trawler minigame",
+        "rarity": "1/5000 (scales up to 1/2500 with full contribution)"
+      },
+      {
+        "method": "Guppies",
+        "baseChance": 820330
+      },
+      {
+        "method": "Cavefish",
+        "baseChance": 300792
+      },
+      {
+        "method": "Tetra",
+        "baseChance": 257770
+      },
+      {
+        "method": "Catfish",
+        "baseChance": 152120
+      },
+      {
+        "method": "Swordtip squid",
+        "baseChance": 257770
+      },
+      {
+        "method": "Jumbo squid",
+        "baseChance": 257770
+      },
+      {
+        "method": "Giant krill",
+        "baseChance": 257770
+      },
+      {
+        "method": "Haddock",
+        "baseChance": 247770
+      },
+      {
+        "method": "Yellowfin",
+        "baseChance": 237770
+      },
+      {
+        "method": "Halibut",
+        "baseChance": 227770
+      },
+      {
+        "method": "Bluefin",
+        "baseChance": 217770
+      },
+      {
+        "method": "Marlin",
+        "baseChance": 207770
+      }
+    ]
+  },
+  "13321": {
+    "skill": "Mining",
+    "sources": [
+      {
+        "method": "Clay rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Copper rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Tin rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Blurite rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Limestone rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Iron rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Silver rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Barronite",
+        "baseChance": 741600
+      },
+      {
+        "method": "Calcified rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Lead rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Coal rocks",
+        "baseChance": 290640
+      },
+      {
+        "method": "Sandstone rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Gold rocks",
+        "baseChance": 296640
+      },
+      {
+        "method": "Gem rocks",
+        "baseChance": 211886
+      },
+      {
+        "method": "Granite rocks",
+        "baseChance": 741600
+      },
+      {
+        "method": "Ash pile",
+        "baseChance": 741600
+      },
+      {
+        "method": "Volcanic sulphur",
+        "baseChance": 710000
+      },
+      {
+        "method": "Volcanic Mine",
+        "baseChance": 60000
+      },
+      {
+        "method": "Mithril rocks",
+        "baseChance": 148320
+      },
+      {
+        "method": "Lovakite rocks",
+        "baseChance": 245562
+      },
+      {
+        "method": "Adamantite rocks",
+        "baseChance": 59328
+      },
+      {
+        "method": "Nickel rocks",
+        "baseChance": 247200
+      },
+      {
+        "method": "Runite rocks",
+        "baseChance": 42377
+      },
+      {
+        "method": "Amethyst crystals",
+        "baseChance": 46350
+      },
+      {
+        "method": "Blast mine",
+        "baseChance": 123600
+      },
+      {
+        "method": "Motherlode Mine",
+        "baseChance": 247200
+      },
+      {
+        "method": "Crashed Star",
+        "baseChance": 521550
+      }
+    ]
+  },
+  "13322": {
+    "skill": "Woodcutting",
+    "sources": [
+      {
+        "method": "Achey",
+        "baseChance": 317647
+      },
+      {
+        "method": "Normal trees",
+        "baseChance": 317647
+      },
+      {
+        "method": "Oak",
+        "baseChance": 361146
+      },
+      {
+        "method": "Willow",
+        "baseChance": 289286
+      },
+      {
+        "method": "Teak",
+        "baseChance": 264336
+      },
+      {
+        "method": "Jatoba",
+        "baseChance": 264336
+      },
+      {
+        "method": "Juniper",
+        "baseChance": 360000
+      },
+      {
+        "method": "Maple",
+        "baseChance": 221918
+      },
+      {
+        "method": "Hollow",
+        "baseChance": 214367
+      },
+      {
+        "method": "Mahogany",
+        "baseChance": 220623
+      },
+      {
+        "method": "Arctic pine",
+        "baseChance": 145758
+      },
+      {
+        "method": "Yew",
+        "baseChance": 145013
+      },
+      {
+        "method": "Blisterwood",
+        "baseChance": 289286
+      },
+      {
+        "method": "Sulliusceps",
+        "baseChance": 343000
+      },
+      {
+        "method": "Camphor",
+        "baseChance": 145013
+      },
+      {
+        "method": "Magic",
+        "baseChance": 72321
+      },
+      {
+        "method": "Ironwood",
+        "baseChance": 72321
+      },
+      {
+        "method": "Redwood",
+        "baseChance": 72321
+      },
+      {
+        "method": "Rosewood",
+        "baseChance": 72321
+      }
+    ]
+  },
+  "13324": {
+    "skill": "Hunter",
+    "sources": [
+      {
+        "method": "Grey chinchompa",
+        "baseChance": 131395
+      },
+      {
+        "method": "Red chinchompa",
+        "baseChance": 98373
+      },
+      {
+        "method": "Black chinchompa",
+        "baseChance": 82758
+      }
+    ]
+  },
+  "20659": {
+    "skill": "Agility",
+    "sources": [
+      {
+        "method": "Penguin",
+        "baseChance": 9779
+      },
+      {
+        "method": "Agility Pyramid",
+        "baseChance": 9901
+      },
+      {
+        "method": "Dorgesh-Kaan (Agility route)",
+        "baseChance": 10561
+      },
+      {
+        "method": "Dorgesh-Kaan (Grapple route)",
+        "baseChance": 10561
+      },
+      {
+        "method": "Varrock Rooftop",
+        "baseChance": 24410
+      },
+      {
+        "method": "Prifddinas",
+        "baseChance": 25146
+      },
+      {
+        "method": "Colossal Wyrm Remains (advanced)",
+        "baseChance": 25406
+      },
+      {
+        "method": "Brimhaven Agility Arena",
+        "baseChance": 26404
+      },
+      {
+        "method": "Al Kharid Rooftop",
+        "baseChance": 26648
+      },
+      {
+        "method": "Falador Rooftop",
+        "baseChance": 26806
+      },
+      {
+        "method": "Colossal Wyrm Remains (basic)",
+        "baseChance": 28503
+      },
+      {
+        "method": "Shayzien (advanced)",
+        "baseChance": 29738
+      },
+      {
+        "method": "Rellekka Rooftop",
+        "baseChance": 31063
+      },
+      {
+        "method": "Shayzien (basic)",
+        "baseChance": 31804
+      },
+      {
+        "method": "Werewolf",
+        "baseChance": 32597
+      },
+      {
+        "method": "Draynor Village Rooftop",
+        "baseChance": 33005
+      },
+      {
+        "method": "Pollnivneach Rooftop",
+        "baseChance": 33422
+      },
+      {
+        "method": "Ardougne Rooftop",
+        "baseChance": 34440
+      },
+      {
+        "method": "Wilderness",
+        "baseChance": 34666
+      },
+      {
+        "method": "Seers' Village Rooftop",
+        "baseChance": 35205
+      },
+      {
+        "method": "Gnome Stronghold",
+        "baseChance": 35609
+      },
+      {
+        "method": "Canifis Rooftop",
+        "baseChance": 36842
+      },
+      {
+        "method": "Ape Atoll",
+        "baseChance": 37720
+      },
+      {
+        "method": "Barbarian Outpost",
+        "baseChance": 44376
+      }
+    ]
+  },
   "20661": {
     "skill": "Farming",
     "sources": [
@@ -404,116 +853,6 @@
       }
     ]
   },
-  "31283": {
-    "skill": "Sailing",
-    "sources": [
-      {
-        "method": "Trimming sails",
-        "level": 1,
-        "rarity": "1/120000"
-      },
-      {
-        "method": "Port tasks (notice board)",
-        "level": 1,
-        "rarity": "1/6000 to 1/3150 (scales by task level)"
-      },
-      {
-        "method": "Sea charting",
-        "level": 1,
-        "rarity": "1/30000"
-      },
-      {
-        "method": "The Tempor Tantrum - Swordfish",
-        "level": 30,
-        "rarity": "1/16000"
-      },
-      {
-        "method": "The Tempor Tantrum - Shark",
-        "level": 30,
-        "rarity": "1/8000"
-      },
-      {
-        "method": "The Tempor Tantrum - Marlin",
-        "level": 30,
-        "rarity": "1/5334"
-      },
-      {
-        "method": "The Jubbly Jive - Swordfish",
-        "level": 55,
-        "rarity": "1/11500"
-      },
-      {
-        "method": "The Jubbly Jive - Shark",
-        "level": 55,
-        "rarity": "1/5750"
-      },
-      {
-        "method": "The Jubbly Jive - Marlin",
-        "level": 55,
-        "rarity": "1/3834"
-      },
-      {
-        "method": "The Gwenith Glide - Swordfish",
-        "level": 72,
-        "rarity": "1/9000"
-      },
-      {
-        "method": "The Gwenith Glide - Shark",
-        "level": 72,
-        "rarity": "1/4500"
-      },
-      {
-        "method": "The Gwenith Glide - Marlin",
-        "level": 72,
-        "rarity": "1/3000"
-      },
-      {
-        "method": "Small shipwreck",
-        "level": 15,
-        "rarity": "1/800000"
-      },
-      {
-        "method": "Fisherman's shipwreck",
-        "level": 26,
-        "rarity": "1/500000"
-      },
-      {
-        "method": "Barracuda shipwreck",
-        "level": 35,
-        "rarity": "1/300000"
-      },
-      {
-        "method": "Large shipwreck",
-        "level": 53,
-        "rarity": "1/280000"
-      },
-      {
-        "method": "Pirate shipwreck",
-        "level": 64,
-        "rarity": "1/275000"
-      },
-      {
-        "method": "Mercenary shipwreck",
-        "level": 73,
-        "rarity": "1/260000"
-      },
-      {
-        "method": "Fremennik shipwreck",
-        "level": 80,
-        "rarity": "1/230000"
-      },
-      {
-        "method": "Merchant shipwreck",
-        "level": 87,
-        "rarity": "1/160000"
-      },
-      {
-        "method": "Deep sea trawling",
-        "level": 56,
-        "rarity": "1/360000 per fishing attempt"
-      }
-    ]
-  },
   "20663": {
     "skill": "Thieving",
     "sources": [
@@ -735,119 +1074,6 @@
       }
     ]
   },
-  "13321": {
-    "skill": "Mining",
-    "sources": [
-      {
-        "method": "Clay rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Copper rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Tin rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Blurite rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Limestone rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Iron rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Silver rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Barronite",
-        "baseChance": 741600
-      },
-      {
-        "method": "Calcified rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Lead rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Coal rocks",
-        "baseChance": 290640
-      },
-      {
-        "method": "Sandstone rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Gold rocks",
-        "baseChance": 296640
-      },
-      {
-        "method": "Gem rocks",
-        "baseChance": 211886
-      },
-      {
-        "method": "Granite rocks",
-        "baseChance": 741600
-      },
-      {
-        "method": "Ash pile",
-        "baseChance": 741600
-      },
-      {
-        "method": "Volcanic sulphur",
-        "baseChance": 710000
-      },
-      {
-        "method": "Volcanic Mine",
-        "baseChance": 60000
-      },
-      {
-        "method": "Mithril rocks",
-        "baseChance": 148320
-      },
-      {
-        "method": "Lovakite rocks",
-        "baseChance": 245562
-      },
-      {
-        "method": "Adamantite rocks",
-        "baseChance": 59328
-      },
-      {
-        "method": "Nickel rocks",
-        "baseChance": 247200
-      },
-      {
-        "method": "Runite rocks",
-        "baseChance": 42377
-      },
-      {
-        "method": "Amethyst crystals",
-        "baseChance": 46350
-      },
-      {
-        "method": "Blast mine",
-        "baseChance": 123600
-      },
-      {
-        "method": "Motherlode Mine",
-        "baseChance": 247200
-      },
-      {
-        "method": "Crashed Star",
-        "baseChance": 521550
-      }
-    ]
-  },
   "20665": {
     "skill": "Runecraft",
     "sources": [
@@ -869,340 +1095,118 @@
       }
     ]
   },
-  "13320": {
-    "skill": "Fishing",
+  "31283": {
+    "skill": "Sailing",
     "sources": [
       {
-        "method": "Shrimps/Anchovies",
-        "baseChance": 870330
+        "method": "Trimming sails",
+        "level": 1,
+        "rarity": "1/120000"
       },
       {
-        "method": "Karambwanji",
-        "baseChance": 443697
+        "method": "Port tasks (notice board)",
+        "level": 1,
+        "rarity": "1/6000 to 1/3150 (scales by task level)"
       },
       {
-        "method": "Sardines/Herring",
-        "baseChance": 1056000
+        "method": "Sea charting",
+        "level": 1,
+        "rarity": "1/30000"
       },
       {
-        "method": "Big net fishing",
-        "baseChance": 1147827
+        "method": "The Tempor Tantrum - Swordfish",
+        "level": 30,
+        "rarity": "1/16000"
       },
       {
-        "method": "Trout/Salmon",
-        "baseChance": 923616
+        "method": "The Tempor Tantrum - Shark",
+        "level": 30,
+        "rarity": "1/8000"
       },
       {
-        "method": "Pike",
-        "baseChance": 305792
+        "method": "The Tempor Tantrum - Marlin",
+        "level": 30,
+        "rarity": "1/5334"
       },
       {
-        "method": "Rainbow fish",
-        "baseChance": 137739
+        "method": "The Jubbly Jive - Swordfish",
+        "level": 55,
+        "rarity": "1/11500"
       },
       {
-        "method": "Tuna/Swordfish",
-        "baseChance": 257770
+        "method": "The Jubbly Jive - Shark",
+        "level": 55,
+        "rarity": "1/5750"
       },
       {
-        "method": "Lobster",
-        "baseChance": 116129
+        "method": "The Jubbly Jive - Marlin",
+        "level": 55,
+        "rarity": "1/3834"
       },
       {
-        "method": "Aerial fishing",
-        "baseChance": 636833
+        "method": "The Gwenith Glide - Swordfish",
+        "level": 72,
+        "rarity": "1/9000"
       },
       {
-        "method": "Cave eels",
-        "baseChance": 257770
+        "method": "The Gwenith Glide - Shark",
+        "level": 72,
+        "rarity": "1/4500"
       },
       {
-        "method": "Monkfish",
-        "baseChance": 138583
+        "method": "The Gwenith Glide - Marlin",
+        "level": 72,
+        "rarity": "1/3000"
       },
       {
-        "method": "Karambwan",
-        "baseChance": 170874
+        "method": "Small shipwreck",
+        "level": 15,
+        "rarity": "1/800000"
       },
       {
-        "method": "Leaping trout/salmon/sturgeon",
-        "baseChance": 1280862
+        "method": "Fisherman's shipwreck",
+        "level": 26,
+        "rarity": "1/500000"
       },
       {
-        "method": "Sharks",
-        "baseChance": 82243
+        "method": "Barracuda shipwreck",
+        "level": 35,
+        "rarity": "1/300000"
       },
       {
-        "method": "Infernal eels",
-        "baseChance": 165000
+        "method": "Large shipwreck",
+        "level": 53,
+        "rarity": "1/280000"
       },
       {
-        "method": "Anglerfish",
-        "baseChance": 78649
+        "method": "Pirate shipwreck",
+        "level": 64,
+        "rarity": "1/275000"
       },
       {
-        "method": "Minnow",
-        "baseChance": 977778
+        "method": "Mercenary shipwreck",
+        "level": 73,
+        "rarity": "1/260000"
       },
       {
-        "method": "Dark crabs",
-        "baseChance": 149434
+        "method": "Fremennik shipwreck",
+        "level": 80,
+        "rarity": "1/230000"
       },
       {
-        "method": "Sacred eels",
-        "baseChance": 99000
+        "method": "Merchant shipwreck",
+        "level": 87,
+        "rarity": "1/160000"
       },
       {
-        "method": "Fishing Trawler minigame",
-        "rarity": "1/5000 (scales up to 1/2500 with full contribution)"
-      },
-      {
-        "method": "Guppies",
-        "baseChance": 820330
-      },
-      {
-        "method": "Cavefish",
-        "baseChance": 300792
-      },
-      {
-        "method": "Tetra",
-        "baseChance": 257770
-      },
-      {
-        "method": "Catfish",
-        "baseChance": 152120
-      },
-      {
-        "method": "Swordtip squid",
-        "baseChance": 257770
-      },
-      {
-        "method": "Jumbo squid",
-        "baseChance": 257770
-      },
-      {
-        "method": "Giant krill",
-        "baseChance": 257770
-      },
-      {
-        "method": "Haddock",
-        "baseChance": 247770
-      },
-      {
-        "method": "Yellowfin",
-        "baseChance": 237770
-      },
-      {
-        "method": "Halibut",
-        "baseChance": 227770
-      },
-      {
-        "method": "Bluefin",
-        "baseChance": 217770
-      },
-      {
-        "method": "Marlin",
-        "baseChance": 207770
+        "method": "Deep sea trawling",
+        "level": 56,
+        "rarity": "1/360000 per fishing attempt"
       }
     ]
   },
-  "13322": {
-    "skill": "Woodcutting",
-    "sources": [
-      {
-        "method": "Achey",
-        "baseChance": 317647
-      },
-      {
-        "method": "Normal trees",
-        "baseChance": 317647
-      },
-      {
-        "method": "Oak",
-        "baseChance": 361146
-      },
-      {
-        "method": "Willow",
-        "baseChance": 289286
-      },
-      {
-        "method": "Teak",
-        "baseChance": 264336
-      },
-      {
-        "method": "Jatoba",
-        "baseChance": 264336
-      },
-      {
-        "method": "Juniper",
-        "baseChance": 360000
-      },
-      {
-        "method": "Maple",
-        "baseChance": 221918
-      },
-      {
-        "method": "Hollow",
-        "baseChance": 214367
-      },
-      {
-        "method": "Mahogany",
-        "baseChance": 220623
-      },
-      {
-        "method": "Arctic pine",
-        "baseChance": 145758
-      },
-      {
-        "method": "Yew",
-        "baseChance": 145013
-      },
-      {
-        "method": "Blisterwood",
-        "baseChance": 289286
-      },
-      {
-        "method": "Sulliusceps",
-        "baseChance": 343000
-      },
-      {
-        "method": "Camphor",
-        "baseChance": 145013
-      },
-      {
-        "method": "Magic",
-        "baseChance": 72321
-      },
-      {
-        "method": "Ironwood",
-        "baseChance": 72321
-      },
-      {
-        "method": "Redwood",
-        "baseChance": 72321
-      },
-      {
-        "method": "Rosewood",
-        "baseChance": 72321
-      }
-    ]
-  },
-  "13324": {
+  "34040": {
     "skill": "Hunter",
-    "sources": [
-      {
-        "method": "Grey chinchompa",
-        "baseChance": 131395
-      },
-      {
-        "method": "Red chinchompa",
-        "baseChance": 98373
-      },
-      {
-        "method": "Black chinchompa",
-        "baseChance": 82758
-      }
-    ]
-  },
-  "20659": {
-    "skill": "Agility",
-    "sources": [
-      {
-        "method": "Penguin",
-        "baseChance": 9779
-      },
-      {
-        "method": "Agility Pyramid",
-        "baseChance": 9901
-      },
-      {
-        "method": "Dorgesh-Kaan (Agility route)",
-        "baseChance": 10561
-      },
-      {
-        "method": "Dorgesh-Kaan (Grapple route)",
-        "baseChance": 10561
-      },
-      {
-        "method": "Varrock Rooftop",
-        "baseChance": 24410
-      },
-      {
-        "method": "Prifddinas",
-        "baseChance": 25146
-      },
-      {
-        "method": "Colossal Wyrm Remains (advanced)",
-        "baseChance": 25406
-      },
-      {
-        "method": "Brimhaven Agility Arena",
-        "baseChance": 26404
-      },
-      {
-        "method": "Al Kharid Rooftop",
-        "baseChance": 26648
-      },
-      {
-        "method": "Falador Rooftop",
-        "baseChance": 26806
-      },
-      {
-        "method": "Colossal Wyrm Remains (basic)",
-        "baseChance": 28503
-      },
-      {
-        "method": "Shayzien (advanced)",
-        "baseChance": 29738
-      },
-      {
-        "method": "Rellekka Rooftop",
-        "baseChance": 31063
-      },
-      {
-        "method": "Shayzien (basic)",
-        "baseChance": 31804
-      },
-      {
-        "method": "Werewolf",
-        "baseChance": 32597
-      },
-      {
-        "method": "Draynor Village Rooftop",
-        "baseChance": 33005
-      },
-      {
-        "method": "Pollnivneach Rooftop",
-        "baseChance": 33422
-      },
-      {
-        "method": "Ardougne Rooftop",
-        "baseChance": 34440
-      },
-      {
-        "method": "Wilderness",
-        "baseChance": 34666
-      },
-      {
-        "method": "Seers' Village Rooftop",
-        "baseChance": 35205
-      },
-      {
-        "method": "Gnome Stronghold",
-        "baseChance": 35609
-      },
-      {
-        "method": "Canifis Rooftop",
-        "baseChance": 36842
-      },
-      {
-        "method": "Ape Atoll",
-        "baseChance": 37720
-      },
-      {
-        "method": "Barbarian Outpost",
-        "baseChance": 44376
-      }
-    ]
+    "sources": []
   }
 }
