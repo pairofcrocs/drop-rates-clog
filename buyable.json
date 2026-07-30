@@ -3005,6 +3005,106 @@
     ],
     "revid": 15210966
   },
+  "29472": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "40 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "26,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "29474": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "60 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "39,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "29476": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "50 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "34,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "29478": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "30 golden nuggets",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "21,000 Volcanic Mine reward points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Petrified Pete's Ore Shop (Volcanic Mine)"
+        ]
+      }
+    ],
+    "revid": null
+  },
   "29482": {
     "entries": [
       {
