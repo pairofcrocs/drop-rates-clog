@@ -8556,7 +8556,8 @@
     "id": 21726,
     "name": "Granite dust",
     "tabs": [
-      "Grotesque Guardians"
+      "Grotesque Guardians",
+      "The Mad Angel"
     ],
     "wiki_page": "Granite dust"
   },
@@ -13881,5 +13882,55 @@
       "Slayer"
     ],
     "wiki_page": "Venator tooth"
+  },
+  {
+    "id": 34024,
+    "name": "Jeweller's chisel",
+    "tabs": [
+      "Miscellaneous"
+    ],
+    "wiki_page": "Jeweller's chisel"
+  },
+  {
+    "id": 34027,
+    "name": "Hallowfell",
+    "tabs": [
+      "The Mad Angel"
+    ],
+    "wiki_page": "Hallowfell"
+  },
+  {
+    "id": 34030,
+    "name": "Jar of light",
+    "tabs": [
+      "The Mad Angel"
+    ],
+    "wiki_page": "Jar of light"
+  },
+  {
+    "id": 34033,
+    "name": "Ardeaglais teleport",
+    "tabs": [
+      "The Mad Angel"
+    ],
+    "wiki_page": "Ardeaglais teleport"
+  },
+  {
+    "id": 34040,
+    "name": "Mr mcgroot",
+    "tabs": [
+      "All Pets",
+      "Skilling Pets"
+    ],
+    "wiki_page": "Mr mcgroot"
+  },
+  {
+    "id": 34042,
+    "name": "Aggy",
+    "tabs": [
+      "The Mad Angel",
+      "All Pets"
+    ],
+    "wiki_page": "Aggy"
   }
 ]
