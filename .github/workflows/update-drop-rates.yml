@@ -10,12 +10,22 @@ name: Update drop rates
 
 on:
   schedule:
-    # Wednesdays 14:00 UTC — a few hours after the weekly OSRS game update
-    - cron: '0 14 * * 3'
+    # Full scrape every 2 days at 14:00 UTC (a few hours after game-update time)
+    - cron: '0 14 */2 * *'
+    # Gap-fill every 2 hours: re-scrape ONLY items that still have no data, so new
+    # items get rates as soon as the wiki documents them. Odd hours so it never
+    # fires at the same minute as the full scrape above.
+    - cron: '0 1-23/2 * * *'
   push:
     branches: [master]
     paths: ['scripts/clog_items.json']
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full = all items, missing = only items with no data yet'
+        type: choice
+        options: [full, missing]
+        default: full
 
 permissions:
   contents: write
@@ -59,13 +69,30 @@ jobs:
           git show "origin/${DATA_BRANCH}:${DATA_FILE}" > drop_rates.json.cur 2>/dev/null || : > drop_rates.json.cur
           git show "origin/${DATA_BRANCH}:${SLAYER_FILE}" > slayer_rates.json.cur 2>/dev/null || : > slayer_rates.json.cur
 
+      - name: Resolve scrape mode
+        id: mode
+        # missing mode (the 2-hourly schedule, or dispatch with mode=missing) scrapes only
+        # items with no published data yet — skipping items covered by the curated
+        # buyable/skilling-pets files, which will never have dropsline rows. Everything
+        # else (2-daily schedule, clog_items.json push, plain dispatch) is a full scrape.
+        run: |
+          if { [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "0 1-23/2 * * *" ]; } \
+             || [ "${{ github.event.inputs.mode }}" = "missing" ]; then
+            echo "name=missing" >> "$GITHUB_OUTPUT"
+            echo "flags=--missing-only --covered src/main/resources/com/dropratesclog/buyable.json --covered src/main/resources/com/dropratesclog/skilling_pets.json" >> "$GITHUB_OUTPUT"
+          else
+            echo "name=full" >> "$GITHUB_OUTPUT"
+            echo "flags=" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run scraper
         # --merge-prev carries over any item that transiently failed to scrape this run, so a
         # single flaky wiki query can never silently delete an item's drop data. The slayer
         # pass reuses the same dropsline rows, so this stays a single wiki sweep.
         run: |
           python scripts/scrape.py --out "$SCRAPE_OUT" --merge-prev drop_rates.json.cur \
-            --slayer-out "$SLAYER_OUT" --slayer-merge-prev slayer_rates.json.cur
+            --slayer-out "$SLAYER_OUT" --slayer-merge-prev slayer_rates.json.cur \
+            ${{ steps.mode.outputs.flags }}
 
       - name: Sanity check
         id: sanity
@@ -79,7 +106,7 @@ jobs:
         run: |
           gh issue create \
             --title "Drop rates scraper sanity check failed ($(date -u +%F))" \
-            --body "The weekly scraper run produced output that failed sanity checks (item count delta >20%, empty result, or invalid JSON). The wiki may have changed schema or be temporarily unavailable. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+            --body "A scraper run produced output that failed sanity checks (item count delta >20%, empty result, or invalid JSON). The wiki may have changed schema or be temporarily unavailable. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
           exit 1
 
       - name: Detect changes
@@ -106,7 +133,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$DATA_FILE" "$SLAYER_FILE"
-          git commit -m "Update drop rates from wiki ($(date -u +%F))"
+          git commit -m "Update drop rates from wiki ($(date -u +%F), ${{ steps.mode.outputs.name }} scrape)"
           git push origin "$DATA_BRANCH"
 
       - name: Refresh bundled fallback on master

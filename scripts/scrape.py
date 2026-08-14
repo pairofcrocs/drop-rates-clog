@@ -342,13 +342,38 @@ def main() -> None:
                              "rarities. Empty (default) skips the pass entirely.")
     parser.add_argument("--slayer-merge-prev", default="",
                         help="Previously-published slayer_rates.json, same stickiness as --merge-prev.")
+    parser.add_argument("--missing-only", action="store_true",
+                        help="Scrape only items that have no entry in --merge-prev (nor in any "
+                             "--covered file); everything else is carried over untouched. For the "
+                             "frequent gap-fill schedule. Requires --merge-prev.")
+    parser.add_argument("--covered", action="append", default=[],
+                        help="Id-keyed JSON whose items count as already covered in --missing-only "
+                             "mode (buyable.json, skilling_pets.json — items that will never get "
+                             "dropsline data, so re-polling them is pointless). Repeatable.")
     args = parser.parse_args()
+
+    if args.missing_only and not args.merge_prev:
+        parser.error("--missing-only requires --merge-prev")
 
     items = load_clog_items(Path(args.clog_items))
     print(f"Loaded {len(items)} clog items from {args.clog_items}")
 
+    if args.missing_only:
+        covered: set[str] = set()
+        try:
+            with open(args.merge_prev, encoding="utf-8") as f:
+                covered |= set(json.load(f))
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass  # no/empty previous data — everything counts as missing
+        for path in args.covered:
+            with open(path, encoding="utf-8") as f:
+                covered |= set(json.load(f))
+        before = len(items)
+        items = [it for it in items if str(it["id"]) not in covered]
+        print(f"Missing-only: {len(items)} of {before} items still lack data — scraping just those")
+
     superiors: set[str] = set()
-    if args.slayer_out:
+    if args.slayer_out and items:
         superiors = fetch_superiors()
         print(f"Slayer pass on: {len(superiors)} superior monsters from the {SLAYER_TASK_PAGE} page")
         if not superiors:
