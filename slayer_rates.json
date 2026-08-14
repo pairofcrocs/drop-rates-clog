@@ -8,7 +8,8 @@
         "Night beast",
         "Cave abomination",
         "Basilisk Sentinel",
-        "Mutated Tortoise"
+        "Mutated Tortoise",
+        "Ancient Custodian"
       ]
     }
   ],
@@ -21,7 +22,8 @@
         "Night beast",
         "Cave abomination",
         "Basilisk Sentinel",
-        "Mutated Tortoise"
+        "Mutated Tortoise",
+        "Ancient Custodian"
       ]
     }
   ],
@@ -120,6 +122,14 @@
       "rate": "3 × 1/31,430.19",
       "sources": [
         "Nechryarch (Normal)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/32,009.71",
+      "sources": [
+        "Ancient Custodian"
       ]
     },
     {
@@ -231,6 +241,14 @@
         "Chasm Crawler",
         "Colossal Hydra",
         "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/715,434.67",
+      "sources": [
+        "Blood-starved venator"
       ]
     }
   ],
@@ -407,9 +425,25 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/504",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/520",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/536",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -637,9 +671,25 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/144",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/149",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/153",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -857,9 +907,25 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/144",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/149",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/153",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -1126,9 +1192,25 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/504",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/520",
       "sources": [
         "Marble gargoyle"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/536",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -1469,6 +1551,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "3 × 1/24,007.28",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "3 × 1/26,624",
       "sources": [
         "Basilisk Sentinel"
@@ -1576,6 +1666,14 @@
         "Colossal Hydra",
         "Dire gryphon"
       ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/536,576",
+      "sources": [
+        "Blood-starved venator"
+      ]
     }
   ],
   "24268": [
@@ -1586,6 +1684,16 @@
       "sources": [
         "Basilisk Knight",
         "Basilisk Sentinel"
+      ]
+    }
+  ],
+  "24777": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/5",
+      "sources": [
+        "Blood-starved venator"
       ]
     }
   ],
@@ -1651,6 +1759,46 @@
       "rate": "1/1,600",
       "sources": [
         "Araxyte (Level 96)"
+      ]
+    }
+  ],
+  "30088": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/124",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    }
+  ],
+  "31081": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/650",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    }
+  ],
+  "31084": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 2/124",
+      "sources": [
+        "Ancient Custodian"
+      ]
+    }
+  ],
+  "31086": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 4/124",
+      "sources": [
+        "Ancient Custodian"
       ]
     }
   ],
@@ -1727,6 +1875,26 @@
       "rate": "1/750",
       "sources": [
         "Aquanite"
+      ]
+    }
+  ],
+  "33661": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3 × 7/131",
+      "sources": [
+        "Blood-starved venator"
+      ]
+    }
+  ],
+  "33663": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3 × 7/131",
+      "sources": [
+        "Blood-starved venator"
       ]
     }
   ],
