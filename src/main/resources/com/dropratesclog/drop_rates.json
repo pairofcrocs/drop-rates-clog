@@ -5746,6 +5746,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/27,025.15",
+      "sources": [
+        "Mad Angel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/27,621.28",
       "sources": [
         "Mature custodian stalker"
@@ -6321,6 +6329,14 @@
         "Chasm Crawler",
         "Colossal Hydra",
         "Dire gryphon"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/715,434.67",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -8351,6 +8367,38 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/80,343",
+      "sources": [
+        "Boat fishing spot (big net, harpoon) (Harpoon)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/870,305",
+      "sources": [
+        "Boat fishing spot (small net, bait) (Small net)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,055,875",
+      "sources": [
+        "Boat fishing spot (small net, bait) (Bait)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,147,427",
+      "sources": [
+        "Boat fishing spot (big net, harpoon) (Small net)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/1,845,877",
       "sources": [
         "Fishing spot (river) (Leechfin)"
@@ -8868,7 +8916,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/69",
+      "rate": "3/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13008,7 +13064,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "2/69",
+      "rate": "2/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13018,7 +13082,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "4/69",
+      "rate": "4/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13028,7 +13100,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "2/69",
+      "rate": "2/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13064,7 +13144,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "4/69",
+      "rate": "4/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13074,7 +13162,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/69",
+      "rate": "3/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13084,7 +13180,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/69",
+      "rate": "4/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13094,7 +13198,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/69",
+      "rate": "4/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13104,7 +13216,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/69",
+      "rate": "4/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13150,7 +13270,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "20/69",
+      "rate": "14/60",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "12/56",
       "sources": [
         "Ancient chest"
       ]
@@ -13160,7 +13288,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "2/69",
+      "rate": "2/56",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/60",
       "sources": [
         "Ancient chest"
       ]
@@ -13180,7 +13316,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "20/69",
+      "rate": "14/60",
+      "sources": [
+        "Ancient chest"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "12/56",
       "sources": [
         "Ancient chest"
       ]
@@ -13717,7 +13861,8 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Grotesque Guardians"
+        "Grotesque Guardians",
+        "Mad Angel"
       ]
     }
   ],
@@ -17074,6 +17219,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/20,268.87",
+      "sources": [
+        "Mad Angel"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/20,715.96",
       "sources": [
         "Mature custodian stalker"
@@ -17649,6 +17802,14 @@
         "Bandit (Varlamore)",
         "Emissary Chosen",
         "Emissary Acolyte"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/536,576",
+      "sources": [
+        "Blood-starved venator"
       ]
     },
     {
@@ -18501,7 +18662,7 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Beekeeper (Random Event)"
+        "Beekeeper (random event)"
       ]
     }
   ],
@@ -18511,7 +18672,7 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Beekeeper (Random Event)"
+        "Beekeeper (random event)"
       ]
     }
   ],
@@ -18521,7 +18682,7 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Beekeeper (Random Event)"
+        "Beekeeper (random event)"
       ]
     }
   ],
@@ -18531,7 +18692,7 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Beekeeper (Random Event)"
+        "Beekeeper (random event)"
       ]
     }
   ],
@@ -18541,7 +18702,7 @@
       "kind": "drop",
       "rate": "Always",
       "sources": [
-        "Beekeeper (Random Event)"
+        "Beekeeper (random event)"
       ]
     }
   ],
@@ -22352,7 +22513,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/200",
+      "rate": "1/600",
       "sources": [
         "Araxxor"
       ]
@@ -22362,7 +22523,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/200",
+      "rate": "1/600",
       "sources": [
         "Araxxor"
       ]
@@ -22372,7 +22533,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/200",
+      "rate": "1/600",
       "sources": [
         "Araxxor"
       ]
@@ -23254,21 +23415,14 @@
       "kind": "drop",
       "rate": "11/160",
       "sources": [
+        "Juvenile custodian stalker",
         "Strange creature (Shadows of Custodia)"
       ]
     },
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/15",
-      "sources": [
-        "Juvenile custodian stalker"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "6.6875/107",
+      "rate": "7/107",
       "sources": [
         "Mature custodian stalker"
       ]
@@ -24015,7 +24169,7 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "1/300",
+      "rate": "1/350",
       "sources": [
         "Vampyre kraken"
       ]
@@ -24130,6 +24284,14 @@
       ]
     },
     {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Vampyre kraken"
+      ]
+    },
+    {
       "approx": false,
       "kind": "drop",
       "rate": "1/100",
@@ -24159,14 +24321,6 @@
       "rate": "1/140",
       "sources": [
         "Armoured kraken"
-      ]
-    },
-    {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/150",
-      "sources": [
-        "Vampyre kraken"
       ]
     },
     {
@@ -24817,6 +24971,14 @@
     {
       "approx": true,
       "kind": "drop",
+      "rate": "3 × 7/131",
+      "sources": [
+        "Blood-starved venator"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
       "rate": "7/131",
       "sources": [
         "Venator"
@@ -24835,6 +24997,14 @@
     {
       "approx": true,
       "kind": "drop",
+      "rate": "3 × 7/131",
+      "sources": [
+        "Blood-starved venator"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
       "rate": "7/131",
       "sources": [
         "Venator"
@@ -24846,6 +25016,66 @@
       "rate": "2/159",
       "sources": [
         "Maggot King"
+      ]
+    }
+  ],
+  "34024": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/300",
+      "sources": [
+        "Golem crafting"
+      ]
+    }
+  ],
+  "34027": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/127",
+      "sources": [
+        "Mad Angel"
+      ]
+    }
+  ],
+  "34030": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,000",
+      "sources": [
+        "Mad Angel"
+      ]
+    }
+  ],
+  "34033": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/25",
+      "sources": [
+        "Mad Angel"
+      ]
+    }
+  ],
+  "34040": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/40,000",
+      "sources": [
+        "Wyrmscraig Goat"
+      ]
+    }
+  ],
+  "34042": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/2,000",
+      "sources": [
+        "Mad Angel"
       ]
     }
   ],
@@ -27989,7 +28219,8 @@
       "kind": "drop",
       "rate": "1/5,000",
       "sources": [
-        "Fishing spot (big net, harpoon) (Harpoon)"
+        "Fishing spot (big net, harpoon) (Harpoon)",
+        "Boat fishing spot (big net, harpoon) (Harpoon)"
       ]
     }
   ],
