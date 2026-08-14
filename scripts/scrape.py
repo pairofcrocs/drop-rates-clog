@@ -204,9 +204,14 @@ _SLAYER_NOTE_RX = re.compile(r"slayer task|on[- ]task", re.IGNORECASE)
 
 
 def fetch_superiors() -> set[str]:
-    """Monster page titles from the Superior column of the Slayer task assignment
-    table. Superiors only spawn while on a task, so every drop row sourced from
-    one is an on-task rate by definition."""
+    """Monster page titles of superiors from the Slayer task assignment table.
+    Superiors only spawn while on a task, so every drop row sourced from one is
+    an on-task rate by definition.
+
+    The table's "Superiors and alternatives" column mixes superiors with
+    alternative task monsters (e.g. Abyssal Sire), so links alone don't identify
+    them; superiors are the entries flagged with the
+    {{plinkp|Superior slayer monster|...}} marker template."""
     params = {"action": "parse", "page": SLAYER_TASK_PAGE, "prop": "wikitext",
               "format": "json", "redirects": 1}
     resp = requests.get(API, params=params, headers=HEADERS, timeout=30)
@@ -214,18 +219,13 @@ def fetch_superiors() -> set[str]:
     wikitext = resp.json().get("parse", {}).get("wikitext", {}).get("*", "")
 
     superiors: set[str] = set()
-    # The assignments table has one header cell per column; find the Superior
-    # column's position, then read that cell out of every row.
     for table in re.findall(r"\{\|.*?\|\}", wikitext, re.DOTALL):
         headers = [h.strip() for h in re.findall(r"^!\s*(.+?)\s*$", table, re.MULTILINE)]
-        sup_idx = next((i for i, h in enumerate(headers) if "Superior" in h), None)
-        if sup_idx is None:
+        if not any("Superior" in h for h in headers):
             continue
-        for row in table.split("|-")[1:]:
-            cells = [l for l in row.splitlines() if l.startswith("|") and not l.startswith("|}")]
-            if sup_idx < len(cells):
-                for target in re.findall(r"\[\[([^\]|#]+)", cells[sup_idx]):
-                    superiors.add(target.replace("_", " ").strip())
+        for target in re.findall(
+                r"\{\{plinkp\|Superior slayer monster[^}]*\}\}\s*'*\[\[([^\]|#]+)", table):
+            superiors.add(target.replace("_", " ").strip())
     return superiors
 
 
