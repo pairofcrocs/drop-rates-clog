@@ -8567,7 +8567,9 @@
       "sources": [
         "Copper rocks",
         "Tin rocks",
-        "Clay rocks"
+        "Clay rocks",
+        "Sunstone rocks",
+        "Sunstone monolith"
       ]
     }
   ],
