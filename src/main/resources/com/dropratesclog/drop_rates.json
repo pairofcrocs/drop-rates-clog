@@ -8367,6 +8367,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/76,599",
+      "sources": [
+        "Rod Fishing spot (anglerfish)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/80,343",
       "sources": [
         "Boat fishing spot (big net, harpoon) (Harpoon)"
@@ -23905,7 +23913,8 @@
       "kind": "drop",
       "rate": "1/75",
       "sources": [
-        "Narwhal"
+        "Narwhal",
+        "Orca"
       ]
     },
     {
@@ -24178,7 +24187,7 @@
   ],
   "31949": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/350",
       "sources": [
@@ -24295,14 +24304,6 @@
       ]
     },
     {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/80",
-      "sources": [
-        "Vampyre kraken"
-      ]
-    },
-    {
       "approx": false,
       "kind": "drop",
       "rate": "1/100",
@@ -24319,27 +24320,43 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "4/500",
-      "sources": [
-        "Veiled kraken"
-      ]
-    },
-    {
-      "approx": true,
-      "kind": "drop",
-      "rate": "1/140",
+      "rate": "4/540",
       "sources": [
         "Armoured kraken"
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/200",
+      "rate": "2/320",
+      "sources": [
+        "Vampyre kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "4/720",
       "sources": [
         "Great white shark"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/360",
+      "sources": [
+        "Veiled kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/400",
+      "sources": [
+        "Orca"
       ]
     }
   ],
@@ -24432,7 +24449,7 @@
   ],
   "32115": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/500",
       "sources": [
