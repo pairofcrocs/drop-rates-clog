@@ -2913,7 +2913,7 @@
   },
   {
     "id": 10330,
-    "name": "3rd age range top",
+    "name": "3rd Age range top",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2923,7 +2923,7 @@
   },
   {
     "id": 10332,
-    "name": "3rd age range legs",
+    "name": "3rd Age range legs",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2933,7 +2933,7 @@
   },
   {
     "id": 10334,
-    "name": "3rd age range coif",
+    "name": "3rd Age range coif",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2943,7 +2943,7 @@
   },
   {
     "id": 10336,
-    "name": "3rd age vambraces",
+    "name": "3rd Age vambraces",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2953,7 +2953,7 @@
   },
   {
     "id": 10338,
-    "name": "3rd age robe top",
+    "name": "3rd Age robe top",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2963,7 +2963,7 @@
   },
   {
     "id": 10340,
-    "name": "3rd age robe",
+    "name": "3rd Age robe",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2973,7 +2973,7 @@
   },
   {
     "id": 10342,
-    "name": "3rd age mage hat",
+    "name": "3rd Age mage hat",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2983,7 +2983,7 @@
   },
   {
     "id": 10344,
-    "name": "3rd age amulet",
+    "name": "3rd Age amulet",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -2993,7 +2993,7 @@
   },
   {
     "id": 10346,
-    "name": "3rd age platelegs",
+    "name": "3rd Age platelegs",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -3003,7 +3003,7 @@
   },
   {
     "id": 10348,
-    "name": "3rd age platebody",
+    "name": "3rd Age platebody",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -3013,7 +3013,7 @@
   },
   {
     "id": 10350,
-    "name": "3rd age full helmet",
+    "name": "3rd Age full helmet",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -3023,7 +3023,7 @@
   },
   {
     "id": 10352,
-    "name": "3rd age kiteshield",
+    "name": "3rd Age kiteshield",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -4073,7 +4073,7 @@
   },
   {
     "id": 11849,
-    "name": "Mark of grace",
+    "name": "Mark of Grace",
     "tabs": [
       "Rooftop Agility"
     ],
@@ -4225,7 +4225,7 @@
   },
   {
     "id": 11905,
-    "name": "Trident of the seas (full)",
+    "name": "Trident of the Seas (full)",
     "tabs": [
       "Kraken"
     ],
@@ -4354,7 +4354,7 @@
   },
   {
     "id": 12007,
-    "name": "Jar of dirt",
+    "name": "Jar of Dirt",
     "tabs": [
       "Kraken"
     ],
@@ -5301,7 +5301,7 @@
   },
   {
     "id": 12422,
-    "name": "3rd age wand",
+    "name": "3rd Age wand",
     "tabs": [
       "Elite Treasure Trails (Rare)",
       "Master Treasure Trails (Rare)"
@@ -5310,7 +5310,7 @@
   },
   {
     "id": 12424,
-    "name": "3rd age bow",
+    "name": "3rd Age bow",
     "tabs": [
       "Elite Treasure Trails (Rare)",
       "Master Treasure Trails (Rare)"
@@ -5319,7 +5319,7 @@
   },
   {
     "id": 12426,
-    "name": "3rd age longsword",
+    "name": "3rd Age longsword",
     "tabs": [
       "Elite Treasure Trails (Rare)",
       "Master Treasure Trails (Rare)"
@@ -5352,7 +5352,7 @@
   },
   {
     "id": 12437,
-    "name": "3rd age cloak",
+    "name": "3rd Age cloak",
     "tabs": [
       "Elite Treasure Trails (Rare)",
       "Master Treasure Trails (Rare)"
@@ -6175,7 +6175,7 @@
   },
   {
     "id": 12851,
-    "name": "Amulet of the damned (full)",
+    "name": "Amulet of the Damned (full)",
     "tabs": [
       "Shades of Mort'ton"
     ],
@@ -6183,7 +6183,7 @@
   },
   {
     "id": 12885,
-    "name": "Jar of sand",
+    "name": "Jar of Sand",
     "tabs": [
       "Kalphite Queen"
     ],
@@ -6232,7 +6232,7 @@
   },
   {
     "id": 12936,
-    "name": "Jar of swamp",
+    "name": "Jar of Swamp",
     "tabs": [
       "Zulrah"
     ],
@@ -6383,7 +6383,7 @@
   },
   {
     "id": 13245,
-    "name": "Jar of souls",
+    "name": "Jar of Souls",
     "tabs": [
       "Cerberus"
     ],
@@ -6494,7 +6494,7 @@
   },
   {
     "id": 13277,
-    "name": "Jar of miasma",
+    "name": "Jar of Miasma",
     "tabs": [
       "Abyssal Sire"
     ],
@@ -6898,7 +6898,7 @@
   },
   {
     "id": 19701,
-    "name": "Jar of darkness",
+    "name": "Jar of Darkness",
     "tabs": [
       "Skotizo"
     ],
@@ -7179,7 +7179,7 @@
   },
   {
     "id": 20011,
-    "name": "3rd age axe",
+    "name": "3rd Age axe",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -7187,7 +7187,7 @@
   },
   {
     "id": 20014,
-    "name": "3rd age pickaxe",
+    "name": "3rd Age pickaxe",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -8044,7 +8044,7 @@
   },
   {
     "id": 20716,
-    "name": "Tome of fire (empty)",
+    "name": "Tome of Fire (empty)",
     "tabs": [
       "Wintertodt"
     ],
@@ -8595,7 +8595,7 @@
   },
   {
     "id": 21745,
-    "name": "Jar of stone",
+    "name": "Jar of Stone",
     "tabs": [
       "Grotesque Guardians"
     ],
@@ -8725,7 +8725,7 @@
   },
   {
     "id": 22106,
-    "name": "Jar of decay",
+    "name": "Jar of Decay",
     "tabs": [
       "Vorkath"
     ],
@@ -8926,7 +8926,7 @@
   },
   {
     "id": 22486,
-    "name": "Scythe of vitur (uncharged)",
+    "name": "Scythe of Vitur (uncharged)",
     "tabs": [
       "Theatre of Blood"
     ],
@@ -9220,7 +9220,7 @@
   },
   {
     "id": 23064,
-    "name": "Jar of chemicals",
+    "name": "Jar of Chemicals",
     "tabs": [
       "Alchemical Hydra"
     ],
@@ -9236,7 +9236,7 @@
   },
   {
     "id": 23185,
-    "name": "Ring of 3rd age",
+    "name": "Ring of 3rd Age",
     "tabs": [
       "Elite Treasure Trails",
       "Master Treasure Trails"
@@ -9373,7 +9373,7 @@
   },
   {
     "id": 23242,
-    "name": "3rd age plateskirt",
+    "name": "3rd Age plateskirt",
     "tabs": [
       "Hard Treasure Trails (Rare)",
       "Elite Treasure Trails (Rare)",
@@ -9614,7 +9614,7 @@
   },
   {
     "id": 23336,
-    "name": "3rd age druidic robe top",
+    "name": "3rd Age druidic robe top",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -9622,7 +9622,7 @@
   },
   {
     "id": 23339,
-    "name": "3rd age druidic robe bottoms",
+    "name": "3rd Age druidic robe bottoms",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -9630,7 +9630,7 @@
   },
   {
     "id": 23342,
-    "name": "3rd age druidic staff",
+    "name": "3rd Age druidic staff",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -9638,7 +9638,7 @@
   },
   {
     "id": 23345,
-    "name": "3rd age druidic cloak",
+    "name": "3rd Age druidic cloak",
     "tabs": [
       "Master Treasure Trails (Rare)"
     ],
@@ -9839,7 +9839,7 @@
   },
   {
     "id": 23522,
-    "name": "Mask of ranul",
+    "name": "Mask of Ranul",
     "tabs": [
       "Miscellaneous"
     ],
@@ -9847,7 +9847,7 @@
   },
   {
     "id": 23525,
-    "name": "Jar of eyes",
+    "name": "Jar of Eyes",
     "tabs": [
       "Sarachnis"
     ],
@@ -10186,7 +10186,7 @@
   },
   {
     "id": 24495,
-    "name": "Jar of dreams",
+    "name": "Jar of Dreams",
     "tabs": [
       "The Nightmare"
     ],
@@ -10707,7 +10707,7 @@
   },
   {
     "id": 25521,
-    "name": "Jar of spirits",
+    "name": "Jar of Spirits",
     "tabs": [
       "Corporeal Beast"
     ],
@@ -10715,7 +10715,7 @@
   },
   {
     "id": 25524,
-    "name": "Jar of smoke",
+    "name": "Jar of Smoke",
     "tabs": [
       "Thermonuclear Smoke Devil"
     ],
@@ -10747,7 +10747,7 @@
   },
   {
     "id": 25576,
-    "name": "Tome of water (empty)",
+    "name": "Tome of Water (empty)",
     "tabs": [
       "Tempoross"
     ],
@@ -11310,7 +11310,7 @@
   },
   {
     "id": 26850,
-    "name": "Hat of the eye",
+    "name": "Hat of the Eye",
     "tabs": [
       "Guardians of the Rift"
     ],
@@ -11318,7 +11318,7 @@
   },
   {
     "id": 26852,
-    "name": "Robe top of the eye",
+    "name": "Robe top of the Eye",
     "tabs": [
       "Guardians of the Rift"
     ],
@@ -11326,7 +11326,7 @@
   },
   {
     "id": 26854,
-    "name": "Robe bottoms of the eye",
+    "name": "Robe bottoms of the Eye",
     "tabs": [
       "Guardians of the Rift"
     ],
@@ -11334,7 +11334,7 @@
   },
   {
     "id": 26856,
-    "name": "Boots of the eye",
+    "name": "Boots of the Eye",
     "tabs": [
       "Guardians of the Rift"
     ],
@@ -11543,7 +11543,7 @@
   },
   {
     "id": 27279,
-    "name": "Thread of elidinis",
+    "name": "Thread of Elidinis",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11551,7 +11551,7 @@
   },
   {
     "id": 27283,
-    "name": "Breach of the scarab",
+    "name": "Breach of the Scarab",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11559,7 +11559,7 @@
   },
   {
     "id": 27285,
-    "name": "Eye of the corruptor",
+    "name": "Eye of the Corruptor",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11567,7 +11567,7 @@
   },
   {
     "id": 27289,
-    "name": "Jewel of the sun",
+    "name": "Jewel of the Sun",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11600,7 +11600,7 @@
   },
   {
     "id": 27377,
-    "name": "Remnant of akkha",
+    "name": "Remnant of Akkha",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11608,7 +11608,7 @@
   },
   {
     "id": 27378,
-    "name": "Remnant of ba-ba",
+    "name": "Remnant of Ba-Ba",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11616,7 +11616,7 @@
   },
   {
     "id": 27379,
-    "name": "Remnant of kephri",
+    "name": "Remnant of Kephri",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11624,7 +11624,7 @@
   },
   {
     "id": 27380,
-    "name": "Remnant of zebak",
+    "name": "Remnant of Zebak",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -11689,7 +11689,7 @@
   },
   {
     "id": 27667,
-    "name": "Claws of callisto",
+    "name": "Claws of Callisto",
     "tabs": [
       "Callisto and Artio"
     ],
@@ -11697,7 +11697,7 @@
   },
   {
     "id": 27670,
-    "name": "Fangs of venenatis",
+    "name": "Fangs of Venenatis",
     "tabs": [
       "Venenatis and Spindel"
     ],
@@ -11705,7 +11705,7 @@
   },
   {
     "id": 27673,
-    "name": "Skull of vet'ion",
+    "name": "Skull of Vet'ion",
     "tabs": [
       "Vet'ion and Calvar'ion"
     ],
@@ -11936,7 +11936,7 @@
   },
   {
     "id": 28321,
-    "name": "Eye of the duke",
+    "name": "Eye of the Duke",
     "tabs": [
       "Duke Sucellus"
     ],
@@ -12116,7 +12116,7 @@
   },
   {
     "id": 28919,
-    "name": "Tonalztics of ralos (uncharged)",
+    "name": "Tonalztics of Ralos (uncharged)",
     "tabs": [
       "Fortis Colosseum"
     ],
@@ -12438,7 +12438,7 @@
   },
   {
     "id": 29786,
-    "name": "Jar of venom",
+    "name": "Jar of Venom",
     "tabs": [
       "Araxxor"
     ],
@@ -12512,7 +12512,7 @@
   },
   {
     "id": 29892,
-    "name": "Pendant of ates (inert)",
+    "name": "Pendant of Ates (inert)",
     "tabs": [
       "Amoxliatl",
       "Slayer"
@@ -12650,7 +12650,7 @@
   },
   {
     "id": 30066,
-    "name": "Tome of earth (empty)",
+    "name": "Tome of Earth (empty)",
     "tabs": [
       "The Hueycoatl"
     ],
@@ -12870,7 +12870,7 @@
   },
   {
     "id": 30893,
-    "name": "Jewel of amascut",
+    "name": "Jewel of Amascut",
     "tabs": [
       "Tombs of Amascut"
     ],
@@ -13086,7 +13086,7 @@
   },
   {
     "id": 31115,
-    "name": "Eye of ayak (uncharged)",
+    "name": "Eye of Ayak (uncharged)",
     "tabs": [
       "Doom of Mokhaiotl"
     ],
@@ -13112,7 +13112,7 @@
   },
   {
     "id": 31243,
-    "name": "Horn of plenty (empty)",
+    "name": "Horn of Plenty (empty)",
     "tabs": [
       "Slayer"
     ],
@@ -13266,7 +13266,7 @@
   },
   {
     "id": 31757,
-    "name": "Heart of ithell",
+    "name": "Heart of Ithell",
     "tabs": [
       "Barracuda Trials"
     ],
@@ -13763,7 +13763,7 @@
   },
   {
     "id": 32921,
-    "name": "Jar of feathers",
+    "name": "Jar of Feathers",
     "tabs": [
       "Shellbane Gryphon"
     ],
@@ -13901,7 +13901,7 @@
   },
   {
     "id": 34030,
-    "name": "Jar of light",
+    "name": "Jar of Light",
     "tabs": [
       "The Mad Angel"
     ],
