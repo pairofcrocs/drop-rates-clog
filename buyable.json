@@ -879,7 +879,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Molch pearls",
+        "cost": "50 Molch pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -894,7 +894,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Molch pearls",
+        "cost": "50 Molch pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -909,7 +909,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Molch pearls",
+        "cost": "50 Molch pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -924,7 +924,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Molch pearls",
+        "cost": "50 Molch pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1464,7 +1464,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Molch pearls",
+        "cost": "500 Molch pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2434,6 +2434,21 @@
       }
     ],
     "revid": 15221886
+  },
+  "26813": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,500 abyssal pearls",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Apprentice Felix"
+        ]
+      }
+    ],
+    "revid": null
   },
   "26815": {
     "entries": [
