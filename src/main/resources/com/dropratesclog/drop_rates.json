@@ -8383,6 +8383,22 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/137,033",
+      "sources": [
+        "Boat fishing spot (Piscatoris Fishing Colony)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/256,895",
+      "sources": [
+        "Boat fishing spot (Piscatoris Fishing Colony)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/870,305",
       "sources": [
         "Boat fishing spot (small net, bait) (Small net)"
