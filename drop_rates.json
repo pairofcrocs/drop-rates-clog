@@ -24376,6 +24376,17 @@
       ]
     }
   ],
+  "32090": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/36",
+      "sources": [
+        "Courier tasks",
+        "Bounty tasks"
+      ]
+    }
+  ],
   "32093": [
     {
       "approx": false,
