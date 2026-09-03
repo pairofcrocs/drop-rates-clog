@@ -1898,6 +1898,16 @@
       ]
     }
   ],
+  "34401": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    }
+  ],
   "4099": [
     {
       "approx": false,

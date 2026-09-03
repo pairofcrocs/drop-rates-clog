@@ -25137,6 +25137,65 @@
       ]
     }
   ],
+  "34401": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/128",
+      "sources": [
+        "Spiked Turoth"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/128",
+      "sources": [
+        "Turoth"
+      ]
+    }
+  ],
+  "34404": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Killerwatt"
+      ]
+    }
+  ],
+  "34410": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Sea Snake Hatchling",
+        "Sea Snake Young"
+      ]
+    }
+  ],
+  "34416": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Molanisk"
+      ]
+    }
+  ],
+  "34422": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/64",
+      "sources": [
+        "Infernal Mage"
+      ]
+    }
+  ],
   "3470": [
     {
       "approx": false,
