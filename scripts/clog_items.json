@@ -13931,5 +13931,45 @@
       "All Pets"
     ],
     "wiki_page": "Aggy"
+  },
+  {
+    "id": 34401,
+    "name": "Necklace of fangs",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Necklace of fangs"
+  },
+  {
+    "id": 34404,
+    "name": "Air diamond",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Air diamond"
+  },
+  {
+    "id": 34410,
+    "name": "Water sapphire",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Water sapphire"
+  },
+  {
+    "id": 34416,
+    "name": "Earth emerald",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Earth emerald"
+  },
+  {
+    "id": 34422,
+    "name": "Fire ruby",
+    "tabs": [
+      "Slayer"
+    ],
+    "wiki_page": "Fire ruby"
   }
 ]
