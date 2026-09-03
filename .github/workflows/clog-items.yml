@@ -8,16 +8,21 @@ name: Update collection log items
 # pull request for review (the cache can surface item-id changes worth a human glance —
 # see scripts/gen_clog_items.py). Merging that PR is what feeds the new list to the
 # drop-rates scraper, which is keyed on clog_items.json.
+#
+# Runs hourly because the wiki lags a game update by a few hours: the generator refuses
+# (--strict, exit 3) to persist a guessed wiki_page for a new id, so it just retries next
+# hour. An issue is only filed if misses persist for over 24h, or for any other failure.
 
 on:
   schedule:
-    - cron: '43 8 * * *'    # 08:43 UTC daily — after the wiki-refresh job, off the hour
+    - cron: '43 * * * *'    # hourly, off the hour (see header)
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
   issues: write        # the open-issue-on-failure step
+  actions: read        # same step checks when this workflow last succeeded
 
 concurrency:
   group: clog-items
@@ -39,17 +44,21 @@ jobs:
           python-version: '3.11'
 
       - name: Generate clog_items.json from the cache
+        id: gen
         # Seeds wiki_page from the committed file (preserves anchors, avoids re-hitting the
         # wiki) and only looks up genuinely new item ids. --prev is read fully before --out
         # is written, so writing back to the same path is safe. --strict fails the run on
         # any wiki-lookup miss rather than PRing a guessed wiki_page (which --prev would
         # then reuse forever, and scrape.py keys its drop-rate queries on wiki_page).
         run: |
+          code=0
           python scripts/gen_clog_items.py \
             --out       scripts/clog_items.json \
             --prev      scripts/clog_items.json \
             --overrides scripts/clog_wiki_overrides.json \
-            --strict
+            --strict || code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit $code
 
       - name: Detect changes
         id: diff
@@ -97,12 +106,24 @@ jobs:
           fi
 
       - name: Open issue on failure
-        # Scheduled runs fail silently otherwise. Covers wiki-lookup misses (--strict),
-        # the shrink sanity check, and cache-format parse errors alike.
+        # Scheduled runs fail silently otherwise. Wiki-lookup misses (exit 3) are expected
+        # for a few hours after a game update and the hourly cron retries them, so those
+        # only escalate once no run has succeeded in 24h. Never files a duplicate.
         if: failure()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if [ "${{ steps.gen.outputs.code }}" = "3" ]; then
+            last_ok=$(gh run list --workflow clog-items.yml --status success -L1 --json updatedAt --jq '.[0].updatedAt')
+            if [ -n "$last_ok" ] && [ $(( $(date +%s) - $(date -d "$last_ok" +%s) )) -lt 86400 ]; then
+              echo "wiki miss, last success $last_ok — leaving it to the hourly retry"
+              exit 0
+            fi
+          fi
+          if [ -n "$(gh issue list --state open --search 'in:title "clog_items generator failed"' --json number --jq '.[].number')" ]; then
+            echo "an open failure issue already exists"
+            exit 0
+          fi
           gh issue create \
             --title "clog_items generator failed ($(date -u +%F))" \
-            --body "The cache-based clog_items.json rebuild failed — a wiki lookup missed (--strict), the sanity check tripped (item count shrank >20%), or the cache/OpenRS2 layout changed. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+            --body "The cache-based clog_items.json rebuild failed — wiki lookups have missed for over 24h (--strict; add the id to scripts/clog_wiki_overrides.json if the wiki page is never coming), the sanity check tripped (item count shrank >20%), or the cache/OpenRS2 layout changed. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."

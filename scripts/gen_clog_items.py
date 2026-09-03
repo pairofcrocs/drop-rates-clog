@@ -294,7 +294,7 @@ def main():
     ap.add_argument("--cache-id", type=int, default=0, help="force an OpenRS2 cache id")
     ap.add_argument("--sleep", type=float, default=0.3, help="delay between wiki lookups (s)")
     ap.add_argument("--strict", action="store_true",
-                    help="exit 1 instead of writing output if any wiki lookup misses "
+                    help="exit 3 instead of writing output if any wiki lookup misses "
                          "(for CI: a name-fallback wiki_page would otherwise be reused "
                          "from --prev forever and silently mis-key the drop-rates scraper)")
     ap.add_argument("--force", action="store_true",
@@ -353,7 +353,9 @@ def main():
 
     print(f"wiki lookups: {looked_up} ({misses} misses)", file=sys.stderr)
     if args.strict and misses:
-        sys.exit(f"strict: {misses} wiki lookup miss(es) — not writing {args.out}")
+        # Distinct exit code: CI treats this as "wiki hasn't caught up yet, retry later".
+        print(f"strict: {misses} wiki lookup miss(es) — not writing {args.out}", file=sys.stderr)
+        sys.exit(3)
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
         f.write("\n")
