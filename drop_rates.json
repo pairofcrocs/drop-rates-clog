@@ -6140,7 +6140,6 @@
         "Greater demon (Regular)",
         "Blue dragon",
         "Mountain troll",
-        "Turoth",
         "Basilisk",
         "Gargoyle",
         "Cave horror",
@@ -6177,6 +6176,7 @@
       "kind": "drop",
       "rate": "1/140,902.4",
       "sources": [
+        "Turoth",
         "Suqah"
       ]
     },
@@ -17642,7 +17642,6 @@
         "Greater demon (Regular)",
         "Blue dragon",
         "Mountain troll",
-        "Turoth",
         "Basilisk",
         "Gargoyle",
         "Cave horror",
@@ -17679,6 +17678,7 @@
       "kind": "drop",
       "rate": "1/105,676.8",
       "sources": [
+        "Turoth",
         "Suqah"
       ]
     },
@@ -25149,7 +25149,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/128",
+      "rate": "1/129",
       "sources": [
         "Turoth"
       ]
@@ -25172,7 +25172,8 @@
       "rate": "1/64",
       "sources": [
         "Sea Snake Hatchling",
-        "Sea Snake Young"
+        "Sea Snake Young",
+        "Giant Sea Snake"
       ]
     }
   ],
@@ -25187,6 +25188,14 @@
     }
   ],
   "34422": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/64",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    },
     {
       "approx": false,
       "kind": "drop",

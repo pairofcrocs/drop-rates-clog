@@ -1908,6 +1908,16 @@
       ]
     }
   ],
+  "34422": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3 × 1/64",
+      "sources": [
+        "Malevolent Mage"
+      ]
+    }
+  ],
   "4099": [
     {
       "approx": false,
