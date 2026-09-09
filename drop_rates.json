@@ -12139,7 +12139,8 @@
       "kind": "drop",
       "rate": "1/256,961",
       "sources": [
-        "Farmer"
+        "Farmer",
+        "Farmer (Tal Teklan)"
       ]
     },
     {
