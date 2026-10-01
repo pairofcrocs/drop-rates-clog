@@ -170,7 +170,7 @@ def parse_item_name(b):
         if op == 2: name = r.jstr()
         elif op == 1 or op in (4, 5, 6, 7, 8): r.u16()
         elif op in (3, 9): r.jstr()
-        elif op in (11, 15, 16, 65, 160): pass
+        elif op in (11, 15, 16, 65, 160, 251): pass
         elif op == 12: r.i32()
         elif op in (13, 14, 27, 42, 113, 114): r.i8()
         elif op in (23, 25): r.u16(); r.u8()
