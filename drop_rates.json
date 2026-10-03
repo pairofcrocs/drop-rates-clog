@@ -19425,6 +19425,14 @@
       "sources": [
         "Reward pool"
       ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/96",
+      "sources": [
+        "Tiny port reward bag (Ruins of Unkah)"
+      ]
     }
   ],
   "25602": [
@@ -28466,6 +28474,14 @@
       "sources": [
         "Barracuda salvage"
       ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/480",
+      "sources": [
+        "Tiny port reward bag (The Pandemonium)"
+      ]
     }
   ],
   "8941": [
@@ -28492,6 +28508,14 @@
       "rate": "2,500/28,401",
       "sources": [
         "Barracuda salvage"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/480",
+      "sources": [
+        "Tiny port reward bag (The Pandemonium)"
       ]
     }
   ],
