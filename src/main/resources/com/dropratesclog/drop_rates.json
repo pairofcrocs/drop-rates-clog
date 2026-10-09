@@ -19427,7 +19427,7 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/96",
       "sources": [
@@ -19598,7 +19598,7 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/500",
       "sources": [
@@ -28476,9 +28476,9 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/480",
+      "rate": "1/768",
       "sources": [
         "Tiny port reward bag (The Pandemonium)"
       ]
@@ -28511,9 +28511,9 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/480",
+      "rate": "1/768",
       "sources": [
         "Tiny port reward bag (The Pandemonium)"
       ]
