@@ -5855,7 +5855,8 @@
       "rate": "3 × 1/116,508.44",
       "sources": [
         "Giant rockslug",
-        "Mutated Terrorbird"
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
       ]
     },
     {
@@ -6096,7 +6097,6 @@
         "Experiment No.2",
         "Lizard",
         "Sulphur Lizard",
-        "Mutated Tortoise",
         "Warped Tortoise",
         "Warped Terrorbird"
       ]
@@ -8006,6 +8006,22 @@
       "rate": "2 × 5/249",
       "sources": [
         "Zulrah"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Large port reward bag (Port Tyras)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/82",
+      "sources": [
+        "Medium port reward bag (Port Tyras)"
       ]
     }
   ],
@@ -17359,7 +17375,8 @@
       "rate": "3 × 1/87,381.33",
       "sources": [
         "Giant rockslug",
-        "Mutated Terrorbird"
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
       ]
     },
     {
@@ -17600,7 +17617,6 @@
         "Experiment No.2",
         "Lizard",
         "Sulphur Lizard",
-        "Mutated Tortoise",
         "Warped Tortoise",
         "Warped Terrorbird"
       ]
@@ -19424,6 +19440,22 @@
       "rate": "1/4",
       "sources": [
         "Reward pool"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/82",
+      "sources": [
+        "Medium port reward bag (Ruins of Unkah)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/84",
+      "sources": [
+        "Small port reward bag (Ruins of Unkah)"
       ]
     },
     {
@@ -23933,6 +23965,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "3/120",
+      "sources": [
+        "Huge port reward bag"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "2/130",
       "sources": [
         "Frost dragon"
@@ -24115,6 +24155,14 @@
     }
   ],
   "31916": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "3/120",
+      "sources": [
+        "Huge port reward bag"
+      ]
+    },
     {
       "approx": false,
       "kind": "drop",
@@ -24363,6 +24411,14 @@
       "rate": "2/320",
       "sources": [
         "Vampyre kraken"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "0.75/120",
+      "sources": [
+        "Huge port reward bag"
       ]
     },
     {

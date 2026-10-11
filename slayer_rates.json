@@ -162,7 +162,8 @@
       "rate": "3 × 1/116,508.44",
       "sources": [
         "Giant rockslug",
-        "Mutated Terrorbird"
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
       ]
     },
     {
@@ -196,14 +197,6 @@
         "Flaming pyrelord",
         "Nechryarch (Greater)",
         "Infernal pyrelord"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/116,508.44",
-      "sources": [
-        "Mutated Tortoise"
       ]
     },
     {
@@ -1586,7 +1579,8 @@
       "rate": "3 × 1/87,381.33",
       "sources": [
         "Giant rockslug",
-        "Mutated Terrorbird"
+        "Mutated Terrorbird",
+        "Mutated Tortoise"
       ]
     },
     {
@@ -1620,14 +1614,6 @@
         "Flaming pyrelord",
         "Nechryarch (Greater)",
         "Infernal pyrelord"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
-      "rate": "1/87,381.33",
-      "sources": [
-        "Mutated Tortoise"
       ]
     },
     {
