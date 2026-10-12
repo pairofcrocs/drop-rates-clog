@@ -31,7 +31,7 @@ Usage:
         --prev scripts/clog_items.json \
         --overrides scripts/clog_wiki_overrides.json
 """
-import argparse, bz2, gzip, json, sys, time, urllib.parse, urllib.request
+import argparse, bz2, gzip, json, sys, time, urllib.error, urllib.parse, urllib.request
 
 UA = "clog-items-generator (+https://github.com/pairofcrocs/drop-rates-clog)"
 OPENRS2 = "https://archive.openrs2.org"
@@ -205,10 +205,28 @@ def http(url, method="GET"):
     return urllib.request.urlopen(req, timeout=60)
 
 
+def openrs2_get(url, tries=5):
+    """GET from OpenRS2, retrying 5xx/429/network blips with backoff. Exits 4 if it
+    stays down, so CI can tell "archive unavailable" from a real breakage."""
+    for attempt in range(tries):
+        try:
+            with http(url) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as e:
+            if e.code < 500 and e.code != 429:
+                raise
+            err = e
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            err = e
+        if attempt < tries - 1:
+            time.sleep(5 * 2 ** attempt)
+    print(f"OpenRS2 unavailable after {tries} tries: {url}: {err}", file=sys.stderr)
+    sys.exit(4)
+
+
 def latest_cache_id():
     """Newest live, English OSRS cache from the OpenRS2 archive."""
-    with http(OPENRS2 + "/caches.json") as resp:
-        caches = json.loads(resp.read())
+    caches = json.loads(openrs2_get(OPENRS2 + "/caches.json"))
     def ok(c):
         return (c.get("game") == "oldschool" and c.get("scope") == "runescape"
                 and c.get("environment") == "live" and c.get("builds")
@@ -223,8 +241,7 @@ def latest_cache_id():
 
 
 def fetch_group(cache_id, archive, group):
-    with http(f"{OPENRS2}/caches/runescape/{cache_id}/archives/{archive}/groups/{group}.dat") as resp:
-        return resp.read()
+    return openrs2_get(f"{OPENRS2}/caches/runescape/{cache_id}/archives/{archive}/groups/{group}.dat")
 
 
 # ── wiki page resolution ─────────────────────────────────────────────────────
