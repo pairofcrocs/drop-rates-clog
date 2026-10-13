@@ -8011,7 +8011,15 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/80",
+      "rate": "3/225",
+      "sources": [
+        "Huge port reward bag (Port Tyras)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "2/155",
       "sources": [
         "Large port reward bag (Port Tyras)"
       ]
@@ -8019,7 +8027,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/82",
+      "rate": "2/160",
       "sources": [
         "Medium port reward bag (Port Tyras)"
       ]
@@ -19445,7 +19453,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/82",
+      "rate": "2/160",
       "sources": [
         "Medium port reward bag (Ruins of Unkah)"
       ]
@@ -19453,7 +19461,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/84",
+      "rate": "2/168",
       "sources": [
         "Small port reward bag (Ruins of Unkah)"
       ]
@@ -23965,7 +23973,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/120",
+      "rate": "4/225",
       "sources": [
         "Huge port reward bag"
       ]
@@ -24158,7 +24166,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "3/120",
+      "rate": "6/225",
       "sources": [
         "Huge port reward bag"
       ]
@@ -24416,14 +24424,6 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "0.75/120",
-      "sources": [
-        "Huge port reward bag"
-      ]
-    },
-    {
-      "approx": false,
-      "kind": "drop",
       "rate": "4/720",
       "sources": [
         "Great white shark"
@@ -24443,6 +24443,14 @@
       "rate": "2/400",
       "sources": [
         "Orca"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/225",
+      "sources": [
+        "Huge port reward bag"
       ]
     }
   ],
