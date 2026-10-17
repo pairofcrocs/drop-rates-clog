@@ -6183,7 +6183,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/152,917.33",
+      "rate": "1/151,825.07",
       "sources": [
         "Killerwatt"
       ]
@@ -17711,7 +17711,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "1/114,688",
+      "rate": "1/113,868.8",
       "sources": [
         "Killerwatt"
       ]
@@ -22766,6 +22766,14 @@
       "sources": [
         "Blue dragon",
         "Baby blue dragon"
+      ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/134",
+      "sources": [
+        "Cave crawler"
       ]
     },
     {
