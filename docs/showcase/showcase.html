@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: RSBold; src: url(runescape_bold.ttf); }
+@font-face { font-family: RS; src: url(runescape.ttf); }
+@font-face { font-family: RSSmall; src: url(runescape_small.ttf); }
+
+:root {
+  --stone-dark: #0f0e0b;
+  --stone: #25241e;
+  --stone-hi: #5a5245;
+  --panel: #3e3529;
+  --page: #484035;
+  --orange: #ff981f;
+  --yellow: #ffff00;
+  --muted: #c8b99a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 800px; height: 512px; background: #1b1814; overflow: hidden; }
+body { padding: 12px; -webkit-font-smoothing: none; }
+img { image-rendering: pixelated; display: block; }
+
+/* OSRS interface window */
+.window {
+  height: 100%;
+  background: var(--panel);
+  border: 2px solid var(--stone-dark);
+  box-shadow: inset 0 0 0 2px var(--stone), inset 0 0 0 3px var(--stone-hi);
+  padding: 14px 16px 12px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.shadow { text-shadow: 1px 1px 0 #000; }
+
+header { display: flex; align-items: baseline; justify-content: space-between; padding: 0 4px; }
+h1 { font: 32px/1 RSBold; color: var(--orange); text-shadow: 2px 2px 0 #000; font-weight: normal; }
+.tagline { font: 16px/1 RS; color: #fff; text-shadow: 1px 1px 0 #000; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; flex: 1; }
+
+.card { display: flex; flex-direction: column; gap: 6px; }
+.label { display: flex; align-items: baseline; gap: 8px; padding-left: 2px; }
+.label b { font: 16px/1 RSBold; color: var(--orange); font-weight: normal; text-shadow: 1px 1px 0 #000; }
+.label span { font: 16px/1 RS; color: var(--muted); text-shadow: 1px 1px 0 #000; }
+
+/* collection-log page */
+.scene {
+  position: relative; flex: 1;
+  background: var(--page);
+  border: 1px solid var(--stone);
+  box-shadow: inset 0 0 0 1px #544b3e;
+  padding: 8px 12px;
+}
+.page { font: 16px/1 RSBold; color: var(--orange); text-shadow: 1px 1px 0 #000; font-weight: normal; }
+.rule { height: 1px; background: #5d5444; margin: 6px -12px 8px; box-shadow: 0 1px 0 #2e2a22; }
+.row { display: flex; gap: 6px; }
+.row img { width: 36px; height: 32px; opacity: .35; }
+.row img.hover { opacity: 1; }
+.cursor { position: absolute; width: 12px; height: 19px; }
+.tip { position: absolute; }
+
+footer { display: flex; justify-content: space-between; padding: 0 4px; font: 16px/1 RSSmall; color: var(--muted); text-shadow: 1px 1px 0 #000; }
+footer em { font-style: normal; color: var(--yellow); }
+</style>
+</head>
+<body>
+<div class="window">
+  <header>
+    <h1>Clog Drop Rates</h1>
+    <div class="tagline">Hover any Collection Log item to see how to get it</div>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <div class="label"><b>Drop rates</b><span>every source, grouped by rate</span></div>
+      <div class="scene">
+        <div class="page">Kalphite Queen</div><div class="rule"></div>
+        <div class="row">
+          <img src="img/7981.png"><img class="hover" src="img/11920.png"><img src="img/3140.png"><img src="img/7158.png"><img src="img/12885.png"><img src="img/12647.png">
+        </div>
+        <svg class="cursor" style="left:70px;top:62px"><use href="#arrow"/></svg>
+        <img class="tip" src="img/tip_11920.png" style="left:64px;top:84px">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="label"><b>Slayer task rates</b><span>on-task rates in green</span></div>
+      <div class="scene">
+        <div class="page">Slayer</div><div class="rule"></div>
+        <div class="row">
+          <img src="img/20724.png"><img class="hover" src="img/24268.png"><img src="img/22957.png"><img src="img/22973.png"><img src="img/21643.png"><img src="img/7158.png" style="visibility:hidden">
+        </div>
+        <svg class="cursor" style="left:70px;top:62px"><use href="#arrow"/></svg>
+        <img class="tip" src="img/tip_24268.png" style="left:64px;top:84px">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="label"><b>Acquirable items</b><span>shops, points &amp; currencies</span></div>
+      <div class="scene">
+        <div class="page">Tithe Farm</div><div class="rule"></div>
+        <div class="row">
+          <img src="img/13639.png"><img class="hover" src="img/13226.png"><img src="img/13353.png"><img src="img/13646.png"><img src="img/13642.png"><img src="img/13644.png">
+        </div>
+        <svg class="cursor" style="left:70px;top:62px"><use href="#arrow"/></svg>
+        <img class="tip" src="img/tip_13226.png" style="left:64px;top:84px">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="label"><b>Skilling pets</b><span>your odds at your level</span></div>
+      <div class="scene">
+        <div class="page">Skilling Pets</div><div class="rule"></div>
+        <div class="row">
+          <img src="img/20659.png"><img class="hover" src="img/20665.png"><img src="img/20661.png"><img src="img/20663.png"><img src="img/13322.png"><img src="img/13320.png">
+        </div>
+        <svg class="cursor" style="left:70px;top:62px"><use href="#arrow"/></svg>
+        <img class="tip" src="img/tip_20665.png" style="left:64px;top:84px">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>Rates pulled from the <em>OSRS Wiki</em> and kept up to date automatically</div>
+    <div>Percent, 1/N, multi-roll &amp; colours all configurable</div>
+  </footer>
+</div>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- pixel arrow cursor, 1 unit = 1 game pixel -->
+    <g id="arrow" shape-rendering="crispEdges">
+      <path d="M0 0h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-4v1h1v2h1v2h1v1h-2v1h-1v-1h-1v-2h-1v-2h-1v1h-1v1h-1v1h-1z" fill="#000"/>
+      <path d="M1 2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-4v1h1v2h1v2h-1v-2h-1v-2h-1v-1h-1v1h-1v1h-1v1h-1z" fill="#fff"/>
+    </g>
+  </defs>
+</svg>
+</body>
+</html>
