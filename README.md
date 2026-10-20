@@ -2,7 +2,7 @@
 
 A RuneLite plugin that shows drop rates and acquisition methods in a tooltip when hovering over items in the Collection Log.
 
-![Screenshot](screenshot.gif)
+![Clog Drop Rates: drop rates, Slayer task rates, acquirable items and skilling pet chances](showcase.png)
 
 ## Features
 

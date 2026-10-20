@@ -46,3 +46,12 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
     options.release = 11
 }
+
+task showcase(type: JavaExec) {
+    group = 'documentation'
+    description = 'Renders tooltips for the README showcase image (see docs/showcase/render.sh)'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.dropratesclog.ShowcaseRender'
+    systemProperty 'java.awt.headless', 'true'
+    args project.findProperty('showcaseArgs')?.split(/\|/) ?: []
+}
