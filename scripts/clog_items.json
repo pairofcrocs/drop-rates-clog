@@ -13971,5 +13971,141 @@
       "Slayer"
     ],
     "wiki_page": "Fire ruby"
+  },
+  {
+    "id": 34646,
+    "name": "Orion",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Orion#Orion"
+  },
+  {
+    "id": 34659,
+    "name": "Living record (tier 1)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Living record (tier 1)"
+  },
+  {
+    "id": 34661,
+    "name": "Living record (tier 2)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Living record (tier 2)"
+  },
+  {
+    "id": 34663,
+    "name": "Living record (tier 3)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Living record (tier 3)"
+  },
+  {
+    "id": 34665,
+    "name": "Living record (tier 4)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Living record (tier 4)"
+  },
+  {
+    "id": 34667,
+    "name": "Living record (tier 5)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Living record (tier 5)"
+  },
+  {
+    "id": 34669,
+    "name": "Ascension shards",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Ascension shards"
+  },
+  {
+    "id": 34671,
+    "name": "Fragment of living earth",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Fragment of living earth"
+  },
+  {
+    "id": 34673,
+    "name": "Fragment of deep water",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Fragment of deep water"
+  },
+  {
+    "id": 34675,
+    "name": "Fragment of whispering wind",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Fragment of whispering wind"
+  },
+  {
+    "id": 34677,
+    "name": "Fragment of burning fire",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Fragment of burning fire"
+  },
+  {
+    "id": 34679,
+    "name": "Horn of Bran",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Horn of Bran"
+  },
+  {
+    "id": 34681,
+    "name": "Ascension crossbows",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Ascension crossbows"
+  },
+  {
+    "id": 34717,
+    "name": "Obligator (uncharged)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Obligator#Uncharged"
+  },
+  {
+    "id": 34719,
+    "name": "Rondache",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Rondache"
+  },
+  {
+    "id": 34722,
+    "name": "Archivist's folio (inert)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Archivist's folio#Inert"
+  },
+  {
+    "id": 34727,
+    "name": "Zorya's tome (uncharged)",
+    "tabs": [
+      "The Fractured Archive"
+    ],
+    "wiki_page": "Zorya's tome#Uncharged"
   }
 ]
