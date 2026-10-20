@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: RSBold; src: url(runescape_bold.ttf); }
+@font-face { font-family: RS; src: url(runescape.ttf); }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 760px; background: #1b1814; }
+body { padding: 8px; -webkit-font-smoothing: none; }
+img { image-rendering: pixelated; display: block; }
+
+.window {
+  background: #3e3529;
+  border: 2px solid #0f0e0b;
+  box-shadow: inset 0 0 0 2px #25241e, inset 0 0 0 3px #5a5245;
+  padding: 12px 14px;
+}
+header { display: flex; justify-content: space-between; align-items: baseline; }
+h1 { font: 16px/1 RSBold; color: #ff981f; font-weight: normal; text-shadow: 1px 1px 0 #000; }
+.section, .desc, .tag { font: 16px/1 RS; color: #c8b99a; text-shadow: 1px 1px 0 #000; }
+.desc { margin: 6px 0 10px; }
+
+.panels { display: grid; gap: 10px; }
+.panel { display: flex; flex-direction: column; gap: 5px; }
+.chip { font: 16px/1 RSBold; color: #fff; text-shadow: 1px 1px 0 #000; font-weight: normal; padding-left: 2px; }
+.chip .tag { margin-left: 4px; }
+.scene {
+  position: relative; flex: 1;
+  background: #484035;
+  border: 1px solid #25241e;
+  box-shadow: inset 0 0 0 1px #544b3e;
+  padding: 10px 12px 10px;
+}
+.scene > img.item { width: 36px; height: 32px; }
+.tips { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; margin: 8px 0 0 10px; width: max-content; }
+.none { font: 16px/1 RS; color: #8f8370; text-shadow: 1px 1px 0 #000; margin: 14px 0 0 12px; }
+.cursor { position: absolute; left: 32px; top: 30px; width: 12px; height: 19px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font: 16px/1 RS; color: #fff; text-shadow: 1px 1px 0 #000; }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.legend i { width: 10px; height: 10px; border: 1px solid #000; display: inline-block; }
+</style>
+</head>
+<body>
+<div class="window" id="fig"></div>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <g id="arrow" shape-rendering="crispEdges">
+      <path d="M0 0h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-4v1h1v2h1v2h1v1h-2v1h-1v-1h-1v-2h-1v-2h-1v1h-1v1h-1v1h-1z" fill="#000"/>
+      <path d="M1 2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-4v1h1v2h1v2h-1v-2h-1v-2h-1v-1h-1v1h-1v1h-1v1h-1z" fill="#fff"/>
+    </g>
+  </defs>
+</svg>
+
+<script>
+// One figure per setting: [label, tooltip images (from tooltips.txt), default?]. render.sh
+// screenshots settings.html#<key> for every key here.
+const FIGS = {
+  showDropRates:            { title: 'Show Drop Rates', section: 'Drop Rates', item: 21298,
+    desc: 'Show the Drop Rate section.',
+    panels: [['Off', ['dr_off']], ['On', ['dr_on'], true]] },
+  showDropRateAsPercentage: { title: 'Show as percentage', section: 'Drop Rates', item: 11920,
+    desc: 'Show rates as a percentage instead of a ratio.',
+    panels: [['Off', ['pct_off'], true], ['On', ['pct_on']]] },
+  normaliseToOneInN:        { title: 'Show as 1/N', section: 'Drop Rates', item: 12833,
+    desc: 'Turn awkward fractions into "1 in N".',
+    panels: [['Off', ['onen_off']], ['On', ['onen_on'], true]] },
+  oneInNDecimals:           { title: '1/N decimal places', section: 'Drop Rates', item: 12833,
+    desc: 'How many decimals to keep in the N of a 1/N rate.',
+    panels: [['0', ['dec_0']], ['1', ['dec_1'], true], ['3', ['dec_3']]] },
+  combineMultiRolls:        { title: 'Combine multi-roll rates', section: 'Drop Rates', item: 4740,
+    desc: 'Merge rates rolled several times per kill into one rate.',
+    panels: [['Off', ['multi_off']], ['On', ['multi_on'], true]] },
+  multiRollChancePerKill:   { title: 'Multi-roll combine method', section: 'Drop Rates', item: 4740,
+    desc: 'Average drops per kill, or the chance of at least one.',
+    panels: [['Expected count', ['method_exp'], true], ['Chance per kill', ['method_kill']]] },
+  showSlayerRates:          { title: 'Show Slayer task rates', section: 'Drop Rates', item: 24268,
+    desc: 'Show on-task rates and tag task-only sources.',
+    panels: [['Off', ['slayer_off']], ['On', ['slayer_on'], true]] },
+  showSkillingPetChance:    { title: 'Show Skilling Pet Chances', section: 'Skilling Pet Chances', item: 13322,
+    desc: 'Your per-action pet chance at your current level.',
+    panels: [['Off', ['pet_off']], ['On', ['pet_on'], true]] },
+  showOnlyPopularMethods:   { title: 'Show popular methods only', section: 'Skilling Pet Chances', item: 13322,
+    desc: 'Only list popular training methods.',
+    panels: [['Off', ['pop_off'], true], ['On', ['pop_on']]] },
+  showAcquirableItems:      { title: 'Show Acquirable Items', section: 'Acquirable Items', item: 21298,
+    desc: 'Show shop costs, reward currencies and requirements.',
+    panels: [['Off', ['acq_off']], ['On', ['acq_on'], true]] },
+  maxSources:               { title: 'Max sources shown', section: 'General', item: 20724,
+    desc: 'Cap on rate groups per section (0 = unlimited).',
+    panels: [['3', ['max_3']], ['7', ['max_7'], true]] },
+  hideCheckPopup:           { title: 'Hide "Check" popup', section: 'General', item: 11920,
+    desc: 'Hide the cursor\'s "Check <item>" indicator.',
+    panels: [['Off', ['check_menu', 'check_tip']], ['On', ['check_tip'], true]] },
+  hideTooltipIfObtained:    { title: 'Hide tooltip if obtained', section: 'General', item: 11920,
+    desc: 'Skip the tooltip for items you already have.',
+    panels: [['Off', ['owned_off'], true], ['On', []]] },
+  colors:                   { title: 'UI Colors', section: 'UI Colors', item: 24268,
+    desc: 'Every part of the tooltip can be recoloured.',
+    panels: [['Default', ['col_default'], true], ['Custom', ['col_custom']]],
+    legend: [['Header', '7fdbff'], ['Item name', 'ff7ad9'], ['Rate / detail', 'b6ff6b'], ['Source', 'ffd59e'], ['Slayer task', 'ff6b6b']] },
+};
+
+const f = FIGS[location.hash.slice(1)];
+const el = document.getElementById('fig');
+el.innerHTML = `
+  <header><h1>${f.title}</h1><div class="section">${f.section}</div></header>
+  <div class="desc">${f.desc.replace(/</g, '&lt;')}</div>
+  <div class="panels" style="grid-template-columns: repeat(${f.panels.length}, 1fr)">
+    ${f.panels.map(([label, tips, def]) => `
+      <div class="panel">
+        <div class="chip">${label}${def ? '<span class="tag">(default)</span>' : ''}</div>
+        <div class="scene">
+          <img class="item" src="img/${f.item}.png">
+          <svg class="cursor"><use href="#arrow"/></svg>
+          ${tips.length
+            ? `<div class="tips">${tips.map(t => `<img src="img/tip_${t}.png">`).join('')}</div>`
+            : '<div class="none">No tooltip</div>'}
+        </div>
+      </div>`).join('')}
+  </div>
+  ${f.legend ? `<div class="legend">Custom:${f.legend.map(([n, c]) =>
+      `<span><i style="background:#${c}"></i>${n}</span>`).join('')}</div>` : ''}`;
+
+// render.sh reads the page height back from the title (via --dump-dom) to size the screenshot.
+Promise.all([document.fonts.ready, ...[...document.images].map(i => i.decode().catch(() => {}))])
+  .then(() => document.title = Math.ceil(document.documentElement.getBoundingClientRect().height));
+</script>
+</body>
+</html>

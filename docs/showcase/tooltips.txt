@@ -1,0 +1,5 @@
+# name | itemId | itemName | skillLevel | obtained | config overrides
+11920 | 11920 | Dragon pickaxe | 99 | n |
+24268 | 24268 | Basilisk jaw   | 99 | n |
+13226 | 13226 | Herb sack      | 99 | n |
+20665 | 20665 | Rift guardian  | 91 | n |

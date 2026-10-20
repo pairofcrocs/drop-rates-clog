@@ -49,7 +49,7 @@ tasks.withType(JavaCompile) {
 
 task showcase(type: JavaExec) {
     group = 'documentation'
-    description = 'Renders tooltips for the README showcase image (see docs/showcase/render.sh)'
+    description = 'Renders tooltips for the README images (see docs/render.sh)'
     classpath = sourceSets.test.runtimeClasspath
     mainClass = 'com.dropratesclog.ShowcaseRender'
     systemProperty 'java.awt.headless', 'true'

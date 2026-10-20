@@ -1,0 +1,30 @@
+# name | itemId | itemName | skillLevel | obtained | config overrides   (see ShowcaseRender)
+dr_off      | 21298 | Obsidian helmet | 99 | n | showDropRates=false
+dr_on       | 21298 | Obsidian helmet | 99 | n |
+pct_off     | 11920 | Dragon pickaxe  | 99 | n |
+pct_on      | 11920 | Dragon pickaxe  | 99 | n | showDropRateAsPercentage=true
+onen_off    | 12833 | Holy elixir     | 99 | n | normaliseToOneInN=false
+onen_on     | 12833 | Holy elixir     | 99 | n |
+dec_0       | 12833 | Holy elixir     | 99 | n | oneInNDecimals=0
+dec_1       | 12833 | Holy elixir     | 99 | n |
+dec_3       | 12833 | Holy elixir     | 99 | n | oneInNDecimals=3
+multi_off   | 4740  | Bolt rack       | 99 | n | combineMultiRolls=false
+multi_on    | 4740  | Bolt rack       | 99 | n |
+method_exp  | 4740  | Bolt rack       | 99 | n |
+method_kill | 4740  | Bolt rack       | 99 | n | multiRollChancePerKill=true
+slayer_off  | 24268 | Basilisk jaw    | 99 | n | showSlayerRates=false
+slayer_on   | 24268 | Basilisk jaw    | 99 | n |
+pet_off     | 13322 | Beaver          | 90 | n | showSkillingPetChance=false
+pet_on      | 13322 | Beaver          | 90 | n |
+pop_off     | 13322 | Beaver          | 90 | n |
+pop_on      | 13322 | Beaver          | 90 | n | showOnlyPopularMethods=true
+acq_off     | 21298 | Obsidian helmet | 99 | n | showAcquirableItems=false
+acq_on      | 21298 | Obsidian helmet | 99 | n |
+max_3       | 20724 | Imbued heart    | 99 | n | maxSources=3
+max_7       | 20724 | Imbued heart    | 99 | n |
+check_tip   | 11920 | Dragon pickaxe  | 99 | n |
+check_menu  | text  | Check <col=ff9040>Dragon pickaxe</col>
+owned_off   | 11920 | Dragon pickaxe  | 99 | y |
+owned_on    | 11920 | Dragon pickaxe  | 99 | y | hideTooltipIfObtained=true
+col_default | 24268 | Basilisk jaw    | 99 | n |
+col_custom  | 24268 | Basilisk jaw    | 99 | n | headerColor=7fdbff;itemNameColor=ff7ad9;rateColor=b6ff6b;sourceColor=ffd59e;taskColor=ff6b6b

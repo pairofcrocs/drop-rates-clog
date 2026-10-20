@@ -14,19 +14,26 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileReader;
 import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 import java.lang.invoke.MethodHandles;
 import java.lang.reflect.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.List;
 
 /**
- * Renders real plugin tooltips (and RuneLite's fonts) for the README showcase image.
- * Run via docs/showcase/render.sh. args: dataDir outDir id:name:level...
+ * Renders real plugin tooltips (and RuneLite's fonts) for the README images. Run via docs/render.sh.
+ * args: dataDir outDir specFile... Each spec line is either
+ *   name | itemId | itemName | skillLevel | obtained (y/n) | configKey=value;...
+ * or, for a non-plugin tooltip such as RuneLite's own mouse tooltip,
+ *   name | text | raw tooltip text
  */
 public class ShowcaseRender
 {
+    private static final Map<String, String> overrides = new HashMap<>();
+    private static int level = 99;
+
     public static void main(String[] args) throws Exception
     {
         File data = new File(args[0]), out = new File(args[1]);
@@ -38,17 +45,27 @@ public class ShowcaseRender
                 Files.copy(in, new File(out, font).toPath(), StandardCopyOption.REPLACE_EXISTING);
             }
         }
+
         DropRatesClogPlugin plugin = new DropRatesClogPlugin();
         Gson gson = new Gson();
-        int[] level = {99};
 
         DropRatesClogConfig config = (DropRatesClogConfig) Proxy.newProxyInstance(
             DropRatesClogConfig.class.getClassLoader(), new Class<?>[]{DropRatesClogConfig.class},
-            (p, m, a) -> MethodHandles.privateLookupIn(DropRatesClogConfig.class, MethodHandles.lookup())
-                .unreflectSpecial(m, DropRatesClogConfig.class).bindTo(p).invokeWithArguments(a == null ? new Object[0] : a));
+            (p, m, a) -> {
+                String v = overrides.get(m.getName());
+                if (v != null)
+                {
+                    Class<?> r = m.getReturnType();
+                    if (r == boolean.class) return Boolean.parseBoolean(v);
+                    if (r == int.class) return Integer.parseInt(v);
+                    if (r == Color.class) return Color.decode("#" + v);
+                }
+                return MethodHandles.privateLookupIn(DropRatesClogConfig.class, MethodHandles.lookup())
+                    .unreflectSpecial(m, DropRatesClogConfig.class).bindTo(p).invokeWithArguments(a == null ? new Object[0] : a);
+            });
         Client client = (Client) Proxy.newProxyInstance(Client.class.getClassLoader(), new Class<?>[]{Client.class},
             (p, m, a) -> {
-                if (m.getName().equals("getRealSkillLevel")) return level[0];
+                if (m.getName().equals("getRealSkillLevel")) return level;
                 Class<?> r = m.getReturnType();
                 if (r == boolean.class) return false;
                 if (r == int.class) return 0;
@@ -67,16 +84,41 @@ public class ShowcaseRender
         toSet.setAccessible(true);
         set(plugin, "popularMethods", toSet.invoke(null, (Object) gson.fromJson(new FileReader(new File(data, "popular_methods.json")), new TypeToken<Map<String, List<String>>>(){}.getType())));
 
-        for (int i = 2; i < args.length; i++)
+        List<String> lines = new ArrayList<>();
+        for (int i = 2; i < args.length; i++) lines.addAll(Files.readAllLines(new File(args[i]).toPath(), StandardCharsets.UTF_8));
+        for (String line : lines)
         {
-            String[] s = args[i].split(":");
-            level[0] = Integer.parseInt(s[2]);
-            set(plugin, "hoveredItemId", Integer.parseInt(s[0]));
-            set(plugin, "hoveredItem", s[1]);
-            set(plugin, "hoveredItemObtained", false);
-            set(plugin, "lastSeenTime", System.currentTimeMillis());
-            String text = plugin.buildActiveTooltip();
-            ImageIO.write(render(text), "png", new File(out, "img/tip_" + s[0] + ".png"));
+            if (line.isBlank() || line.startsWith("#")) continue;
+            String[] f = line.split("\\|", -1);
+            for (int i = 0; i < f.length; i++) f[i] = f[i].trim();
+
+            String text;
+            if (f[1].equals("text"))
+            {
+                text = f[2];
+            }
+            else
+            {
+                overrides.clear();
+                if (f.length > 5 && !f[5].isEmpty())
+                {
+                    for (String kv : f[5].split(";"))
+                    {
+                        String[] p = kv.split("=", 2);
+                        overrides.put(p[0].trim(), p[1].trim());
+                    }
+                }
+                level = Integer.parseInt(f[3]);
+                set(plugin, "hoveredItemId", Integer.parseInt(f[1]));
+                set(plugin, "hoveredItem", f[2]);
+                set(plugin, "hoveredItemObtained", f[4].equals("y"));
+                set(plugin, "lastSeenTime", System.currentTimeMillis());
+                text = plugin.buildActiveTooltip();
+            }
+            // A hidden tooltip (e.g. "Hide tooltip if obtained") writes no image.
+            File png = new File(out, "img/tip_" + f[0] + ".png");
+            png.delete();
+            if (text != null) ImageIO.write(render(text), "png", png);
         }
     }
 
