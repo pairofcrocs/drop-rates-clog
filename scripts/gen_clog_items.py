@@ -161,6 +161,9 @@ def parse_struct(b):
     return params
 
 
+UNKNOWN_OPS = set()
+
+
 def parse_item_name(b):
     """Full item-definition parse (RuneLite ItemLoader opcodes) -> name (opcode 2)."""
     r = R(b); name = None
@@ -183,10 +186,12 @@ def parse_item_name(b):
             while (r.u8() - 1) != -1: r.jstr()
         elif op in (44, 46, 47, 49, 50, 51, 52, 53, 54): r.i32()
         elif op in (45, 48): r.i32(); r.u8()
-        elif op in (75, 78, 79, 90, 91, 92, 93, 94, 95, 97, 98,
+        elif op in (75, 78, 79, 90, 91, 92, 93, 94, 95, 97, 98, 99,
                     110, 111, 112, 139, 140, 148, 149): r.u16()
         elif 100 <= op < 110: r.u16(); r.u16()
         elif op == 115: r.u8()
+        elif op == 161:
+            for _ in range(r.u16()): r.u16()
         elif op == 200: r.u8(); r.u8(); r.jstr()
         elif op == 201: r.u8(); r.u16(); r.u16(); r.i32(); r.i32(); r.jstr()
         elif op == 202: r.u8(); r.u16(); r.u16(); r.u16(); r.i32(); r.i32(); r.jstr()
@@ -194,6 +199,13 @@ def parse_item_name(b):
             for _ in range(r.u8()):
                 is_str = r.u8() == 1; r.u24()
                 r.jstr() if is_str else r.i32()
+        elif name is not None:
+            # New opcode from a game update. Each item is its own file, so the name we
+            # already read is still good; don't fail the whole run over the rest.
+            if op not in UNKNOWN_OPS:
+                UNKNOWN_OPS.add(op)
+                print(f"  ! unknown item opcode {op}, skipping rest of def", file=sys.stderr)
+            break
         else: raise ValueError(f"item opcode {op}")
     return name
 
