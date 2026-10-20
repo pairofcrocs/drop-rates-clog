@@ -25288,6 +25288,16 @@
       ]
     }
   ],
+  "34669": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Sprite"
+      ]
+    }
+  ],
   "3470": [
     {
       "approx": false,
