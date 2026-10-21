@@ -4522,6 +4522,21 @@
     ],
     "revid": null
   },
+  "34669": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "80 mining",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ascension rocks"
+        ]
+      }
+    ],
+    "revid": null
+  },
   "4068": {
     "entries": [
       {
