@@ -23052,6 +23052,14 @@
       "sources": [
         "Eldric the Ice King"
       ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3 × 3/148",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
     }
   ],
   "30750": [
@@ -25296,6 +25304,54 @@
       "sources": [
         "Sprite"
       ]
+    },
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3 × 22/148",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34671": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34673": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34675": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34677": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/80",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
     }
   ],
   "3470": [
@@ -25467,6 +25523,16 @@
       "rate": "1/1,404",
       "sources": [
         "Reward casket (easy) (Standard)"
+      ]
+    }
+  ],
+  "34722": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "1/20",
+      "sources": [
+        "Chest (The Fractured Archive)"
       ]
     }
   ],
