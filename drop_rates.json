@@ -25354,6 +25354,26 @@
       ]
     }
   ],
+  "34679": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "5/25",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34681": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "3/25",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
   "3470": [
     {
       "approx": false,
@@ -25516,6 +25536,26 @@
       ]
     }
   ],
+  "34717": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "2/25",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34719": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "8/25",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
   "3472": [
     {
       "approx": false,
@@ -25531,6 +25571,16 @@
       "approx": true,
       "kind": "drop",
       "rate": "1/20",
+      "sources": [
+        "Chest (The Fractured Archive)"
+      ]
+    }
+  ],
+  "34727": [
+    {
+      "approx": true,
+      "kind": "drop",
+      "rate": "7/25",
       "sources": [
         "Chest (The Fractured Archive)"
       ]
