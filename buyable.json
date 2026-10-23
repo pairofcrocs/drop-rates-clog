@@ -1389,7 +1389,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 ToB completions",
+        "cost": "100 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1404,7 +1404,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 ToB completions",
+        "cost": "500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1419,7 +1419,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 ToB completions",
+        "cost": "1,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1434,7 +1434,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 ToB completions",
+        "cost": "1,500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1449,7 +1449,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 ToB completions",
+        "cost": "2,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2694,7 +2694,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 ToA completions",
+        "cost": "100 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2709,7 +2709,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 ToA completions",
+        "cost": "500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2724,7 +2724,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 ToA completions",
+        "cost": "1,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2739,7 +2739,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 ToA completions",
+        "cost": "1,500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2754,7 +2754,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 ToA completions",
+        "cost": "2,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4526,7 +4526,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 TFA completions",
+        "cost": "100 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4541,7 +4541,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 TFA completions",
+        "cost": "500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4556,7 +4556,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 TFA completions",
+        "cost": "1,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4571,7 +4571,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 TFA completions",
+        "cost": "1,500 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4586,7 +4586,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 TFA completions",
+        "cost": "2,000 Completions",
         "description": null,
         "kind": "currency",
         "rate": null,
