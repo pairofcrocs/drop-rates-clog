@@ -23054,11 +23054,11 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "3 × 3/148",
+      "rate": "3 × 6/330",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
@@ -25306,51 +25306,51 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "3 × 22/148",
+      "rate": "3 × 55/330",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
   "34671": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
   "34673": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
   "34675": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
   "34677": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
@@ -25358,9 +25358,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "5/25",
+      "rate": "3/15",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Unique)"
       ]
     }
   ],
@@ -25368,9 +25368,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "3/25",
+      "rate": "2/15",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Unique)"
       ]
     }
   ],
@@ -25540,9 +25540,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "2/25",
+      "rate": "1/15",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Unique)"
       ]
     }
   ],
@@ -25550,9 +25550,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "8/25",
+      "rate": "5/15",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Unique)"
       ]
     }
   ],
@@ -25570,9 +25570,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "1/20",
+      "rate": "1/16",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Standard)"
       ]
     }
   ],
@@ -25580,9 +25580,9 @@
     {
       "approx": true,
       "kind": "drop",
-      "rate": "7/25",
+      "rate": "4/15",
       "sources": [
-        "Chest (The Fractured Archive)"
+        "Chest (The Fractured Archive) (Unique)"
       ]
     }
   ],
