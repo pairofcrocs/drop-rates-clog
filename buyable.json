@@ -4522,6 +4522,81 @@
     ],
     "revid": null
   },
+  "34659": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "100 TFA completions",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Fractured Archive"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "34661": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "500 TFA completions",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Fractured Archive"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "34663": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,000 TFA completions",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Fractured Archive"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "34665": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "1,500 TFA completions",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Fractured Archive"
+        ]
+      }
+    ],
+    "revid": null
+  },
+  "34667": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "2,000 TFA completions",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "The Fractured Archive"
+        ]
+      }
+    ],
+    "revid": null
+  },
   "34669": {
     "entries": [
       {
