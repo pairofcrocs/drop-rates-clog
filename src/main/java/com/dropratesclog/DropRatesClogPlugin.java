@@ -69,6 +69,11 @@ public class DropRatesClogPlugin extends Plugin
     private static final String DATA_BASE_URL =
         "https://raw.githubusercontent.com/pairofcrocs/drop-rates-clog/data/";
 
+    // Branch URLs above are cached by GitHub for up to 5 minutes. A manual refresh looks up the
+    // data branch's head commit and reads the files at that commit instead, which is never stale.
+    private static final String RAW_BASE_URL = "https://raw.githubusercontent.com/pairofcrocs/drop-rates-clog/";
+    private static final String DATA_HEAD_URL = "https://api.github.com/repos/pairofcrocs/drop-rates-clog/commits/data";
+
     @Inject
     private Client client;
 
@@ -119,7 +124,7 @@ public class DropRatesClogPlugin extends Plugin
         // Load the copies bundled in the jar first so tooltips work instantly (and offline)...
         loadBundled();
         // ...then try to refresh each dataset from the data branch in the background.
-        refreshFromNetwork(false);
+        refreshFromNetwork(DATA_BASE_URL, false);
 
         overlayManager.add(tooltip);
     }
@@ -199,14 +204,48 @@ public class DropRatesClogPlugin extends Plugin
         if (!DropRatesClogConfig.GROUP.equals(event.getGroup()) || !"refreshData".equals(event.getKey())) return;
         if (manualRefreshing.compareAndSet(false, true))
         {
-            refreshFromNetwork(true);
+            resolveDataCommit(baseUrl -> refreshFromNetwork(baseUrl, true));
         }
+    }
+
+    /** Hand {@code then} the raw URL of the data branch's head commit, or the (possibly cached)
+     *  branch URL if GitHub's API can't be reached. */
+    private void resolveDataCommit(Consumer<String> then)
+    {
+        Request request = new Request.Builder().url(DATA_HEAD_URL)
+            .header("Accept", "application/vnd.github.sha")
+            .cacheControl(CacheControl.FORCE_NETWORK)
+            .build();
+        okHttpClient.newCall(request).enqueue(new Callback()
+        {
+            @Override
+            public void onFailure(Call call, IOException e)
+            {
+                log.debug("Could not look up the data branch head, using the branch URL", e);
+                then.accept(DATA_BASE_URL);
+            }
+
+            @Override
+            public void onResponse(Call call, Response response)
+            {
+                String sha = null;
+                try (ResponseBody body = response.body())
+                {
+                    if (response.isSuccessful() && body != null) sha = body.string().trim();
+                }
+                catch (IOException e)
+                {
+                    log.debug("Could not read the data branch head", e);
+                }
+                then.accept(sha != null && sha.matches("[0-9a-f]{40}") ? RAW_BASE_URL + sha + "/" : DATA_BASE_URL);
+            }
+        });
     }
 
     /** Fire off an async fetch of each dataset from the data branch; successes replace the bundled
      *  copy, failures are logged and leave the current copy in place. Never blocks the caller.
      *  A manual refresh bypasses RuneLite's HTTP cache and reports the result in chat. */
-    private void refreshFromNetwork(boolean manual)
+    private void refreshFromNetwork(String baseUrl, boolean manual)
     {
         final int files = 5;
         AtomicInteger done = new AtomicInteger(), ok = new AtomicInteger();
@@ -216,36 +255,37 @@ public class DropRatesClogPlugin extends Plugin
             if (done.incrementAndGet() == files && manual)
             {
                 manualRefreshing.set(false);
-                if (running) reportRefresh(ok.get(), files); // plugin may have been turned off mid-refresh
+                if (running) reportRefresh(ok.get(), files, !baseUrl.equals(DATA_BASE_URL)); // plugin may have been turned off mid-refresh
             }
         };
 
         fetchData("drop_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-            (Map<String, List<DropEntry>> data) -> dropRates = idMap(data), manual, onDone);
+            (Map<String, List<DropEntry>> data) -> dropRates = idMap(data), baseUrl, manual, onDone);
 
         // On-Slayer-task rates. Network-only (no bundled copy yet) — the file is new and small,
         // and until the fetch lands the tooltip simply renders without task annotations.
         fetchData("slayer_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-            (Map<String, List<DropEntry>> data) -> slayerRates = idMap(data), manual, onDone);
+            (Map<String, List<DropEntry>> data) -> slayerRates = idMap(data), baseUrl, manual, onDone);
 
         fetchData("buyable.json",
             new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
-            (Map<String, AcquirableItem> data) -> acquirables = idMap(data), manual, onDone);
+            (Map<String, AcquirableItem> data) -> acquirables = idMap(data), baseUrl, manual, onDone);
 
         fetchData("skilling_pets.json",
             new TypeToken<Map<String, SkillingPet>>() {}.getType(),
-            (Map<String, SkillingPet> data) -> skillingPets = idMap(data), manual, onDone);
+            (Map<String, SkillingPet> data) -> skillingPets = idMap(data), baseUrl, manual, onDone);
 
         fetchData("popular_methods.json",
             new TypeToken<Map<String, List<String>>>() {}.getType(),
-            (Map<String, List<String>> data) -> popularMethods = toSetMap(data), manual, onDone);
+            (Map<String, List<String>> data) -> popularMethods = toSetMap(data), baseUrl, manual, onDone);
     }
 
-    private void reportRefresh(int ok, int files)
+    private void reportRefresh(int ok, int files, boolean latestCommit)
     {
-        String text = ok == files ? "Clog Drop Rates: data refreshed from GitHub."
+        String text = ok == files
+            ? "Clog Drop Rates: data refreshed from GitHub." + (latestCommit ? "" : " Changes from the last 5 minutes may not show yet.")
             : ok == 0 ? "Clog Drop Rates: couldn't reach GitHub, keeping the current data."
             : "Clog Drop Rates: refreshed " + ok + "/" + files + " data files, kept the current copy of the rest.";
         chatMessageManager.queue(QueuedMessage.builder()
@@ -254,12 +294,12 @@ public class DropRatesClogPlugin extends Plugin
             .build());
     }
 
-    /** GET {@code DATA_BASE_URL + fileName}, parse as {@code type}, and hand the result to
+    /** GET {@code baseUrl + fileName}, parse as {@code type}, and hand the result to
      *  {@code apply} on success; {@code onDone} always gets whether it succeeded. Runs entirely on
      *  OkHttp's background threads. */
-    private <T> void fetchData(String fileName, Type type, Consumer<T> apply, boolean bypassCache, Consumer<Boolean> onDone)
+    private <T> void fetchData(String fileName, Type type, Consumer<T> apply, String baseUrl, boolean bypassCache, Consumer<Boolean> onDone)
     {
-        Request.Builder request = new Request.Builder().url(DATA_BASE_URL + fileName);
+        Request.Builder request = new Request.Builder().url(baseUrl + fileName);
         if (bypassCache) request.cacheControl(CacheControl.FORCE_NETWORK);
         okHttpClient.newCall(request.build()).enqueue(new Callback()
         {
