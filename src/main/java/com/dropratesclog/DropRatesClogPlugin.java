@@ -216,7 +216,7 @@ public class DropRatesClogPlugin extends Plugin
             if (done.incrementAndGet() == files && manual)
             {
                 manualRefreshing.set(false);
-                reportRefresh(ok.get(), files);
+                if (running) reportRefresh(ok.get(), files); // plugin may have been turned off mid-refresh
             }
         };
 
