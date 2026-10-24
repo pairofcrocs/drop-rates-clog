@@ -4,18 +4,24 @@ import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import com.google.inject.Provides;
 import lombok.extern.slf4j.Slf4j;
+import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.Skill;
 import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.Widget;
+import net.runelite.client.chat.ChatMessageBuilder;
+import net.runelite.client.chat.ChatMessageManager;
+import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.config.ConfigManager;
+import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.Text;
+import okhttp3.CacheControl;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
@@ -39,6 +45,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -79,6 +87,9 @@ public class DropRatesClogPlugin extends Plugin
     @Inject
     private OkHttpClient okHttpClient;
 
+    @Inject
+    private ChatMessageManager chatMessageManager;
+
     // Reassigned wholesale (never mutated in place) from OkHttp callback threads and read on the
     // client thread, so volatile reference publication is all the synchronisation needed.
     // Keys are item IDs (as strings, since the JSON files use string keys for cross-language
@@ -91,6 +102,9 @@ public class DropRatesClogPlugin extends Plugin
 
     // Guards against a late network callback repopulating data after the plugin has shut down.
     private volatile boolean running;
+
+    // Set while a manual refresh is in flight, so repeated clicks don't stack up requests.
+    private final AtomicBoolean manualRefreshing = new AtomicBoolean();
 
     private String  hoveredItem         = null;
     private int     hoveredItemId       = -1;
@@ -105,7 +119,7 @@ public class DropRatesClogPlugin extends Plugin
         // Load the copies bundled in the jar first so tooltips work instantly (and offline)...
         loadBundled();
         // ...then try to refresh each dataset from the data branch in the background.
-        refreshFromNetwork();
+        refreshFromNetwork(false);
 
         overlayManager.add(tooltip);
     }
@@ -178,49 +192,88 @@ public class DropRatesClogPlugin extends Plugin
         }
     }
 
-    /** Fire off an async fetch of each dataset from the data branch; successes replace the bundled
-     *  copy, failures are logged and leave the bundled copy in place. Never blocks the caller. */
-    private void refreshFromNetwork()
+    /** "Refresh data now" is a checkbox standing in for a button: any click (tick or untick) refreshes. */
+    @Subscribe
+    public void onConfigChanged(ConfigChanged event)
     {
+        if (!DropRatesClogConfig.GROUP.equals(event.getGroup()) || !"refreshData".equals(event.getKey())) return;
+        if (manualRefreshing.compareAndSet(false, true))
+        {
+            refreshFromNetwork(true);
+        }
+    }
+
+    /** Fire off an async fetch of each dataset from the data branch; successes replace the bundled
+     *  copy, failures are logged and leave the current copy in place. Never blocks the caller.
+     *  A manual refresh bypasses RuneLite's HTTP cache and reports the result in chat. */
+    private void refreshFromNetwork(boolean manual)
+    {
+        final int files = 5;
+        AtomicInteger done = new AtomicInteger(), ok = new AtomicInteger();
+        Consumer<Boolean> onDone = success ->
+        {
+            if (success) ok.incrementAndGet();
+            if (done.incrementAndGet() == files && manual)
+            {
+                manualRefreshing.set(false);
+                reportRefresh(ok.get(), files);
+            }
+        };
+
         fetchData("drop_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-            (Map<String, List<DropEntry>> data) -> dropRates = idMap(data));
+            (Map<String, List<DropEntry>> data) -> dropRates = idMap(data), manual, onDone);
 
         // On-Slayer-task rates. Network-only (no bundled copy yet) — the file is new and small,
         // and until the fetch lands the tooltip simply renders without task annotations.
         fetchData("slayer_rates.json",
             new TypeToken<Map<String, List<DropEntry>>>() {}.getType(),
-            (Map<String, List<DropEntry>> data) -> slayerRates = idMap(data));
+            (Map<String, List<DropEntry>> data) -> slayerRates = idMap(data), manual, onDone);
 
         fetchData("buyable.json",
             new TypeToken<Map<String, AcquirableItem>>() {}.getType(),
-            (Map<String, AcquirableItem> data) -> acquirables = idMap(data));
+            (Map<String, AcquirableItem> data) -> acquirables = idMap(data), manual, onDone);
 
         fetchData("skilling_pets.json",
             new TypeToken<Map<String, SkillingPet>>() {}.getType(),
-            (Map<String, SkillingPet> data) -> skillingPets = idMap(data));
+            (Map<String, SkillingPet> data) -> skillingPets = idMap(data), manual, onDone);
 
         fetchData("popular_methods.json",
             new TypeToken<Map<String, List<String>>>() {}.getType(),
-            (Map<String, List<String>> data) -> popularMethods = toSetMap(data));
+            (Map<String, List<String>> data) -> popularMethods = toSetMap(data), manual, onDone);
+    }
+
+    private void reportRefresh(int ok, int files)
+    {
+        String text = ok == files ? "Clog Drop Rates: data refreshed from GitHub."
+            : ok == 0 ? "Clog Drop Rates: couldn't reach GitHub, keeping the current data."
+            : "Clog Drop Rates: refreshed " + ok + "/" + files + " data files, kept the current copy of the rest.";
+        chatMessageManager.queue(QueuedMessage.builder()
+            .type(ChatMessageType.GAMEMESSAGE)
+            .runeLiteFormattedMessage(new ChatMessageBuilder().append(text).build())
+            .build());
     }
 
     /** GET {@code DATA_BASE_URL + fileName}, parse as {@code type}, and hand the result to
-     *  {@code apply} on success. Runs entirely on OkHttp's background threads. */
-    private <T> void fetchData(String fileName, Type type, Consumer<T> apply)
+     *  {@code apply} on success; {@code onDone} always gets whether it succeeded. Runs entirely on
+     *  OkHttp's background threads. */
+    private <T> void fetchData(String fileName, Type type, Consumer<T> apply, boolean bypassCache, Consumer<Boolean> onDone)
     {
-        Request request = new Request.Builder().url(DATA_BASE_URL + fileName).build();
-        okHttpClient.newCall(request).enqueue(new Callback()
+        Request.Builder request = new Request.Builder().url(DATA_BASE_URL + fileName);
+        if (bypassCache) request.cacheControl(CacheControl.FORCE_NETWORK);
+        okHttpClient.newCall(request.build()).enqueue(new Callback()
         {
             @Override
             public void onFailure(Call call, IOException e)
             {
-                log.debug("Could not fetch {} from data branch, keeping bundled copy", fileName, e);
+                log.debug("Could not fetch {} from data branch, keeping current copy", fileName, e);
+                onDone.accept(false);
             }
 
             @Override
             public void onResponse(Call call, Response response)
             {
+                boolean success = false;
                 try (ResponseBody body = response.body())
                 {
                     if (!response.isSuccessful() || body == null)
@@ -232,12 +285,17 @@ public class DropRatesClogPlugin extends Plugin
                     if (data != null && running)
                     {
                         apply.accept(data);
+                        success = true;
                         log.debug("Refreshed {} from data branch", fileName);
                     }
                 }
                 catch (Exception e)
                 {
                     log.warn("Failed to parse {} fetched from data branch", fileName, e);
+                }
+                finally
+                {
+                    onDone.accept(success);
                 }
             }
         });

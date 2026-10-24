@@ -78,6 +78,7 @@ A RuneLite plugin that shows drop rates and acquisition methods in a tooltip whe
 - **Hide tooltip if obtained** *(default: off)* — Hide the tooltip for items you already own.
 
   <img src="docs/settings/hideTooltipIfObtained.png" width="760" alt="Hide tooltip if obtained setting compared">
+- **Refresh data now** — Click to re-download the latest rates from GitHub without restarting RuneLite; a chat message confirms when it's done. RuneLite settings have no buttons, so this is a checkbox: ticking or unticking it both refresh.
 
 **UI Colors**
 
