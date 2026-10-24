@@ -1314,12 +1314,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 100 completions",
+        "cost": "100 completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Chambers of Xeric: Challenge Mode"
         ]
       }
     ],
@@ -1329,12 +1329,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 500 completions",
+        "cost": "500 completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Chambers of Xeric: Challenge Mode"
         ]
       }
     ],
@@ -1344,12 +1344,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 1,000 completions",
+        "cost": "1,000 completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Chambers of Xeric: Challenge Mode"
         ]
       }
     ],
@@ -1359,12 +1359,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 1,500 completions",
+        "cost": "1,500 completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Chambers of Xeric: Challenge Mode"
         ]
       }
     ],
@@ -1374,12 +1374,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": null,
-        "description": "Claim at the Challenge Mode completion milestone - 2,000 completions",
+        "cost": "2,000 completions",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Captain Rimor (Chambers of Xeric: Challenge Mode)"
+          "Chambers of Xeric: Challenge Mode"
         ]
       }
     ],
