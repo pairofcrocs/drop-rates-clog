@@ -9,9 +9,11 @@ import net.runelite.client.config.Range;
 
 import java.awt.Color;
 
-@ConfigGroup("dropratesclog")
+@ConfigGroup(DropRatesClogConfig.GROUP)
 public interface DropRatesClogConfig extends Config
 {
+    String GROUP = "dropratesclog";
+
     @ConfigSection(
         name = "Drop Rates",
         description = "Drop chances from the wiki",
@@ -268,6 +270,17 @@ public interface DropRatesClogConfig extends Config
         position = 102
     )
     default boolean hideTooltipIfObtained()
+    {
+        return false;
+    }
+
+    @ConfigItem(
+        keyName = "refreshData",
+        name = "Refresh data now",
+        description = "Click to re-download the latest rates from GitHub without restarting (the tick itself does nothing)",
+        position = 103
+    )
+    default boolean refreshData()
     {
         return false;
     }
