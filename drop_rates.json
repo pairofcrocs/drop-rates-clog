@@ -20751,6 +20751,14 @@
       "sources": [
         "Intricate pouch"
       ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,120",
+      "sources": [
+        "Rewards Guardian"
+      ]
     }
   ],
   "26912": [
@@ -20760,6 +20768,14 @@
       "rate": "1/60",
       "sources": [
         "Intricate pouch"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/1,680",
+      "sources": [
+        "Rewards Guardian"
       ]
     }
   ],
