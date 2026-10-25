@@ -3,12 +3,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points (each role) + Penance Queen kill",
+        "cost": "275 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -18,12 +18,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points (each role) + Penance Queen kill",
+        "cost": "275 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -33,12 +33,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points (each role) + Penance Queen kill",
+        "cost": "275 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -48,12 +48,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "275 honour points (each role) + Penance Queen kill",
+        "cost": "275 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -63,12 +63,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "375 honour points (each role) + Penance Queen kill",
+        "cost": "375 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -78,12 +78,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 honour points (each role)",
+        "cost": "100 honour (each role)",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -93,12 +93,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150 honour points (each role)",
+        "cost": "150 honour (each role)",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -108,12 +108,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "375 honour points (each role) + Penance Queen kill",
+        "cost": "375 honour (each role) + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -123,12 +123,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "95,000 coins + Penance Queen kill",
+        "cost": "95,000 coins + Queen kill",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Commander Connad (Barbarian Assault)"
+          "Commander Connad"
         ]
       }
     ],
@@ -138,7 +138,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 anima-infused bark + 100 noted maple logs + 200 noted yew logs",
+        "cost": "1,000 bark + 100 maple, 200 yew logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -153,7 +153,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 anima-infused bark + 60 noted yew logs + 120 noted magic logs + 120 noted redwood logs",
+        "cost": "1,500 bark + 60 yew, 120 magic, 120 redwood logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -168,7 +168,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,300 anima-infused bark + 160 noted yew logs + 140 noted magic logs",
+        "cost": "1,300 bark + 160 yew, 140 magic logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -183,7 +183,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,200 anima-infused bark + 200 noted yew logs + 100 noted magic logs",
+        "cost": "1,200 bark + 200 yew, 100 magic logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -534,17 +534,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "26,000 Volcanic Mine reward points",
+        "cost": "26,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -559,17 +559,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "39,000 Volcanic Mine reward points",
+        "cost": "39,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -584,17 +584,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "34,000 Volcanic Mine reward points",
+        "cost": "34,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -609,17 +609,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "21,000 Volcanic Mine reward points",
+        "cost": "21,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -679,7 +679,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's"
+          "Justine's stuff"
         ]
       }
     ],
@@ -829,7 +829,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Elite Void Knight (Void Knights' Outpost)"
+          "Elite Void Knight"
         ]
       }
     ],
@@ -844,7 +844,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Elite Void Knight (Void Knights' Outpost)"
+          "Elite Void Knight"
         ]
       }
     ],
@@ -869,7 +869,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Farmer Gricoller, Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -884,7 +884,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Alry the Angler (Aerial Fishing)"
+          "Alry the Angler"
         ]
       }
     ],
@@ -899,7 +899,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Alry the Angler (Aerial Fishing)"
+          "Alry the Angler"
         ]
       }
     ],
@@ -914,7 +914,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Alry the Angler (Aerial Fishing)"
+          "Alry the Angler"
         ]
       }
     ],
@@ -929,7 +929,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Alry the Angler (Aerial Fishing)"
+          "Alry the Angler"
         ]
       }
     ],
@@ -954,7 +954,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "250 Points",
+        "cost": "250 Tithe Farm Points",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -974,7 +974,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -989,7 +989,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -1004,7 +1004,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -1019,7 +1019,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Tithe Farm"
+          "Farmer Gricoller"
         ]
       }
     ],
@@ -1029,12 +1029,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1/25,000",
-        "description": null,
+        "cost": null,
+        "description": "Recharging a glory",
         "kind": "currency",
-        "rate": null,
+        "rate": "1/25,000",
         "sources": [
-          "Fountain of Rune (Wilderness)"
+          "Fountain of Rune"
         ]
       }
     ],
@@ -1044,12 +1044,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "250 Brimhaven vouchers + full uncoloured Graceful outfit",
-        "description": "Recolours entire outfit",
+        "cost": "250 vouchers + uncoloured outfit",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1064,7 +1064,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1079,7 +1079,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1094,7 +1094,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1109,7 +1109,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1124,7 +1124,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Pirate Jackie the Fruit (Brimhaven Agility Arena)"
+          "Pirate Jackie the Fruit"
         ]
       }
     ],
@@ -1149,8 +1149,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "Defeat TzKal-Zuk",
-        "description": null,
+        "cost": null,
+        "description": "Defeat TzKal-Zuk",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1169,7 +1169,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -1184,7 +1184,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -1199,7 +1199,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -1244,7 +1244,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Belona (Mining Guild)"
+          "Belona"
         ]
       }
     ],
@@ -1254,8 +1254,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "Defeate 11 champions of the Champions' Challenge",
-        "description": null,
+        "cost": null,
+        "description": "Defeat 10 champions + Leon d'Cour",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -1269,7 +1269,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "200 Volcanic Mine Points",
+        "cost": "200 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1299,7 +1299,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "40,000 Volcanic Mine Points",
+        "cost": "40,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1389,7 +1389,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Completions",
+        "cost": "100 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1404,7 +1404,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Completions",
+        "cost": "500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1419,7 +1419,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Completions",
+        "cost": "1,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1434,7 +1434,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 Completions",
+        "cost": "1,500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -1449,7 +1449,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 Completions",
+        "cost": "2,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2259,12 +2259,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2500 Zeal Tokens",
+        "cost": "2,500 Zeal Tokens",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Reward Shop"
+          "Nomad"
         ]
       }
     ],
@@ -2289,7 +2289,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3000 stardust",
+        "cost": "3,000 stardust",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2304,12 +2304,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1 Angler hat + 1,200 Spirit flakes",
+        "cost": "Angler hat + 1,200 spirit flakes",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gita Prymes (Tempoross Cove)"
+          "Gita Prymes"
         ]
       }
     ],
@@ -2319,12 +2319,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1 Angler top + 1,200 Spirit flakes",
+        "cost": "Angler top + 1,200 spirit flakes",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gita Prymes (Tempoross Cove)"
+          "Gita Prymes"
         ]
       }
     ],
@@ -2334,12 +2334,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1 Angler waders + 1,200 Spirit flakes",
+        "cost": "Angler waders + 1,200 spirit flakes",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gita Prymes (Tempoross Cove)"
+          "Gita Prymes"
         ]
       }
     ],
@@ -2349,12 +2349,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1 Angler boots + 1,200 Spirit flakes",
+        "cost": "Angler boots + 1,200 spirit flakes",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Gita Prymes (Tempoross Cove)"
+          "Gita Prymes"
         ]
       }
     ],
@@ -2369,7 +2369,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -2425,11 +2425,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Barronite handle + Barronite guard + Barronite head\t+ 1,500 Barronite shards",
+        "description": "Handle + guard + head + 1,500 barronite shards",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Ruins of Camdozaal (Ramarno)"
+          "Ramarno"
         ]
       }
     ],
@@ -2439,7 +2439,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 abyssal pearls",
+        "cost": "750 abyssal pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2459,7 +2459,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Temple Supplies"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2469,12 +2469,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3000 abyssal pearls",
+        "cost": "3,000 abyssal pearls",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2504,7 +2504,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2519,7 +2519,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2534,7 +2534,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2549,7 +2549,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian"
+          "Apprentice Felix"
         ]
       }
     ],
@@ -2634,7 +2634,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "4000 Foundry Reputation",
+        "cost": "4,000 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2649,7 +2649,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "4000 Foundry Reputation",
+        "cost": "4,000 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2664,7 +2664,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3500 Foundry Reputation",
+        "cost": "3,500 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2679,7 +2679,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3500 Foundry Reputation",
+        "cost": "3,500 Foundry Reputation",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2694,7 +2694,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Completions",
+        "cost": "100 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2709,7 +2709,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Completions",
+        "cost": "500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2724,7 +2724,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Completions",
+        "cost": "1,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2739,7 +2739,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 Completions",
+        "cost": "1,500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2754,7 +2754,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 Completions",
+        "cost": "2,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2769,7 +2769,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15,000 anima-infused bark, 500x oak, willow, teak, maple, mahogany, arctic pine, yew, magic, redwood logs",
+        "cost": "15,000 bark + 500 of each log",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2784,7 +2784,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "5000 anima-infused bark, 300 Oak, Willow logs",
+        "cost": "5,000 bark + 300 oak, 300 willow logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2799,7 +2799,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "3000 anima-infused bark, 300 Maple, Yew logs",
+        "cost": "3,000 bark + 300 maple, 300 yew logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2814,7 +2814,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "10,000 Anima-infused bark, 300 Willow, Maple logs",
+        "cost": "10,000 bark + 300 willow, 300 maple logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2829,7 +2829,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack top, 60x: Oak, Willow, Teak, Maple, Mahogany, Arctic pine, Yew, Magic, Redwood logs",
+        "cost": "1,250 bark + Lumberjack top + 60 of each log",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2844,7 +2844,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack legs, 60x: Oak, Willow, Teak, Maple, Mahogany, Arctic pine, Yew, Magic, Redwood logs",
+        "cost": "1,250 bark + Lumberjack legs + 60 of each log",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2859,7 +2859,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack hat, 60x: Oak, Willow, Teak, Maple, Mahogany, Arctic pine, Yew, Magic, Redwood logs",
+        "cost": "1,250 bark + Lumberjack hat + 60 of each log",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2874,7 +2874,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,250 Anima-infused bark, 1 Lumberjack boots, 60x: Oak, Willow, Teak, Maple, Mahogany, Arctic pine, Yew, Magic, Redwood logs",
+        "cost": "1,250 bark + Lumberjack boots + 60 of each log",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2889,7 +2889,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "10,000 Anima-infused bark, 500 Oak logs",
+        "cost": "10,000 bark + 500 oak logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2904,7 +2904,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,500 anima-infused bark",
+        "cost": "2,500 bark",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2919,7 +2919,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15 pheasant tail feathers + 1 thread",
+        "cost": "15 tail feathers + thread",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2934,7 +2934,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15 pheasant tail feathers + 1 thread",
+        "cost": "15 tail feathers + thread",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2949,7 +2949,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15 pheasant tail feathers + 1 thread",
+        "cost": "15 tail feathers + thread",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2964,7 +2964,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "15 pheasant tail feathers + 1 thread",
+        "cost": "15 tail feathers + thread",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2979,7 +2979,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75,000 anima-infused bark",
+        "cost": "75,000 bark",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -2994,7 +2994,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "5,000 anima-infused bar, 500 noted willow logs",
+        "cost": "5,000 bark + 500 willow logs",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3009,7 +3009,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75,000 anima-infused bark",
+        "cost": "75,000 bark",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3029,17 +3029,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "26,000 Volcanic Mine reward points",
+        "cost": "26,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -3054,17 +3054,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "39,000 Volcanic Mine reward points",
+        "cost": "39,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -3079,17 +3079,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "34,000 Volcanic Mine reward points",
+        "cost": "34,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -3104,17 +3104,17 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Prospector Percy's Nugget Shop (Motherlode Mine)"
+          "Prospector Percy"
         ]
       },
       {
         "approx": false,
-        "cost": "21,000 Volcanic Mine reward points",
+        "cost": "21,000 Volcanic Mine points",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Petrified Pete's Ore Shop (Volcanic Mine)"
+          "Petrified Pete"
         ]
       }
     ],
@@ -3315,21 +3315,6 @@
     ],
     "revid": 15221886
   },
-  "29892": {
-    "entries": [
-      {
-        "approx": false,
-        "cost": "100 Frozen tear",
-        "description": null,
-        "kind": "currency",
-        "rate": null,
-        "sources": [
-          "Ruins of Tapoyauik"
-        ]
-      }
-    ],
-    "revid": 15221886
-  },
   "2990": {
     "entries": [
       {
@@ -3454,7 +3439,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "8,600 Mox resin, 7,000 Aga resin, 9,350 Lye resin",
+        "cost": "8,600 Mox, 7,000 Aga, 9,350 Lye",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3469,7 +3454,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,250 Mox resin, 2,800 Aga resin, 3,700 Lye resin",
+        "cost": "2,250 Mox, 2,800 Aga, 3,700 Lye",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3484,7 +3469,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,250 Mox resin, 2,800 Aga resin, 3,700 Lye resin",
+        "cost": "2,250 Mox, 2,800 Aga, 3,700 Lye",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3514,7 +3499,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "6,900 Mox resin, 5,650 Aga resin, 7,400 Lye resin",
+        "cost": "6,900 Mox, 5,650 Aga, 7,400 Lye",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -3575,7 +3560,7 @@
       {
         "approx": false,
         "cost": "900 termites",
-        "description": "Colossal Wyrm Agility Course reward",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -3589,12 +3574,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "650 termites + full uncoloured Graceful outfit",
-        "description": "Recolours entire outfit",
+        "cost": "650 termites + uncoloured outfit",
+        "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3609,7 +3594,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3624,7 +3609,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3639,7 +3624,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3654,7 +3639,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3669,7 +3654,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Worm Tongue (Colossal Wyrm Agility Course)"
+          "Worm Tongue"
         ]
       }
     ],
@@ -3679,8 +3664,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "50",
-        "description": "Beginner clue scrolls",
+        "cost": null,
+        "description": "Open 50 beginner caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3692,8 +3677,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100",
-        "description": "Beginner clue scrolls",
+        "cost": null,
+        "description": "Open 100 beginner caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3705,8 +3690,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100",
-        "description": "Easy clue scrolls",
+        "cost": null,
+        "description": "Open 100 easy caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3718,8 +3703,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "200",
-        "description": "Easy clue scrolls",
+        "cost": null,
+        "description": "Open 200 easy caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3731,8 +3716,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100",
-        "description": "Medium clue scroll",
+        "cost": null,
+        "description": "Open 100 medium caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3744,8 +3729,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "250",
-        "description": "Medium clue scrolls",
+        "cost": null,
+        "description": "Open 250 medium caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3757,8 +3742,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "50",
-        "description": "Hard clue scrolls",
+        "cost": null,
+        "description": "Open 50 hard caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3770,8 +3755,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150",
-        "description": "Hard clue scrolls",
+        "cost": null,
+        "description": "Open 150 hard caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3783,8 +3768,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "50",
-        "description": "Elite clue scrolls",
+        "cost": null,
+        "description": "Open 50 elite caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3796,8 +3781,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150",
-        "description": "Elite clue scrolls",
+        "cost": null,
+        "description": "Open 150 elite caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3809,8 +3794,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "25",
-        "description": "Master clue scrolls",
+        "cost": null,
+        "description": "Open 25 master caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3822,8 +3807,8 @@
     "entries": [
       {
         "approx": false,
-        "cost": "75",
-        "description": "Master clue scrolls",
+        "cost": null,
+        "description": "Open 75 master caskets",
         "kind": "currency",
         "rate": null,
         "sources": []
@@ -3835,9 +3820,9 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1",
-        "description": "Mimic Kill",
-        "kind": "drop",
+        "cost": null,
+        "description": "Defeat the Mimic and open its casket",
+        "kind": "currency",
         "rate": null,
         "sources": []
       }
@@ -3909,11 +3894,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - time of 1:48",
+        "description": "Swordfish rank (1:48)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Tempor Tantrum (Barracuda Trial)"
+          "The Tempor Tantrum"
         ]
       }
     ],
@@ -3924,11 +3909,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - time of 2:51",
+        "description": "Shark rank (2:51)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Tempor Tantrum (Barracuda Trial)"
+          "The Tempor Tantrum"
         ]
       }
     ],
@@ -3939,11 +3924,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - time of 4:30",
+        "description": "Marlin rank (4:30)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Tempor Tantrum (Barracuda Trial)"
+          "The Tempor Tantrum"
         ]
       }
     ],
@@ -3954,11 +3939,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - time of 2:03",
+        "description": "Swordfish rank (2:03)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Jubbly Jive (Barracuda Trial)"
+          "The Jubbly Jive"
         ]
       }
     ],
@@ -3969,11 +3954,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - time of 3:00",
+        "description": "Shark rank (3:00)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Jubbly Jive (Barracuda Trial)"
+          "The Jubbly Jive"
         ]
       }
     ],
@@ -3984,11 +3969,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - time of 5:21",
+        "description": "Marlin rank (5:21)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Jubbly Jive (Barracuda Trial)"
+          "The Jubbly Jive"
         ]
       }
     ],
@@ -3999,11 +3984,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the swordfish rank - time of 2:00",
+        "description": "Swordfish rank (2:00)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Gwenith Glide (Barracuda Trial)"
+          "The Gwenith Glide"
         ]
       }
     ],
@@ -4014,11 +3999,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the shark rank - time of 3:42",
+        "description": "Shark rank (3:42)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Gwenith Glide (Barracuda Trial)"
+          "The Gwenith Glide"
         ]
       }
     ],
@@ -4029,11 +4014,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Clear the marlin rank - time of 6:09",
+        "description": "Marlin rank (6:09)",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "The Gwenith Glide (Barracuda Trial)"
+          "The Gwenith Glide"
         ]
       }
     ],
@@ -4043,12 +4028,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1-198",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 1-198 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4058,12 +4043,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "202-996",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 202-996 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4073,12 +4058,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,014-1,920",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 1,014-1,920 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4088,12 +4073,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,100-4,800",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 2,100-4,800 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4103,12 +4088,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "5,400-9,984",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 5,400-9,984 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4118,12 +4103,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "10,200-19,200",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 10,200-19,200 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4133,12 +4118,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "20,400-49,800",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 20,400-49,800 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4148,12 +4133,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "57,600-96,000",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 57,600-96,000 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4163,12 +4148,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "112,500-183,000",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 112,500-183,000 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4178,12 +4163,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "240,000-480,000",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 240,000-480,000 alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4193,12 +4178,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "540,000",
-        "description": "Alch value",
+        "cost": null,
+        "description": "Offer an item worth 540,000+ alch",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Giant clam (ocean encounter)"
+          "Giant clam"
         ]
       }
     ],
@@ -4278,7 +4263,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Sailing"
+          "Old chest (Charred Island)"
         ]
       }
     ],
@@ -4293,7 +4278,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Sailing"
+          "Elite Void Knight"
         ]
       }
     ],
@@ -4308,7 +4293,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Sailing"
+          "High Priest (Entrana)"
         ]
       }
     ],
@@ -4319,7 +4304,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Trade one of each tradeable paint (shark, inky, barracuda, salvor's, angler's)",
+        "description": "All 5 tradeable paints at once",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4514,10 +4499,12 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Complete the The Red Reef quest",
+        "description": "Complete The Red Reef",
         "kind": "currency",
         "rate": null,
-        "sources": []
+        "sources": [
+          "Elder Raley"
+        ]
       }
     ],
     "revid": null
@@ -4526,7 +4513,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "100 Completions",
+        "cost": "100 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4541,7 +4528,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Completions",
+        "cost": "500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4556,7 +4543,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Completions",
+        "cost": "1,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4571,7 +4558,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,500 Completions",
+        "cost": "1,500 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4586,7 +4573,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 Completions",
+        "cost": "2,000 completions",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -4602,7 +4589,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "80 mining",
+        "description": "Requires 80 Mining",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -4696,7 +4683,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Justine's stuff for the Last Shopper Standing"
+          "Justine's stuff"
         ]
       }
     ],
@@ -4921,7 +4908,7 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Ak-Haranu's Exotic Shop."
+          "Ak-Haranu"
         ]
       }
     ],
@@ -4932,11 +4919,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
+        "description": "One-time safecracker reward",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rogues' Den (Safecracker)"
+          "Rogues' Den"
         ]
       }
     ],
@@ -4947,11 +4934,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
+        "description": "One-time safecracker reward",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rogues' Den (Safecracker)"
+          "Rogues' Den"
         ]
       }
     ],
@@ -4962,11 +4949,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
+        "description": "One-time safecracker reward",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rogues' Den (Safecracker)"
+          "Rogues' Den"
         ]
       }
     ],
@@ -4977,11 +4964,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
+        "description": "One-time safecracker reward",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rogues' Den (Safecracker)"
+          "Rogues' Den"
         ]
       }
     ],
@@ -4992,11 +4979,11 @@
       {
         "approx": false,
         "cost": null,
-        "description": "One-time reward for completing the safecracker minigame",
+        "description": "One-time safecracker reward",
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rogues' Den (Safecracker)"
+          "Rogues' Den"
         ]
       }
     ],
@@ -5011,8 +4998,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5027,8 +5014,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5043,8 +5030,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5059,8 +5046,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5075,8 +5062,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5091,8 +5078,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5107,8 +5094,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Tel's Equipment Store",
-          "TzHaar-Hur-Zal's Equipment Store"
+          "TzHaar-Hur-Tel",
+          "TzHaar-Hur-Zal"
         ]
       }
     ],
@@ -5119,7 +5106,7 @@
       {
         "approx": false,
         "cost": null,
-        "description": "Reward for completing the Fight Cave (defeat TzTok-Jad)",
+        "description": "Defeat TzTok-Jad",
         "kind": "currency",
         "rate": null,
         "sources": [
@@ -5138,8 +5125,8 @@
         "kind": "currency",
         "rate": null,
         "sources": [
-          "TzHaar-Hur-Lek's Ore and Gem Store",
-          "TzHaar-Hur-Rin's Ore and Gem Store"
+          "TzHaar-Hur-Lek",
+          "TzHaar-Hur-Rin"
         ]
       }
     ],
@@ -5149,12 +5136,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Telekinetic, 550 Alchemist, 6,000 Enchantment, 500 Graveyard pizazz points",
+        "cost": "500 Tele, 550 Alch, 6,000 Ench, 500 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5164,12 +5151,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "30 Telekinetic, 30 Alchemist, 300 Enchantment, 30 Graveyard pizazz points",
+        "cost": "30 Tele, 30 Alch, 300 Ench, 30 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5179,12 +5166,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "60 Telekinetic, 60 Alchemist, 600 Enchantment, 60 Graveyard pizazz points",
+        "cost": "60 Tele, 60 Alch, 600 Ench, 60 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5194,12 +5181,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "150 Telekinetic, 200 Alchemist, 1,500 Enchantment, 150 Graveyard pizazz points",
+        "cost": "150 Tele, 200 Alch, 1,500 Ench, 150 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5209,12 +5196,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "240 Telekinetic, 240 Alchemist, 2,400 Enchantment, 240 Graveyard pizazz points",
+        "cost": "240 Tele, 240 Alch, 2,400 Ench, 240 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5224,12 +5211,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "400 Telekinetic, 450 Alchemist, 4,000 Enchantment, 400 Graveyard pizazz points",
+        "cost": "400 Tele, 450 Alch, 4,000 Ench, 400 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5239,12 +5226,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "350 Telekinetic, 400 Alchemist, 3,000 Enchantment, 350 Graveyard pizazz points",
+        "cost": "350 Tele, 400 Alch, 3,000 Ench, 350 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5254,12 +5241,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "120 Telekinetic, 120 Alchemist, 1,200 Enchantment, 120 Graveyard pizazz points",
+        "cost": "120 Tele, 120 Alch, 1,200 Ench, 120 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5269,12 +5256,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "175 Telekinetic, 225 Alchemist, 1,500 Enchantment, 175 Graveyard pizazz points",
+        "cost": "175 Tele, 225 Alch, 1,500 Ench, 175 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5284,12 +5271,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "450 Telekinetic, 500 Alchemist, 5,000 Enchantment, 450 Graveyard pizazz points",
+        "cost": "450 Tele, 500 Alch, 5,000 Ench, 450 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5299,12 +5286,12 @@
     "entries": [
       {
         "approx": false,
-        "cost": "200 Telekinetic, 300 Alchemist, 2,000 Enchantment, 200 Graveyard pizazz points",
+        "cost": "200 Tele, 300 Alch, 2,000 Ench, 200 Grave",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
-          "Rewards Guardian (Mage Training Arena)"
+          "Rewards Guardian"
         ]
       }
     ],
@@ -5434,7 +5421,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5449,7 +5436,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5464,7 +5451,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5479,7 +5466,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5494,7 +5481,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5509,7 +5496,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5524,7 +5511,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5539,7 +5526,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Pieces of eight",
+        "cost": "500 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5569,7 +5556,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Pieces of eight",
+        "cost": "500 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5599,7 +5586,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Pieces of eight",
+        "cost": "500 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5614,7 +5601,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "500 Pieces of eight",
+        "cost": "500 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5659,7 +5646,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "2,000 Pieces of eight",
+        "cost": "2,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5689,7 +5676,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "4000 pieces of eight",
+        "cost": "4,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5749,7 +5736,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5764,7 +5751,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5779,7 +5766,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5794,7 +5781,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5809,7 +5796,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1,000 Pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5824,7 +5811,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
@@ -5839,7 +5826,7 @@
     "entries": [
       {
         "approx": false,
-        "cost": "1000 pieces of eight",
+        "cost": "1,000 pieces of eight",
         "description": null,
         "kind": "currency",
         "rate": null,
