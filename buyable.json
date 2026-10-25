@@ -850,6 +850,21 @@
     ],
     "revid": 15221886
   },
+  "13225": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Sacrifice a fire cape",
+        "kind": "currency",
+        "rate": "1/200",
+        "sources": [
+          "TzHaar-Mej-Jal"
+        ]
+      }
+    ],
+    "revid": 15298842
+  },
   "13226": {
     "entries": [
       {
@@ -1040,6 +1055,21 @@
     ],
     "revid": 15221886
   },
+  "20718": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "50 per spare pyromancer piece, torch or gloves",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Ignisia"
+        ]
+      }
+    ],
+    "revid": 15188006
+  },
   "21061": {
     "entries": [
       {
@@ -1144,6 +1174,21 @@
       }
     ],
     "revid": 15188194
+  },
+  "21291": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Sacrifice an infernal cape",
+        "kind": "currency",
+        "rate": "1/100",
+        "sources": [
+          "TzHaar-Ket-Keh"
+        ]
+      }
+    ],
+    "revid": 15298494
   },
   "21295": {
     "entries": [
@@ -2300,6 +2345,36 @@
     ],
     "revid": 15190128
   },
+  "25580": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6,000 spirit flakes",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Flakes 'n' Flotsam"
+        ]
+      }
+    ],
+    "revid": 15374654
+  },
+  "25582": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": "6,000 spirit flakes",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Flakes 'n' Flotsam"
+        ]
+      }
+    ],
+    "revid": 15373691
+  },
   "25592": {
     "entries": [
       {
@@ -3019,6 +3094,36 @@
       }
     ],
     "revid": 15210966
+  },
+  "28924": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "4,000 per Dizana's quiver exchanged",
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Minimus"
+        ]
+      }
+    ],
+    "revid": 15357236
+  },
+  "28960": {
+    "entries": [
+      {
+        "approx": false,
+        "cost": null,
+        "description": "Exchange a Dizana's quiver",
+        "kind": "currency",
+        "rate": "1/200",
+        "sources": [
+          "Minimus"
+        ]
+      }
+    ],
+    "revid": 15297528
   },
   "29472": {
     "entries": [
@@ -4903,12 +5008,22 @@
     "entries": [
       {
         "approx": false,
-        "cost": "27 coins",
+        "cost": "50 coins",
         "description": null,
         "kind": "currency",
         "rate": null,
         "sources": [
           "Ak-Haranu"
+        ]
+      },
+      {
+        "approx": false,
+        "cost": "1 LMS Points",
+        "description": null,
+        "kind": "currency",
+        "rate": null,
+        "sources": [
+          "Justine's stuff"
         ]
       }
     ],
