@@ -8442,7 +8442,7 @@
       "kind": "drop",
       "rate": "1/1,147,427",
       "sources": [
-        "Boat fishing spot (big net, harpoon) (Small net)"
+        "Boat fishing spot (big net, harpoon) (Big net)"
       ]
     },
     {
@@ -8464,9 +8464,9 @@
       ]
     },
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/44,000",
+      "rate": "1/44,050",
       "sources": [
         "Amethyst crystals"
       ]
@@ -8630,10 +8630,17 @@
       "sources": [
         "Magic tree",
         "Redwood tree",
-        "Rosewood tree",
         "Ironwood tree",
         "Ironwood tree (Farming)",
         "Rosewood tree (Farming)"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/70,021",
+      "sources": [
+        "Rosewood tree"
       ]
     },
     {
