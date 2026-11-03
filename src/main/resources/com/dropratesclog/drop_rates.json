@@ -8490,6 +8490,14 @@
     {
       "approx": false,
       "kind": "drop",
+      "rate": "1/68,120",
+      "sources": [
+        "Ascension rocks"
+      ]
+    },
+    {
+      "approx": false,
+      "kind": "drop",
       "rate": "1/146,945",
       "sources": [
         "Mithril rocks"
@@ -25349,7 +25357,7 @@
   ],
   "34671": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
@@ -25359,7 +25367,7 @@
   ],
   "34673": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
@@ -25369,7 +25377,7 @@
   ],
   "34675": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
@@ -25379,7 +25387,7 @@
   ],
   "34677": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/80",
       "sources": [
@@ -25389,7 +25397,7 @@
   ],
   "34679": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "3/15",
       "sources": [
@@ -25399,7 +25407,7 @@
   ],
   "34681": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "2/15",
       "sources": [
@@ -25571,7 +25579,7 @@
   ],
   "34717": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "1/15",
       "sources": [
@@ -25581,7 +25589,7 @@
   ],
   "34719": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "5/15",
       "sources": [
@@ -25601,9 +25609,9 @@
   ],
   "34722": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
-      "rate": "1/16",
+      "rate": "1/15",
       "sources": [
         "Chest (The Fractured Archive) (Standard)"
       ]
@@ -25611,7 +25619,7 @@
   ],
   "34727": [
     {
-      "approx": true,
+      "approx": false,
       "kind": "drop",
       "rate": "4/15",
       "sources": [
