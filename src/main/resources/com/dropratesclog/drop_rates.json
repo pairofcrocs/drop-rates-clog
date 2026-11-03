@@ -25319,6 +25319,16 @@
       ]
     }
   ],
+  "34646": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/750",
+      "sources": [
+        "Chest (The Fractured Archive) (Standard)"
+      ]
+    }
+  ],
   "34669": [
     {
       "approx": false,
