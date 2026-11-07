@@ -8426,6 +8426,7 @@
       "kind": "drop",
       "rate": "1/870,305",
       "sources": [
+        "Fishing spot (small net, bait) (Small net)",
         "Boat fishing spot (small net, bait) (Small net)"
       ]
     },
@@ -8434,6 +8435,7 @@
       "kind": "drop",
       "rate": "1/1,055,875",
       "sources": [
+        "Fishing spot (small net, bait) (Bait)",
         "Boat fishing spot (small net, bait) (Bait)"
       ]
     },
@@ -10093,6 +10095,16 @@
       "rate": "1/200",
       "sources": [
         "Skotizo"
+      ]
+    }
+  ],
+  "19707": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "1/25,000",
+      "sources": [
+        "Fountain of Rune"
       ]
     }
   ],
@@ -27743,7 +27755,8 @@
         "Zombie (Stronghold of Security)",
         "Zombie (Wilderness)",
         "Zombie (Kourend)",
-        "Armoured zombie (Defender of Varrock)"
+        "Armoured zombie (Defender of Varrock)",
+        "A corpse"
       ]
     }
   ],
