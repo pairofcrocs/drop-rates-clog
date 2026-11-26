@@ -14108,5 +14108,37 @@
       "The Fractured Archive"
     ],
     "wiki_page": "Zorya's tome#Uncharged"
+  },
+  {
+    "id": 35027,
+    "name": "Fremennik graceful ornament kit",
+    "tabs": [
+      "Prison of Ræun"
+    ],
+    "wiki_page": "Fremennik graceful ornament kit"
+  },
+  {
+    "id": 35029,
+    "name": "Fremennik sail fabric",
+    "tabs": [
+      "Prison of Ræun"
+    ],
+    "wiki_page": "Fremennik sail fabric"
+  },
+  {
+    "id": 35031,
+    "name": "Ghostly sail fabric",
+    "tabs": [
+      "Sailing Miscellaneous"
+    ],
+    "wiki_page": "Ghostly sail fabric"
+  },
+  {
+    "id": 35033,
+    "name": "Sunken treasure",
+    "tabs": [
+      "Prison of Ræun"
+    ],
+    "wiki_page": "Sunken treasure"
   }
 ]
