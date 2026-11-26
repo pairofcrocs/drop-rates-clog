@@ -25849,6 +25849,26 @@
       ]
     }
   ],
+  "35031": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Chest (Ghostly sail fabric)"
+      ]
+    }
+  ],
+  "35033": [
+    {
+      "approx": false,
+      "kind": "drop",
+      "rate": "Always",
+      "sources": [
+        "Chest (Prison of Ræun)"
+      ]
+    }
+  ],
   "3827": [
     {
       "approx": false,
