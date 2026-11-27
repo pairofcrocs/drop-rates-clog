@@ -25863,7 +25863,7 @@
     {
       "approx": false,
       "kind": "drop",
-      "rate": "Always",
+      "rate": "80/100",
       "sources": [
         "Chest (Prison of Ræun)"
       ]
